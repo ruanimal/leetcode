@@ -188,6 +188,8 @@ class Leetcode:
         for quiz in json_data['stat_status_pairs']:
             if quiz['stat']['question__hide']:
                 continue
+            if not quiz['stat']['frontend_question_id'].isnumeric():   # 过滤非算法题
+                continue
             data = {}
             data['title'] = quiz['stat']['question__title_slug']
             data['capital_title'] = quiz['stat']['question__title']
@@ -316,6 +318,14 @@ class Leetcode:
         print("No solution id:{id} find in leetcode.please confirm".format(id=sid))
         return
 
+    def _get_solution_languages_from_file(self, dirname):
+        res = []
+        exts = [os.path.splitext(i)[1].lstrip('.') for i in os.listdir(dirname)]
+        for i in self.languages:
+            if self.prolangdict[i].ext in exts:
+                res.append(i)
+        return res
+
     def login(self):
         if self.is_login:
             return
@@ -426,7 +436,8 @@ Update time:  {tm}
 Auto created by [leetcode_cn_generate](https://github.com/ruanima/leetcode_cn_generate)
 
 Fork from [bonfy](https://github.com/bonfy/leetcode)
-Chnages:
+
+Changes:
 - change leetcode domain to www.leetcode-cn.com
 - drop chromedriver requirement
 - download solutions with chinese translation
@@ -447,6 +458,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
                                           num_lock=self.num_lock, repo=CONFIG['repo'])
         md += '\n'
         for item in self.items:
+            dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(item.id).zfill(3), title=item.title))
+            if not item.pass_language and os.path.exists(dirname):
+                item.pass_language = self._get_solution_languages_from_file(dirname)
             article = ''
             if item.article:
                 article = '[:memo:]({base_url}/articles/{article}/)'.format(base_url=BASE_URL, article=item.article)
@@ -454,11 +468,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
                 language = ':lock:'
             else:
                 if item.pass_language:
-                    dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(item.id).zfill(3), title=item.title))
                     language = ''
-                    language_lst = item.pass_language.copy()
-                    while language_lst:
-                        lan = language_lst.pop()
+                    for lan in item.pass_language:
+                        if lan not in self.languages:
+                            continue
                         language += '[{language}]({repo}/blob/master/{dirname}/{title}.{ext})'.format(language=lan.capitalize(), repo=CONFIG['repo'],
                                                                                                  dirname=dirname, title=item.title,
                                                                                                  ext=self.prolangdict[lan].ext)
@@ -488,14 +501,19 @@ def main():
         # we use multi thread
         print('download all leetcode solutions')
         leetcode.download_with_thread_pool()
+        print('Leetcode finish dowload')
+        leetcode.write_readme()
+        print('Leetcode finish write readme')
+    elif sys.argv[1] == 'readme':
+        leetcode.write_readme()
+        print('Leetcode finish write readme')
     else:
         for sid in sys.argv[1:]:
             print('begin leetcode by id: {id}'.format(id=sid))
             leetcode.download_by_id(int(sid))
+        leetcode.write_readme()
+        print('Leetcode finish write readme')
 
-    print('Leetcode finish dowload')
-    leetcode.write_readme()
-    print('Leetcode finish write readme')
 
 
 
