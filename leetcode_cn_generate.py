@@ -4,6 +4,7 @@
 # Author: ruan.lj@foxmail.com
 # Usage:  Leetcode solution downloader and auto generate readme
 
+import codecs
 import configparser
 import functools
 import json
@@ -21,6 +22,7 @@ from pyquery import PyQuery as pq
 
 
 HOME = os.getcwd()
+QUESTIONS = 'questions'
 CONFIG_FILE = os.path.join(HOME, 'config.cfg')
 DOMAIN = 'leetcode-cn.com'
 BASE_URL = 'https://{}'.format(DOMAIN)
@@ -47,7 +49,7 @@ ProgLangList = [ProgLang('c++', 'cpp', '//'),
                 ProgLang('javascript', 'js', '//'),
                 ProgLang('ruby', 'rb', '#'),
                 ProgLang('swift', 'swift', '//'),
-                ProgLang('go', 'go', '//')]
+                ProgLang('golang', 'go', '//')]
 
 ProgLangDict = dict((item.language, item) for item in ProgLangList)
 
@@ -121,6 +123,8 @@ def check_and_make_dir(dirname):
 def _query(session, method, uri, load_json=True, headers=None, **kw):
     func = getattr(session, method.lower())
     res = func(BASE_URL + uri, headers=headers, **kw)
+    if not res.ok:
+        print(res.text)
     assert res.ok
     return json.loads(res.text) if load_json else res.text
 
@@ -236,6 +240,17 @@ class Leetcode:
         res = _query(self.session, 'POST', '/graphql/', json=data)
         return res['data']['question']
 
+    def _get_submission_detail(self, subid):
+        data = {
+            "operationName": "mySubmissionDetail",
+            "query": "query mySubmissionDetail($id: ID!) {\n  submissionDetail(submissionId: $id) {\n    id\n    code\n    runtime\n    memory\n    rawMemory\n    statusDisplay\n    timestamp\n    lang\n    passedTestCaseCnt\n    totalTestCaseCnt\n    sourceUrl\n    question {\n      titleSlug\n      title\n      translatedTitle\n      questionId\n      __typename\n    }\n    ... on GeneralSubmissionNode {\n      outputDetail {\n        codeOutput\n        expectedOutput\n        input\n        compileError\n        runtimeError\n        lastTestcase\n        __typename\n      }\n      __typename\n    }\n    submissionComment {\n      comment\n      flagType\n      __typename\n    }\n    __typename\n  }\n}\n",
+            "variables": {
+                "id": subid
+            }
+        }
+        res = _query(self.session, 'POST', '/graphql/', json=data)
+        return res['data']['submissionDetail']
+
     def _get_question_title_trans_map(self):
         data = {
             "operationName":"getQuestionTranslation",
@@ -272,10 +287,8 @@ class Leetcode:
 
             question = get_question_content(self._get_question_detail(solution.title))
 
-            pattern = re.compile(r'submissionCode: \'(?P<code>.*)\',\n  editCodeUrl', re.S)
-            res = _query(self.session, 'GET', sub['url'], load_json=False)
-            m1 = pattern.search(res)
-            code = m1.groupdict()['code'] if m1 else None
+            subid = sub['url'].strip('/').split('/')[-1]
+            code = self._get_submission_detail(subid)['code']
 
             if not code:
                 raise Exception('Can not find solution code in question:{title}'.format(title=solution.title))
@@ -357,7 +370,7 @@ class Leetcode:
         for language, question, code in self._get_code_by_solution_and_language(solution):
             if not question and not code:
                 continue
-            dirname = '{id}-{title}'.format(id=str(solution.id).zfill(3), title=solution.title)
+            dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(solution.id).zfill(3), title=solution.title))
             print('begin download', dirname, language)
             check_and_make_dir(dirname)
 
@@ -373,7 +386,6 @@ class Leetcode:
                     l.append('{anno} {item}'.format(anno=self.prolangdict[language].annotation, item=item))
             quote_question = '\n'.join(l)
 
-            import codecs
             with codecs.open(filename, 'w', 'utf-8') as f:
                 print('write to file ->', fname)
                 content = '# -*- coding:utf-8 -*-' + '\n' * 3 if language == 'python' else ''
@@ -442,7 +454,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
                 language = ':lock:'
             else:
                 if item.pass_language:
-                    dirname = '{id}-{title}'.format(id=str(item.id).zfill(3), title=item.title)
+                    dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(item.id).zfill(3), title=item.title))
                     language = ''
                     language_lst = item.pass_language.copy()
                     while language_lst:
@@ -456,7 +468,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 
             language = language.strip()
             md += '|{id}|[{title_cn} {title}]({url})|{language}|{article}|{difficulty}|\n'.format(
-                id=item.id, title=item.title, title_cn=title_trans[item.id], url=item.url, language=language,
+                id=item.id, title=item.title, title_cn=title_trans.get(item.id, ''), url=item.url, language=language,
                 article=article, difficulty=item.difficulty)
         with open('Readme.md', 'w') as f:
             f.write(md)
@@ -471,10 +483,11 @@ def main():
 
     if len(sys.argv) == 1:
         # simple download
-        leetcode.download()
+        # leetcode.download()
+
         # we use multi thread
-        # print('download all leetcode solutions')
-        # leetcode.download_with_thread_pool()
+        print('download all leetcode solutions')
+        leetcode.download_with_thread_pool()
     else:
         for sid in sys.argv[1:]:
             print('begin leetcode by id: {id}'.format(id=sid))
@@ -483,6 +496,7 @@ def main():
     print('Leetcode finish dowload')
     leetcode.write_readme()
     print('Leetcode finish write readme')
+
 
 
 if __name__ == '__main__':
