@@ -1,10 +1,11 @@
-# :pencil2: Leetcode Solutions with Python,Javascript,Golang
-Update time:  2022-03-14 13:57:04
+# :pencil2: Leetcode Solutions with Python,Golang
+Update time:  2022-03-14 21:31:19
 
 Auto created by [leetcode_cn_generate](https://github.com/ruanima/leetcode_cn_generate)
 
 Fork from [bonfy](https://github.com/bonfy/leetcode)
-Chnages:
+
+Changes:
 - change leetcode domain to www.leetcode-cn.com
 - drop chromedriver requirement
 - download solutions with chinese translation
@@ -20,7 +21,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 
 | # | Title | Source Code | Article | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
-|1|[两数之和 two-sum](https://leetcode-cn.com/problems/two-sum)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.py) [Javascript](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.js) [Golang](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.go)|[:memo:](https://leetcode-cn.com/articles/two-sum/)|Easy|
+|1|[两数之和 two-sum](https://leetcode-cn.com/problems/two-sum)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.py) [Golang](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.go)|[:memo:](https://leetcode-cn.com/articles/two-sum/)|Easy|
 |2|[两数相加 add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/002-add-two-numbers/add-two-numbers.py) [Golang](https://github.com/ruanima/leetcode/blob/master/questions/002-add-two-numbers/add-two-numbers.go)|[:memo:](https://leetcode-cn.com/articles/add-two-numbers/)|Medium|
 |3|[无重复字符的最长子串 longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)||[:memo:](https://leetcode-cn.com/articles/longest-substring-without-repeating-characters/)|Medium|
 |4|[寻找两个正序数组的中位数 median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/004-median-of-two-sorted-arrays/median-of-two-sorted-arrays.py)|[:memo:](https://leetcode-cn.com/articles/median-of-two-sorted-arrays/)|Hard|
@@ -2014,55 +2015,3 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2320|[找出数组中的所有 K 近邻下标 find-all-k-distant-indices-in-an-array](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array)||[:memo:](https://leetcode-cn.com/articles/find-all-k-distant-indices-in-an-array/)|Easy|
 |2321|[得到要求路径的最小带权子图 minimum-weighted-subgraph-with-the-required-paths](https://leetcode-cn.com/problems/minimum-weighted-subgraph-with-the-required-paths)||[:memo:](https://leetcode-cn.com/articles/minimum-weighted-subgraph-with-the-required-paths/)|Hard|
 |2322|[ number-of-ways-to-build-sturdy-brick-wall](https://leetcode-cn.com/problems/number-of-ways-to-build-sturdy-brick-wall)|:lock:|[:memo:](https://leetcode-cn.com/articles/number-of-ways-to-build-sturdy-brick-wall/)|Medium|
-|100092|[分式化简 deep-dark-fraction](https://leetcode-cn.com/problems/deep-dark-fraction)||[:memo:](https://leetcode-cn.com/articles/deep-dark-fraction/)|Easy|
-|100093|[覆盖 broken-board-dominoes](https://leetcode-cn.com/problems/broken-board-dominoes)||[:memo:](https://leetcode-cn.com/articles/broken-board-dominoes/)|Hard|
-|100094|[发 LeetCoin coin-bonus](https://leetcode-cn.com/problems/coin-bonus)||[:memo:](https://leetcode-cn.com/articles/coin-bonus/)|Hard|
-|100096|[机器人大冒险 programmable-robot](https://leetcode-cn.com/problems/programmable-robot)||[:memo:](https://leetcode-cn.com/articles/programmable-robot/)|Medium|
-|100107|[猜数字 guess-numbers](https://leetcode-cn.com/problems/guess-numbers)||[:memo:](https://leetcode-cn.com/articles/guess-numbers/)|Easy|
-|1000056|[拿硬币 na-ying-bi](https://leetcode-cn.com/problems/na-ying-bi)||[:memo:](https://leetcode-cn.com/articles/na-ying-bi/)|Easy|
-|1000057|[剧情触发时间 ju-qing-hong-fa-shi-jian](https://leetcode-cn.com/problems/ju-qing-hong-fa-shi-jian)||[:memo:](https://leetcode-cn.com/articles/ju-qing-hong-fa-shi-jian/)|Medium|
-|1000058|[魔术排列 er94lq](https://leetcode-cn.com/problems/er94lq)||[:memo:](https://leetcode-cn.com/articles/er94lq/)|Medium|
-|1000059|[切分数组 qie-fen-shu-zu](https://leetcode-cn.com/problems/qie-fen-shu-zu)||[:memo:](https://leetcode-cn.com/articles/qie-fen-shu-zu/)|Hard|
-|1000062|[二叉树任务调度 er-cha-shu-ren-wu-diao-du](https://leetcode-cn.com/problems/er-cha-shu-ren-wu-diao-du)||[:memo:](https://leetcode-cn.com/articles/er-cha-shu-ren-wu-diao-du/)|Hard|
-|1000063|[传递信息 chuan-di-xin-xi](https://leetcode-cn.com/problems/chuan-di-xin-xi)||[:memo:](https://leetcode-cn.com/articles/chuan-di-xin-xi/)|Easy|
-|1000085|[游乐园的游览计划 you-le-yuan-de-you-lan-ji-hua](https://leetcode-cn.com/problems/you-le-yuan-de-you-lan-ji-hua)||[:memo:](https://leetcode-cn.com/articles/you-le-yuan-de-you-lan-ji-hua/)|Hard|
-|1000086|[期望个数统计 qi-wang-ge-shu-tong-ji](https://leetcode-cn.com/problems/qi-wang-ge-shu-tong-ji)||[:memo:](https://leetcode-cn.com/articles/qi-wang-ge-shu-tong-ji/)|Easy|
-|1000087|[小张刷题计划 xiao-zhang-shua-ti-ji-hua](https://leetcode-cn.com/problems/xiao-zhang-shua-ti-ji-hua)||[:memo:](https://leetcode-cn.com/articles/xiao-zhang-shua-ti-ji-hua/)|Medium|
-|1000088|[游乐园的迷宫 you-le-yuan-de-mi-gong](https://leetcode-cn.com/problems/you-le-yuan-de-mi-gong)||[:memo:](https://leetcode-cn.com/articles/you-le-yuan-de-mi-gong/)|Hard|
-|1000089|[二叉树染色 er-cha-shu-ran-se-UGC](https://leetcode-cn.com/problems/er-cha-shu-ran-se-UGC)||[:memo:](https://leetcode-cn.com/articles/er-cha-shu-ran-se-UGC/)|Medium|
-|1000090|[最小跳跃次数 zui-xiao-tiao-yue-ci-shu](https://leetcode-cn.com/problems/zui-xiao-tiao-yue-ci-shu)||[:memo:](https://leetcode-cn.com/articles/zui-xiao-tiao-yue-ci-shu/)|Hard|
-|1000091|[最小矩形面积 zui-xiao-ju-xing-mian-ji](https://leetcode-cn.com/problems/zui-xiao-ju-xing-mian-ji)||[:memo:](https://leetcode-cn.com/articles/zui-xiao-ju-xing-mian-ji/)|Hard|
-|1000093|[寻宝 xun-bao](https://leetcode-cn.com/problems/xun-bao)||[:memo:](https://leetcode-cn.com/articles/xun-bao/)|Hard|
-|1000130|[秋叶收藏集 UlBDOe](https://leetcode-cn.com/problems/UlBDOe)||[:memo:](https://leetcode-cn.com/articles/UlBDOe/)|Medium|
-|1000131|[数字游戏 5TxKeK](https://leetcode-cn.com/problems/5TxKeK)||[:memo:](https://leetcode-cn.com/articles/5TxKeK/)|Hard|
-|1000132|[导航装置 hSRGyL](https://leetcode-cn.com/problems/hSRGyL)||[:memo:](https://leetcode-cn.com/articles/hSRGyL/)|Hard|
-|1000133|[快速公交 meChtZ](https://leetcode-cn.com/problems/meChtZ)||[:memo:](https://leetcode-cn.com/articles/meChtZ/)|Hard|
-|1000134|[追逐游戏 Za25hA](https://leetcode-cn.com/problems/Za25hA)||[:memo:](https://leetcode-cn.com/articles/Za25hA/)|Hard|
-|1000138|[古董键盘 Uh984O](https://leetcode-cn.com/problems/Uh984O)||[:memo:](https://leetcode-cn.com/articles/Uh984O/)|Hard|
-|1000139|[速算机器人 nGK0Fy](https://leetcode-cn.com/problems/nGK0Fy)||[:memo:](https://leetcode-cn.com/articles/nGK0Fy/)|Easy|
-|1000140|[黑白方格画 ccw6C7](https://leetcode-cn.com/problems/ccw6C7)||[:memo:](https://leetcode-cn.com/articles/ccw6C7/)|Easy|
-|1000146|[早餐组合 2vYnGI](https://leetcode-cn.com/problems/2vYnGI)||[:memo:](https://leetcode-cn.com/articles/2vYnGI/)|Easy|
-|1000147|[黑盒光线反射 IQvJ9i](https://leetcode-cn.com/problems/IQvJ9i)||[:memo:](https://leetcode-cn.com/articles/IQvJ9i/)|Hard|
-|1000215|[采购方案 4xy4Wx](https://leetcode-cn.com/problems/4xy4Wx)||[:memo:](https://leetcode-cn.com/articles/4xy4Wx/)|Easy|
-|1000216|[乐团站位 SNJvJP](https://leetcode-cn.com/problems/SNJvJP)||[:memo:](https://leetcode-cn.com/articles/SNJvJP/)|Easy|
-|1000218|[变换的迷宫 Db3wC1](https://leetcode-cn.com/problems/Db3wC1)||[:memo:](https://leetcode-cn.com/articles/Db3wC1/)|Hard|
-|1000219|[批量处理任务 t3fKg1](https://leetcode-cn.com/problems/t3fKg1)||[:memo:](https://leetcode-cn.com/articles/t3fKg1/)|Hard|
-|1000220|[电动车游城市 DFPeFJ](https://leetcode-cn.com/problems/DFPeFJ)||[:memo:](https://leetcode-cn.com/articles/DFPeFJ/)|Hard|
-|1000221|[蓄水 o8SXZn](https://leetcode-cn.com/problems/o8SXZn)||[:memo:](https://leetcode-cn.com/articles/o8SXZn/)|Easy|
-|1000222|[最多牌组数 Up5XYM](https://leetcode-cn.com/problems/Up5XYM)||[:memo:](https://leetcode-cn.com/articles/Up5XYM/)|Hard|
-|1000223|[守卫城堡 7rLGCR](https://leetcode-cn.com/problems/7rLGCR)||[:memo:](https://leetcode-cn.com/articles/7rLGCR/)|Hard|
-|1000224|[魔塔游戏 p0NxJO](https://leetcode-cn.com/problems/p0NxJO)||[:memo:](https://leetcode-cn.com/articles/p0NxJO/)|Medium|
-|1000225|[下载插件 Ju9Xwi](https://leetcode-cn.com/problems/Ju9Xwi)||[:memo:](https://leetcode-cn.com/articles/Ju9Xwi/)|Easy|
-|1000226|[完成一半题目 WqXACV](https://leetcode-cn.com/problems/WqXACV)||[:memo:](https://leetcode-cn.com/articles/WqXACV/)|Easy|
-|1000227|[主题空间 YesdPw](https://leetcode-cn.com/problems/YesdPw)||[:memo:](https://leetcode-cn.com/articles/YesdPw/)|Medium|
-|1000359|[环形闯关游戏 K8GULz](https://leetcode-cn.com/problems/K8GULz)||[:memo:](https://leetcode-cn.com/articles/K8GULz/)|Hard|
-|1000361|[入场安检 oPs9Bm](https://leetcode-cn.com/problems/oPs9Bm)||[:memo:](https://leetcode-cn.com/articles/oPs9Bm/)|Hard|
-|1000362|[开幕式焰火 sZ59z6](https://leetcode-cn.com/problems/sZ59z6)||[:memo:](https://leetcode-cn.com/articles/sZ59z6/)|Easy|
-|1000367|[十字路口的交通 Y1VbOX](https://leetcode-cn.com/problems/Y1VbOX)||[:memo:](https://leetcode-cn.com/articles/Y1VbOX/)|Hard|
-|1000368|[心算挑战 uOAnQW](https://leetcode-cn.com/problems/uOAnQW)||[:memo:](https://leetcode-cn.com/articles/uOAnQW/)|Easy|
-|1000369|[无人机方阵 0jQkd0](https://leetcode-cn.com/problems/0jQkd0)||[:memo:](https://leetcode-cn.com/articles/0jQkd0/)|Easy|
-|1000370|[黑白翻转棋 fHi6rV](https://leetcode-cn.com/problems/fHi6rV)||[:memo:](https://leetcode-cn.com/articles/fHi6rV/)|Medium|
-|1000371|[玩具套圈 vFjcfV](https://leetcode-cn.com/problems/vFjcfV)||[:memo:](https://leetcode-cn.com/articles/vFjcfV/)|Hard|
-|1000373|[志愿者调配 05ZEDJ](https://leetcode-cn.com/problems/05ZEDJ)||[:memo:](https://leetcode-cn.com/articles/05ZEDJ/)|Medium|
-|1000374|[无限棋局 fsa7oZ](https://leetcode-cn.com/problems/fsa7oZ)||[:memo:](https://leetcode-cn.com/articles/fsa7oZ/)|Hard|
-|1000375|[自行车炫技赛场 kplEvH](https://leetcode-cn.com/problems/kplEvH)||[:memo:](https://leetcode-cn.com/articles/kplEvH/)|Medium|
