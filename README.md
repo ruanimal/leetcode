@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Python,Golang
-Update time:  2022-03-14 21:31:19
+Update time:  2022-03-15 20:35:02
 
 Auto created by [leetcode_cn_generate](https://github.com/ruanima/leetcode_cn_generate)
 
@@ -10,7 +10,7 @@ Changes:
 - drop chromedriver requirement
 - download solutions with chinese translation
 
-I have solved **310   /   2046** problems
+I have solved **313   /   2046** problems
 while there are **306** problems still locked.
 
 If you have any question, please give me an [issue](https://github.com/ruanima/leetcode/issues).
