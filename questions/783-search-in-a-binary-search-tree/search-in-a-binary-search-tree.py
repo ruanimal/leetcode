@@ -31,33 +31,21 @@
 # 1 <= val <= 107
 
 
-#
-# @lc app=leetcode.cn id=700 lang=python
-#
-# [700] Search in a Binary Search Tree
-#
 # Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-
-class Solution(object):
-    def searchBST(self, root, val):
-        """
-        :type root: TreeNode
-        :type val: int
-        :rtype: TreeNode
-        """
-        if not root:
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def searchBST(self, root: TreeNode, val: int) -> TreeNode:
+        if root is None:
             return
 
+        if val == root.val:
+            return root
         if val > root.val:
             return self.searchBST(root.right, val)
-        elif val < root.val:
-            return self.searchBST(root.left, val)
         else:
-            return root
-
+            return self.searchBST(root.left, val)
 

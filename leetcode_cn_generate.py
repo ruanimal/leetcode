@@ -68,7 +68,7 @@ def retry(times=3):
                         logging.exception(e)
                         raise
                     else:
-                        time.sleep((i+1) * 0.5)
+                        time.sleep((i+1)*3)
         return wrapper
     return decorator
 
@@ -82,10 +82,6 @@ def get_config_from_file():
 
     username = cp.get('leetcode', 'username')
     password = cp.get('leetcode', 'password')
-
-    if not username or not password:    # username and password not none
-        raise ValueError('Please input your username and password in config.cfg.')
-
     language = cp.get('leetcode', 'language')
     if not language:
         language = 'python'    # language default python
@@ -304,7 +300,7 @@ class Leetcode:
         """
         print('{id}-{title} pass'.format(id=solution.id, title=solution.title))
         self.download_code_to_dir(solution)
-        time.sleep(random.randint(0, 10) / 5)   # 防止拉取数据失败
+        time.sleep(random.randint(0, 10) / 10)   # 防止拉取数据失败
 
     def _get_solution_by_id(self, sid):
         """ get solution by solution id
@@ -326,11 +322,11 @@ class Leetcode:
                 res.append(i)
         return res
 
-    def login(self, sessionid=None):
+    def login(self, session=None):
         if self.is_login:
             return
-        if sessionid:
-            self.session.cookies['LEETCODE_SESSION'] = sessionid
+        if session:
+            self.session.cookies['LEETCODE_SESSION'] = session
             self.is_login = True
             return
 
@@ -380,6 +376,8 @@ class Leetcode:
     def download_code_to_dir(self, solution):
         for language, question, code in self._get_code_by_solution_and_language(solution):
             if not question and not code:
+                continue
+            if language not in self.prolangdict:
                 continue
             dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(solution.id).zfill(3), title=solution.title))
             print('begin download', dirname, language)
@@ -490,7 +488,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 
 def main(args):
     leetcode = Leetcode()
-    leetcode.login(args.sessionid)
+    leetcode.login(args.session)
     print('Leetcode login')
     leetcode.load()
     print('Leetcode load self info')
@@ -507,11 +505,12 @@ def main(args):
         print('Leetcode finish write readme')
     else:
         # simple download
-        # leetcode.download()
+        leetcode.download()
 
-        # we use multi thread
-        print('download all leetcode solutions')
-        leetcode.download_with_thread_pool()
+        # # we use multi thread
+        # print('download all leetcode solutions')
+        # leetcode.download_with_thread_pool()
+
         print('Leetcode finish dowload')
         leetcode.write_readme()
         print('Leetcode finish write readme')

@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Python,Golang
-Update time:  2022-03-15 20:35:02
+Update time:  2022-03-17 20:08:15
 
 Auto created by [leetcode_cn_generate](https://github.com/ruanima/leetcode_cn_generate)
 
@@ -10,8 +10,8 @@ Changes:
 - drop chromedriver requirement
 - download solutions with chinese translation
 
-I have solved **313   /   2046** problems
-while there are **306** problems still locked.
+I have solved **318   /   2047** problems
+while there are **307** problems still locked.
 
 If you have any question, please give me an [issue](https://github.com/ruanima/leetcode/issues).
 
@@ -21,8 +21,8 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 
 | # | Title | Source Code | Article | Difficulty |
 |:---:|:---:|:---:|:---:|:---:|
-|1|[两数之和 two-sum](https://leetcode-cn.com/problems/two-sum)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.py) [Golang](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.go)|[:memo:](https://leetcode-cn.com/articles/two-sum/)|Easy|
-|2|[两数相加 add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/002-add-two-numbers/add-two-numbers.py) [Golang](https://github.com/ruanima/leetcode/blob/master/questions/002-add-two-numbers/add-two-numbers.go)|[:memo:](https://leetcode-cn.com/articles/add-two-numbers/)|Medium|
+|1|[两数之和 two-sum](https://leetcode-cn.com/problems/two-sum)|[Golang](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.go) [Python](https://github.com/ruanima/leetcode/blob/master/questions/001-two-sum/two-sum.py)|[:memo:](https://leetcode-cn.com/articles/two-sum/)|Easy|
+|2|[两数相加 add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers)|[Golang](https://github.com/ruanima/leetcode/blob/master/questions/002-add-two-numbers/add-two-numbers.go) [Python](https://github.com/ruanima/leetcode/blob/master/questions/002-add-two-numbers/add-two-numbers.py)|[:memo:](https://leetcode-cn.com/articles/add-two-numbers/)|Medium|
 |3|[无重复字符的最长子串 longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)||[:memo:](https://leetcode-cn.com/articles/longest-substring-without-repeating-characters/)|Medium|
 |4|[寻找两个正序数组的中位数 median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/004-median-of-two-sorted-arrays/median-of-two-sorted-arrays.py)|[:memo:](https://leetcode-cn.com/articles/median-of-two-sorted-arrays/)|Hard|
 |5|[最长回文子串 longest-palindromic-substring](https://leetcode-cn.com/problems/longest-palindromic-substring)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/005-longest-palindromic-substring/longest-palindromic-substring.py)|[:memo:](https://leetcode-cn.com/articles/longest-palindromic-substring/)|Medium|
@@ -125,8 +125,8 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |102|[二叉树的层序遍历 binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)||[:memo:](https://leetcode-cn.com/articles/binary-tree-level-order-traversal/)|Medium|
 |103|[二叉树的锯齿形层序遍历 binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal)||[:memo:](https://leetcode-cn.com/articles/binary-tree-zigzag-level-order-traversal/)|Medium|
 |104|[二叉树的最大深度 maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/104-maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.py)|[:memo:](https://leetcode-cn.com/articles/maximum-depth-of-binary-tree/)|Easy|
-|105|[从前序与中序遍历序列构造二叉树 construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)||[:memo:](https://leetcode-cn.com/articles/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
-|106|[从中序与后序遍历序列构造二叉树 construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)||[:memo:](https://leetcode-cn.com/articles/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
+|105|[从前序与中序遍历序列构造二叉树 construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/105-construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.py)|[:memo:](https://leetcode-cn.com/articles/construct-binary-tree-from-preorder-and-inorder-traversal/)|Medium|
+|106|[从中序与后序遍历序列构造二叉树 construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/106-construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.py)|[:memo:](https://leetcode-cn.com/articles/construct-binary-tree-from-inorder-and-postorder-traversal/)|Medium|
 |107|[二叉树的层序遍历 II binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/107-binary-tree-level-order-traversal-ii/binary-tree-level-order-traversal-ii.py)|[:memo:](https://leetcode-cn.com/articles/binary-tree-level-order-traversal-ii/)|Medium|
 |108|[将有序数组转换为二叉搜索树 convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/108-convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.py)|[:memo:](https://leetcode-cn.com/articles/convert-sorted-array-to-binary-search-tree/)|Easy|
 |109|[有序链表转换二叉搜索树 convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree)||[:memo:](https://leetcode-cn.com/articles/convert-sorted-list-to-binary-search-tree/)|Medium|
@@ -300,7 +300,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |294|[翻转游戏 II flip-game-ii](https://leetcode-cn.com/problems/flip-game-ii)|:lock:|[:memo:](https://leetcode-cn.com/articles/flip-game-ii/)|Medium|
 |295|[数据流的中位数 find-median-from-data-stream](https://leetcode-cn.com/problems/find-median-from-data-stream)||[:memo:](https://leetcode-cn.com/articles/find-median-from-data-stream/)|Hard|
 |296|[最佳的碰头地点 best-meeting-point](https://leetcode-cn.com/problems/best-meeting-point)|:lock:|[:memo:](https://leetcode-cn.com/articles/best-meeting-point/)|Hard|
-|297|[二叉树的序列化与反序列化 serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)||[:memo:](https://leetcode-cn.com/articles/serialize-and-deserialize-binary-tree/)|Hard|
+|297|[二叉树的序列化与反序列化 serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/297-serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.py)|[:memo:](https://leetcode-cn.com/articles/serialize-and-deserialize-binary-tree/)|Hard|
 |298|[二叉树最长连续序列 binary-tree-longest-consecutive-sequence](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence)|:lock:|[:memo:](https://leetcode-cn.com/articles/binary-tree-longest-consecutive-sequence/)|Medium|
 |299|[猜数字游戏 bulls-and-cows](https://leetcode-cn.com/problems/bulls-and-cows)||[:memo:](https://leetcode-cn.com/articles/bulls-and-cows/)|Medium|
 |300|[最长递增子序列 longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/300-longest-increasing-subsequence/longest-increasing-subsequence.py)|[:memo:](https://leetcode-cn.com/articles/longest-increasing-subsequence/)|Medium|
@@ -344,7 +344,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |338|[比特位计数 counting-bits](https://leetcode-cn.com/problems/counting-bits)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/338-counting-bits/counting-bits.py)|[:memo:](https://leetcode-cn.com/articles/counting-bits/)|Easy|
 |339|[嵌套列表权重和 nested-list-weight-sum](https://leetcode-cn.com/problems/nested-list-weight-sum)|:lock:|[:memo:](https://leetcode-cn.com/articles/nested-list-weight-sum/)|Medium|
 |340|[至多包含 K 个不同字符的最长子串 longest-substring-with-at-most-k-distinct-characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters)|:lock:|[:memo:](https://leetcode-cn.com/articles/longest-substring-with-at-most-k-distinct-characters/)|Medium|
-|341|[扁平化嵌套列表迭代器 flatten-nested-list-iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator)||[:memo:](https://leetcode-cn.com/articles/flatten-nested-list-iterator/)|Medium|
+|341|[扁平化嵌套列表迭代器 flatten-nested-list-iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/341-flatten-nested-list-iterator/flatten-nested-list-iterator.py)|[:memo:](https://leetcode-cn.com/articles/flatten-nested-list-iterator/)|Medium|
 |342|[4的幂 power-of-four](https://leetcode-cn.com/problems/power-of-four)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/342-power-of-four/power-of-four.py)|[:memo:](https://leetcode-cn.com/articles/power-of-four/)|Easy|
 |343|[整数拆分 integer-break](https://leetcode-cn.com/problems/integer-break)||[:memo:](https://leetcode-cn.com/articles/integer-break/)|Medium|
 |344|[反转字符串 reverse-string](https://leetcode-cn.com/problems/reverse-string)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/344-reverse-string/reverse-string.py)|[:memo:](https://leetcode-cn.com/articles/reverse-string/)|Easy|
@@ -610,9 +610,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |649|[Dota2 参议院 dota2-senate](https://leetcode-cn.com/problems/dota2-senate)||[:memo:](https://leetcode-cn.com/articles/dota2-senate/)|Medium|
 |650|[只有两个键的键盘 2-keys-keyboard](https://leetcode-cn.com/problems/2-keys-keyboard)||[:memo:](https://leetcode-cn.com/articles/2-keys-keyboard/)|Medium|
 |651|[4键键盘 4-keys-keyboard](https://leetcode-cn.com/problems/4-keys-keyboard)|:lock:|[:memo:](https://leetcode-cn.com/articles/4-keys-keyboard/)|Medium|
-|652|[寻找重复的子树 find-duplicate-subtrees](https://leetcode-cn.com/problems/find-duplicate-subtrees)||[:memo:](https://leetcode-cn.com/articles/find-duplicate-subtrees/)|Medium|
+|652|[寻找重复的子树 find-duplicate-subtrees](https://leetcode-cn.com/problems/find-duplicate-subtrees)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/652-find-duplicate-subtrees/find-duplicate-subtrees.py)|[:memo:](https://leetcode-cn.com/articles/find-duplicate-subtrees/)|Medium|
 |653|[两数之和 IV - 输入 BST two-sum-iv-input-is-a-bst](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/653-two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.py)|[:memo:](https://leetcode-cn.com/articles/two-sum-iv-input-is-a-bst/)|Easy|
-|654|[最大二叉树 maximum-binary-tree](https://leetcode-cn.com/problems/maximum-binary-tree)||[:memo:](https://leetcode-cn.com/articles/maximum-binary-tree/)|Medium|
+|654|[最大二叉树 maximum-binary-tree](https://leetcode-cn.com/problems/maximum-binary-tree)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/654-maximum-binary-tree/maximum-binary-tree.py)|[:memo:](https://leetcode-cn.com/articles/maximum-binary-tree/)|Medium|
 |655|[输出二叉树 print-binary-tree](https://leetcode-cn.com/problems/print-binary-tree)||[:memo:](https://leetcode-cn.com/articles/print-binary-tree/)|Medium|
 |656|[金币路径 coin-path](https://leetcode-cn.com/problems/coin-path)|:lock:|[:memo:](https://leetcode-cn.com/articles/coin-path/)|Hard|
 |657|[机器人能否返回原点 robot-return-to-origin](https://leetcode-cn.com/problems/robot-return-to-origin)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/657-robot-return-to-origin/robot-return-to-origin.py)|[:memo:](https://leetcode-cn.com/articles/robot-return-to-origin/)|Easy|
@@ -865,7 +865,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |922|[可能的二分法 possible-bipartition](https://leetcode-cn.com/problems/possible-bipartition)||[:memo:](https://leetcode-cn.com/articles/possible-bipartition/)|Medium|
 |923|[鸡蛋掉落 super-egg-drop](https://leetcode-cn.com/problems/super-egg-drop)||[:memo:](https://leetcode-cn.com/articles/super-egg-drop/)|Hard|
 |924|[公平的糖果交换 fair-candy-swap](https://leetcode-cn.com/problems/fair-candy-swap)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/924-fair-candy-swap/fair-candy-swap.py)|[:memo:](https://leetcode-cn.com/articles/fair-candy-swap/)|Easy|
-|925|[根据前序和后序遍历构造二叉树 construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)||[:memo:](https://leetcode-cn.com/articles/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium|
+|925|[根据前序和后序遍历构造二叉树 construct-binary-tree-from-preorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/925-construct-binary-tree-from-preorder-and-postorder-traversal/construct-binary-tree-from-preorder-and-postorder-traversal.py)|[:memo:](https://leetcode-cn.com/articles/construct-binary-tree-from-preorder-and-postorder-traversal/)|Medium|
 |926|[查找和替换模式 find-and-replace-pattern](https://leetcode-cn.com/problems/find-and-replace-pattern)||[:memo:](https://leetcode-cn.com/articles/find-and-replace-pattern/)|Medium|
 |927|[子序列宽度之和 sum-of-subsequence-widths](https://leetcode-cn.com/problems/sum-of-subsequence-widths)||[:memo:](https://leetcode-cn.com/articles/sum-of-subsequence-widths/)|Hard|
 |928|[三维形体的表面积 surface-area-of-3d-shapes](https://leetcode-cn.com/problems/surface-area-of-3d-shapes)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/928-surface-area-of-3d-shapes/surface-area-of-3d-shapes.py)|[:memo:](https://leetcode-cn.com/articles/surface-area-of-3d-shapes/)|Easy|
@@ -1047,7 +1047,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1111|[多边形三角剖分的最低得分 minimum-score-triangulation-of-polygon](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon)||[:memo:](https://leetcode-cn.com/articles/minimum-score-triangulation-of-polygon/)|Medium|
 |1112|[拼写单词 find-words-that-can-be-formed-by-characters](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters)||[:memo:](https://leetcode-cn.com/articles/find-words-that-can-be-formed-by-characters/)|Easy|
 |1113|[移动石子直到连续 II moving-stones-until-consecutive-ii](https://leetcode-cn.com/problems/moving-stones-until-consecutive-ii)||[:memo:](https://leetcode-cn.com/articles/moving-stones-until-consecutive-ii/)|Medium|
-|1114|[从二叉搜索树到更大和树 binary-search-tree-to-greater-sum-tree](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree)||[:memo:](https://leetcode-cn.com/articles/binary-search-tree-to-greater-sum-tree/)|Medium|
+|1114|[从二叉搜索树到更大和树 binary-search-tree-to-greater-sum-tree](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/1114-binary-search-tree-to-greater-sum-tree/binary-search-tree-to-greater-sum-tree.py)|[:memo:](https://leetcode-cn.com/articles/binary-search-tree-to-greater-sum-tree/)|Medium|
 |1115|[有效的回旋镖 valid-boomerang](https://leetcode-cn.com/problems/valid-boomerang)||[:memo:](https://leetcode-cn.com/articles/valid-boomerang/)|Easy|
 |1116|[最大层内元素和 maximum-level-sum-of-a-binary-tree](https://leetcode-cn.com/problems/maximum-level-sum-of-a-binary-tree)||[:memo:](https://leetcode-cn.com/articles/maximum-level-sum-of-a-binary-tree/)|Medium|
 |1117|[地图分析 as-far-from-land-as-possible](https://leetcode-cn.com/problems/as-far-from-land-as-possible)||[:memo:](https://leetcode-cn.com/articles/as-far-from-land-as-possible/)|Medium|
@@ -1225,6 +1225,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1344|[最大相等频率 maximum-equal-frequency](https://leetcode-cn.com/problems/maximum-equal-frequency)||[:memo:](https://leetcode-cn.com/articles/maximum-equal-frequency/)|Hard|
 |1345|[字符串的左右移 perform-string-shifts](https://leetcode-cn.com/problems/perform-string-shifts)|:lock:|[:memo:](https://leetcode-cn.com/articles/perform-string-shifts/)|Easy|
 |1346|[K 次操作后最大化顶端元素 maximize-the-topmost-element-after-k-moves](https://leetcode-cn.com/problems/maximize-the-topmost-element-after-k-moves)||[:memo:](https://leetcode-cn.com/articles/maximize-the-topmost-element-after-k-moves/)|Medium|
+|1347|[ distance-to-a-cycle-in-undirected-graph](https://leetcode-cn.com/problems/distance-to-a-cycle-in-undirected-graph)|:lock:|[:memo:](https://leetcode-cn.com/articles/distance-to-a-cycle-in-undirected-graph/)|Hard|
 |1349|[缀点成线 check-if-it-is-a-straight-line](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line)||[:memo:](https://leetcode-cn.com/articles/check-if-it-is-a-straight-line/)|Easy|
 |1350|[删除子文件夹 remove-sub-folders-from-the-filesystem](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem)||[:memo:](https://leetcode-cn.com/articles/remove-sub-folders-from-the-filesystem/)|Medium|
 |1351|[替换子串得到平衡字符串 replace-the-substring-for-balanced-string](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string)||[:memo:](https://leetcode-cn.com/articles/replace-the-substring-for-balanced-string/)|Medium|
@@ -1991,7 +1992,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2284|[重排数字的最小值 smallest-value-of-the-rearranged-number](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number)||[:memo:](https://leetcode-cn.com/articles/smallest-value-of-the-rearranged-number/)|Medium|
 |2285|[设计位集 design-bitset](https://leetcode-cn.com/problems/design-bitset)||[:memo:](https://leetcode-cn.com/articles/design-bitset/)|Medium|
 |2286|[移除所有载有违禁货物车厢所需的最少时间 minimum-time-to-remove-all-cars-containing-illegal-goods](https://leetcode-cn.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods)||[:memo:](https://leetcode-cn.com/articles/minimum-time-to-remove-all-cars-containing-illegal-goods/)|Hard|
-|2287|[ minimum-number-of-lines-to-cover-points](https://leetcode-cn.com/problems/minimum-number-of-lines-to-cover-points)|:lock:|[:memo:](https://leetcode-cn.com/articles/minimum-number-of-lines-to-cover-points/)|Medium|
+|2287|[穿过所有点的所需最少直线数量 minimum-number-of-lines-to-cover-points](https://leetcode-cn.com/problems/minimum-number-of-lines-to-cover-points)|:lock:|[:memo:](https://leetcode-cn.com/articles/minimum-number-of-lines-to-cover-points/)|Medium|
 |2288|[得到 0 的操作数 count-operations-to-obtain-zero](https://leetcode-cn.com/problems/count-operations-to-obtain-zero)||[:memo:](https://leetcode-cn.com/articles/count-operations-to-obtain-zero/)|Easy|
 |2289|[使数组变成交替数组的最少操作数 minimum-operations-to-make-the-array-alternating](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-alternating)||[:memo:](https://leetcode-cn.com/articles/minimum-operations-to-make-the-array-alternating/)|Medium|
 |2290|[拿出最少数目的魔法豆 removing-minimum-number-of-magic-beans](https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans)||[:memo:](https://leetcode-cn.com/articles/removing-minimum-number-of-magic-beans/)|Medium|

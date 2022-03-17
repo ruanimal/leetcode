@@ -27,7 +27,7 @@
 
 
 #
-# @lc app=leetcode.cn id=230 lang=python
+# @lc app=leetcode.cn id=230 lang=python3
 #
 # [230] 二叉搜索树中第K小的元素
 #
@@ -79,52 +79,54 @@
 #         self.left = None
 #         self.right = None
 
+class Solution_A(object):
+    def kthSmallest(self, root, k):
+        """
+        :type root: TreeNode
+        :type k: int
+        :rtype: int
+        """
+        # v1 非递归中序排序
+        if not root:
+            return []
+
+        ans = []
+        stack = [(1, root)]
+        while stack and len(ans)<k:
+            state, node = stack.pop()
+            if state == 0:
+                ans.append(node.val)
+                continue
+
+            if node.right:
+                stack.append((1, node.right))
+            stack.append((0, node))
+            if node.left:
+                stack.append((1, node.left))
+        return ans[-1] if len(ans) == k else None
+
 class Solution(object):
-    # def kthSmallest(self, root, k):
-    #     """
-    #     :type root: TreeNode
-    #     :type k: int
-    #     :rtype: int
-    #     """
-    #     v1 非递归中序排序
-    #     if not root:
-    #         return []
+    def kthSmallest(self, root, k):
+        """
+        生成器法
+        :type root: TreeNode
+        :type k: int
+        :rtype: int
+        """
 
-    #     ans = []
-    #     stack = [(1, root)]
-    #     while stack and len(ans)<k:
-    #         state, node = stack.pop()
-    #         if state == 0:
-    #             ans.append(node.val)
-    #             continue
+        def mid_order(root):
+            if not root: return
+            yield from mid_order(root.left)
+            yield root.val
+            yield from mid_order(root.right)
 
-    #         if node.right:
-    #             stack.append((1, node.right))
-    #         stack.append((0, node))
-    #         if node.left:
-    #             stack.append((1, node.left))
-    #     return ans[-1] if len(ans) == k else None
+        ans = None
+        gen = mid_order(root)
+        for _ in range(k):
+            ans = next(gen)
+        return ans
 
-    # def kthSmallest(self, root, k):
-    #     """
-    #     生成器法
-    #     :type root: TreeNode
-    #     :type k: int
-    #     :rtype: int
-    #     """
-
-    #     def mid_order(root):
-    #         if not root: return
-    #         yield from mid_order(root.left)
-    #         yield root.val
-    #         yield from mid_order(root.right)
-
-    #     ans = None
-    #     gen = mid_order(root)
-    #     for _ in range(k):
-    #         ans = next(gen)
-    #     return ans
-
+class Solution_C(object):
     def kthSmallest(self, root, k):
         def inorder(root):
             if not root: return
