@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:22403725,UPDATE:20220325>
 # English:
 # There is a city composed of n x n blocks, where each block contains a single building shaped like a vertical square prism. You are given a 0-indexed n x n integer matrix grid where grid[r][c] represents the height of the building located in the block at row r and column c.
 # A city's skyline is the the outer contour formed by all the building when viewing the side of the city from a distance. The skyline from each cardinal direction north, east, south, and west may be different.

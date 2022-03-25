@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:19454752,UPDATE:20220325>
 # English:
 # The count-and-say sequence is a sequence of digit strings defined by the recursive formula:
 # countAndSay(1) = "1"

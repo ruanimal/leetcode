@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:16352873,UPDATE:20220325>
 # English:
 # The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
 # Given two integers x and y, return the Hamming distance between them.

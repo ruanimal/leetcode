@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:16413889,UPDATE:20220325>
 # English:
 # In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
 # If the town judge exists, then:

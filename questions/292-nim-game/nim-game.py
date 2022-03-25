@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:15987136,UPDATE:20220325>
 # English:
 # You are playing the following Nim Game with your friend:
 # Initially, there is a heap of stones on the table.

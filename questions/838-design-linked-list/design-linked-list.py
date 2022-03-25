@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:16419982,UPDATE:20220325>
 # English:
 # Design your implementation of the linked list. You can choose to use a singly or doubly linked list.
 # A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node.

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:197205065,UPDATE:20220325>
 # English:
 # Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.
 # A palindrome string is a string that reads the same backward as forward.

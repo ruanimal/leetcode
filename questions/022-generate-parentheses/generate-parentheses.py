@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:22493406,UPDATE:20220325>
 # English:
 # Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 # Example 1:

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:17450724,UPDATE:20220325>
 # English:
 # Alice and Bob play a game with piles of stones. There are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i].
 # The objective of the game is to end with the most stones. The total number of stones across all the piles is odd, so there are no ties.

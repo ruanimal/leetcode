@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:18236455,UPDATE:20220325>
 # English:
 # You are given an array of strings of the same length words.
 # In one move, you can swap any two even indexed characters or any two odd indexed characters of a string words[i].

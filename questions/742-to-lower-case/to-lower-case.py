@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:17612314,UPDATE:20220325>
 # English:
 # Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
 # Example 1:

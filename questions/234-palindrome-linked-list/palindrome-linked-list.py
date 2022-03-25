@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:15363949,UPDATE:20220325>
 # English:
 # Given the head of a singly linked list, return true if it is a palindrome.
 # Example 1:

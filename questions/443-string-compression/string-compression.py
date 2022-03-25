@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:20919440,UPDATE:20220325>
 # English:
 # Given an array of characters chars, compress it using the following algorithm:
 # Begin with an empty string s. For each group of consecutive repeating characters in chars:

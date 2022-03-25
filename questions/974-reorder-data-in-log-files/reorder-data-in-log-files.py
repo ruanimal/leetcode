@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:19458551,UPDATE:20220325>
 # English:
 # You are given an array of logs. Each log is a space-delimited string of words, where the first word is the identifier.
 # There are two types of logs:

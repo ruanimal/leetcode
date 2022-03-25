@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:19985134,UPDATE:20220325>
 # English:
 # We have two special characters:
 # The first character can be represented by one bit 0.

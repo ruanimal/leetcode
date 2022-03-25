@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:16931374,UPDATE:20220325>
 # English:
 # Winter is coming! During the contest, your first job is to design a standard heater with a fixed warm radius to warm all the houses.
 # Every house can be warmed, as long as the house is within the heater's warm radius range.

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:19689455,UPDATE:20220325>
 # English:
 # Given two binary strings a and b, return their sum as a binary string.
 # Example 1:

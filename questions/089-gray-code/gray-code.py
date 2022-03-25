@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:21364462,UPDATE:20220325>
 # English:
 # An n-bit gray code sequence is a sequence of 2n integers where:
 # Every integer is in the inclusive range [0, 2n - 1],

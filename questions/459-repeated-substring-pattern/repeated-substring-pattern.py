@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:20711617,UPDATE:20220325>
 # English:
 # Given a string s, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
 # Example 1:

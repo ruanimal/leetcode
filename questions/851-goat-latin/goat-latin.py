@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:18604698,UPDATE:20220325>
 # English:
 # You are given a string sentence that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
 # We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.) The rules of Goat Latin are as follows:

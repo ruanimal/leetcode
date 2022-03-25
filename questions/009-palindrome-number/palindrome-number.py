@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:13297772,UPDATE:20220325>
 # English:
 # Given an integer x, return true if x is palindrome integer.
 # An integer is a palindrome when it reads the same backward as forward.

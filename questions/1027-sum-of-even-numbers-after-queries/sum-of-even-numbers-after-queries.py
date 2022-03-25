@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:18234072,UPDATE:20220325>
 # English:
 # You are given an integer array nums and an array queries where queries[i] = [vali, indexi].
 # For each query i, first, apply nums[indexi] = nums[indexi] + vali, then print the sum of the even values of nums.

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:16864107,UPDATE:20220325>
 # English:
 # Let's call an array arr a mountain if the following properties hold:
 # arr.length >= 3

@@ -12,10 +12,10 @@ import logging
 import os
 import random
 import re
-import sys
 import time
 from collections import OrderedDict, namedtuple
 from itertools import groupby
+from datetime import datetime
 
 import requests
 from pyquery import PyQuery as pq
@@ -27,6 +27,7 @@ CONFIG_FILE = os.path.join(HOME, 'config.cfg')
 DOMAIN = 'leetcode-cn.com'
 BASE_URL = 'https://{}'.format(DOMAIN)
 GRAPHQL_LIMIT = 100
+FILE_EXPIRE = 180   # 代码文件更新时间
 
 # If you have proxy, change PROXIES below
 PROXIES = None
@@ -68,7 +69,7 @@ def retry(times=3):
                         logging.exception(e)
                         raise
                     else:
-                        time.sleep((i+1)*3)
+                        time.sleep((i+1)*5)
         return wrapper
     return decorator
 
@@ -150,6 +151,7 @@ class QuizItem:
         return '<Quiz: {id}-{title}({difficulty})-{pass_status}>'.format(
             id=self.id, title=self.title, difficulty=self.difficulty, pass_status=self.pass_status)
 
+Submission = namedtuple('Submission', ['lang', 'subid'])
 
 class Leetcode:
 
@@ -259,14 +261,6 @@ class Leetcode:
         return {int(i['questionId']): i['title'] for i in res['data']['translations']}
 
     def _get_code_by_solution_and_language(self, solution):
-        def get_question_content(question):
-            result = 'English:\n'
-            result += pq(question['content']).text()
-            result += '\n\n'
-            result += '中文:\n'
-            result += pq(question['translatedContent']).text()
-            return result
-
         all_submissions = sorted(self._generate_submissions_by_solution(solution),
             key=lambda i: i['language'])
 
@@ -282,17 +276,8 @@ class Leetcode:
                 sub = submissions[0]
             else:
                 sub = min(submissions, key=lambda i: i['runTime'])
-
-            question = get_question_content(self._get_question_detail(solution.title))
-
             subid = sub['url'].strip('/').split('/')[-1]
-            code = self._get_submission_detail(subid)['code']
-
-            if not code:
-                raise Exception('Can not find solution code in question:{title}'.format(title=solution.title))
-
-            code = rep_unicode_in_code(code)
-            yield language, question, code
+            yield language, subid
 
     def _download_solution(self, solution):
         """ download solution by Solution item
@@ -315,11 +300,24 @@ class Leetcode:
         return
 
     def _get_solution_languages_from_file(self, dirname):
+        now = datetime.now()
         res = []
-        exts = [os.path.splitext(i)[1].lstrip('.') for i in os.listdir(dirname)]
+        files = [os.path.join(dirname, i) for i in os.listdir(dirname)]
+        subids = []
+        for i in files:
+            with open(i) as fp:
+                header = fp.read(200)
+                m = re.search(r'<SUBID:(\d+),UPDATE:(\d+)>', header)
+                if m and (now - datetime.strptime(m.group(2), '%Y%m%d')).days < FILE_EXPIRE:
+                    subid = int(m.group(1))
+                else:
+                    subid = -1
+                subids.append(subid)
+        exts = [os.path.splitext(i)[1].lstrip('.') for i in files]
+        exts = dict(zip(exts, subids))
         for i in self.languages:
             if self.prolangdict[i].ext in exts:
-                res.append(i)
+                res.append(Submission(i, exts[self.prolangdict[i].ext]))
         return res
 
     def login(self, session=None):
@@ -374,20 +372,36 @@ class Leetcode:
         self.solutions = [Solution(x.id, x.title, x.capital_title, x.pass_language) for x in self.itemdict.values() if x.pass_status]
 
     def download_code_to_dir(self, solution):
-        for language, question, code in self._get_code_by_solution_and_language(solution):
-            if not question and not code:
+        def get_question_content(question):
+            result = 'English:\n'
+            result += pq(question['content']).text()
+            result += '\n\n'
+            result += '中文:\n'
+            result += pq(question['translatedContent']).text()
+            return result
+
+        for language, subid in self._get_code_by_solution_and_language(solution):
+            dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(solution.id).zfill(3), title=solution.title))
+            subs = self._get_solution_languages_from_file(dirname)
+            if dict(subs).get(language) == int(subid):   # Submission is updated
+                print('bypass download', dirname, language, subid)
                 continue
             if language not in self.prolangdict:
                 continue
-            dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(solution.id).zfill(3), title=solution.title))
             print('begin download', dirname, language)
             check_and_make_dir(dirname)
 
             path = os.path.join(HOME, dirname)
             fname = '{title}.{ext}'.format(title=solution.title, ext=self.prolangdict[language].ext)
             filename = os.path.join(path, fname)
+            question = get_question_content(self._get_question_detail(solution.title))
+            code = self._get_submission_detail(subid)['code']
+            if not code:
+                raise Exception('Can not find solution code in question:{title}'.format(title=solution.title))
+            code = rep_unicode_in_code(code)
 
             l = []
+            l.append('{} <SUBID:{},UPDATE:{:%Y%m%d}>'.format(self.prolangdict[language].annotation, subid, datetime.now()))
             for item in question.split('\n'):
                 if item.strip() == '':
                     l.append(self.prolangdict[language].annotation)
@@ -397,7 +411,7 @@ class Leetcode:
 
             with codecs.open(filename, 'w', 'utf-8') as f:
                 print('write to file ->', fname)
-                content = '# -*- coding:utf-8 -*-' + '\n' * 3 if language == 'python' else ''
+                content = '# -*- coding:utf-8 -*-' + '\n' * 2 if language == 'python' else ''
                 content += quote_question
                 content += '\n' * 3
                 content += code
@@ -412,16 +426,22 @@ class Leetcode:
         if solution:
             self._download_solution(solution)
 
-    def download(self):
+    def download(self, start=None):
         """ download all solutions with single thread """
-        for solution in self.solutions:
+        for idx, solution in enumerate(self.solutions):
+            if start and solution.id < start:
+                continue
+            if idx % 50 == 0:   # prevent http 429
+                time.sleep(10)
             self._download_solution(solution)
 
-    def download_with_thread_pool(self):
+    def download_with_thread_pool(self, start=None):
         """ download all solutions with multi thread """
         from concurrent.futures import ThreadPoolExecutor
         pool = ThreadPoolExecutor(max_workers=4)
         for solution in self.solutions:
+            if start and solution.id < start:
+                continue
             pool.submit(self._download_solution, solution)
         pool.shutdown(wait=True)
 
@@ -459,7 +479,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
         for item in self.items:
             dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(item.id).zfill(3), title=item.title))
             if not item.pass_language and os.path.exists(dirname):
-                item.pass_language = self._get_solution_languages_from_file(dirname)
+                item.pass_language = [i.lang for i in self._get_solution_languages_from_file(dirname)]
             article = ''
             if item.article:
                 article = '[:memo:]({base_url}/articles/{article}/)'.format(base_url=BASE_URL, article=item.article)
@@ -494,7 +514,7 @@ def main(args):
     print('Leetcode load self info')
 
     if args.sid:
-        for sid in sys.argv[1:]:
+        for sid in args.sid:
             print('begin leetcode by id: {id}'.format(id=sid))
             leetcode.download_by_id(int(sid))
         print('Leetcode finish dowload')
@@ -505,11 +525,11 @@ def main(args):
         print('Leetcode finish write readme')
     else:
         # simple download
-        leetcode.download()
+        leetcode.download(args.sid_start)
 
         # # we use multi thread
         # print('download all leetcode solutions')
-        # leetcode.download_with_thread_pool()
+        # leetcode.download_with_thread_pool(args.sid_start)
 
         print('Leetcode finish dowload')
         leetcode.write_readme()
@@ -522,6 +542,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--readme', help='Update README.md', action='store_true')
     parser.add_argument('--session', help='Login with LEETCODE_SESSION')
+    parser.add_argument('--sid-start', help='download question start from sid', type=int)
     parser.add_argument('sid', help='question id', nargs='*')
     args = parser.parse_args()
     main(args)

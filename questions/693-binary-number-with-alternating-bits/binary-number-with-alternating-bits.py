@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:16355705,UPDATE:20220325>
 # English:
 # Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
 # Example 1:

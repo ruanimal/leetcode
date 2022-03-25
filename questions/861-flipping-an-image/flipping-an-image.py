@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:16859000,UPDATE:20220325>
 # English:
 # Given an n x n binary matrix image, flip the image horizontally, then invert it, and return the resulting image.
 # To flip an image horizontally means that each row of the image is reversed.

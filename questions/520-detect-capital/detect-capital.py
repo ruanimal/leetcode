@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:18773136,UPDATE:20220325>
 # English:
 # We define the usage of capitals in a word to be right when one of the following cases holds:
 # All letters in this word are capitals, like "USA".

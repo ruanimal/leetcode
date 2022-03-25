@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:17769229,UPDATE:20220325>
 # English:
 # You are given an array of n strings strs, all of the same length.
 # The strings can be arranged such that there is one on each line, making a grid. For example, strs = ["abc", "bce", "cae"] can be arranged as:

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:15364277,UPDATE:20220325>
 # English:
 # Write a function to delete a node in a singly-linked list. You will not be given access to the head of the list, instead you will be given access to the node to be deleted directly.
 # It is guaranteed that the node to be deleted is not a tail node in the list.
@@ -21,17 +21,11 @@
 # 输入：head = [4,5,1,9], node = 5 输出：[4,1,9] 解释：指定链表中值为 5 的第二个节点，那么在调用了你的函数之后，该链表应变为 4 -> 1 -> 9
 # 示例 2：
 # 输入：head = [4,5,1,9], node = 1 输出：[4,5,9] 解释：指定链表中值为 1 的第三个节点，那么在调用了你的函数之后，该链表应变为 4 -> 5 -> 9
-# 示例 3：
-# 输入：head = [1,2,3,4], node = 3 输出：[1,2,4]
-# 示例 4：
-# 输入：head = [0,1], node = 0 输出：[1]
-# 示例 5：
-# 输入：head = [-3,5,-99], node = -3 输出：[5,-99]
 # 提示：
 # 链表中节点的数目范围是 [2, 1000]
 # -1000 <= Node.val <= 1000
-# 链表中每个节点的值都是唯一的
-# 需要删除的节点 node 是 链表中的一个有效节点 ，且 不是末尾节点
+# 链表中每个节点的值都是 唯一 的
+# 需要删除的节点 node 是 链表中的节点 ，且 不是末尾节点
 
 
 #

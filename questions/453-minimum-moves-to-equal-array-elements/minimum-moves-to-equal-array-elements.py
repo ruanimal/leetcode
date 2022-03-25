@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# <SUBID:19088805,UPDATE:20220325>
 # English:
 # Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.
 # In one move, you can increment n - 1 elements of the array by 1.
