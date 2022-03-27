@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Python,Golang
-Update time:  2022-03-26 20:40:52
+Update time:  2022-03-28 00:39:55
 
 Auto created by [leetcode_cn_generate](https://github.com/ruanima/leetcode_cn_generate)
 
@@ -10,7 +10,7 @@ Changes:
 - drop chromedriver requirement
 - download solutions with chinese translation
 
-I have solved **325   /   2056** problems
+I have solved **329   /   2060** problems
 while there are **308** problems still locked.
 
 If you have any question, please give me an [issue](https://github.com/ruanima/leetcode/issues).
@@ -357,7 +357,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |351|[安卓系统手势解锁 android-unlock-patterns](https://leetcode-cn.com/problems/android-unlock-patterns)|:lock:|[:memo:](https://leetcode-cn.com/articles/android-unlock-patterns/)|Medium|
 |352|[将数据流变为多个不相交区间 data-stream-as-disjoint-intervals](https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals)||[:memo:](https://leetcode-cn.com/articles/data-stream-as-disjoint-intervals/)|Hard|
 |353|[贪吃蛇 design-snake-game](https://leetcode-cn.com/problems/design-snake-game)|:lock:|[:memo:](https://leetcode-cn.com/articles/design-snake-game/)|Medium|
-|354|[俄罗斯套娃信封问题 russian-doll-envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes)||[:memo:](https://leetcode-cn.com/articles/russian-doll-envelopes/)|Hard|
+|354|[俄罗斯套娃信封问题 russian-doll-envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/354-russian-doll-envelopes/russian-doll-envelopes.py)|[:memo:](https://leetcode-cn.com/articles/russian-doll-envelopes/)|Hard|
 |355|[设计推特 design-twitter](https://leetcode-cn.com/problems/design-twitter)||[:memo:](https://leetcode-cn.com/articles/design-twitter/)|Medium|
 |356|[直线镜像 line-reflection](https://leetcode-cn.com/problems/line-reflection)|:lock:|[:memo:](https://leetcode-cn.com/articles/line-reflection/)|Medium|
 |357|[计算各个位数不同的数字个数 count-numbers-with-unique-digits](https://leetcode-cn.com/problems/count-numbers-with-unique-digits)||[:memo:](https://leetcode-cn.com/articles/count-numbers-with-unique-digits/)|Medium|
@@ -489,7 +489,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |491|[递增子序列 increasing-subsequences](https://leetcode-cn.com/problems/increasing-subsequences)||[:memo:](https://leetcode-cn.com/articles/increasing-subsequences/)|Medium|
 |492|[构造矩形 construct-the-rectangle](https://leetcode-cn.com/problems/construct-the-rectangle)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/492-construct-the-rectangle/construct-the-rectangle.py)|[:memo:](https://leetcode-cn.com/articles/construct-the-rectangle/)|Easy|
 |493|[翻转对 reverse-pairs](https://leetcode-cn.com/problems/reverse-pairs)||[:memo:](https://leetcode-cn.com/articles/reverse-pairs/)|Hard|
-|494|[目标和 target-sum](https://leetcode-cn.com/problems/target-sum)||[:memo:](https://leetcode-cn.com/articles/target-sum/)|Medium|
+|494|[目标和 target-sum](https://leetcode-cn.com/problems/target-sum)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/494-target-sum/target-sum.py)|[:memo:](https://leetcode-cn.com/articles/target-sum/)|Medium|
 |495|[提莫攻击 teemo-attacking](https://leetcode-cn.com/problems/teemo-attacking)||[:memo:](https://leetcode-cn.com/articles/teemo-attacking/)|Easy|
 |496|[下一个更大元素 I next-greater-element-i](https://leetcode-cn.com/problems/next-greater-element-i)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/496-next-greater-element-i/next-greater-element-i.py)|[:memo:](https://leetcode-cn.com/articles/next-greater-element-i/)|Easy|
 |498|[对角线遍历 diagonal-traverse](https://leetcode-cn.com/problems/diagonal-traverse)||[:memo:](https://leetcode-cn.com/articles/diagonal-traverse/)|Medium|
@@ -510,7 +510,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |513|[找树左下角的值 find-bottom-left-tree-value](https://leetcode-cn.com/problems/find-bottom-left-tree-value)||[:memo:](https://leetcode-cn.com/articles/find-bottom-left-tree-value/)|Medium|
 |514|[自由之路 freedom-trail](https://leetcode-cn.com/problems/freedom-trail)||[:memo:](https://leetcode-cn.com/articles/freedom-trail/)|Hard|
 |515|[在每个树行中找最大值 find-largest-value-in-each-tree-row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row)||[:memo:](https://leetcode-cn.com/articles/find-largest-value-in-each-tree-row/)|Medium|
-|516|[最长回文子序列 longest-palindromic-subsequence](https://leetcode-cn.com/problems/longest-palindromic-subsequence)||[:memo:](https://leetcode-cn.com/articles/longest-palindromic-subsequence/)|Medium|
+|516|[最长回文子序列 longest-palindromic-subsequence](https://leetcode-cn.com/problems/longest-palindromic-subsequence)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/516-longest-palindromic-subsequence/longest-palindromic-subsequence.py)|[:memo:](https://leetcode-cn.com/articles/longest-palindromic-subsequence/)|Medium|
 |517|[超级洗衣机 super-washing-machines](https://leetcode-cn.com/problems/super-washing-machines)||[:memo:](https://leetcode-cn.com/articles/super-washing-machines/)|Hard|
 |518|[零钱兑换 II coin-change-2](https://leetcode-cn.com/problems/coin-change-2)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/518-coin-change-2/coin-change-2.py)|[:memo:](https://leetcode-cn.com/articles/coin-change-2/)|Medium|
 |519|[范围和相等的最宽索引对 widest-pair-of-indices-with-equal-range-sum](https://leetcode-cn.com/problems/widest-pair-of-indices-with-equal-range-sum)|:lock:|[:memo:](https://leetcode-cn.com/articles/widest-pair-of-indices-with-equal-range-sum/)|Medium|
@@ -907,7 +907,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |964|[尽量减少恶意软件的传播 II minimize-malware-spread-ii](https://leetcode-cn.com/problems/minimize-malware-spread-ii)||[:memo:](https://leetcode-cn.com/articles/minimize-malware-spread-ii/)|Hard|
 |965|[独特的电子邮件地址 unique-email-addresses](https://leetcode-cn.com/problems/unique-email-addresses)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/965-unique-email-addresses/unique-email-addresses.py)|[:memo:](https://leetcode-cn.com/articles/unique-email-addresses/)|Easy|
 |966|[和相同的二元子数组 binary-subarrays-with-sum](https://leetcode-cn.com/problems/binary-subarrays-with-sum)||[:memo:](https://leetcode-cn.com/articles/binary-subarrays-with-sum/)|Medium|
-|967|[下降路径最小和 minimum-falling-path-sum](https://leetcode-cn.com/problems/minimum-falling-path-sum)||[:memo:](https://leetcode-cn.com/articles/minimum-falling-path-sum/)|Medium|
+|967|[下降路径最小和 minimum-falling-path-sum](https://leetcode-cn.com/problems/minimum-falling-path-sum)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/967-minimum-falling-path-sum/minimum-falling-path-sum.py)|[:memo:](https://leetcode-cn.com/articles/minimum-falling-path-sum/)|Medium|
 |968|[漂亮数组 beautiful-array](https://leetcode-cn.com/problems/beautiful-array)||[:memo:](https://leetcode-cn.com/articles/beautiful-array/)|Medium|
 |969|[最近的请求次数 number-of-recent-calls](https://leetcode-cn.com/problems/number-of-recent-calls)|[Python](https://github.com/ruanima/leetcode/blob/master/questions/969-number-of-recent-calls/number-of-recent-calls.py)|[:memo:](https://leetcode-cn.com/articles/number-of-recent-calls/)|Easy|
 |971|[最短的桥 shortest-bridge](https://leetcode-cn.com/problems/shortest-bridge)||[:memo:](https://leetcode-cn.com/articles/shortest-bridge/)|Medium|
@@ -1230,6 +1230,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1350|[删除子文件夹 remove-sub-folders-from-the-filesystem](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem)||[:memo:](https://leetcode-cn.com/articles/remove-sub-folders-from-the-filesystem/)|Medium|
 |1351|[替换子串得到平衡字符串 replace-the-substring-for-balanced-string](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string)||[:memo:](https://leetcode-cn.com/articles/replace-the-substring-for-balanced-string/)|Medium|
 |1352|[规划兼职工作 maximum-profit-in-job-scheduling](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling)||[:memo:](https://leetcode-cn.com/articles/maximum-profit-in-job-scheduling/)|Hard|
+|1355|[美化数组的最少删除数 minimum-deletions-to-make-array-beautiful](https://leetcode-cn.com/problems/minimum-deletions-to-make-array-beautiful)||[:memo:](https://leetcode-cn.com/articles/minimum-deletions-to-make-array-beautiful/)|Medium|
 |1356|[得到回文串的最少操作次数 minimum-number-of-moves-to-make-palindrome](https://leetcode-cn.com/problems/minimum-number-of-moves-to-make-palindrome)||[:memo:](https://leetcode-cn.com/articles/minimum-number-of-moves-to-make-palindrome/)|Hard|
 |1358|[找出给定方程的正整数解 find-positive-integer-solution-for-a-given-equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation)||[:memo:](https://leetcode-cn.com/articles/find-positive-integer-solution-for-a-given-equation/)|Medium|
 |1359|[循环码排列 circular-permutation-in-binary-representation](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)||[:memo:](https://leetcode-cn.com/articles/circular-permutation-in-binary-representation/)|Medium|
@@ -1244,6 +1245,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1371|[移除无效的括号 minimum-remove-to-make-valid-parentheses](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses)||[:memo:](https://leetcode-cn.com/articles/minimum-remove-to-make-valid-parentheses/)|Medium|
 |1372|[检查「好数组」 check-if-it-is-a-good-array](https://leetcode-cn.com/problems/check-if-it-is-a-good-array)||[:memo:](https://leetcode-cn.com/articles/check-if-it-is-a-good-array/)|Hard|
 |1374|[至少有一个 1 的最左端列 leftmost-column-with-at-least-a-one](https://leetcode-cn.com/problems/leftmost-column-with-at-least-a-one)|:lock:|[:memo:](https://leetcode-cn.com/articles/leftmost-column-with-at-least-a-one/)|Medium|
+|1375|[找到指定长度的回文数 find-palindrome-with-fixed-length](https://leetcode-cn.com/problems/find-palindrome-with-fixed-length)||[:memo:](https://leetcode-cn.com/articles/find-palindrome-with-fixed-length/)|Medium|
 |1378|[奇数值单元格的数目 cells-with-odd-values-in-a-matrix](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix)||[:memo:](https://leetcode-cn.com/articles/cells-with-odd-values-in-a-matrix/)|Easy|
 |1379|[重构 2 行二进制矩阵 reconstruct-a-2-row-binary-matrix](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix)||[:memo:](https://leetcode-cn.com/articles/reconstruct-a-2-row-binary-matrix/)|Medium|
 |1380|[统计封闭岛屿的数目 number-of-closed-islands](https://leetcode-cn.com/problems/number-of-closed-islands)||[:memo:](https://leetcode-cn.com/articles/number-of-closed-islands/)|Medium|
@@ -1256,6 +1258,8 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1388|[可被三整除的最大和 greatest-sum-divisible-by-three](https://leetcode-cn.com/problems/greatest-sum-divisible-by-three)||[:memo:](https://leetcode-cn.com/articles/greatest-sum-divisible-by-three/)|Medium|
 |1389|[推箱子 minimum-moves-to-move-a-box-to-their-target-location](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location)||[:memo:](https://leetcode-cn.com/articles/minimum-moves-to-move-a-box-to-their-target-location/)|Hard|
 |1391|[数元素 counting-elements](https://leetcode-cn.com/problems/counting-elements)|:lock:|[:memo:](https://leetcode-cn.com/articles/counting-elements/)|Easy|
+|1392|[找出两数组的不同 find-the-difference-of-two-arrays](https://leetcode-cn.com/problems/find-the-difference-of-two-arrays)||[:memo:](https://leetcode-cn.com/articles/find-the-difference-of-two-arrays/)|Easy|
+|1393|[从栈中取出 K 个硬币的最大面值和 maximum-value-of-k-coins-from-piles](https://leetcode-cn.com/problems/maximum-value-of-k-coins-from-piles)||[:memo:](https://leetcode-cn.com/articles/maximum-value-of-k-coins-from-piles/)|Hard|
 |1395|[访问所有点的最小时间 minimum-time-visiting-all-points](https://leetcode-cn.com/problems/minimum-time-visiting-all-points)||[:memo:](https://leetcode-cn.com/articles/minimum-time-visiting-all-points/)|Easy|
 |1396|[统计参与通信的服务器 count-servers-that-communicate](https://leetcode-cn.com/problems/count-servers-that-communicate)||[:memo:](https://leetcode-cn.com/articles/count-servers-that-communicate/)|Medium|
 |1397|[搜索推荐系统 search-suggestions-system](https://leetcode-cn.com/problems/search-suggestions-system)||[:memo:](https://leetcode-cn.com/articles/search-suggestions-system/)|Medium|

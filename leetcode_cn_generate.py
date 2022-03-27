@@ -300,6 +300,8 @@ class Leetcode:
         return
 
     def _get_solution_languages_from_file(self, dirname):
+        if not os.path.exists(dirname):
+            return []
         now = datetime.now()
         res = []
         files = [os.path.join(dirname, i) for i in os.listdir(dirname)]
