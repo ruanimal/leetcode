@@ -488,8 +488,8 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
             else:
                 if item.pass_language:
                     language = ''
-                    for lan in item.pass_language:
-                        if lan not in self.languages:
+                    for lan in self.languages:
+                        if lan not in item.pass_language:
                             continue
                         language += '[{language}]({repo}/blob/master/{dirname}/{title}.{ext})'.format(language=lan.capitalize(), repo=CONFIG['repo'],
                                                                                                  dirname=dirname, title=item.title,
