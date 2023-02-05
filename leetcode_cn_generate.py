@@ -24,7 +24,7 @@ from pyquery import PyQuery as pq
 HOME = os.getcwd()
 QUESTIONS = 'questions'
 CONFIG_FILE = os.path.join(HOME, 'config.cfg')
-DOMAIN = 'leetcode-cn.com'
+DOMAIN = 'leetcode.cn'
 BASE_URL = 'https://{}'.format(DOMAIN)
 GRAPHQL_LIMIT = 100
 FILE_EXPIRE = 180   # 代码文件更新时间
@@ -227,6 +227,14 @@ class Leetcode:
             language = 'python' if i['lang'] == 'python3' else i['lang']  # handle python and python3
             yield dict(id=idx, subTime=subTime, status=status, url=url,
                         runTime=runTime, language=language)
+
+    def _get_user_status(self):
+        data = {
+            "query": "\n    query globalData {\n  userStatus {\n    isSignedIn\n    isPremium\n    username\n    realName\n    avatar\n    userSlug\n    isAdmin\n    checkedInToday\n    useTranslation\n    premiumExpiredAt\n    isTranslator\n    isSuperuser\n    isPhoneVerified\n    isVerified\n  }\n  jobsMyCompany {\n    nameSlug\n  }\n  commonNojPermissionTypes\n}\n    ",
+            "variables": {}
+        }
+        res = _query(self.session, 'POST', '/graphql/', json=data)
+        return res['data']['userStatus']
 
     def _get_question_detail(self, slug):
         """
@@ -454,7 +462,7 @@ class Leetcode:
         md = '''# :pencil2: Leetcode Solutions with {language}
 Update time:  {tm}
 
-Auto created by [leetcode_cn_generate](https://github.com/ruanima/leetcode_cn_generate)
+Auto created by [leetcode_cn_generate](https://github.com/ruanimal/leetcode_cn_generate)
 
 Fork from [bonfy](https://github.com/bonfy/leetcode)
 
@@ -511,7 +519,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 def main(args):
     leetcode = Leetcode()
     leetcode.login(args.session)
-    print('Leetcode login')
+    if args.session:
+        print('Leetcode login with LEETCODE_SESSION')
+    else:
+        print('Leetcode login with password')
     leetcode.load()
     print('Leetcode load self info')
 
