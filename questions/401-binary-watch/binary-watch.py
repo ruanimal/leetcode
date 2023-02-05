@@ -1,10 +1,10 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16375522,UPDATE:20220325>
+# <SUBID:314818875,UPDATE:20230205>
 # English:
-# A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6 LEDs on the bottom represent the minutes (0-59). Each LED represents a zero or one, with the least significant bit on the right.
+# A binary watch has 4 LEDs on the top to represent the hours (0-11), and 6 LEDs on the bottom to represent the minutes (0-59). Each LED represents a zero or one, with the least significant bit on the right.
 # For example, the below binary watch reads "4:51".
-# Given an integer turnedOn which represents the number of LEDs that are currently on, return all possible times the watch could represent. You may return the answer in any order.
+# Given an integer turnedOn which represents the number of LEDs that are currently on (ignoring the PM), return all possible times the watch could represent. You may return the answer in any order.
 # The hour must not contain a leading zero.
 # For example, "01:00" is not valid. It should be "1:00".
 # The minute must be consist of two digits and may contain a leading zero.
@@ -34,7 +34,7 @@
 
 
 #
-# @lc app=leetcode.cn id=401 lang=python
+# @lc app=leetcode.cn id=401 lang=python3
 #
 # [401] 二进制手表
 #
@@ -75,10 +75,8 @@
 #
 #
 class Solution(object):
-    def readBinaryWatch(self, num):
-        """
-        :type num: int
-        :rtype: List[str]
+    def readBinaryWatch(self, num: int) -> list:
+        """位运算
         """
         ret = []
         for i in range(2**10):

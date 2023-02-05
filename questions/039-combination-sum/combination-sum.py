@@ -1,10 +1,10 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:197172180,UPDATE:20220325>
+# <SUBID:197172180,UPDATE:20230205>
 # English:
 # Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.
 # The same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different.
-# It is guaranteed that the number of unique combinations that sum up to target is less than 150 combinations for the given input.
+# The test cases are generated such that the number of unique combinations that sum up to target is less than 150 combinations for the given input.
 # Example 1:
 # Input: candidates = [2,3,6,7], target = 7 Output: [[2,2,3],[7]] Explanation: 2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times. 7 is a candidate, and 7 = 7. These are the only two combinations.
 # Example 2:
@@ -13,9 +13,9 @@
 # Input: candidates = [2], target = 1 Output: []
 # Constraints:
 # 1 <= candidates.length <= 30
-# 1 <= candidates[i] <= 200
+# 2 <= candidates[i] <= 40
 # All elements of candidates are distinct.
-# 1 <= target <= 500
+# 1 <= target <= 40
 #
 # 中文:
 # 给你一个 无重复元素 的整数数组 candidates 和一个目标整数 target ，找出 candidates 中可以使数字和为目标数 target 的 所有 不同组合 ，并以列表形式返回。你可以按 任意顺序 返回这些组合。
@@ -29,9 +29,9 @@
 # 输入: candidates = [2], target = 1 输出: []
 # 提示：
 # 1 <= candidates.length <= 30
-# 1 <= candidates[i] <= 200
-# candidate 中的每个元素都 互不相同
-# 1 <= target <= 500
+# 2 <= candidates[i] <= 40
+# candidates 的所有元素 互不相同
+# 1 <= target <= 40
 
 
 class Solution(object):

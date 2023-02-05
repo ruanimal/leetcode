@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20716347,UPDATE:20220325>
+# <SUBID:20716347,UPDATE:20230205>
 # English:
 # An axis-aligned rectangle is represented as a list [x1, y1, x2, y2], where (x1, y1) is the coordinate of its bottom-left corner, and (x2, y2) is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis.
 # Two rectangles overlap if the area of their intersection is positive. To be clear, two rectangles that only touch at the corner or edges do not overlap.
@@ -12,8 +12,8 @@
 # Example 3:
 # Input: rec1 = [0,0,1,1], rec2 = [2,2,3,3] Output: false
 # Constraints:
-# rect1.length == 4
-# rect2.length == 4
+# rec1.length == 4
+# rec2.length == 4
 # -109 <= rec1[i], rec2[i] <= 109
 # rec1 and rec2 represent a valid rectangle with a non-zero area.
 #

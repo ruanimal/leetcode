@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15959061,UPDATE:20220325>
+# <SUBID:313256597,UPDATE:20230205>
 # English:
-# Given an array, rotate the array to the right by k steps, where k is non-negative.
+# Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 # Example 1:
 # Input: nums = [1,2,3,4,5,6,7], k = 3 Output: [5,6,7,1,2,3,4] Explanation: rotate 1 steps to the right: [7,1,2,3,4,5,6] rotate 2 steps to the right: [6,7,1,2,3,4,5] rotate 3 steps to the right: [5,6,7,1,2,3,4]
 # Example 2:
@@ -16,7 +16,7 @@
 # Could you do it in-place with O(1) extra space?
 #
 # 中文:
-# 给你一个数组，将数组中的元素向右轮转 k 个位置，其中 k 是非负数。
+# 给定一个整数数组 nums，将数组中的元素向右轮转 k 个位置，其中 k 是非负数。
 # 示例 1:
 # 输入: nums = [1,2,3,4,5,6,7], k = 3 输出: [5,6,7,1,2,3,4] 解释: 向右轮转 1 步: [7,1,2,3,4,5,6] 向右轮转 2 步: [6,7,1,2,3,4,5] 向右轮转 3 步: [5,6,7,1,2,3,4]
 # 示例 2:
@@ -31,7 +31,7 @@
 
 
 #
-# @lc app=leetcode.cn id=189 lang=python
+# @lc app=leetcode.cn id=189 lang=python3
 #
 # [189] 旋转数组
 #
@@ -73,14 +73,34 @@
 #
 
 
-class Solution(object):
-    def rotate(self, nums, k):
+class SolutionA(object):
+    def rotate(self, nums: list, k: int):
         """
-        :type nums: List[int]
-        :type k: int
-        :rtype: void Do not return anything, modify nums in-place instead.
+        暴力队列法
         """
-        for i in xrange(k):
+        k = k % len(nums)
+        for i in range(k):
             tmp = nums.pop()
             nums.insert(0, tmp)
+
+class Solution(object):
+    def reverse(self, nums, i, j):
+        while i < j:
+            nums[i], nums[j] = nums[j], nums[i]
+            i += 1
+            j -= 1
+
+    def rotate(self, nums: list, k: int):
+        """
+        三次翻转法
+        """
+
+        k = k % len(nums)
+        self.reverse(nums, 0, len(nums)-1)
+        self.reverse(nums, 0, k-1)
+        self.reverse(nums, k, len(nums)-1)
+
+nums = [1,2,3,4,5,6,7]
+Solution().rotate(nums, 3)
+print(nums)
 

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17612786,UPDATE:20220325>
+# <SUBID:318580546,UPDATE:20230205>
 # English:
 # You are given two binary trees root1 and root2.
 # Imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. You need to merge the two trees into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of the new tree.
@@ -29,7 +29,7 @@
 
 
 #
-# @lc app=leetcode.cn id=617 lang=python
+# @lc app=leetcode.cn id=617 lang=python3
 #
 # [617] 合并二叉树
 #
@@ -69,18 +69,15 @@
 #
 #
 # Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution(object):
-    def mergeTrees(self, t1, t2):
-        """
-        :type t1: TreeNode
-        :type t2: TreeNode
-        :rtype: TreeNode
+    def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
+        """递归处理
         """
         if not t1:
             return t2

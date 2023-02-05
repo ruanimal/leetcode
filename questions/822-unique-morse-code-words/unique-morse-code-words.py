@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17612566,UPDATE:20220325>
+# <SUBID:17612566,UPDATE:20230205>
 # English:
 # International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
 # 'a' maps to ".-",

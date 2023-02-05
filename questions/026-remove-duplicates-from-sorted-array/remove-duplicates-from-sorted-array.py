@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:282366125,UPDATE:20220325>
+# <SUBID:282366125,UPDATE:20230205>
 # English:
 # Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
 # Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.
@@ -33,7 +33,7 @@
 # 示例 2：
 # 输入：nums = [0,0,1,1,1,2,2,3,3,4] 输出：5, nums = [0,1,2,3,4] 解释：函数应该返回新的长度 5 ， 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4 。不需要考虑数组中超出新长度后面的元素。
 # 提示：
-# 0 <= nums.length <= 3 * 104
+# 1 <= nums.length <= 3 * 104
 # -104 <= nums[i] <= 104
 # nums 已按 升序 排列
 

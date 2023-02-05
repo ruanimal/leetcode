@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15959375,UPDATE:20220325>
+# <SUBID:15959375,UPDATE:20230205>
 # English:
 # Reverse bits of a given 32 bits unsigned integer.
 # Note:

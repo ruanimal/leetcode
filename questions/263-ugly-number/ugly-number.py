@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15986912,UPDATE:20220325>
+# <SUBID:313809545,UPDATE:20230205>
 # English:
 # An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.
 # Given an integer n, return true if n is an ugly number.
@@ -27,7 +27,7 @@
 
 
 #
-# @lc app=leetcode.cn id=263 lang=python
+# @lc app=leetcode.cn id=263 lang=python3
 #
 # [263] 丑数
 #
@@ -72,15 +72,14 @@
 #
 
 
-class Solution(object):
-    def isUgly(self, num):
+class SolutionA(object):
+    def isUgly(self, num: int) -> bool:
         """
-        :type num: int
-        :rtype: bool
+        暴力法
         """
         div_map = [2, 3, 5]
         while num > 1:
-            flags = map(lambda x: num % x, div_map)
+            flags = [num % x for x in div_map]
             try:
                 next_act = flags.index(0)
             except ValueError:
@@ -91,5 +90,21 @@ class Solution(object):
             return True
         return False
 
+class Solution(object):
+    def isUgly(self, num: int) -> bool:
+        """
+        如果是丑数
+        则 num = 2 ** a * 3 ** b * 5 ** c
+        """
 
+        while num:
+            if num % 5 == 0:
+                num = num // 5
+            elif num % 3 == 0:
+                num = num // 3
+            elif num % 2 == 0:
+                num = num // 2
+            else:
+                break
+        return (num == 1)
 

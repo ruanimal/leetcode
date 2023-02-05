@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15986016,UPDATE:20220325>
+# <SUBID:313304019,UPDATE:20230205>
 # English:
 # Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
 # Example 1:
@@ -29,7 +29,7 @@
 
 
 #
-# @lc app=leetcode.cn id=219 lang=python
+# @lc app=leetcode.cn id=219 lang=python3
 #
 # [219] 存在重复元素 II
 #
@@ -61,20 +61,19 @@
 #
 #
 class Solution(object):
-    def containsNearbyDuplicate(self, nums, k):
+    def containsNearbyDuplicate(self, nums: list, k: int) -> bool:
         """
-        :type nums: List[int]
-        :type k: int
-        :rtype: bool
+        计数法
         """
         index_map = {}
         for i, ele in enumerate(nums):
-            index_map.setdefault(ele, []).append(i)
-        for key, val in index_map.iteritems():
-            if len(val) >= 2:
-                val.sort()
-                for i in xrange(len(val)-1):
-                    if val[i+1] - val[i] <= k:
-                        return True
+            if ele not in index_map:
+                index_map[ele] = [i]
+            else:
+                index_map[ele].append(i)
+                if index_map[ele][-1] - index_map[ele][-2] <= k:
+                    return True
         return False
+
+# TODO(rlj): 可以用双指针法.
 

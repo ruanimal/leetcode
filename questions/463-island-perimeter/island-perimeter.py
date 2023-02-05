@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18071285,UPDATE:20220325>
+# <SUBID:317294498,UPDATE:20230205>
 # English:
 # You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.
 # Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
@@ -35,51 +35,21 @@
 # grid[i][j] 为 0 或 1
 
 
-#
-# @lc app=leetcode.cn id=463 lang=python
-#
-# [463] 岛屿的周长
-#
-class Solution(object):
-    def islandPerimeter(self, grid):
+class Solution:
+    def islandPerimeter(self, grid: List[List[int]]) -> int:
         """
-        :type grid: List[List[int]]
-        :rtype: int
+        每个陆地块对边长的贡献为4, 如果上下左右是否有1块陆地则边长减一,
         """
-
-        marks_map = []
-        begin = None
-        for x in range(len(grid)):
-            marks_map.append([])
-            for y in range(len(grid[0])):
-                marks_map[x].append(False)
-                if not begin and grid[x][y] == 1:
-                    begin = (x, y)
 
         length = 0
-        level = []
-        marks_map[begin[0]][begin[1]] = True
-        level.append(begin)
-        while level:
-            next_level = []
-            for x, y in level:
+        for x in range(len(grid)):
+            for y in range(len(grid[0])):
+                if grid[x][y] == 0:
+                    continue
                 length += 4
                 for nx, ny in [(x+1, y), (x-1, y), (x, y+1), (x, y-1),]:
                     if (0 <= nx < len(grid)) and (0 <= ny < len(grid[0])):
                         if grid[nx][ny] == 1:
                             length -= 1
-                            if not marks_map[nx][ny]:
-                                next_level.append((nx, ny))
-                                marks_map[nx][ny] = True
-            level = next_level
         return length
-
-if __name__ == "__main__":
-    s = Solution().islandPerimeter([[0,1,0,0],
-        [1,1,1,0],
-        [0,1,0,0],
-        [1,1,0,0]])
-    print(s)
-    s = Solution().islandPerimeter([[1,1], [1,1]])
-    print(s)
 

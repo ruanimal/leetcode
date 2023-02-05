@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:282601175,UPDATE:20220325>
+# <SUBID:308694743,UPDATE:20230205>
 # English:
 # Given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right, and return the reversed list.
 # Example 1:
@@ -28,42 +28,6 @@
 # 进阶： 你可以使用一趟扫描完成反转吗？
 
 
-# -*- coding:utf-8 -*-
-#
-# @lc app=leetcode.cn id=92 lang=python3
-#
-# [92] 反转链表 II
-#
-# https://leetcode-cn.com/problems/reverse-linked-list-ii/description/
-#
-# algorithms
-# Medium (41.13%)
-# Total Accepted:    7.6K
-# Total Submissions: 18K
-# Testcase Example:  '[1,2,3,4,5]\n2\n4'
-#
-# 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
-#
-# 说明:
-# 1 ≤ m ≤ n ≤ 链表长度。
-#
-# 示例:
-#
-# 输入: 1->2->3->4->5->NULL, m = 2, n = 4
-# 输出: 1->4->3->2->5->NULL
-#
-#
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
-
-try:
-    from comm import *
-except ImportError:
-    LOCAL_TEST = False
 
 
 class Solution_A:
@@ -91,6 +55,10 @@ class Solution_A:
 
 class Solution:
     def reverseN(self, head: ListNode, n: int) -> ListNode:
+        """
+        递归法, 实现简单, 稍微有理解难度
+        """
+
         if n <= 1 or not head.next:
             self.successor = head.next
             return head
@@ -108,12 +76,4 @@ class Solution:
             return self.reverseN(head, n)
         head.next = self.reverseBetween(head.next, m-1, n-1)
         return head
-
-
-if LOCAL_TEST:
-    l = build_list_node([3,5])
-    # print(l)
-    # print('---')
-    # print(Solution().reverseN(l, 2))
-    print(Solution().reverseBetween(l, 1, 2))
 

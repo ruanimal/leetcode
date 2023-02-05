@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21299990,UPDATE:20220325>
+# <SUBID:308540910,UPDATE:20230205>
 # English:
 # Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
 # Example 1:
@@ -21,7 +21,7 @@
 
 
 #
-# @lc app=leetcode.cn id=59 lang=python
+# @lc app=leetcode.cn id=59 lang=python3
 #
 # [59] 螺旋矩阵 II
 #
@@ -53,6 +53,7 @@ class Solution(object):
         """
         :type n: int
         :rtype: List[List[int]]
+        和第54题基本一致
         """
         ans = [[0 for _ in range(n)] for _ in range(n)]
         pos = [0, -1]

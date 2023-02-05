@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:282695915,UPDATE:20220325>
+# <SUBID:309815356,UPDATE:20230205>
 # English:
 # Given the root of a binary tree, flatten the tree into a "linked list":
 # The "linked list" should use the same TreeNode class where the right child pointer points to the next node in the list and the left child pointer is always null.
@@ -39,11 +39,6 @@
 #         self.left = left
 #         self.right = right
 
-try:
-    from comm import *
-except ImportError:
-    LOCAL_TEST = False
-
 class Solution:
     def flatten(self, root: Optional[TreeNode]) -> None:
         """
@@ -52,8 +47,9 @@ class Solution:
         if not root:
             return
 
-        left = self.flatten(root.left)
-        right = self.flatten(root.right)
+        left = self.flatten(root.left)  # 左侧展开
+        right = self.flatten(root.right)  # 右侧展开
+        # 后序位置操作, 将左侧接到右节点, 将右侧接到节点的末尾
         root.left = None
         root.right = left
         p = root

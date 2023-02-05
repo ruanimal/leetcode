@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21419827,UPDATE:20220325>
+# <SUBID:301771080,UPDATE:20230205>
 # English:
 # Given a string s, return the longest palindromic substring in s.
 # Example 1:
@@ -13,6 +13,7 @@
 #
 # 中文:
 # 给你一个字符串 s，找到 s 中最长的回文子串。
+# 如果字符串的反序与原始字符串相同，则该字符串称为回文字符串。
 # 示例 1：
 # 输入：s = "babad" 输出："bab" 解释："aba" 同样是符合题意的答案。
 # 示例 2：
@@ -23,7 +24,7 @@
 
 
 #
-# @lc app=leetcode.cn id=5 lang=python
+# @lc app=leetcode.cn id=5 lang=python3
 #
 # [5] 最长回文子串
 #
@@ -117,48 +118,23 @@ class Solution(object):
         这里我要提出一个疑问：为什么在动态规划的算法中，不用考虑回文串长度的奇偶性呢。想一想，答案就在状态转移方程里面。
 
         动态规划的方法事实上有点像“中心扩散法”的逆过程，想一想是不是这么回事。
-
-        作者：liweiwei1419
-        链接：https://leetcode-cn.com/problems/two-sum/solution/zhong-xin-kuo-san-dong-tai-gui-hua-by-liweiwei1419/
-        来源：力扣（LeetCode）
-        著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
         """
 
-        # # 动态规划
-        # if len(s) <= 1:
-        #     return s
-
-        # ans = s[0]
-        # dp = [[0 for _ in s] for _ in s]
-        # for i in range(len(s)):
-        #     dp[i][i] = 1
-        #     for j in range(i):
-        #         if s[i] == s[j] and (i-j < 2 or dp[j+1][i-1]):
-        #             dp[j][i] = 1
-        #             if (i - j + 1) > len(ans):
-        #                 ans = s[j:i+1]
-        # return ans
-
-        size = len(s)
-        if size <= 1:
+        # 动态规划
+        if len(s) <= 1:
             return s
-        # 二维 dp 问题
-        # 状态：dp[i,j]: s[i:j] 包括 i，j ，表示的字符串是不是回文串
-        dp = [[False for _ in range(size)] for _ in range(size)]
 
-        longest_l = 1
-        res = s[0]
-
-        for i in range(size):
+        ans = s[0]
+        dp = [[0 for _ in s] for _ in s]
+        for i in range(len(s)):
+            dp[i][i] = 1
             for j in range(i):
-                # 状态转移方程：如果头尾字符相等并且中间也是回文
-                # 或者中间的长度小于等于 1
-                if s[j] == s[i] and (i - j <= 2 or dp[j + 1][i - 1]):
-                    dp[j][i] = True
-                    if i - j + 1 > longest_l:
-                        longest_l = i - j + 1
-                        res = s[j:i + 1]
-        return res
+                if s[i] == s[j] and (i-j < 2 or dp[j+1][i-1]):
+                    dp[j][i] = 1
+                    if (i - j + 1) > len(ans):
+                        ans = s[j:i+1]
+        return ans
+
 
 if __name__ == "__main__":
     s = Solution().longestPalindrome('babcb')

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17676059,UPDATE:20220325>
+# <SUBID:319665990,UPDATE:20230205>
 # English:
 # Every valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.
 # For example, in "alice@leetcode.com", "alice" is the local name, and "leetcode.com" is the domain name.
@@ -46,17 +46,10 @@
 # 本地名不会以 '+' 字符作为开头
 
 
-#
-# @lc app=leetcode.cn id=929 lang=python
-#
-# [929] 特殊等价字符串组
-#
-class Solution(object):
-    def numUniqueEmails(self, emails):
-        """
-        :type emails: List[str]
-        :rtype: int
-        """
+class Solution:
+    def numUniqueEmails(self, emails: List[str]) -> int:
+        """简单模拟"""
+
         ret = set()
         for email in emails:
             at_idx = email.index('@')
@@ -71,8 +64,3 @@ class Solution(object):
             ret.add(''.join(tmp))
         # print(ret)
         return len(ret)
-
-if __name__ == "__main__":
-    s = Solution().numUniqueEmails(["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"])
-    print(s)
-

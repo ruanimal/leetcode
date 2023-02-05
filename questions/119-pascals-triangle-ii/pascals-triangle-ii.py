@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15957213,UPDATE:20220325>
+# <SUBID:309821895,UPDATE:20230205>
 # English:
 # Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
 # In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
@@ -30,7 +30,7 @@
 
 
 #
-# @lc app=leetcode.cn id=119 lang=python
+# @lc app=leetcode.cn id=119 lang=python3
 #
 # [119] 杨辉三角 II
 #
@@ -62,20 +62,15 @@
 
 
 class Solution(object):
-    map_dict = {0: [1], 1: [1, 1]}
+    map_dict = {0: [1], 1: [1, 1]}  # 因为杨辉三角都是一样的, 用全局缓存
 
-    def getRow(self, rowIndex):
-        """
-        :type rowIndex: int
-        :rtype: List[int]
-        """
+    def getRow(self, rowIndex: int) -> list:
         if rowIndex in Solution.map_dict:
             return Solution.map_dict[rowIndex]
-        tmp = [1]
-        for i in xrange(1, rowIndex):
-            tmp.append(self.getRow(rowIndex-1)
-                       [i-1] + self.getRow(rowIndex-1)[i])
-        tmp.append(1)
+        tmp = [1]   # 该行的开头
+        for i in range(1, rowIndex):
+            tmp.append(self.getRow(rowIndex-1)[i-1] + self.getRow(rowIndex-1)[i])
+        tmp.append(1)  # 该行的结尾
         Solution.map_dict[rowIndex] = tmp
         return tmp
 

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21302765,UPDATE:20220325>
+# <SUBID:301763602,UPDATE:20230205>
 # English:
 # Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
 # Example 1:
@@ -28,38 +28,8 @@
 # nums 中的所有整数 互不相同
 
 
-#
-# @lc app=leetcode.cn id=46 lang=python
-#
-# [46] 全排列
-#
-# https://leetcode-cn.com/problems/permutations/description/
-#
-# algorithms
-# Medium (68.43%)
-# Likes:    290
-# Dislikes: 0
-# Total Accepted:    28.4K
-# Total Submissions: 40.7K
-# Testcase Example:  '[1,2,3]'
-#
-# 给定一个没有重复数字的序列，返回其所有可能的全排列。
-#
-# 示例:
-#
-# 输入: [1,2,3]
-# 输出:
-# [
-# ⁠ [1,2,3],
-# ⁠ [1,3,2],
-# ⁠ [2,1,3],
-# ⁠ [2,3,1],
-# ⁠ [3,1,2],
-# ⁠ [3,2,1]
-# ]
-#
-#
-class Solution(object):
+
+class Solution_A(object):
     def permute(self, nums):
         """
         :type nums: List[int]
@@ -84,10 +54,26 @@ class Solution(object):
         dfs(0, [])
         return ans
 
-if __name__ == "__main__":
-    s = Solution().permute([1,2,3])
-    print(s)
-    s = Solution().permute([])
-    print(s)
+class Solution(object):
+    def permute(self, nums):
+        def backtrack(nums, level):
+            if level == len(nums):
+                ans.append(track[::])
+                return
 
+            for i in range(len(nums)):
+                if not used[i]:
+                    used[i] = 1
+                    track.append(nums[i])
+                    backtrack(nums, level+1)
+                    track.pop()
+                    used[i] = 0
+
+        if len(nums) == 0:
+            return []
+        ans = []
+        track = []
+        used = [0] * len(nums)
+        backtrack(nums, 0)
+        return ans
 

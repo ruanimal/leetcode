@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21051833,UPDATE:20220325>
+# <SUBID:21051833,UPDATE:20230205>
 # English:
 # Given an integer n, return the number of prime numbers that are strictly less than n.
 # Example 1:

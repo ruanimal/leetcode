@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:19961574,UPDATE:20220325>
+# <SUBID:19961574,UPDATE:20230205>
 # English:
 # Given an integer num, return a string of its base 7 representation.
 # Example 1:

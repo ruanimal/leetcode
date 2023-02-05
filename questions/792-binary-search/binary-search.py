@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:24995448,UPDATE:20220325>
+# <SUBID:319269701,UPDATE:20230205>
 # English:
 # Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 # You must write an algorithm with O(log n) runtime complexity.
@@ -28,7 +28,7 @@
 
 
 #
-# @lc app=leetcode.cn id=704 lang=python
+# @lc app=leetcode.cn id=704 lang=python3
 #
 # [704] Binary Search
 #
@@ -71,39 +71,16 @@
 #
 class Solution(object):
     def search(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
-        """
         left = 0
         right = len(nums) - 1
         while left < right:
-            mid = (left + right) // 2
+            mid = (left + right) >> 1
             if nums[mid] < target:
                 left = mid + 1
             else:
                 right = mid
         if nums[left] == target:
             return left
-        return -1
-
-    def search_v1(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: int
-        """
-        left = 0
-        right = len(nums) - 1
-        while left <= right:
-            mid = (left + right) // 2
-            if target < nums[mid]:
-                right = mid - 1
-            elif nums[mid] < target:
-                left = mid + 1
-            else:
-                return mid
         return -1
 
 if __name__ == "__main__":

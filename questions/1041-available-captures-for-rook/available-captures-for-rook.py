@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18063279,UPDATE:20220325>
+# <SUBID:319945121,UPDATE:20230205>
 # English:
 # On an 8 x 8 chessboard, there is exactly one white rook 'R' and some number of white bishops 'B', black pawns 'p', and empty squares '.'.
 # When the rook moves, it chooses one of four cardinal directions (north, east, south, or west), then moves in that direction until it chooses to stop, reaches the edge of the board, captures a black pawn, or is blocked by a white bishop. A rook is considered attacking a pawn if the rook can capture the pawn on the rook's turn. The number of available captures for the white rook is the number of pawns that the rook is attacking.
@@ -37,53 +37,9 @@
 # 只有一个格子上存在 board[i][j] == 'R'
 
 
-#
-# @lc app=leetcode.cn id=999 lang=python
-#
-# [999] 车的可用捕获量
-#
-class Solution(object):
-    def numRookCaptures(self, board):
-        """
-        :type board: List[List[str]]
-        :rtype: int
-        """
-
-        '''
-        # 广度优先检索, 求所有能走到的方格, 与题意不符
-        marks_map = []
-        rook = None
-        total_pawn_count = 0
-        for x in range(len(board)):
-            marks_map.append([])
-            for y in range(len(board[0])):
-                if board[x][y] == 'B':
-                    marks_map[x].append(True)
-                elif board[x][y] == 'R':
-                    rook = (x, y)
-                    marks_map[x].append(True)
-                elif board[x][y] == 'p':
-                    total_pawn_count += 1
-                    marks_map[x].append(False)
-                else:
-                    marks_map[x].append(False)
-
-        level = []
-        marks_map[rook[0]][rook[1]] = True
-        level.append(rook)
-        pawn_count = 0
-        while level:
-            next_level = []
-            for x, y in level:
-                if board[x][y] == 'p':
-                    pawn_count += 1
-                marks_map[x][y] = True
-                for nx, ny in [ (x+1, y), (x-1, y), (x, y+1), (x, y-1),]:
-                    if ( (0 <= nx < len(board)) and (0 <= ny < len(board[0])) and not marks_map[nx][ny]):
-                        next_level.append((nx, ny))
-            level = next_level
-        return pawn_count
-        '''
+class Solution:
+    def numRookCaptures(self, board: List[List[str]]) -> int:
+        """暴力判断上下左右4个方向"""
 
         rook = None
         for x in range(len(board)):
@@ -120,9 +76,3 @@ class Solution(object):
             if board[x][y] == 'B':
                 break
         return ret
-
-if __name__ == "__main__":
-    s = Solution().numRookCaptures([[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","p",".",".",".","."],["p","p",".","R",".","p","B","."],[".",".",".",".",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."]])
-    print(s)
-
-

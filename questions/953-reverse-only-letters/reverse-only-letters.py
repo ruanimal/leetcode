@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:19692515,UPDATE:20220325>
+# <SUBID:19692515,UPDATE:20230205>
 # English:
 # Given a string s, reverse the string according to the following rules:
 # All the characters that are not English letters remain in the same position.

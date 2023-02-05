@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16393293,UPDATE:20220325>
+# <SUBID:308719450,UPDATE:20230205>
 # English:
 # Given the root of a binary tree, return the bottom-up level order traversal of its nodes' values. (i.e., from left to right, level by level from leaf to root).
 # Example 1:
@@ -26,53 +26,11 @@
 # -1000 <= Node.val <= 1000
 
 
-#
-# @lc app=leetcode.cn id=107 lang=python
-#
-# [107] 二叉树的层次遍历 II
-#
-# https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/description/
-#
-# algorithms
-# Easy (58.60%)
-# Total Accepted:    12.6K
-# Total Submissions: 21.2K
-# Testcase Example:  '[3,9,20,null,null,15,7]'
-#
-# 给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
-#
-# 例如：
-# 给定二叉树 [3,9,20,null,null,15,7],
-#
-# ⁠   3
-# ⁠  / \
-# ⁠ 9  20
-# ⁠   /  \
-# ⁠  15   7
-#
-#
-# 返回其自底向上的层次遍历为：
-#
-# [
-# ⁠ [15,7],
-# ⁠ [9,20],
-# ⁠ [3]
-# ]
-#
-#
-#
-# Definition for a binary tree node.
-class TreeNode(object):
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
 
 class Solution(object):
-    def levelOrderBottom(self, root):
+    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         """
-        :type root: TreeNode
-        :rtype: List[List[int]]
+        层次遍历然后反转
         """
         if not root:
             return []
@@ -90,17 +48,4 @@ class Solution(object):
                 ret.append([i.val for i in next_level])
             level = next_level
         return ret[::-1]
-
-if __name__ == "__main__":
-    n3 = TreeNode(3)
-    n9 = TreeNode(9)
-    n20 = TreeNode(20)
-    n15 = TreeNode(15)
-    n7 = TreeNode(7)
-    n3.left = n9
-    n3.right = n20
-    n20.left = n15
-    n20.right = n7
-    s = Solution().levelOrderBottom(n3)
-    print(s)
 

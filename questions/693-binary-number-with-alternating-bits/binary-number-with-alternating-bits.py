@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16355705,UPDATE:20220325>
+# <SUBID:319261497,UPDATE:20230205>
 # English:
 # Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.
 # Example 1:
@@ -25,7 +25,7 @@
 
 
 #
-# @lc app=leetcode.cn id=693 lang=python
+# @lc app=leetcode.cn id=693 lang=python3
 #
 # [693] 交替位二进制数
 #
@@ -76,15 +76,13 @@
 #
 #
 #
-class Solution(object):
+class SolutionA:
     bits = [2**i for i in range(32)]
-    def hasAlternatingBits(self, n):
-        """
-        :type n: int
-        :rtype: bool
+    def hasAlternatingBits(self, n: int) -> bool:
+        """模拟法
         """
         pre = None
-        for i in Solution.bits:
+        for i in self.bits:
             if i > n:
                 break
             if (n & i) == i:
@@ -100,7 +98,20 @@ class Solution(object):
             pre = bit
         return True
 
+class Solution:
+    def hasAlternatingBits(self, n: int) -> bool:
+        pre = None
+        while n > 0:
+            bit = n & 1
+            if bit == pre:
+                return False
+            n >>= 1
+            pre = bit
+        return True
+
 if __name__ == "__main__":
     s = Solution().hasAlternatingBits(5)
+    print(s)
+    s = Solution().hasAlternatingBits(4)
     print(s)
 

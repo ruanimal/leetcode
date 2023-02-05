@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17657695,UPDATE:20220325>
+# <SUBID:318105979,UPDATE:20230205>
 # English:
 # Given the root of an n-ary tree, return the preorder traversal of its nodes' values.
 # Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
@@ -31,24 +31,16 @@
 # 进阶：递归法很简单，你可以使用迭代法完成此题吗?
 
 
-#
-# @lc app=leetcode.cn id=589 lang=python
-#
-# [589] N-ary Tree Preorder Traversal
-#
-"""
-# Definition for a Node.
-class Node(object):
-    def __init__(self, val, children):
+
+class Node:
+    def __init__(self, val=None, children=None):
         self.val = val
         self.children = children
-"""
-class Solution(object):
-    def preorder(self, root, ret=None):
-        """
-        :type root: Node
-        :rtype: List[int]
-        """
+
+
+class SolutionA:
+    def preorder(self, root: 'Node', ret=None) -> List[int]:
+        # 递归版本
         if ret is None:
             ret = []
         if not root:
@@ -58,4 +50,17 @@ class Solution(object):
             self.preorder(i, ret)
         return ret
 
+class Solution:
+    def preorder(self, root: 'Node', ret=None) -> List[int]:
+        # 迭代版本
+        if not root:
+            return
+        ret = []
+        stack = [root]
+        while stack:
+            top = stack.pop()
+            ret.append(top.val)
+            for i in top.children[::-1]:
+                stack.append(i)
+        return ret
 

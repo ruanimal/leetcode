@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:19566973,UPDATE:20220325>
+# <SUBID:317680311,UPDATE:20230205>
 # English:
 # You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.
 # The athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. The placement of each athlete determines their rank:
@@ -38,26 +38,14 @@
 # score 中的所有值 互不相同
 
 
-#
-# @lc app=leetcode.cn id=506 lang=python
-#
-# [506] 相对名次
-#
-class Solution(object):
-    def findRelativeRanks(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[str]
-        """
-        ranks_map = {num: str(idx+1) for idx, num in enumerate(sorted(nums, reverse=True))}
+class Solution:
+    def findRelativeRanks(self, score: List[int]) -> List[str]:
+        """排序法"""
+
+        ranks_map = {num: str(idx+1) for idx, num in enumerate(sorted(score, reverse=True))}
         medels = {
             "1": "Gold Medal",
             "2": "Silver Medal",
             "3": "Bronze Medal",
         }
-        return [medels.get(ranks_map[i], ranks_map[i]) for i in nums]
-
-if __name__ == "__main__":
-    s = Solution().findRelativeRanks([5, 4, 3, 2, 1])
-    print(s)
-
+        return [medels.get(ranks_map[i], ranks_map[i]) for i in score]

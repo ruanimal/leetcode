@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21406742,UPDATE:20220325>
+# <SUBID:306436078,UPDATE:20230205>
 # English:
 # Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
 # Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
@@ -27,7 +27,7 @@
 
 
 #
-# @lc app=leetcode.cn id=43 lang=python
+# @lc app=leetcode.cn id=43 lang=python3
 #
 # [43] 字符串相乘
 #
@@ -63,7 +63,11 @@
 #
 #
 #
-class Solution(object):
+class SolutionA(object):
+    """
+    反转字符串, 双端数组, 实现加法器, 太复杂
+    """
+
     def multiply(self, num1, num2):
         """
         :type num1: str
@@ -104,14 +108,39 @@ class Solution(object):
             ans.append(extra)
         return ans[::-1]
 
+class Solution(object):
+    """
+    模拟竖式计算
+    """
+
+    def multiply(self, num1, num2):
+        """
+        :type num1: str
+        :type num2: str
+        :rtype: str
+        """
+        ans = [0] * (len(num1) + len(num2))
+        for i in range(len(num1)-1, -1, -1):
+            for j in range(len(num2)-1, -1, -1):
+                pos = i+j+1
+                a, b = divmod(int(num1[i]) * int(num2[j]) + ans[pos], 10)
+                ans[pos-1], ans[pos] = a + ans[pos-1], b
+                # print(num1[i], num2[j], ans)
+        i = 0
+        while i < len(ans)-1 and ans[i] == 0:
+            i += 1
+        return ''.join(str(i) for i in ans[i:])
+
+# @lc code=end
+
 def test_(a, b):
     l = Solution().multiply(a, b)
     r = str(int(a) * int(b))
-    print(repr(l), repr(r))
+    # print(repr(l), repr(r))
     assert l == r
 
 if __name__ == "__main__":
-    test_('123', '123')
+    test_('123', '45')
     test_('123', '0')
     test_('0', '0')
     test_('1231231012312', '213123123')

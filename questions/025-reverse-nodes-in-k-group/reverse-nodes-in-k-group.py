@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:282681568,UPDATE:20220325>
+# <SUBID:305832356,UPDATE:20230205>
 # English:
 # Given the head of a linked list, reverse the nodes of the list k at a time, and return the modified list.
 # k is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of k then left-out nodes, in the end, should remain as it is.
@@ -16,70 +16,20 @@
 # Follow-up: Can you solve the problem in O(1) extra memory space?
 #
 # 中文:
-# 给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
-# k 是一个正整数，它的值小于或等于链表的长度。
-# 如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。
-# 进阶：
-# 你可以设计一个只使用常数额外空间的算法来解决此问题吗？
+# 给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。
+# k 是一个正整数，它的值小于或等于链表的长度。如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。
 # 你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。
 # 示例 1：
 # 输入：head = [1,2,3,4,5], k = 2 输出：[2,1,4,3,5]
 # 示例 2：
 # 输入：head = [1,2,3,4,5], k = 3 输出：[3,2,1,4,5]
-# 示例 3：
-# 输入：head = [1,2,3,4,5], k = 1 输出：[1,2,3,4,5]
-# 示例 4：
-# 输入：head = [1], k = 1 输出：[1]
 # 提示：
-# 列表中节点的数量在范围 sz 内
-# 1 <= sz <= 5000
+# 链表中的节点数目为 n
+# 1 <= k <= n <= 5000
 # 0 <= Node.val <= 1000
-# 1 <= k <= sz
+# 进阶：你可以设计一个只用 O(1) 额外内存空间的算法解决此问题吗？
 
 
-# -*- coding:utf-8 -*-#
-# @lc app=leetcode.cn id=25 lang=python3
-#
-# [25] k个一组翻转链表
-#
-# https://leetcode-cn.com/problems/reverse-nodes-in-k-group/description/
-#
-# algorithms
-# Hard (49.82%)
-# Total Accepted:    7.9K
-# Total Submissions: 15.8K
-# Testcase Example:  '[1,2,3,4,5]\n2'
-#
-# 给出一个链表，每 k 个节点一组进行翻转，并返回翻转后的链表。
-#
-# k 是一个正整数，它的值小于或等于链表的长度。如果节点总数不是 k 的整数倍，那么将最后剩余节点保持原有顺序。
-#
-# 示例 :
-#
-# 给定这个链表：1->2->3->4->5
-#
-# 当 k = 2 时，应当返回: 2->1->4->3->5
-#
-# 当 k = 3 时，应当返回: 3->2->1->4->5
-#
-# 说明 :
-#
-#
-# 你的算法只能使用常数的额外空间。
-# 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
-#
-#
-#
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
-try:
-    from comm import *
-except ImportError:
-    LOCAL_TEST = False
 
 
 class Solution_A:
@@ -132,9 +82,17 @@ class Solution:
         return new_head
 
     def reverseKGroup(self, head, k):
+        """
+        递归的方法
+
+        求出前k个的尾部, 反转
+        递归这个过程
+        """
+
         if not head or k <= 1:
             return head
 
+        # 求出前k个的尾部
         n = k
         p = head
         while n > 0 and p:
@@ -145,12 +103,6 @@ class Solution:
 
         new_head = self.reverseN(head, k)
         if p:
-            head.next = self.reverseKGroup(p, k)
+            head.next = self.reverseKGroup(p, k)  # tail = head
         return new_head
-
-if LOCAL_TEST:
-    l = build_list_node(range(12))
-    print(l)
-    print(Solution().reverseKGroup(l, 3))
-
 

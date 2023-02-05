@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:24399132,UPDATE:20220325>
+# <SUBID:313797316,UPDATE:20230205>
 # English:
 # Given an integer array nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once. You can return the answer in any order.
 # You must write an algorithm that runs in linear runtime complexity and uses only constant extra space.
@@ -16,8 +16,8 @@
 # Each integer in nums will appear twice, only two integers will appear once.
 #
 # 中文:
-# 给定一个整数数组 nums，其中恰好有两个元素只出现一次，其余所有元素均出现两次。 找出只出现一次的那两个元素。你可以按 任意顺序 返回答案。
-# 进阶：你的算法应该具有线性时间复杂度。你能否仅使用常数空间复杂度来实现？
+# 给你一个整数数组 nums，其中恰好有两个元素只出现一次，其余所有元素均出现两次。 找出只出现一次的那两个元素。你可以按 任意顺序 返回答案。
+# 你必须设计并实现线性时间复杂度的算法且仅使用常量额外空间来解决此问题。
 # 示例 1：
 # 输入：nums = [1,2,1,3,2,5] 输出：[3,5] 解释：[5, 3] 也是有效的答案。
 # 示例 2：
@@ -31,7 +31,7 @@
 
 
 #
-# @lc app=leetcode.cn id=260 lang=python
+# @lc app=leetcode.cn id=260 lang=python3
 #
 # [260] 只出现一次的数字 III
 #
@@ -61,12 +61,11 @@
 #
 #
 class Solution(object):
-    def singleNumber(self, nums):
+    def singleNumber(self, nums: list) -> list:
         """
-        :type nums: List[int]
-        :rtype: List[int]
+        转化成只有一个数字出现一次的情况
 
-        进行一次异或操作，a, b 代表最后结果，则xor = a ^ b
+        进行一轮异或操作，a, b 代表最后结果，则xor = a ^ b
         xor & (~(xor-1)) 取得a ^ b 的结果的最后一个1, 记为mask
         mask代表这一个位， a和b中有且只有一个为1
         通过mask & i, 可以将nums分为两个部分，这一位为0，和这一位为1，a和b分别在其中一组中

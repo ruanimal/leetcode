@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17658623,UPDATE:20220325>
+# <SUBID:319327724,UPDATE:20230205>
 # English:
 # A self-dividing number is a number that is divisible by every digit it contains.
 # For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.
@@ -26,29 +26,21 @@
 # 1 <= left <= right <= 104
 
 
-#
-# @lc app=leetcode.cn id=728 lang=python
-#
-# [728] 自除数
-#
-class Solution(object):
-    def selfDividingNumbers(self, left, right):
-        """
-        :type left: int
-        :type right: int
-        :rtype: List[int]
-        """
-        ret = []
-        for i in range(left, right+1):
-            num_str = str(i)
-            for j in num_str:
-                if j == '0':
-                    break
-                if i % int(j) != 0:
-                    break
-            else:
-                ret.append(i)
-        return ret
 
+class Solution:
+    cache = set()
 
+    def selfDividingNumbers(self, left: int, right: int) -> List[int]:
+        return [i for i in range(left, right+1) if self.is_valid(i)]
+
+    def is_valid(self, num):
+        if num in self.cache:
+            return True
+        tmp = num
+        while tmp > 0:
+            if tmp % 10 == 0 or num % (tmp % 10) != 0:
+                return False
+            tmp = tmp // 10
+        self.cache.add(num)
+        return True
 

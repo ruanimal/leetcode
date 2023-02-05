@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20849432,UPDATE:20220325>
+# <SUBID:315386103,UPDATE:20230205>
 # English:
 # Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
 # An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
@@ -25,7 +25,7 @@
 
 
 #
-# @lc app=leetcode.cn id=438 lang=python
+# @lc app=leetcode.cn id=438 lang=python3
 #
 # [438] 找到字符串中所有字母异位词
 #
@@ -80,35 +80,35 @@
 #
 #
 #
-class Solution(object):
-    def findAnagrams(self, s, p):
+class SolutionA:
+    def findAnagrams(self, s: str, p: str) -> list:
+        """动态规划的思想, 记录每个状态, 但是状态很多冗余的, 而且判断相等的效率低
         """
-        :type s: str
-        :type p: str
-        :rtype: List[int]
-        """
-        # 动态规划的思想, 记录每个状态, 但是状态很多冗余的, 而且判断相等的效率低
-        # from collections import Counter
+        from collections import Counter
 
-        # def check(idx):
-        #     if idx < len(p)-1:
-        #         return False
-        #     a, b = f[idx-len(p)], f[idx]
-        #     for k, v in cnt.items():
-        #         if v != (b.get(k, 0)-a.get(k, 0)):
-        #             return False
-        #     return True
+        def check(idx):
+            if idx < len(p)-1:
+                return False
+            a, b = f[idx-len(p)], f[idx]
+            for k, v in cnt.items():
+                if v != (b.get(k, 0)-a.get(k, 0)):
+                    return False
+            return True
 
-        # ans = []
-        # f = {-1:{}}
-        # cnt = Counter(p)
-        # for idx, i in enumerate(s):
-        #     f[idx] = f[idx-1].copy()
-        #     f[idx][i] = f[idx].get(i, 0) + 1
-        #     if check(idx):
-        #         ans.append(idx-len(p)+1)
-        # return ans
+        ans = []
+        f = {-1:{}}
+        cnt = Counter(p)
+        for idx, i in enumerate(s):
+            f[idx] = f[idx-1].copy()
+            f[idx][i] = f[idx].get(i, 0) + 1
+            if check(idx):
+                ans.append(idx-len(p)+1)
+        return ans
 
+
+class Solution:
+    def findAnagrams(self, s: str, p: str) -> list:
+        # 改成只记录一个状态
         ans = []
         s_status = [0 for _ in range(26)]
         p_status = [0 for _ in range(26)]

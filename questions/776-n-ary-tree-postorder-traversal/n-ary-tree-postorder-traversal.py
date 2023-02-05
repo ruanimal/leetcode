@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17676243,UPDATE:20220325>
+# <SUBID:318106576,UPDATE:20230205>
 # English:
 # Given the root of an n-ary tree, return the postorder traversal of its nodes' values.
 # Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
@@ -29,24 +29,16 @@
 # 进阶：递归法很简单，你可以使用迭代法完成此题吗?
 
 
-#
-# @lc app=leetcode.cn id=590 lang=python
-#
-# [590] N-ary Tree Postorder Traversal
-#
-"""
-# Definition for a Node.
-class Node(object):
-    def __init__(self, val, children):
+
+class Node:
+    def __init__(self, val=None, children=None):
         self.val = val
         self.children = children
-"""
-class Solution(object):
-    def postorder(self, root, ret=None):
-        """
-        :type root: Node
-        :rtype: List[int]
-        """
+
+
+class Solution:
+    def postorder(self, root: 'Node', ret=None) -> List[int]:
+        # 递归版本
         if ret is None:
             ret = []
         if not root:
@@ -56,4 +48,4 @@ class Solution(object):
         ret.append(root.val)
         return ret
 
-
+# TODO: 迭代版本

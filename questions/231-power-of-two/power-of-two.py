@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16375617,UPDATE:20220325>
+# <SUBID:313335528,UPDATE:20230205>
 # English:
 # Given an integer n, return true if it is a power of two. Otherwise, return false.
 # An integer n is a power of two, if there exists an integer x such that n == 2x.
@@ -33,7 +33,7 @@
 
 
 #
-# @lc app=leetcode.cn id=231 lang=python
+# @lc app=leetcode.cn id=231 lang=python3
 #
 # [231] 2的幂
 #
@@ -65,13 +65,28 @@
 # 输出: false
 #
 #
-class Solution(object):
+class SolutionA(object):
     bits = {2**i for i in range(32)}
-    def isPowerOfTwo(self, n):
+    def isPowerOfTwo(self, n: int) -> bool:
         """
-        :type n: int
-        :rtype: bool
+        查表法
         """
-        return n in Solution.bits
+        return n in self.bits
 
+class Solution(object):
+    def isPowerOfTwo(self, n: int) -> bool:
+        """
+        计数法
+        """
+
+        count = 0
+        while n > 0:
+            if count > 1:
+                return False
+            if n & 1 == 1:
+                count += 1
+            n = n >> 1
+        return count == 1
+
+print(Solution().isPowerOfTwo(3))
 

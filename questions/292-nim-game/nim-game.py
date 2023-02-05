@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15987136,UPDATE:20220325>
+# <SUBID:314347040,UPDATE:20230205>
 # English:
 # You are playing the following Nim Game with your friend:
 # Initially, there is a heap of stones on the table.
@@ -35,7 +35,7 @@
 
 
 #
-# @lc app=leetcode.cn id=292 lang=python
+# @lc app=leetcode.cn id=292 lang=python3
 #
 # [292] Nim游戏
 #
@@ -61,10 +61,9 @@
 #
 #
 class Solution(object):
-    def canWinNim(self, n):
+    def canWinNim(self, n: int) -> bool:
         """
-        :type n: int
-        :rtype: bool
+        如果石头是4的倍数, 那么等你拿了a个之后, 他可以拿4-a个, 最终和4个的情况是一样的, 对手赢
         """
         if n % 4 == 0:
             return False

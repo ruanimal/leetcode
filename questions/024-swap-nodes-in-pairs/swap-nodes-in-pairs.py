@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15545196,UPDATE:20220325>
+# <SUBID:305525498,UPDATE:20230205>
 # English:
 # Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
 # Example 1:
@@ -26,63 +26,9 @@
 # 0 <= Node.val <= 100
 
 
-#
-# @lc app=leetcode.cn id=24 lang=python3
-#
-# [24] 两两交换链表中的节点
-#
-# https://leetcode-cn.com/problems/swap-nodes-in-pairs/description/
-#
-# algorithms
-# Medium (56.91%)
-# Total Accepted:    15.7K
-# Total Submissions: 27K
-# Testcase Example:  '[1,2,3,4]'
-#
-# 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
-#
-# 你不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
-#
-#
-#
-# 示例:
-#
-# 给定 1->2->3->4, 你应该返回 2->1->4->3.
-#
-#
-#
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
 
 
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
-    def __str__(self):
-        tmp = []
-        node = self
-        while node:
-            tmp.append(repr(node.val))
-            node = node.next
-        return ' -> '.join(tmp)
-
-    __repr__ = __str__
-
-
-def build_list_node(nums):
-    head = node = ListNode(None)
-    for i in nums:
-        node.next = ListNode(i)
-        node = node.next
-    return head.next
-
-'''
-class Solution:
+class Solution_A:
     def swapPairs(self, head: ListNode) -> ListNode:
         """
         使用一个长度为2的stack, 注意清理node的next指针,防止死循环
@@ -114,9 +60,9 @@ class Solution:
         if stack:
             p.next = stack.pop()
         return head_node.next
-'''
 
-class Solution(object):
+
+class Solution_B(object):
     def swapPairs(self, head):
         """
         :type head: ListNode
@@ -129,7 +75,16 @@ class Solution(object):
             pointer = pointer.next.next
         return head
 
-if __name__ == "__main__":
-    l = build_list_node([1,2,3,4])
-    print(Solution().swapPairs(l))
+class Solution(object):
+    def swapPairs(self, head):
+        dummy = ListNode(None)
+        dummy.next = head
+        p = dummy
+        while p.next and p.next.next:
+            temp = p.next.next
+            p.next.next = p.next.next.next
+            temp.next = p.next
+            p.next = temp
+            p = p.next.next
+        return dummy.next
 

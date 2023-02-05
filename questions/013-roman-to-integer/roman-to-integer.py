@@ -1,10 +1,10 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15544979,UPDATE:20220325>
+# <SUBID:301781800,UPDATE:20230205>
 # English:
 # Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 # Symbol Value I 1 V 5 X 10 L 50 C 100 D 500 M 1000
-# For example, 2 is written as II in Roman numeral, just two one's added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
+# For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
 # Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
 # I can be placed before V (5) and X (10) to make 4 and 9.
 # X can be placed before L (50) and C (100) to make 40 and 90.
@@ -50,7 +50,7 @@
 
 
 #
-# @lc app=leetcode.cn id=13 lang=python
+# @lc app=leetcode.cn id=13 lang=python3
 #
 # [13] 罗马数字转整数
 #
@@ -125,14 +125,49 @@ class Solution(object):
         :rtype: int
         从左到右将罗马字符转换为数字再相加, 遇到IV这种就减去两倍的I
         """
-        map = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        num_map = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
         result = 0
         for i in range(len(s)-1):
-            result += map[s[i]]
-            if map[s[i]] < map[s[i+1]]:
-                result -= 2*map[s[i]]
-        result += map[s[-1]]
+            result += num_map[s[i]]
+            if num_map[s[i]] < num_map[s[i+1]]:
+                result -= 2*num_map[s[i]]
+        result += num_map[s[-1]]
         return result
 
+    def IntToroman(self, num):
+        num_list = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+        num_map = {
+            1: 'I',
+            4: 'IV',
+            5: 'V',
+            9: 'IX',
+            10: 'X',
+            40: 'XL',
+            50: 'L',
+            90: 'XC',
+            100: 'C',
+            400: 'CD',
+            500: 'D',
+            900: 'CM',
+            1000: 'M',
+        }
+
+        ans = []
+        for i in num_list:
+            if i > num:
+                continue
+            if num == 0:
+                break
+            a, num = divmod(num, i)
+            ans.append(a * num_map[i])
+        return ''.join(ans)
+
+if __name__ == "__main__":
+    obj = Solution()
+    for i in range(1,6000):
+        a = obj.IntToroman(i)
+        b = obj.romanToInt(a)
+        print(a,b)
+        assert i == b
 
 

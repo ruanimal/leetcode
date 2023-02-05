@@ -1,11 +1,12 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17769229,UPDATE:20220325>
+# <SUBID:319747177,UPDATE:20230205>
 # English:
 # You are given an array of n strings strs, all of the same length.
-# The strings can be arranged such that there is one on each line, making a grid. For example, strs = ["abc", "bce", "cae"] can be arranged as:
+# The strings can be arranged such that there is one on each line, making a grid.
+# For example, strs = ["abc", "bce", "cae"] can be arranged as follows:
 # abc bce cae
-# You want to delete the columns that are not sorted lexicographically. In the above example (0-indexed), columns 0 ('a', 'b', 'c') and 2 ('c', 'e', 'e') are sorted while column 1 ('b', 'c', 'a') is not, so you would delete column 1.
+# You want to delete the columns that are not sorted lexicographically. In the above example (0-indexed), columns 0 ('a', 'b', 'c') and 2 ('c', 'e', 'e') are sorted, while column 1 ('b', 'c', 'a') is not, so you would delete column 1.
 # Return the number of columns that you will delete.
 # Example 1:
 # Input: strs = ["cba","daf","ghi"] Output: 1 Explanation: The grid looks as follows: cba daf ghi Columns 0 and 2 are sorted, but column 1 is not, so you only need to delete 1 column.
@@ -38,26 +39,16 @@
 # strs[i] 由小写英文字母组成
 
 
-#
-# @lc app=leetcode.cn id=944 lang=python
-#
-# [944] 最小差值 I
-#
-class Solution(object):
-    def minDeletionSize(self, A):
-        """
-        :type A: List[str]
-        :rtype: int
-        """
+class Solution:
+    def minDeletionSize(self, strs: List[str]) -> int:
         D = []
-        for y in range(len(A[0])):
-            pre = A[0][y]
-            for x in range(1, len(A)):
-                if A[x][y] < pre:
+        for y in range(len(strs[0])):
+            pre = strs[0][y]
+            for x in range(1, len(strs)):
+                if strs[x][y] < pre:
                     D.append(y)
                     break
-                pre = A[x][y]
-        # print(D)
+                pre = strs[x][y]
         return len(D)
 
 if __name__ == "__main__":
@@ -69,5 +60,4 @@ if __name__ == "__main__":
                                     "furt",
                                     "guzm"])
     print(s)
-
 

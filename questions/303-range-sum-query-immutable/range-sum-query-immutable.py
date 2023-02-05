@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17406348,UPDATE:20220325>
+# <SUBID:314399727,UPDATE:20230205>
 # English:
 # Given an integer array nums, handle multiple queries of the following type:
 # Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
@@ -31,7 +31,7 @@
 
 
 #
-# @lc app=leetcode.cn id=303 lang=python
+# @lc app=leetcode.cn id=303 lang=python3
 #
 # [303] 区域和检索 - 数组不可变
 #
@@ -63,23 +63,15 @@
 #
 class NumArray(object):
 
-    def __init__(self, nums):
-        """
-        :type nums: List[int]
-        """
+    def __init__(self, nums: list):
         self.sum_result = {}
         self.nums = nums
 
-    def sumRange(self, i, j):
-        """
-        :type i: int
-        :type j: int
-        :rtype: int
-
+    def sumRange(self, i: int, j: int) -> int:
+        """动态规划
         f[x]: 从0到该位置的总和
         f[x] = f[x-1] + nums[x]
         s(i, j) = f[j] - f[i-1]
-
         """
         nums = self.nums
         if len(nums) == 0:

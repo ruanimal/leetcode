@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15988115,UPDATE:20220325>
+# <SUBID:314829175,UPDATE:20230205>
 # English:
 # Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
 # Example 1:
@@ -29,7 +29,7 @@
 
 
 #
-# @lc app=leetcode.cn id=414 lang=python
+# @lc app=leetcode.cn id=414 lang=python3
 #
 # [414] 第三大的数
 #
@@ -75,11 +75,9 @@
 #
 #
 #
-class Solution(object):
-    def thirdMax(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
+class Solution:
+    def thirdMax(self, nums: list) -> int:
+        """用三个变量标记
         """
         first = second = third = None
         for i in nums:

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:19088805,UPDATE:20220325>
+# <SUBID:315986624,UPDATE:20230205>
 # English:
 # Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.
 # In one move, you can increment n - 1 elements of the array by 1.
@@ -27,30 +27,19 @@
 # 答案保证符合 32-bit 整数
 
 
-#
-# @lc app=leetcode.cn id=453 lang=python
-#
-# [453] 最小移动次数使数组元素相等
-#
-class Solution(object):
-    def minMoves(self, nums):
+class Solution:
+    def minMoves(self, nums: List[int]) -> int:
         """
-        :type nums: List[int]
-        :rtype: int
+        已知：长度为n的数组nums， 每次移动有n-1个元素增加1
+        求：数组元素都相等时，最小移动次数x
 
-        相等时数字为k, 则移动次数为k-min(nums), 每次移动数组和增加(n-1).
-        以数组和增加量 = 终止时总和 - 开始时总和
-        (k-min(nums)) * (len(nums)-1) = k * len(nums) - sum(nums)
-        (len(nums)-1) * k - min(nums) * (len(nums)-1) = k * len(nums) - sum(nums)
-        -k = min(nums) * (len(nums)-1) - sum(nums)
-        k = sum(nums) - min(nums) * (len(nums)-1)
+        假设所有元素都相等时数字为k, 如果最小数字经过x次移动能够等于k, 则此时所有元素也能等于k, 此时移动次数为k-min(nums).
+        则有方程: 数组元素总和增加量 = 终止时数组元素总和 - 开始时数组元素总和
+        即方程: (k-min(nums)) * (n-1) = k * n - sum(nums)
+        求解后: k = sum(nums) - min(nums) * (n-1)
+        则可以得到最小移动次数  k-min(nums)
         """
         min_val = min(nums)
-        k = sum(nums) - min_val * (len(nums)-1)
+        n = len(nums)
+        k = sum(nums) - min_val * (n-1)
         return k - min_val
-
-if __name__ == "__main__":
-    s = Solution().minMoves([1,2,3])
-    print(s)
-
-

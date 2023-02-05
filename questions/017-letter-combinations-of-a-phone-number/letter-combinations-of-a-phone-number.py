@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:28668553,UPDATE:20220325>
+# <SUBID:291721413,UPDATE:20230205>
 # English:
 # Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
-# A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+# A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 # Example 1:
 # Input: digits = "23" Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
 # Example 2:
@@ -59,7 +59,7 @@
 # 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
 #
 #
-class Solution(object):
+class Solution_A(object):
     def letterCombinations(self, digits):
         """
         :type digits: str
@@ -81,7 +81,32 @@ class Solution(object):
         from itertools import product
         return [''.join(j) for j in product(*[digits_map[i] for i in digits])]
 
+class Solution(object):
+    def letterCombinations(self, digits):
+        digits_map = {
+            '2': 'abc',
+            '3': 'def',
+            '4': 'ghi',
+            '5': 'jkl',
+            '6': 'mno',
+            '7': 'pqrs',
+            '8': 'tuv',
+            '9': 'wxyz',
+        }
+        data = [digits_map[i] for i in digits]
+        def helper(data):
+            if len(data) == 0:
+                return []
+            if len(data) == 1:
+                return list(data[0])
+            return [i + j for i in data[0] for j in helper(data[1:])]
+        return helper(data)
+
 if __name__ == "__main__":
+    s = Solution().letterCombinations('23')
+    print(s)
+    s = Solution().letterCombinations('2')
+    print(s)
     s = Solution().letterCombinations('234')
     print(s)
 

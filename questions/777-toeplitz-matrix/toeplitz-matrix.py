@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18293547,UPDATE:20220325>
+# <SUBID:319417386,UPDATE:20230205>
 # English:
 # Given an m x n matrix, return true if the matrix is Toeplitz. Otherwise, return false.
 # A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.
@@ -34,47 +34,19 @@
 # 如果矩阵太大，以至于一次只能将不完整的一行加载到内存中，该怎么办？
 
 
-#
-# @lc app=leetcode.cn id=766 lang=python
-#
-# [766] 扁平化多级双向链表
-#
-class Solution(object):
-    def isToeplitzMatrix(self, matrix):
-        """
-        :type matrix: List[List[int]]
-        :rtype: bool
-        """
-        ans = []
-        for x in range(len(matrix)):
-            tmp = set()
-            y = 0
-            while x < len(matrix) and y < len(matrix[0]):
-                tmp.add(matrix[x][y])
-                x += 1
-                y += 1
-                if len(tmp) != 1:
+class Solution:
+    def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
+        X = len(matrix)
+        Y = len(matrix[0])
+        for i in range(-X-1, Y):
+            pre = None
+            for x in range(X):
+                if x + i < 0 or x + i >= Y:
+                    continue
+                if pre is None:
+                    pre = matrix[x][x+i]
+                    continue
+                if matrix[x][x+i] != pre:
                     return False
-            ans.append(tmp)
-        for y in range(len(matrix[0])):
-            tmp = set()
-            x = 0
-            # print('++')
-            while x < len(matrix) and y < len(matrix[0]):
-                # print(x, y)
-                tmp.add(matrix[x][y])
-                x += 1
-                y += 1
-                if len(tmp) != 1:
-                    return False
-            ans.append(tmp)
-        return all(len(i)==1 for i in ans)
-
-if __name__ == "__main__":
-    s = Solution().isToeplitzMatrix([
-        [1,2,3,4],
-        [5,1,2,3],
-        [9,5,1,2]
-    ])
-    print(s)
+        return True
 

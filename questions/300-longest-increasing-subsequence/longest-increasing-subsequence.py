@@ -1,9 +1,8 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:24996762,UPDATE:20220325>
+# <SUBID:333215334,UPDATE:20230205>
 # English:
 # Given an integer array nums, return the length of the longest strictly increasing subsequence.
-# A subsequence is a sequence that can be derived from an array by deleting some or no elements without changing the order of the remaining elements. For example, [3,6,2,7] is a subsequence of the array [0,3,1,6,2,2,7].
 # Example 1:
 # Input: nums = [10,9,2,5,3,7,101,18] Output: 4 Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
 # Example 2:
@@ -31,61 +30,80 @@
 # 你能将算法的时间复杂度降低到 O(n log(n)) 吗?
 
 
-#
-# @lc app=leetcode.cn id=300 lang=python
-#
-# [300] 最长上升子序列
-#
-# https://leetcode-cn.com/problems/longest-increasing-subsequence/description/
-#
-# algorithms
-# Medium (42.45%)
-# Likes:    240
-# Dislikes: 0
-# Total Accepted:    19K
-# Total Submissions: 44.5K
-# Testcase Example:  '[10,9,2,5,3,7,101,18]'
-#
-# 给定一个无序的整数数组，找到其中最长上升子序列的长度。
-#
-# 示例:
-#
-# 输入: [10,9,2,5,3,7,101,18]
-# 输出: 4
-# 解释: 最长的上升子序列是 [2,3,7,101]，它的长度是 4。
-#
-# 说明:
-#
-#
-# 可能会有多种最长上升子序列的组合，你只需要输出对应的长度即可。
-# 你算法的时间复杂度应该为 O(n^2) 。
-#
-#
-# 进阶: 你能将算法的时间复杂度降低到 O(n log n) 吗?
-#
-#
-class Solution(object):
-    def lengthOfLIS(self, nums):
+
+class SolutionA:
+    def lengthOfLIS(self, nums: List[int]) -> int:
         """
-        :type nums: List[int]
-        :rtype: int
-        动态规划
-        dp[]
+        暴力法, 超时
         """
-        if not nums:
+
+        def dfs(nums, path, max_len, level):
+            if level == len(nums):
+                if len(path) == 0:
+                    return 0
+                tmp = 1
+                for i in range(1, len(path)):
+                    if nums[path[i-1]] < nums[path[i]]:
+                        tmp += 1
+                    else:
+                        break
+                # print(path, tmp)
+                return tmp
+            path.append(level)  # 选择当前点
+            max_len = max(dfs(nums, path, max_len, level+1), max_len)
+            path.pop()          # 不选择当前点
+            max_len = max(dfs(nums, path, max_len, level+1), max_len)
+            return max_len
+
+        return dfs(nums, [], 0, 0)
+
+class SolutionA:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        """
+        动态规划法
+
+        // 定义：dp[i] 表示以 nums[i] 这个数结尾的最长递增子序列的长度
+        则 当 0 < j < i 时
+        dp[i] =
+            nums[i] > nums[j]: max(dp[j] + 1)
+            nums[i] <= nums[j]: max(dp[j])
+        """
+        if len(nums) == 0:
             return 0
-        dp = [1]
+
+        dp = [1] * len(nums)
         for i in range(1, len(nums)):
-            max_val = 0
             for j in range(i):
-                if nums[i] > nums[j]:
-                    max_val = max(max_val, dp[j])
-            dp.append(max_val + 1)
+                if nums[j] < nums[i]:
+                    dp[i] = max(dp[i], dp[j]+1)
         return max(dp)
 
-if __name__ == "__main__":
-    s = Solution().lengthOfLIS([10,9,2,5,3,7,101,18])
-    print(s)
-    s = Solution().lengthOfLIS([1])
-    print(s)
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        top = []
+        for i in nums:
+            pos = self.find_first(top, i)
+            if pos == -1:
+                top.append(i)
+            else:
+                top[pos] = i
+        # print(top)
+        return len(top)
+
+    @staticmethod
+    def find_first(nums: List[int], target: int) -> int:
+        if len(nums) == 0:
+            return -1
+        left = 0
+        right = len(nums)-1
+        while left <= right:
+            mid = (left+right) >> 1
+            if nums[mid] < target:
+                left = mid + 1
+            else:
+                right = mid - 1
+        # print(nums, target, left)
+        if left == len(nums):
+            return -1
+        return left
 

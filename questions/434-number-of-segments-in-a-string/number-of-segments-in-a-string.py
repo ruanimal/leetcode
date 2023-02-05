@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21033524,UPDATE:20220325>
+# <SUBID:21033524,UPDATE:20230205>
 # English:
 # Given a string s, return the number of segments in the string.
 # A segment is defined to be a contiguous sequence of non-space characters.

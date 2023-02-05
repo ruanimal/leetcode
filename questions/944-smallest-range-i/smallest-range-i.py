@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17816138,UPDATE:20220325>
+# <SUBID:319661405,UPDATE:20230205>
 # English:
 # You are given an integer array nums and an integer k.
 # In one operation, you can choose any index i where 0 <= i < nums.length and change nums[i] to nums[i] + x where x is an integer from the range [-k, k]. You can apply this operation at most once for each index i.
@@ -19,9 +19,9 @@
 #
 # 中文:
 # 给你一个整数数组 nums，和一个整数 k 。
-# 在一个操作中，您可以选择 0 <= i < nums 的任何索引 i 。将 nums[i] 改为 nums[i] + x ，其中 x 是一个范围为 [-k, k] 的整数。对于每个索引 i ，最多 只能 应用 一次 此操作。
+# 在一个操作中，您可以选择 0 <= i < nums.length 的任何索引 i 。将 nums[i] 改为 nums[i] + x ，其中 x 是一个范围为 [-k, k] 的整数。对于每个索引 i ，最多 只能 应用 一次 此操作。
 # nums 的 分数 是 nums 中最大和最小元素的差值。
-# 在对nums中的每个索引最多应用一次上述操作后，返回 nums 的最低 分数 。
+# 在对  nums 中的每个索引最多应用一次上述操作后，返回 nums 的最低 分数 。
 # 示例 1：
 # 输入：nums = [1], k = 0 输出：0 解释：分数是 max(nums) - min(nums) = 1 - 1 = 0。
 # 示例 2：
@@ -34,44 +34,11 @@
 # 0 <= k <= 104
 
 
-#
-# @lc app=leetcode.cn id=908 lang=python
-#
-# [908] 链表的中间结点
-#
-class Solution(object):
-    def smallestRangeI(self, A, K):
-        """
-        :type A: List[int]
-        :type K: int
-        :rtype: int
-        """
-        # max_i = 0
-        # min_i = 2 ** 31 - 1
-        # for i in A:
-        #     if i > max_i:
-        #         max_i = i
-        #     if i < min_i:
-        #         min_i = i
-        # if (max_i-min_i) <= 2*K:
-        #     return 0
-        # else:
-        #     return max_i - min_i - 2*K
-        max_i = max(A)
-        min_i = min(A)
-        if (max_i-min_i) <= 2*K:
+class Solution:
+    def smallestRangeI(self, nums: List[int], k: int) -> int:
+        max_i = max(nums)
+        min_i = min(nums)
+        if (max_i-min_i) <= 2*k:
             return 0
         else:
-            return max_i - min_i - 2*K
-
-if __name__ == "__main__":
-    s = Solution().smallestRangeI(A = [1,3,6], K = 3)
-    print(s)
-    s = Solution().smallestRangeI(A = [0,10], K = 2)
-    print(s)
-    s = Solution().smallestRangeI(A = [1], K = 0)
-    print(s)
-    s = Solution().smallestRangeI(A = [3,1,10], K = 4)
-    print(s)
-
-
+            return max_i - min_i - 2*k

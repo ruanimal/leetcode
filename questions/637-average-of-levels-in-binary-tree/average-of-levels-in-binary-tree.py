@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18283837,UPDATE:20220325>
+# <SUBID:319122179,UPDATE:20230205>
 # English:
 # Given the root of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within 10-5 of the actual answer will be accepted.
 # Example 1:
@@ -23,24 +23,17 @@
 # -231 <= Node.val <= 231 - 1
 
 
-#
-# @lc app=leetcode.cn id=637 lang=python
-#
-# [637] 二叉树的层平均值
-#
 # Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 
-class Solution(object):
-    def averageOfLevels(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[float]
-        """
+class Solution:
+    def averageOfLevels(self, root: Optional[TreeNode]) -> List[float]:
+        """层次遍历"""
+
         ans = []
         level = [root]
         while level:
@@ -55,6 +48,3 @@ class Solution(object):
             ans.append(tmp/len(level))
             level = next_level
         return ans
-
-
-

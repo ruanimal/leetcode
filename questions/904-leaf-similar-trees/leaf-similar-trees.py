@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18309052,UPDATE:20220325>
+# <SUBID:18309052,UPDATE:20230205>
 # English:
 # Consider all the leaves of a binary tree, from left to right order, the values of those leaves form a leaf value sequence.
 # For example, in the given tree above, the leaf value sequence is (6, 7, 4, 9, 8).

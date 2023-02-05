@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16900018,UPDATE:20220325>
+# <SUBID:301777168,UPDATE:20230205>
 # English:
 # Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
 # The algorithm for myAtoi(string s) is as follows:
@@ -65,7 +65,7 @@
 
 
 #
-# @lc app=leetcode.cn id=8 lang=python
+# @lc app=leetcode.cn id=8 lang=python3
 #
 # [8] 字符串转换整数 (atoi)
 #

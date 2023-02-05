@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18239320,UPDATE:20220325>
+# <SUBID:317885054,UPDATE:20230205>
 # English:
 # In MATLAB, there is a handy function called reshape which can reshape an m x n matrix into a new one with a different size r x c keeping its original data.
 # You are given an m x n matrix mat and two integers r and c representing the number of rows and the number of columns of the wanted reshaped matrix.
@@ -34,31 +34,16 @@
 # 1 <= r, c <= 300
 
 
-#
-# @lc app=leetcode.cn id=566 lang=python
-#
-# [566] 重塑矩阵
-#
-class Solution(object):
-    def matrixReshape(self, nums, r, c):
-        """
-        :type nums: List[List[int]]
-        :type r: int
-        :type c: int
-        :rtype: List[List[int]]
-        """
-        flat_nums = sum(nums, [])
+class Solution:
+    def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
+        """先合并成一维再重新划分"""
+
+        flat_nums = sum(mat, [])
         if r * c != len(flat_nums):
-            return nums
+            return mat
 
         ans = []
         for i in range(r):
-            tmp = flat_nums[i*c:(i+1)*c]
-            ans.append(tmp)
+            ans.append(flat_nums[i*c:(i+1)*c])
         return ans
-
-if __name__ == "__main__":
-    s = Solution().matrixReshape([[1,2], [3,4]], r = 2, c = 4)
-    print(s)
-
 

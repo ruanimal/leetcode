@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:23153302,UPDATE:20220325>
+# <SUBID:315720844,UPDATE:20230205>
 # English:
 # Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
 # Example 1:
@@ -27,7 +27,7 @@
 
 
 #
-# @lc app=leetcode.cn id=448 lang=python
+# @lc app=leetcode.cn id=448 lang=python3
 #
 # [448] 找到所有数组中消失的数字
 #
@@ -56,24 +56,35 @@
 #
 #
 #
-class Solution(object):
-    def findDisappearedNumbers(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
-        # # v1 计数法
-        # tmp = {i:0 for i in xrange(1, len(nums)+1)}
-        # for num in nums:
-        #     tmp[num] = 1
-        # return [key for key,val in tmp.iteritems() if val == 0]
+class SolutionA:
+    def findDisappearedNumbers(self, nums: list) -> list:
+        # v1 计数法, 使用额外空间
+        tmp = {i:0 for i in range(1, len(nums)+1)}
+        for num in nums:
+            tmp[num] = 1
+        return [key for key,val in tmp.iteritems() if val == 0]
 
+class SolutionB:
+    def findDisappearedNumbers(self, nums: list) -> list:
         # v2 bitmap
         import array
         bitmap = array.array('B', [0 for i in range(len(nums))])
         for i in nums:
             bitmap[i-1] = 1
         ans = [idx+1 for idx, i in enumerate(bitmap) if not i]
+        return ans
+
+class Solution:
+    def findDisappearedNumbers(self, nums: list) -> list:
+        # v3 原位排序, 时间复杂度n, 空间复杂度1
+        idx = 0
+        while idx < len(nums):
+            i = nums[idx]
+            if nums[i-1] != i:
+                nums[i-1], nums[idx] = nums[idx], nums[i-1]
+            else:
+                idx += 1
+        ans = [idx+1 for idx, i in enumerate(nums) if i != idx+1]
         return ans
 
 if __name__ == "__main__":

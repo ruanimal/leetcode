@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15987381,UPDATE:20220325>
+# <SUBID:15987381,UPDATE:20230205>
 # English:
 # Given an integer n, return true if it is a power of four. Otherwise, return false.
 # An integer n is a power of four, if there exists an integer x such that n == 4x.

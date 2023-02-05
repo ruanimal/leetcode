@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:282832383,UPDATE:20220325>
+# <SUBID:309817651,UPDATE:20230205>
 # English:
 # You are given a perfect binary tree where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
 # struct Node { int val; Node *left; Node *right; Node *next; }
@@ -35,12 +35,6 @@
 # 使用递归解题也符合要求，本题中递归程序占用的栈空间不算做额外的空间复杂度。
 
 
-
-try:
-    from comm import *
-except ImportError:
-    LOCAL_TEST = False
-
 class Node:
     def __init__(self, val: int = 0, left: 'Node' = None, right: 'Node' = None, next: 'Node' = None):
         self.val = val
@@ -50,6 +44,10 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
+        """
+        层级遍历(BFS),使用队列
+        """
+
         if not root:
             return
 
@@ -69,4 +67,23 @@ class Solution:
             que = next_que
         return root
 
+class Solution_A:
+    def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
+        """
+        递归解法, 实现简单
+        比层级遍历法慢 200%
+        """
+
+        if root is None:
+            return
+        self.connectTowNode(root.left, root.right)
+        return root
+
+    def connectTowNode(self, node1, node2):
+        if node1 is None or node2 is None:
+            return
+        node1.next = node2  # 前序位置
+        self.connectTowNode(node1.left, node1.right)
+        self.connectTowNode(node2.left, node2.right)
+        self.connectTowNode(node1.right, node2.left)
 

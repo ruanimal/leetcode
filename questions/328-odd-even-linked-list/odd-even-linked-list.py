@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15365918,UPDATE:20220325>
+# <SUBID:314405191,UPDATE:20230205>
 # English:
 # Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.
 # The first node is considered odd, and the second node is even, and so on.
@@ -11,8 +11,7 @@
 # Example 2:
 # Input: head = [2,1,3,5,6,4,7] Output: [2,3,6,7,1,5,4]
 # Constraints:
-# n == number of nodes in the linked list
-# 0 <= n <= 104
+# The number of nodes in the linked list is in the range [0, 104].
 # -106 <= Node.val <= 106
 #
 # 中文:
@@ -30,73 +29,14 @@
 # -106 <= Node.val <= 106
 
 
-#
-# @lc app=leetcode.cn id=328 lang=python
-#
-# [328] 奇偶链表
-#
-# https://leetcode-cn.com/problems/odd-even-linked-list/description/
-#
-# algorithms
-# Medium (53.69%)
-# Total Accepted:    7.7K
-# Total Submissions: 14K
-# Testcase Example:  '[1,2,3,4,5]'
-#
-# 给定一个单链表，把所有的奇数节点和偶数节点分别排在一起。请注意，这里的奇数节点和偶数节点指的是节点编号的奇偶性，而不是节点的值的奇偶性。
-#
-# 请尝试使用原地算法完成。你的算法的空间复杂度应为 O(1)，时间复杂度应为 O(nodes)，nodes 为节点总数。
-#
-# 示例 1:
-#
-# 输入: 1->2->3->4->5->NULL
-# 输出: 1->3->5->2->4->NULL
-#
-#
-# 示例 2:
-#
-# 输入: 2->1->3->5->6->4->7->NULL
-# 输出: 2->3->6->7->1->5->4->NULL
-#
-# 说明:
-#
-#
-# 应当保持奇数节点和偶数节点的相对顺序。
-# 链表的第一个节点视为奇数节点，第二个节点视为偶数节点，以此类推。
 
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
-    def __repr__(self):
-        tmp = []
-        node = self
-        max_depth = 20
-        while node:
-            max_depth -= 1
-            if max_depth < 0:
-                break
-            tmp.append(repr(node.val))
-            node = node.next
-        else:
-            tmp.append('None')
-        return ' -> '.join(tmp)
-
-
-def build_list_node(nums):
-    head = node = ListNode(None)
-    for i in nums:
-        node.next = ListNode(i)
-        node = node.next
-    return head.next
 
 class Solution(object):
-    def oddEvenList(self, head):
+    def oddEvenList(self, head: ListNode) -> ListNode:
         """
-        :type head: ListNode
-        :rtype: ListNode
+        使用dummyhead, 将偶数节点逐个取下, 练到新偶数链表末尾
+
+        将新偶数链表连到原链表末尾
         """
         if not head or not head.next or not head.next.next:
             return head
@@ -113,8 +53,4 @@ class Solution(object):
         ptr2.next = None
         ptr.next = new_head.next
         return head
-
-if __name__ == "__main__":
-    l = build_list_node(range(1, 10))
-    print(Solution().oddEvenList(l))
 

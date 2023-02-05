@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:22443510,UPDATE:20220325>
+# <SUBID:22443510,UPDATE:20230205>
 # English:
 # Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 # Example 1:

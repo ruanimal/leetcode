@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20919440,UPDATE:20220325>
+# <SUBID:315717134,UPDATE:20230205>
 # English:
 # Given an array of characters chars, compress it using the following algorithm:
 # Begin with an empty string s. For each group of consecutive repeating characters in chars:
@@ -39,7 +39,7 @@
 
 
 #
-# @lc app=leetcode.cn id=443 lang=python
+# @lc app=leetcode.cn id=443 lang=python3
 #
 # [443] 压缩字符串
 #
@@ -116,11 +116,10 @@
 #
 #
 #
-class Solution(object):
-    def compress(self, chars):
+class Solution:
+    def compress(self, chars: list) -> int:
         """
-        :type chars: List[str]
-        :rtype: int
+        类似链表处理的操作
         """
         cnt = 1
         cur_char = chars[0]

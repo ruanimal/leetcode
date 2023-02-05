@@ -1,15 +1,15 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15987220,UPDATE:20220325>
+# <SUBID:314403501,UPDATE:20230205>
 # English:
 # Given an integer n, return true if it is a power of three. Otherwise, return false.
 # An integer n is a power of three, if there exists an integer x such that n == 3x.
 # Example 1:
-# Input: n = 27 Output: true
+# Input: n = 27 Output: true Explanation: 27 = 33
 # Example 2:
-# Input: n = 0 Output: false
+# Input: n = 0 Output: false Explanation: There is no x where 3x = 0.
 # Example 3:
-# Input: n = 9 Output: true
+# Input: n = -1 Output: false Explanation: There is no x where 3x = (-1).
 # Constraints:
 # -231 <= n <= 231 - 1
 # Follow up: Could you solve it without loops/recursion?
@@ -31,7 +31,7 @@
 
 
 #
-# @lc app=leetcode.cn id=326 lang=python
+# @lc app=leetcode.cn id=326 lang=python3
 #
 # [326] 3的幂
 #
@@ -72,11 +72,18 @@
 #
 
 
-class Solution(object):
-    def isPowerOfThree(self, n):
+class SolutionA(object):
+    def isPowerOfThree(self, n: int) -> bool:
         """
-        :type n: int
-        :rtype: bool
+        3 ** 19 = 1162261467, int32范围内最大的3的次方
+        如果1162261467能被n整除, 说明n是3的0-19次幂, 否则不是.
         """
         return (n > 0 and 1162261467 % n == 0)
+
+class Solution(object):
+    nums = {3 ** i for i in range(20)}
+    def isPowerOfThree(self, n: int) -> bool:
+        """查表法"""
+        return n in self.nums
+
 

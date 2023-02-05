@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18071477,UPDATE:20220325>
+# <SUBID:318102221,UPDATE:20230205>
 # English:
 # Alice has n candies, where the ith candy is of type candyType[i]. Alice noticed that she started to gain weight, so she visited a doctor.
 # The doctor advised Alice to only eat n / 2 of the candies she has (n is always even). Alice likes her candies very much, and she wants to eat the maximum number of different types of candies while still following the doctor's advice.
@@ -34,20 +34,13 @@
 # -105 <= candyType[i] <= 105
 
 
-#
-# @lc app=leetcode.cn id=575 lang=python
-#
-# [575] 分糖果
-#
-class Solution(object):
-    def distributeCandies(self, candies):
-        """
-        :type candies: List[int]
-        :rtype: int
-        """
-        uniq_count = len(set(candies))
-        if uniq_count >= len(candies) // 2:
-            return len(candies) // 2
+class Solution:
+    def distributeCandies(self, candyType: List[int]) -> int:
+        """计数法"""
+
+        uniq_count = len(set(candyType))
+        if uniq_count >= len(candyType) // 2:
+            return len(candyType) // 2
         return uniq_count
 
 if __name__ == "__main__":
@@ -55,4 +48,3 @@ if __name__ == "__main__":
     print(s)
     s = Solution().distributeCandies([1,1,2,3])
     print(s)
-

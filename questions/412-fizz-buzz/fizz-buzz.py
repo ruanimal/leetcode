@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18251560,UPDATE:20220325>
+# <SUBID:314828335,UPDATE:20230205>
 # English:
 # Given an integer n, return a string array answer (1-indexed) where:
 # answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
@@ -32,29 +32,26 @@
 # 1 <= n <= 104
 
 
-#
-# @lc app=leetcode.cn id=412 lang=python
-#
-# [412] Fizz Buzz
-#
-class Solution(object):
-    def fizzBuzz(self, n):
+class SolutionA:
+    def fizzBuzz(self, n: int) -> List[str]:
+        """暴力法
         """
-        :type n: int
-        :rtype: List[str]
-        """
-        # 正常版本
-        # ans = []
-        # for i in range(1, n+1):
-        #     if i % 15 == 0:
-        #         ans.append("FizzBuzz")
-        #     elif i % 3 == 0:
-        #         ans.append("Fizz")
-        #     elif i % 5 == 0:
-        #         ans.append("Buzz")
-        #     else:
-        #         ans.append(str(i))
-        # return ans
+
+        ans = []
+        for i in range(1, n+1):
+            if i % 15 == 0:
+                ans.append("FizzBuzz")
+            elif i % 3 == 0:
+                ans.append("Fizz")
+            elif i % 5 == 0:
+                ans.append("Buzz")
+            else:
+                ans.append(str(i))
+        return ans
+
+class Solution:
+    def fizzBuzz(self, n: int) -> List[str]:
+        """取余查表法"""
 
         bases = ["FizzBuzz", "", "", "Fizz", "", "Buzz", "Fizz", "", "", "Fizz", "Buzz", "", "Fizz", "", ""]   # [15, 1-14]
         ans = []
@@ -65,9 +62,3 @@ class Solution(object):
             else:
                 ans.append(str(i))
         return ans
-
-if __name__ == "__main__":
-    s = Solution().fizzBuzz(15)
-    print(s)
-
-

@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17886964,UPDATE:20220325>
+# <SUBID:313240444,UPDATE:20230205>
 # English:
-# Given a string columnTitle that represents the column title as appear in an Excel sheet, return its corresponding column number.
+# Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
 # For example:
 # A -> 1 B -> 2 C -> 3 ... Z -> 26 AA -> 27 AB -> 28 ...
 # Example 1:
@@ -32,24 +32,11 @@
 # columnTitle 在范围 ["A", "FXSHRXW"] 内
 
 
-#
-# @lc app=leetcode.cn id=171 lang=python
-#
-# [171] Excel表列序号
-#
-class Solution(object):
-    def titleToNumber(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+class Solution:
+    def titleToNumber(self, columnTitle: str) -> int:
         trans_map = {i:idx+1 for idx, i in enumerate('ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
         ret = 0
-        for idx, i in enumerate(s):
-            ret += trans_map[i] * (26 ** (len(s)-idx-1))
+        for idx, i in enumerate(columnTitle):
+            ret += trans_map[i] * (26 ** (len(columnTitle)-idx-1))
         return ret
-
-if __name__ == "__main__":
-    s = Solution().titleToNumber("AB")
-    print(s)
 

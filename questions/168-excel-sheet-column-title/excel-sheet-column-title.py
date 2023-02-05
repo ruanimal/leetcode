@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20967970,UPDATE:20220325>
+# <SUBID:20967970,UPDATE:20230205>
 # English:
 # Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
 # For example:

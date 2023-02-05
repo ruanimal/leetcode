@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16320794,UPDATE:20220325>
+# <SUBID:314439744,UPDATE:20230205>
 # English:
 # Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.
 # Example 1:
@@ -23,7 +23,7 @@
 
 
 #
-# @lc app=leetcode.cn id=349 lang=python
+# @lc app=leetcode.cn id=349 lang=python3
 #
 # [349] 两个数组的交集
 #
@@ -59,9 +59,8 @@
 class Solution(object):
     def intersection(self, nums1, nums2):
         """
-        :type nums1: List[int]
-        :type nums2: List[int]
-        :rtype: List[int]
+        暴力法
+        排序, 然后逐个比较大小, 用列表储存相同元素, 比较时记住上一轮结束比较的位置
         """
         if not nums1 or not nums2:
             return

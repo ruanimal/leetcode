@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18775636,UPDATE:20220325>
+# <SUBID:319346424,UPDATE:20230205>
 # English:
 # Given a string licensePlate and an array of strings words, find the shortest completing word in words.
 # A completing word is a word that contains all the letters in licensePlate. Ignore numbers and spaces in licensePlate, and treat letters as case insensitive. If a letter appears more than once in licensePlate, then it must appear in the word the same number of times or more.
@@ -34,18 +34,11 @@
 # words[i] 由小写英文字母组成
 
 
-#
-# @lc app=leetcode.cn id=748 lang=python
-#
-# [748] 至少是其他数字两倍的最大数
-#
-class Solution(object):
-    def shortestCompletingWord(self, licensePlate, words):
+class Solution:
+    def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
+        """hash计数暴力法
         """
-        :type licensePlate: str
-        :type words: List[str]
-        :rtype: str
-        """
+
         letter = {}
         for i in licensePlate:
             if i.isalpha():
@@ -70,9 +63,3 @@ class Solution(object):
                 if len(ans) == letter_len:
                     return ans
         return ans
-
-if __name__ == "__main__":
-    s = Solution().shortestCompletingWord(licensePlate = "1s3 PSt", words = ["step", "steps", "stripe", "stepple"])
-    print(s)
-
-

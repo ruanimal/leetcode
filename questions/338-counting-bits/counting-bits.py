@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17422477,UPDATE:20220325>
+# <SUBID:314410951,UPDATE:20230205>
 # English:
 # Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.
 # Example 1:
@@ -27,7 +27,7 @@
 
 
 #
-# @lc app=leetcode.cn id=338 lang=python
+# @lc app=leetcode.cn id=338 lang=python3
 #
 # [338] 比特位计数
 #
@@ -61,18 +61,15 @@
 #
 #
 class Solution(object):
-    def countBits(self, num):
-        """
-        :type num: int
-        :rtype: List[int]
+    def countBits(self, num: int) -> list:
+        """动态规划
         1. f[x]: 数字x的1的个数; 数字x一共有n位,最后一位是0和不是0
         2. f[x] = f[x>>1] if (i&1 == 0) else f[x>>1]; 也就是 f[x] = f[x>>1] + (x&1)
         """
-        f = [0, 1]
-        for x in range(2, num+1):
-            f.append(None)
+        f = [0] * (num+1)
+        for x in range(1, num+1):
             f[x] = f[x>>1] + (x&1)
-        return f[:num+1]
+        return f
 
 if __name__ == "__main__":
     s = Solution().countBits(5)

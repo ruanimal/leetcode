@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15987083,UPDATE:20220325>
+# <SUBID:314343789,UPDATE:20230205>
 # English:
 # Given a pattern and a string s, find if s follows the same pattern.
 # Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
@@ -20,13 +20,13 @@
 #
 # 中文:
 # 给定一种规律 pattern 和一个字符串 s ，判断 s 是否遵循相同的规律。
-# 这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 str 中的每个非空单词之间存在着双向连接的对应规律。
+# 这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 s 中的每个非空单词之间存在着双向连接的对应规律。
 # 示例1:
-# 输入: pattern = "abba", str = "dog cat cat dog" 输出: true
+# 输入: pattern = "abba", s = "dog cat cat dog" 输出: true
 # 示例 2:
-# 输入:pattern = "abba", str = "dog cat cat fish" 输出: false
+# 输入:pattern = "abba", s = "dog cat cat fish" 输出: false
 # 示例 3:
-# 输入: pattern = "aaaa", str = "dog cat cat dog" 输出: false
+# 输入: pattern = "aaaa", s = "dog cat cat dog" 输出: false
 # 提示:
 # 1 <= pattern.length <= 300
 # pattern 只包含小写英文字母
@@ -36,57 +36,14 @@
 # s 中每个单词都被 单个空格 分隔
 
 
-#
-# @lc app=leetcode.cn id=290 lang=python
-#
-# [290] 单词模式
-#
-# https://leetcode-cn.com/problems/word-pattern/description/
-#
-# algorithms
-# Easy (36.97%)
-# Total Accepted:    5.7K
-# Total Submissions: 15K
-# Testcase Example:  '"abba"\n"dog cat cat dog"'
-#
-# 给定一种 pattern(模式) 和一个字符串 str ，判断 str 是否遵循相同的模式。
-#
-# 这里的遵循指完全匹配，例如， pattern 里的每个字母和字符串 str 中的每个非空单词之间存在着双向连接的对应模式。
-#
-# 示例1:
-#
-# 输入: pattern = "abba", str = "dog cat cat dog"
-# 输出: true
-#
-# 示例 2:
-#
-# 输入:pattern = "abba", str = "dog cat cat fish"
-# 输出: false
-#
-# 示例 3:
-#
-# 输入: pattern = "aaaa", str = "dog cat cat dog"
-# 输出: false
-#
-# 示例 4:
-#
-# 输入: pattern = "abba", str = "dog dog dog dog"
-# 输出: false
-#
-# 说明:
-# 你可以假设 pattern 只包含小写字母， str 包含了由单个空格分隔的小写字母。    
-#
-#
 
 
-class Solution(object):
-    def wordPattern(self, pattern, str):
+class SolutionA(object):
+    def wordPattern(self, pattern: str, string: str) -> bool:
         """
-        :type pattern: str
-        :type str: str
-        :rtype: bool
+        暴力法
         """
-        words = str.split()
+        words = string.split()
         if len(set(pattern)) != len(set(words)):
             return False
         p_len = len(pattern)
@@ -99,5 +56,30 @@ class Solution(object):
                     return False
         return True
 
+class Solution(object):
+    def wordPattern(self, pattern: str, string: str) -> bool:
+        """
+        hash法
+        """
 
+        words = string.split()
+        if len(pattern) != len(words):
+            return False
+
+        mapping = {}
+        order = 0
+        for i in words:
+            key = i + '#'  # 防止i只有一个字符的情况
+            if key not in mapping:
+                mapping[key] = order
+                order += 1
+
+        order = 0
+        for i, j in zip(pattern, words):
+            if i not in mapping:
+                mapping[i] = order
+                order += 1
+            if mapping[i] != mapping[j + '#']:
+                return False
+        return True
 

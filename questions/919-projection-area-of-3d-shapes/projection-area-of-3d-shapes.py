@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18238350,UPDATE:20220325>
+# <SUBID:319569925,UPDATE:20230205>
 # English:
 # You are given an n x n grid where we place some 1 x 1 x 1 cubes that are axis-aligned with the x, y, and z axes.
 # Each value v = grid[i][j] represents a tower of v cubes placed on top of the cell (i, j).
@@ -39,17 +39,8 @@
 # 0 <= grid[i][j] <= 50
 
 
-#
-# @lc app=leetcode.cn id=883 lang=python
-#
-# [883] 三维形体投影面积
-#
-class Solution(object):
-    def projectionArea(self, grid):
-        """
-        :type grid: List[List[int]]
-        :rtype: int
-        """
+class Solution:
+    def projectionArea(self, grid: List[List[int]]) -> int:
         ret = 0
         for x in range(len(grid)):
             ret += max(grid[x])  # y 方向投影
@@ -62,8 +53,3 @@ class Solution(object):
                 tmp = max(tmp, grid[x][y])
             ret += tmp  # x 方向投影
         return ret
-
-if __name__ == "__main__":
-    s = Solution().projectionArea([[1,2],[3,4]])
-    print(s)
-

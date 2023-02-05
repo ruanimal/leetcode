@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17817871,UPDATE:20220325>
+# <SUBID:319985452,UPDATE:20230205>
 # English:
 # A valid parentheses string is either empty "", "(" + A + ")", or A + B, where A and B are valid parentheses strings, and + represents string concatenation.
 # For example, "", "()", "(())()", and "(()(()))" are all valid parentheses strings.
@@ -36,22 +36,18 @@
 # s 是一个有效括号字符串
 
 
-class Solution(object):
-    def removeOuterParentheses(self, S):
-        """
-        :type S: str
-        :rtype: str
-        """
+class Solution:
+    def removeOuterParentheses(self, s: str) -> str:
         stack = []
         start_index = 0
         res = ''
-        for i in range(len(S)):
-            if S[i] == '(':
-                stack.append(S[i])
+        for i in range(len(s)):
+            if s[i] == '(':
+                stack.append(s[i])
             else:
                 stack.pop()
             if not stack:
-                res += S[start_index+1:i]
+                res += s[start_index+1:i]
                 start_index = i+1
         return res
-        
+

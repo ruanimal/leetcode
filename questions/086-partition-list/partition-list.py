@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15344535,UPDATE:20220325>
+# <SUBID:308662144,UPDATE:20230205>
 # English:
 # Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
 # You should preserve the original relative order of the nodes in each of the two partitions.
@@ -26,61 +26,6 @@
 # -200 <= x <= 200
 
 
-# -*- coding:utf-8 -*-
-#
-# @lc app=leetcode.cn id=86 lang=python3
-#
-# [86] 分隔链表
-#
-# https://leetcode-cn.com/problems/partition-list/description/
-#
-# algorithms
-# Medium (44.54%)
-# Total Accepted:    6K
-# Total Submissions: 12.9K
-# Testcase Example:  '[1,4,3,2,5,2]\n3'
-#
-# 给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。
-#
-# 你应当保留两个分区中每个节点的初始相对位置。
-#
-# 示例:
-#
-# 输入: head = 1->4->3->2->5->2, x = 3
-# 输出: 1->2->2->4->3->5
-#
-#
-#
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
-    def __str__(self):
-        tmp = []
-        node = self
-        while node:
-            tmp.append(repr(node.val))
-            node = node.next
-        tmp.append('None')
-        return ' -> '.join(tmp)
-
-    __repr__ = __str__
-
-
-def build_list_node(nums):
-    head = node = ListNode(None)
-    for i in nums:
-        node.next = ListNode(i)
-        node = node.next
-    return head.next
 
 
 class Solution:
@@ -112,8 +57,4 @@ class Solution:
             ptr.next = gt_head.next
             gt_ptr.next = None
         return new_head.next
-
-if __name__ == "__main__":
-    l = build_list_node([1,4,3,2,5,2])
-    print(Solution().partition(l, 3))
 

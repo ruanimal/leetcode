@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15987855,UPDATE:20220325>
+# <SUBID:314438336,UPDATE:20230205>
 # English:
 # Given a string s, reverse only all the vowels in the string and return it.
-# The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both cases.
+# The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower and upper cases, more than once.
 # Example 1:
 # Input: s = "hello" Output: "holle"
 # Example 2:
@@ -14,7 +14,7 @@
 #
 # 中文:
 # 给你一个字符串 s ，仅反转字符串中的所有元音字母，并返回结果字符串。
-# 元音字母包括 'a'、'e'、'i'、'o'、'u'，且可能以大小写两种形式出现。
+# 元音字母包括 'a'、'e'、'i'、'o'、'u'，且可能以大小写两种形式出现不止一次。
 # 示例 1：
 # 输入：s = "hello" 输出："holle"
 # 示例 2：
@@ -25,7 +25,7 @@
 
 
 #
-# @lc app=leetcode.cn id=345 lang=python
+# @lc app=leetcode.cn id=345 lang=python3
 #
 # [345] 反转字符串中的元音字母
 #
@@ -56,11 +56,10 @@
 #
 
 
-class Solution(object):
-    def reverseVowels(self, s):
+class SolutionA(object):
+    def reverseVowels(self, s: str) -> str:
         """
-        :type s: str
-        :rtype: str
+        先找到元音的位置然后逐个交互
         """
         if len(s) < 2:
             return s
@@ -71,4 +70,34 @@ class Solution(object):
             string_list[vowels_list[i]], string_list[vowels_list[-i-1]] = string_list[vowels_list[-i-1]], string_list[vowels_list[i]]
             i += 1
         return ''.join(string_list)
+
+class Solution(object):
+    vowels = set('aeiouAEIOU')
+
+    def reverseVowels(self, s: str) -> str:
+        """
+        双指针
+        """
+
+        if len(s) < 2:
+            return s
+        tmp = list(s)
+        i = 0
+        j = len(tmp) - 1
+        while i < j:
+            if tmp[i] in self.vowels and tmp[j] in self.vowels:
+                tmp[i], tmp[j] = tmp[j], tmp[i]
+                i += 1
+                j -= 1
+            elif tmp[i] not in self.vowels:
+                i += 1
+            elif tmp[j] not in self.vowels:
+                j -= 1
+            else:
+                i += 1
+                j -= 1
+        return ''.join(tmp)
+
+s = Solution().reverseVowels('leetcode')
+print(s)
 

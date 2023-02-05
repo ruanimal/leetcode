@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18676120,UPDATE:20220325>
+# <SUBID:319990111,UPDATE:20230205>
 # English:
 # You are given four integers row, cols, rCenter, and cCenter. There is a rows x cols matrix and you are on the cell with the coordinates (rCenter, cCenter).
 # Return the coordinates of all cells in the matrix, sorted by their distance from (rCenter, cCenter) from the smallest distance to the largest distance. You may return the answer in any order that satisfies this condition.
@@ -17,7 +17,7 @@
 # 0 <= cCenter < cols
 #
 # 中文:
-# 给定四个整数 row ,   cols ,  rCenter 和 cCenter 。有一个 rows x cols 的矩阵，你在单元格上的坐标是 (rCenter, cCenter) 。
+# 给定四个整数 rows ,   cols ,  rCenter 和 cCenter 。有一个 rows x cols 的矩阵，你在单元格上的坐标是 (rCenter, cCenter) 。
 # 返回矩阵中的所有单元格的坐标，并按与 (rCenter, cCenter) 的 距离 从最小到最大的顺序排。你可以按 任何 满足此条件的顺序返回答案。
 # 单元格(r1, c1) 和 (r2, c2) 之间的距离为|r1 - r2| + |c1 - c2|。
 # 示例 1：
@@ -32,33 +32,14 @@
 # 0 <= cCenter < cols
 
 
-#
-# @lc app=leetcode.cn id=1030 lang=python
-#
-# [1030] 距离顺序排列矩阵单元格
-#
-class Solution(object):
-    def allCellsDistOrder(self, R, C, r0, c0):
-        """
-        :type R: int
-        :type C: int
-        :type r0: int
-        :type c0: int
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def allCellsDistOrder(self, rows: int, cols: int,
+                          rCenter: int, cCenter: int) -> List[List[int]]:
+        """暴力法"""
+
         dis_map = {}
-        for x in range(0, R):
-            for y in range(0, C):
-                dis_map[(x, y)] = abs(x-r0) + abs(y-c0)
+        for x in range(0, rows):
+            for y in range(0, cols):
+                dis_map[(x, y)] = abs(x-rCenter) + abs(y-cCenter)
         return [list(i[0]) for i in sorted(dis_map.items(), key=lambda i: i[1])]
-
-if __name__ == "__main__":
-    s = Solution().allCellsDistOrder(R = 1, C = 2, r0 = 0, c0 = 0)
-    print(s)
-    s = Solution().allCellsDistOrder(R = 2, C = 2, r0 = 0, c0 = 1)
-    print(s)
-    s = Solution().allCellsDistOrder(R = 3, C = 5, r0 = 2, c0 = 3)
-    print(s)
-
-
 

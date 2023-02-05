@@ -1,15 +1,13 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:19695176,UPDATE:20220325>
+# <SUBID:314825798,UPDATE:20230205>
 # English:
 # Given a string s which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters.
 # Letters are case sensitive, for example, "Aa" is not considered a palindrome here.
 # Example 1:
 # Input: s = "abccccdd" Output: 7 Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.
 # Example 2:
-# Input: s = "a" Output: 1
-# Example 3:
-# Input: s = "bb" Output: 2
+# Input: s = "a" Output: 1 Explanation: The longest palindrome that can be built is "a", whose length is 1.
 # Constraints:
 # 1 <= s.length <= 2000
 # s consists of lowercase and/or uppercase English letters only.
@@ -22,15 +20,15 @@
 # 输入:s = "abccccdd" 输出:7 解释: 我们可以构造的最长的回文串是"dccaccd", 它的长度是 7。
 # 示例 2:
 # 输入:s = "a" 输入:1
-# 示例 3:
-# 输入:s = "bb" 输入: 2
+# 示例 3：
+# 输入:s = "aaaaaccc" 输入:7
 # 提示:
 # 1 <= s.length <= 2000
-# s 只能由小写和/或大写英文字母组成
+# s 只由小写 和/或 大写英文字母组成
 
 
 #
-# @lc app=leetcode.cn id=409 lang=python
+# @lc app=leetcode.cn id=409 lang=python3
 #
 # [409] 最长回文串
 #
@@ -66,18 +64,18 @@
 #
 #
 class Solution(object):
-    def longestPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: int
+    def longestPalindrome(self, s: str) -> int:
+        """计数法
+        如果是偶数则全部可用, 是奇数则取偶数的部分.
+        如果存在一个及以上的奇数, 则最终结果加一
         """
         from collections import Counter
 
         count_s = Counter(s)
         ret = 0
         odd = 0
-        for k, v in count_s.items():
-            if (v & 1) == 0:
+        for _, v in count_s.items():
+            if v % 2 == 0:   # 偶数
                 ret += v
             else:
                 ret += (v-1)

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:24306823,UPDATE:20220325>
+# <SUBID:314431171,UPDATE:20230205>
 # English:
 # Write a function that reverses a string. The input string is given as an array of characters s.
 # You must do this by modifying the input array in-place with O(1) extra memory.
@@ -25,7 +25,7 @@
 
 
 #
-# @lc app=leetcode.cn id=344 lang=python
+# @lc app=leetcode.cn id=344 lang=python3
 #
 # [344] 反转字符串
 #
@@ -60,21 +60,10 @@
 
 
 class Solution(object):
-    def reverseString(self, s):
+    def reverseString(self, s: list) -> list:
         """
-        :type s: str
-        :rtype: str
+        双指针法
         """
-        # # v1
-        # if len(s) < 2:
-        #     return s
-        # i = 0
-        # while i < len(s)/2:
-        #     s[i], s[-i-1] = s[-i-1], s[i]
-        #     i += 1
-        # return s
-
-        # v2
         if len(s) < 2:
             return s
         i = 0

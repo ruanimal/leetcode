@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20920459,UPDATE:20220325>
+# <SUBID:319312690,UPDATE:20230205>
 # English:
 # Given an array of integers nums, calculate the pivot index of this array.
 # The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
@@ -35,7 +35,7 @@
 
 
 #
-# @lc app=leetcode.cn id=724 lang=python
+# @lc app=leetcode.cn id=724 lang=python3
 #
 # [724] 寻找数组的中心索引
 #
@@ -83,23 +83,10 @@
 #
 #
 #
-class Solution(object):
-    def pivotIndex(self, nums):
+class Solution:
+    def pivotIndex(self, nums: list) -> int:
+        """模拟法
         """
-        :type nums: List[int]
-        :rtype: int
-        """
-        # v1 用到了浮点数的比较, 不太好
-        # s = sum(nums)
-        # half = s / 2.0
-        # tmp = 0
-        # for idx, i in enumerate(nums):
-        #     if tmp + i/2.0 == half:
-        #         return idx
-        #         break
-        #     tmp += i
-        # return -1
-
         s = sum(nums)
         tmp = 0
         for idx, i in enumerate(nums):

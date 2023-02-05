@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21053782,UPDATE:20220325>
+# <SUBID:319558142,UPDATE:20230205>
 # English:
 # Given two strings s and goal, return true if you can swap two letters in s so the result is equal to goal, otherwise, return false.
 # Swapping letters is defined as taking two indices i and j (0-indexed) such that i != j and swapping the characters at s[i] and s[j].
@@ -31,7 +31,7 @@
 
 
 #
-# @lc app=leetcode.cn id=859 lang=python
+# @lc app=leetcode.cn id=859 lang=python3
 #
 # [859] 亲密字符串
 #
@@ -91,12 +91,9 @@
 #
 #
 #
-class Solution(object):
-    def buddyStrings(self, A, B):
-        """
-        :type A: str
-        :type B: str
-        :rtype: bool
+class Solution:
+    def buddyStrings(self, A: str, B: str) -> bool:
+        """计数法
         """
         if len(A) != len(B):
             return False

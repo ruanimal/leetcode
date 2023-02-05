@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20762604,UPDATE:20220325>
+# <SUBID:314597070,UPDATE:20230205>
 # English:
 # Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 # Example 1:
@@ -27,7 +27,7 @@
 
 
 #
-# @lc app=leetcode.cn id=387 lang=python
+# @lc app=leetcode.cn id=387 lang=python3
 #
 # [387] 字符串中的第一个唯一字符
 #
@@ -59,10 +59,8 @@
 #
 #
 class Solution(object):
-    def firstUniqChar(self, s):
-        """
-        :type s: str
-        :rtype: int
+    def firstUniqChar(self, s: str) -> int:
+        """按次数分组排序
         """
         if not s:
             return -1
@@ -74,6 +72,17 @@ class Solution(object):
         tmp = sum((i[1] for i in counter.items() if len(i[1])==1), [])
         tmp.sort()
         return tmp[0] if tmp else -1
+
+class SolutionA:
+    def firstUniqChar(self, s: str) -> int:
+        """库函数法
+        find是从左往右搜索，rfind是从右往左搜索，都是返回第一个匹配的下标。 如果两者一致，证明这个就是唯一值。
+        """
+
+        for i in range(len(s)):
+            if s.find(s[i]) == s.rfind(s[i]):
+                return i
+        return -1
 
 if __name__ == "__main__":
     s = Solution().firstUniqChar('leetcode')

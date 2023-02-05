@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15985710,UPDATE:20220325>
+# <SUBID:313302008,UPDATE:20230205>
 # English:
 # Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 # Example 1:
@@ -27,7 +27,7 @@
 
 
 #
-# @lc app=leetcode.cn id=217 lang=python
+# @lc app=leetcode.cn id=217 lang=python3
 #
 # [217] 存在重复元素
 #
@@ -61,12 +61,16 @@
 #
 
 class Solution(object):
-    def containsDuplicate(self, nums):
+    def containsDuplicate(self, nums: list) -> bool:
         """
-        :type nums: List[int]
-        :rtype: bool
+        集合计数法
         """
-        if len(set(nums)) != len(nums):
-            return True
+        nums_set = set()
+        count = 0
+        for i in nums:
+            nums_set.add(i)
+            count += 1
+            if len(nums_set) != count:
+                return True
         return False
 

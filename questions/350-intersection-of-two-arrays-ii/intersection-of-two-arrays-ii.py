@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16322468,UPDATE:20220325>
+# <SUBID:314441617,UPDATE:20230205>
 # English:
 # Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.
 # Example 1:
@@ -31,7 +31,7 @@
 
 
 #
-# @lc app=leetcode.cn id=350 lang=python
+# @lc app=leetcode.cn id=350 lang=python3
 #
 # [350] 两个数组的交集 II
 #
@@ -73,11 +73,8 @@
 #
 #
 class Solution(object):
-    def intersect(self, nums1, nums2):
-        """
-        :type nums1: List[int]
-        :type nums2: List[int]
-        :rtype: List[int]
+    def intersect(self, nums1: list, nums2: list) -> list:
+        """使用第349题的暴力法
         """
         if not nums1 or not nums2:
             return

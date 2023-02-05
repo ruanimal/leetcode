@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18604698,UPDATE:20220325>
+# <SUBID:319522843,UPDATE:20230205>
 # English:
 # You are given a string sentence that consist of words separated by spaces. Each word consists of lowercase and uppercase letters only.
 # We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.) The rules of Goat Latin are as follows:
@@ -22,42 +22,32 @@
 # All the words in sentence are separated by a single space.
 #
 # 中文:
-# 给定一个由空格分割单词的句子 S。每个单词只包含大写或小写字母。
-# 我们要将句子转换为 “Goat Latin”（一种类似于 猪拉丁文 - Pig Latin 的虚构语言）。
-# 山羊拉丁文的规则如下：
-# 如果单词以元音开头（a, e, i, o, u），在单词后添加"ma"。
-# 例如，单词"apple"变为"applema"。
-#
-#
-# 如果单词以辅音字母开头（即非元音字母），移除第一个字符并将它放到末尾，之后再添加"ma"。
-# 例如，单词"goat"变为"oatgma"。
-#
-#
-# 根据单词在句子中的索引，在单词最后添加与索引相同数量的字母'a'，索引从1开始。
-# 例如，在第一个单词后添加"a"，在第二个单词后添加"aa"，以此类推。
-# 返回将 S 转换为山羊拉丁文后的句子。
-# 示例 1:
-# 输入: "I speak Goat Latin" 输出: "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
-# 示例 2:
-# 输入: "The quick brown fox jumped over the lazy dog" 输出: "heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"
-# 说明:
-# S 中仅包含大小写字母和空格。单词间有且仅有一个空格。
-# 1 <= S.length <= 150。
+# 给你一个由若干单词组成的句子 sentence ，单词间由空格分隔。每个单词仅由大写和小写英文字母组成。
+# 请你将句子转换为 “山羊拉丁文（Goat Latin）”（一种类似于 猪拉丁文 - Pig Latin 的虚构语言）。山羊拉丁文的规则如下：
+# 如果单词以元音开头（'a', 'e', 'i', 'o', 'u'），在单词后添加"ma"。
+# 例如，单词 "apple" 变为 "applema" 。
+# 如果单词以辅音字母开头（即，非元音字母），移除第一个字符并将它放到末尾，之后再添加"ma"。
+# 例如，单词 "goat" 变为 "oatgma" 。
+# 根据单词在句子中的索引，在单词最后添加与索引相同数量的字母'a'，索引从 1 开始。
+# 例如，在第一个单词后添加 "a" ，在第二个单词后添加 "aa" ，以此类推。
+# 返回将 sentence 转换为山羊拉丁文后的句子。
+# 示例 1：
+# 输入：sentence = "I speak Goat Latin" 输出："Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
+# 示例 2：
+# 输入：sentence = "The quick brown fox jumped over the lazy dog" 输出："heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa"
+# 提示：
+# 1 <= sentence.length <= 150
+# sentence 由英文字母和空格组成
+# sentence 不含前导或尾随空格
+# sentence 中的所有单词由单个空格分隔
 
 
-#
-# @lc app=leetcode.cn id=824 lang=python
-#
-# [824] 山羊拉丁文
-#
-class Solution(object):
-    def toGoatLatin(self, S):
-        """
-        :type S: str
-        :rtype: str
-        """
+class Solution:
+    def toGoatLatin(self, sentence: str) -> str:
+        """暴力模拟"""
+
         ans = []
-        for idx, word in enumerate(S.split()):
+        for idx, word in enumerate(sentence.split()):
             tmp = ''
             if word[0].lower() in {'a', 'e', 'i', 'u', 'o'}:
                 tmp += word
@@ -67,8 +57,3 @@ class Solution(object):
             tmp += ('a' * (idx+1))
             ans.append(tmp)
         return ' '.join(ans)
-
-if __name__ == "__main__":
-    s = Solution().toGoatLatin("I speak Goat Latin")
-    print(s)
-

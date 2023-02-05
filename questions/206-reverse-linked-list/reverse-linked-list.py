@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:282572629,UPDATE:20220325>
+# <SUBID:282572629,UPDATE:20230205>
 # English:
 # Given the head of a singly linked list, reverse the list, and return the reversed list.
 # Example 1:

@@ -1,8 +1,8 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:19693712,UPDATE:20220325>
+# <SUBID:314595993,UPDATE:20230205>
 # English:
-# Given two strings ransomNote and magazine, return true if ransomNote can be constructed from magazine and false otherwise.
+# Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.
 # Each letter in magazine can only be used once in ransomNote.
 # Example 1:
 # Input: ransomNote = "a", magazine = "b" Output: false
@@ -30,7 +30,7 @@
 
 
 #
-# @lc app=leetcode.cn id=383 lang=python
+# @lc app=leetcode.cn id=383 lang=python3
 #
 # [383] 赎金信
 #
@@ -61,12 +61,9 @@
 #
 #
 #
-class Solution(object):
-    def canConstruct(self, ransomNote, magazine):
-        """
-        :type ransomNote: str
-        :type magazine: str
-        :rtype: bool
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        """hash计数法
         """
         from collections import Counter
         count_a = Counter(ransomNote)

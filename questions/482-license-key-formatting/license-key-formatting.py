@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20838655,UPDATE:20220325>
+# <SUBID:317664247,UPDATE:20230205>
 # English:
 # You are given a license key represented as a string s that consists of only alphanumeric characters and dashes. The string is separated into n + 1 groups by n dashes. You are also given an integer k.
 # We want to reformat the string s such that each group contains exactly k characters, except for the first group, which could be shorter than k but still must contain at least one character. Furthermore, there must be a dash inserted between two groups, and you should convert all lowercase letters to uppercase.
@@ -29,7 +29,7 @@
 
 
 #
-# @lc app=leetcode.cn id=482 lang=python
+# @lc app=leetcode.cn id=482 lang=python3
 #
 # [482] 密钥格式化
 #
@@ -83,13 +83,10 @@
 #
 #
 #
-class Solution(object):
-    def licenseKeyFormatting(self, S, K):
+class Solution:
+    def licenseKeyFormatting(self, S: str, K: int) -> str:
         """
-        :type S: str
-        :type K: int
-        :rtype: str
-        \w+(-\w{k})*
+        正则表示: \w+(-\w{k})*
         """
         ss = ''.join([i for i in S if i != '-'])
         ans = []
@@ -98,7 +95,6 @@ class Solution(object):
             ans.append(ss[:first])
         for i in range(first, len(ss), K):
             ans.append(ss[i:i+K])
-        # print(ans)
         return '-'.join(ans).upper()
 
 if __name__ == "__main__":

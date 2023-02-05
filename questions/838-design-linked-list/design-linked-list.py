@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:16419982,UPDATE:20220325>
+# <SUBID:319275681,UPDATE:20230205>
 # English:
 # Design your implementation of the linked list. You can choose to use a singly or doubly linked list.
 # A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node.
@@ -30,13 +30,13 @@
 # 示例：
 # MyLinkedList linkedList = new MyLinkedList(); linkedList.addAtHead(1); linkedList.addAtTail(3); linkedList.addAtIndex(1,2); //链表变为1-> 2-> 3 linkedList.get(1); //返回2 linkedList.deleteAtIndex(1); //现在链表是1-> 3 linkedList.get(1); //返回3
 # 提示：
-# 所有val值都在 [1, 1000] 之内。
-# 操作次数将在  [1, 1000] 之内。
+# 0 <= index, val <= 1000
 # 请不要使用内置的 LinkedList 库。
+# get, addAtHead, addAtTail, addAtIndex 和 deleteAtIndex 的操作次数不超过 2000。
 
 
 #
-# @lc app=leetcode.cn id=707 lang=python
+# @lc app=leetcode.cn id=707 lang=python3
 #
 # [707] Design Linked List
 #
@@ -104,58 +104,33 @@ class Node(object):
         return ' -> '.join(tmp)
 
 class MyLinkedList(object):
-
     def __init__(self):
-        """
-        Initialize your data structure here.
-        """
-        self.head = Node(-1)
-        self.tail = self.head
+        self.head: Node = Node(-1)
+        self.tail: Node = self.head
         self.length = 0
 
-    def get(self, index):
-        """
-        Get the value of the index-th node in the linked list. If the index is invalid, return -1.
-        :type index: int
-        :rtype: int
-        """
+    def get(self, index: int) -> int:
         if index < 0 or index >= self.length:
             return -1
 
         p = self.head
-        for i in range(index):
+        for _ in range(index):
             p = p.next
         return p.val
 
-    def addAtHead(self, val):
-        """
-        Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
-        :type val: int
-        :rtype: None
-        """
+    def addAtHead(self, val: int) -> None:
         t = Node(val)
         t.next = self.head
         self.head = t
         self.length += 1
 
-    def addAtTail(self, val):
-        """
-        Append a node of value val to the last element of the linked list.
-        :type val: int
-        :rtype: None
-        """
+    def addAtTail(self, val: int) -> None:
         self.tail.val = val
         self.tail.next = Node(-1)
         self.tail = self.tail.next
         self.length += 1
 
-    def addAtIndex(self, index, val):
-        """
-        Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.
-        :type index: int
-        :type val: int
-        :rtype: None
-        """
+    def addAtIndex(self, index: int, val: int) -> None:
         if index < 0 or index > self.length:
             return -1
         if index == 0:
@@ -172,18 +147,13 @@ class MyLinkedList(object):
             self.tail = self.tail.next
         self.length += 1
 
-    def deleteAtIndex(self, index):
-        """
-        Delete the index-th node in the linked list, if the index is valid.
-        :type index: int
-        :rtype: None
-        """
+    def deleteAtIndex(self, index: int) -> None:
         if index < 0 or index >= self.length:
             return -1
         if index == 0 and self.length == 0:
             return
         p = self.head
-        for i in range(index):
+        for _ in range(index):
             p = p.next
         p.val = p.next.val
         p.next = p.next.next

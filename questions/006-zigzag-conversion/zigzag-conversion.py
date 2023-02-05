@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:28528780,UPDATE:20220325>
+# <SUBID:301776383,UPDATE:20230205>
 # English:
 # The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 # P A H N A P L S I I G Y I R
@@ -38,7 +38,7 @@
 
 
 #
-# @lc app=leetcode.cn id=6 lang=python
+# @lc app=leetcode.cn id=6 lang=python3
 #
 # [6] Z 字形变换
 #
@@ -53,37 +53,37 @@
 # Testcase Example:  '"PAYPALISHIRING"\n3'
 #
 # 将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。
-# 
+#
 # 比如输入字符串为 "LEETCODEISHIRING" 行数为 3 时，排列如下：
-# 
+#
 # L   C   I   R
 # E T O E S I I G
 # E   D   H   N
-# 
-# 
+#
+#
 # 之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如："LCIRETOESIIGEDHN"。
-# 
+#
 # 请你实现这个将字符串进行指定行数变换的函数：
-# 
+#
 # string convert(string s, int numRows);
-# 
+#
 # 示例 1:
-# 
+#
 # 输入: s = "LEETCODEISHIRING", numRows = 3
 # 输出: "LCIRETOESIIGEDHN"
-# 
-# 
+#
+#
 # 示例 2:
-# 
+#
 # 输入: s = "LEETCODEISHIRING", numRows = 4
 # 输出: "LDREOEIIECIHNTSG"
 # 解释:
-# 
+#
 # L     D     R
 # E   O E   I I
 # E C   I H   N
 # T     S     G
-# 
+#
 #
 
 '''
@@ -101,18 +101,17 @@ class Solution(object):
             return ''
 
         if len(s) <= numRows or numRows==1:
-            return s 
+            return s
 
         row = 0
         grid = [[] for _ in range(numRows)]
         going_down = 1
         for i in s:
-            # print(row)
-            grid[row].append(i)
-            row += going_down 
-            if (row == 0) or (row == numRows - 1):
-                going_down = -1 * going_down
-        # print(grid)
+            # print(row, going_down)
+            grid[row].append(i)  # 逐行往下
+            row += going_down
+            if (row == 0) or (row == numRows - 1):  # 换方向
+                going_down = -going_down
         return ''.join(''.join(i) for i in grid)
 
     def convert_v1(self, s, numRows):
@@ -129,7 +128,7 @@ class Solution(object):
             return ''
 
         if len(s) <= numRows or numRows==1:
-            return s 
+            return s
 
         x = 0
         y = 0
@@ -142,7 +141,7 @@ class Solution(object):
         # print(grid)
         for idx, i in enumerate(s):
             grid[x][y] = i
-            z_flag = (idx // count) & 1 
+            z_flag = (idx // count) & 1
             x, y = self.next_point(x, y, z_flag, count)
         # print(grid)
         return ''.join(''.join(i) for i in grid)
@@ -159,10 +158,4 @@ class Solution(object):
 if __name__ == "__main__":
     s = Solution().convert("LEETCODEISHIRING", 3)
     print(s)
-    s = Solution().convert("czawtmojhtslcnfdpffakysphqssrwfvyhsttgcacvngkvkzarbmpvby", 45)
-    print(s)
-    # import timeit 
-    # costs = timeit.Timer('Solution().convert("czawtmojhtslcnfdpffakysphqssrwfvyhsttgcacvngkvkzarbmpvby", 45)', setup='from __main__ import Solution').repeat(7, 1000) 
-    # print(sum(costs) / len(costs))
-    # costs = timeit.Timer('Solution().convert_v1("czawtmojhtslcnfdpffakysphqssrwfvyhsttgcacvngkvkzarbmpvby", 45)', setup='from __main__ import Solution').repeat(7, 1000) 
-    # print(sum(costs) / len(costs))
+

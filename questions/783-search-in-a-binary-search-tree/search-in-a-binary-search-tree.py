@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:283896081,UPDATE:20220325>
+# <SUBID:283896081,UPDATE:20230205>
 # English:
 # You are given the root of a binary search tree (BST) and an integer val.
 # Find the node in the BST that the node's value equals val and return the subtree rooted with that node. If such a node does not exist, return null.
@@ -22,7 +22,7 @@
 # null 。
 # 示例 1:
 # 输入：root = [4,2,7,1,3], val = 2 输出：[2,1,3]
-# Example 2:
+# 示例 2:
 # 输入：root = [4,2,7,1,3], val = 5 输出：[]
 # 提示：
 # 数中节点数在 [1, 5000] 范围内

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:194526612,UPDATE:20220325>
+# <SUBID:194526612,UPDATE:20230205>
 # English:
 # Write a program to solve a Sudoku puzzle by filling the empty cells.
 # A sudoku solution must satisfy all of the following rules:

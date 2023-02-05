@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:18605611,UPDATE:20220325>
+# <SUBID:319477062,UPDATE:20230205>
 # English:
 # An integer x is a good if after rotating each digit individually by 180 degrees, we get a valid number that is different from x. Each digit must be rotated - we cannot choose to leave it alone.
 # A number is valid if each digit remains a digit after rotation. For example:
@@ -28,33 +28,28 @@
 # N 的取值范围是 [1, 10000]。
 
 
-#
-# @lc app=leetcode.cn id=788 lang=python
-#
-# [788] 旋转数字
-#
-class Solution(object):
-    def rotatedDigits(self, N):
-        """
-        :type N: int
-        :rtype: int
-        """
+class Solution:
+    trans_map = {'1':'1', '0':'0', '8':'8', '2': '5', '5': '2', '6': '9', '9': '6'}
+    cache = set()
+
+    def rotatedDigits(self, n: int) -> int:
         count = 0
-        trans_map = {'1':'1', '0':'0', '8':'8', '2': '5', '5': '2', '6': '9', '9': '6'}
-        for i in range(1, N+1):
-            str_num = list(str(i))
-            tmp = []
-            for j in str_num:
-                if j in trans_map:
-                    tmp.append(trans_map[j])
-                else:
-                    break
-            if len(tmp) == len(str_num) and tmp != str_num:
+        for i in range(1, n+1):
+            if self.is_valid(i):
                 count += 1
         return count
 
-if __name__ == "__main__":
-    s = Solution().rotatedDigits(10)
-    print(s)
-
-
+    def is_valid(self, num):
+        if num in self.cache:
+            return True
+        str_num = list(str(num))
+        tmp = []
+        for j in str_num:
+            if j in self.trans_map:
+                tmp.append(self.trans_map[j])
+            else:
+                break
+        if len(tmp) == len(str_num) and tmp != str_num:
+            self.cache.add(num)
+            return True
+        return False

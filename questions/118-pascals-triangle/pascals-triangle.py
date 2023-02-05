@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15957074,UPDATE:20220325>
+# <SUBID:309818742,UPDATE:20230205>
 # English:
 # Given an integer numRows, return the first numRows of Pascal's triangle.
 # In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
@@ -23,7 +23,7 @@
 
 
 #
-# @lc app=leetcode.cn id=118 lang=python
+# @lc app=leetcode.cn id=118 lang=python3
 #
 # [118] 杨辉三角
 #
@@ -57,11 +57,7 @@
 
 
 class Solution(object):
-    def generate(self, numRows):
-        """
-        :type numRows: int
-        :rtype: List[List[int]]
-        """
+    def generate(self, numRows: int) -> list:
         if numRows < 1:
             return []
         if numRows == 1:

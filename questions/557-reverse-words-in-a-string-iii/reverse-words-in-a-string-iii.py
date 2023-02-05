@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17771152,UPDATE:20220325>
+# <SUBID:17771152,UPDATE:20230205>
 # English:
 # Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
 # Example 1:

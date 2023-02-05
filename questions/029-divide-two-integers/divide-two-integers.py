@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:29145949,UPDATE:20220325>
+# <SUBID:29145949,UPDATE:20230205>
 # English:
 # Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
 # The integer division should truncate toward zero, which means losing its fractional part. For example, 8.345 would be truncated to 8, and -2.7335 would be truncated to -2.
@@ -15,17 +15,17 @@
 # divisor != 0
 #
 # 中文:
-# 给定两个整数，被除数 dividend 和除数 divisor。将两数相除，要求不使用乘法、除法和 mod 运算符。
-# 返回被除数 dividend 除以除数 divisor 得到的商。
-# 整数除法的结果应当截去（truncate）其小数部分，例如：truncate(8.345) = 8 以及 truncate(-2.7335) = -2
+# 给你两个整数，被除数 dividend 和除数 divisor。将两数相除，要求 不使用 乘法、除法和取余运算。
+# 整数除法应该向零截断，也就是截去（truncate）其小数部分。例如，8.345 将被截断为 8 ，-2.7335 将被截断至 -2 。
+# 返回被除数 dividend 除以除数 divisor 得到的 商 。
+# 注意：假设我们的环境只能存储 32 位 有符号整数，其数值范围是 [−231,  231 − 1] 。本题中，如果商 严格大于 231 − 1 ，则返回 231 − 1 ；如果商 严格小于 -231 ，则返回 -231 。
 # 示例 1:
-# 输入: dividend = 10, divisor = 3 输出: 3 解释: 10/3 = truncate(3.33333..) = truncate(3) = 3
+# 输入: dividend = 10, divisor = 3 输出: 3 解释: 10/3 = 3.33333.. ，向零截断后得到 3 。
 # 示例 2:
-# 输入: dividend = 7, divisor = -3 输出: -2 解释: 7/-3 = truncate(-2.33333..) = -2
+# 输入: dividend = 7, divisor = -3 输出: -2 解释: 7/-3 = -2.33333.. ，向零截断后得到 -2 。
 # 提示：
-# 被除数和除数均为 32 位有符号整数。
-# 除数不为 0。
-# 假设我们的环境只能存储 32 位有符号整数，其数值范围是 [−231,  231 − 1]。本题中，如果除法结果溢出，则返回 231 − 1。
+# -231 <= dividend, divisor <= 231 - 1
+# divisor != 0
 
 
 #

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20921657,UPDATE:20220325>
+# <SUBID:317681211,UPDATE:20230205>
 # English:
 # A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. A divisor of an integer x is an integer that can divide x evenly.
 # Given an integer n, return true if n is a perfect number, otherwise return false.
@@ -23,7 +23,7 @@
 
 
 #
-# @lc app=leetcode.cn id=507 lang=python
+# @lc app=leetcode.cn id=507 lang=python3
 #
 # [507] 完美数
 #
@@ -58,11 +58,9 @@
 # 输入的数字 n 不会超过 100,000,000. (1e8)
 #
 #
-class Solution(object):
-    def checkPerfectNumber(self, num):
-        """
-        :type num: int
-        :rtype: bool
+class Solution:
+    def checkPerfectNumber(self, num: int) -> bool:
+        """暴力法
         """
         if num == 1:
             return False
@@ -76,7 +74,7 @@ class Solution(object):
                 if rest != i:
                     tmp += rest
             if tmp > num:
-                print(tmp, num)
+                # print(tmp, num)
                 return False
             i += 1
         return tmp == num

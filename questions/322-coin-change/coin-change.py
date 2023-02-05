@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17470533,UPDATE:20220325>
+# <SUBID:314401522,UPDATE:20230205>
 # English:
 # You are given an integer array coins representing coins of different denominations and an integer amount representing a total amount of money.
 # Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
@@ -33,7 +33,7 @@
 
 
 #
-# @lc app=leetcode.cn id=322 lang=python
+# @lc app=leetcode.cn id=322 lang=python3
 #
 # [322] 零钱兑换
 #
@@ -64,12 +64,8 @@
 #
 #
 class Solution(object):
-    def coinChange(self, coins, amount):
-        """
-        :type coins: List[int]
-        :type amount: int
-        :rtype: int
-
+    def coinChange(self, coins: list, amount: int) -> int:
+        """动态规划
         1. f[x], 凑成金额x所需的硬币个数amount；
            到最后一个硬币是，有3总情况 f[x-1] + 1, f[x-2] + 1, f[x-5] + 1; 取最小
         2. f[x] = min(f[x-1] + 1, f[x-2] + 1, f[x-5] + 1)

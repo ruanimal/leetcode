@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17915010,UPDATE:20220325>
+# <SUBID:319522495,UPDATE:20230205>
 # English:
 # Given a string s and a character c that occurs in s, return an array of integers answer where answer.length == s.length and answer[i] is the distance from index i to the closest occurrence of character c in s.
 # The distance between two indices i and j is abs(i - j), where abs is the absolute value function.
@@ -27,29 +27,44 @@
 # 题目数据保证 c 在 s 中至少出现一次
 
 
-#
-# @lc app=leetcode.cn id=821 lang=python
-#
-# [821] 打砖块
-#
-class Solution(object):
-    def shortestToChar(self, S, C):
-        """
-        :type S: str
-        :type C: str
-        :rtype: List[int]
+class SolutionA:
+    def shortestToChar(self, s: str, c: str) -> List[int]:
+        """暴力法
         不能用动态规划， 因为不满足后无效性
         """
-        e_indexs = [idx for idx, i in enumerate(S) if i==C]
-        # e_indexs.sort()
+        e_indexs = [idx for idx, i in enumerate(s) if i==c]
         ret = []
-        for idx, i in enumerate(S):
+        for idx, i in enumerate(s):
             # 可用二分查找求最近的e
             ret.append(min(abs(idx-j) for j in e_indexs))
         return ret
 
-if __name__ == "__main__":
-    s = Solution().shortestToChar(S = "loveleetcode", C = 'e')
-    print(s)
 
+class Solution:
+    def shortestToChar(self, s: str, c: str) -> List[int]:
+        """两次遍历
+        左侧距离和右侧距离
+        """
 
+        MAX = 10001
+        ans = []
+        index = -1
+        for i in range(len(s)):
+            if s[i] == c:
+                index = i
+                ans.append(0)
+            elif index != -1:
+                ans.append(i-index)
+            else:
+                ans.append(MAX)
+
+        index = -1
+        for i in range(len(s)-1, -1, -1):
+            if s[i] == c:
+                index = i
+                ans[i] = 0
+            elif index != -1:
+                ans[i] = min(ans[i], index-i)
+            else:
+                ans[i] = ans[i]
+        return ans

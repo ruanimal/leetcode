@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:282453114,UPDATE:20220325>
+# <SUBID:311874771,UPDATE:20230205>
 # English:
 # Given head, the head of a linked list, determine if the linked list has a cycle in it.
 # There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
@@ -34,23 +34,9 @@
 # 进阶：你能用 O(1)（即，常量）内存解决此问题吗？
 
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
-try:
-    from comm import *
-except ImportError:
-    LOCAL_TEST = False
 
 class Solution(object):
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        """
-        :type head: ListNode
-        :rtype: bool
-        """
         if not head or not head.next:
             return False
 

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17676743,UPDATE:20220325>
+# <SUBID:319748619,UPDATE:20230205>
 # English:
 # You are given an integer array nums with the following properties:
 # nums.length == 2 * n.
@@ -38,21 +38,14 @@
 # nums 由 n + 1 个 不同的 元素组成，且其中一个元素恰好重复 n 次
 
 
-#
-# @lc app=leetcode.cn id=961 lang=python
-#
-# [961] 长按键入
-#
-class Solution(object):
-    def repeatedNTimes(self, A):
+class Solution:
+    def repeatedNTimes(self, nums: List[int]) -> int:
+        """计数法
+        也就是其他数字只出现了一次
         """
-        :type A: List[int]
-        :rtype: int
-        """
+
         counts_map = {}
-        for i in A:
+        for i in nums:
             counts_map[i] = counts_map.get(i, 0) + 1
             if counts_map[i] >= 2:
                 return i
-
-

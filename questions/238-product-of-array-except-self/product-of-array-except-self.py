@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:21367885,UPDATE:20220325>
+# <SUBID:313351278,UPDATE:20230205>
 # English:
 # Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 # The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
@@ -31,7 +31,7 @@
 
 
 #
-# @lc app=leetcode.cn id=238 lang=python
+# @lc app=leetcode.cn id=238 lang=python3
 #
 # [238] 除自身以外数组的乘积
 #
@@ -59,11 +59,12 @@
 # 你可以在常数空间复杂度内完成这个题目吗？（ 出于对空间复杂度分析的目的，输出数组不被视为额外空间。）
 #
 #
+
+
 class Solution(object):
-    def productExceptSelf(self, nums):
+    def productExceptSelf(self, nums: list) -> list:
         """
-        :type nums: List[int]
-        :rtype: List[int]
+        用 x ** -1 实现除法的逻辑, 注意0的处理
         """
         total = 1
         zero_count = 0

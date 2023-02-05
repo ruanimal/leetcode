@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:17657326,UPDATE:20220325>
+# <SUBID:17657326,UPDATE:20230205>
 # English:
 # Given the root of a binary tree, invert the tree, and return its root.
 # Example 1:

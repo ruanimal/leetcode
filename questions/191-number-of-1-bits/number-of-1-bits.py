@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:15960939,UPDATE:20220325>
+# <SUBID:15960939,UPDATE:20230205>
 # English:
 # Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
 # Note:

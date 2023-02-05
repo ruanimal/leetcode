@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-# <SUBID:20930414,UPDATE:20220325>
+# <SUBID:291685759,UPDATE:20230205>
 # English:
 # Write a function to find the longest common prefix string amongst an array of strings.
 # If there is no common prefix, return an empty string "".
@@ -11,7 +11,7 @@
 # Constraints:
 # 1 <= strs.length <= 200
 # 0 <= strs[i].length <= 200
-# strs[i] consists of only lower-case English letters.
+# strs[i] consists of only lowercase English letters.
 #
 # 中文:
 # 编写一个函数来查找字符串数组中的最长公共前缀。
@@ -69,11 +69,12 @@ class Tried(dict):
         self.count = 0
 
 
-class Solution(object):
+class Solution_A(object):
     def longestCommonPrefix(self, strs):
         """
         :type strs: List[str]
         :rtype: str
+        前缀树解法
         """
         if len(strs) == 0:
             return ''
@@ -91,13 +92,37 @@ class Solution(object):
 
         ans = ''
         tmp = tried
-        # print(tried)
         while tried:
             if tried.count != len(strs) or len(tried) > 1:
                 break
             k, tried = list(tried.items())[0]
             ans += k
         return ans
+
+        # # 更快的解法
+        # res = ""
+        # for i in zip(*strs):
+        #     if len(set(i)) == 1:
+        #         res += i[0]
+        #     else:
+        #         return res
+        # return res
+
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        简单前缀树
+        """
+
+        res = []
+        for i in range(min(len(i) for i in strs)):
+            if len(set(s[i] for s in strs)) == 1:
+                res.append(strs[0][i])
+            else:
+                break
+        return ''.join(res)
+
+
 
 if __name__ == "__main__":
     s = Solution().longestCommonPrefix(["flower","flow","flight"])
