@@ -1,5 +1,5 @@
 # :pencil2: Leetcode Solutions with Python,Golang
-Update time:  2023-02-05 23:03:18
+Update time:  2023-02-06 23:24:12
 
 Auto created by [leetcode_cn_generate](https://github.com/ruanimal/leetcode_cn_generate)
 
@@ -176,27 +176,19 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |153|[寻找旋转排序数组中的最小值 find-minimum-in-rotated-sorted-array](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/153-find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.py)|[:memo:](https://leetcode.cn/articles/find-minimum-in-rotated-sorted-array/)|Medium|
 |154|[寻找旋转排序数组中的最小值 II find-minimum-in-rotated-sorted-array-ii](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/154-find-minimum-in-rotated-sorted-array-ii/find-minimum-in-rotated-sorted-array-ii.py)|[:memo:](https://leetcode.cn/articles/find-minimum-in-rotated-sorted-array-ii/)|Hard|
 |155|[最小栈 min-stack](https://leetcode.cn/problems/min-stack)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/155-min-stack/min-stack.py)|[:memo:](https://leetcode.cn/articles/min-stack/)|Medium|
-|156|[上下翻转二叉树 binary-tree-upside-down](https://leetcode.cn/problems/binary-tree-upside-down)|:lock:|[:memo:](https://leetcode.cn/articles/binary-tree-upside-down/)|Medium|
-|157|[用 Read4 读取 N 个字符 read-n-characters-given-read4](https://leetcode.cn/problems/read-n-characters-given-read4)|:lock:|[:memo:](https://leetcode.cn/articles/read-n-characters-given-read4/)|Easy|
-|158|[用 Read4 读取 N 个字符 II read-n-characters-given-read4-ii-call-multiple-times](https://leetcode.cn/problems/read-n-characters-given-read4-ii-call-multiple-times)|:lock:|[:memo:](https://leetcode.cn/articles/read-n-characters-given-read4-ii-call-multiple-times/)|Hard|
-|159|[至多包含两个不同字符的最长子串 longest-substring-with-at-most-two-distinct-characters](https://leetcode.cn/problems/longest-substring-with-at-most-two-distinct-characters)|:lock:|[:memo:](https://leetcode.cn/articles/longest-substring-with-at-most-two-distinct-characters/)|Medium|
 |160|[相交链表 intersection-of-two-linked-lists](https://leetcode.cn/problems/intersection-of-two-linked-lists)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/160-intersection-of-two-linked-lists/intersection-of-two-linked-lists.py)|[:memo:](https://leetcode.cn/articles/intersection-of-two-linked-lists/)|Easy|
-|161|[相隔为 1 的编辑距离 one-edit-distance](https://leetcode.cn/problems/one-edit-distance)|:lock:|[:memo:](https://leetcode.cn/articles/one-edit-distance/)|Medium|
 |162|[寻找峰值 find-peak-element](https://leetcode.cn/problems/find-peak-element)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/162-find-peak-element/find-peak-element.py)|[:memo:](https://leetcode.cn/articles/find-peak-element/)|Medium|
-|163|[缺失的区间 missing-ranges](https://leetcode.cn/problems/missing-ranges)|:lock:|[:memo:](https://leetcode.cn/articles/missing-ranges/)|Easy|
 |164|[最大间距 maximum-gap](https://leetcode.cn/problems/maximum-gap)||[:memo:](https://leetcode.cn/articles/maximum-gap/)|Hard|
 |165|[比较版本号 compare-version-numbers](https://leetcode.cn/problems/compare-version-numbers)||[:memo:](https://leetcode.cn/articles/compare-version-numbers/)|Medium|
 |166|[分数到小数 fraction-to-recurring-decimal](https://leetcode.cn/problems/fraction-to-recurring-decimal)||[:memo:](https://leetcode.cn/articles/fraction-to-recurring-decimal/)|Medium|
 |167|[两数之和 II - 输入有序数组 two-sum-ii-input-array-is-sorted](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/167-two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.py)|[:memo:](https://leetcode.cn/articles/two-sum-ii-input-array-is-sorted/)|Medium|
 |168|[Excel表列名称 excel-sheet-column-title](https://leetcode.cn/problems/excel-sheet-column-title)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/168-excel-sheet-column-title/excel-sheet-column-title.py)|[:memo:](https://leetcode.cn/articles/excel-sheet-column-title/)|Easy|
 |169|[多数元素 majority-element](https://leetcode.cn/problems/majority-element)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/169-majority-element/majority-element.py)|[:memo:](https://leetcode.cn/articles/majority-element/)|Easy|
-|170|[两数之和 III - 数据结构设计 two-sum-iii-data-structure-design](https://leetcode.cn/problems/two-sum-iii-data-structure-design)|:lock:|[:memo:](https://leetcode.cn/articles/two-sum-iii-data-structure-design/)|Easy|
 |171|[Excel 表列序号 excel-sheet-column-number](https://leetcode.cn/problems/excel-sheet-column-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/171-excel-sheet-column-number/excel-sheet-column-number.py)|[:memo:](https://leetcode.cn/articles/excel-sheet-column-number/)|Easy|
 |172|[阶乘后的零 factorial-trailing-zeroes](https://leetcode.cn/problems/factorial-trailing-zeroes)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/172-factorial-trailing-zeroes/factorial-trailing-zeroes.py)|[:memo:](https://leetcode.cn/articles/factorial-trailing-zeroes/)|Medium|
 |173|[二叉搜索树迭代器 binary-search-tree-iterator](https://leetcode.cn/problems/binary-search-tree-iterator)||[:memo:](https://leetcode.cn/articles/binary-search-tree-iterator/)|Medium|
 |174|[地下城游戏 dungeon-game](https://leetcode.cn/problems/dungeon-game)||[:memo:](https://leetcode.cn/articles/dungeon-game/)|Hard|
 |179|[最大数 largest-number](https://leetcode.cn/problems/largest-number)||[:memo:](https://leetcode.cn/articles/largest-number/)|Medium|
-|186|[反转字符串中的单词 II reverse-words-in-a-string-ii](https://leetcode.cn/problems/reverse-words-in-a-string-ii)|:lock:|[:memo:](https://leetcode.cn/articles/reverse-words-in-a-string-ii/)|Medium|
 |187|[重复的DNA序列 repeated-dna-sequences](https://leetcode.cn/problems/repeated-dna-sequences)||[:memo:](https://leetcode.cn/articles/repeated-dna-sequences/)|Medium|
 |188|[买卖股票的最佳时机 IV best-time-to-buy-and-sell-stock-iv](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv)||[:memo:](https://leetcode.cn/articles/best-time-to-buy-and-sell-stock-iv/)|Hard|
 |189|[轮转数组 rotate-array](https://leetcode.cn/problems/rotate-array)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/189-rotate-array/rotate-array.py)|[:memo:](https://leetcode.cn/articles/rotate-array/)|Medium|
@@ -247,88 +239,44 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |240|[搜索二维矩阵 II search-a-2d-matrix-ii](https://leetcode.cn/problems/search-a-2d-matrix-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/240-search-a-2d-matrix-ii/search-a-2d-matrix-ii.py)|[:memo:](https://leetcode.cn/articles/search-a-2d-matrix-ii/)|Medium|
 |241|[为运算表达式设计优先级 different-ways-to-add-parentheses](https://leetcode.cn/problems/different-ways-to-add-parentheses)||[:memo:](https://leetcode.cn/articles/different-ways-to-add-parentheses/)|Medium|
 |242|[有效的字母异位词 valid-anagram](https://leetcode.cn/problems/valid-anagram)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/242-valid-anagram/valid-anagram.py)|[:memo:](https://leetcode.cn/articles/valid-anagram/)|Easy|
-|243|[最短单词距离 shortest-word-distance](https://leetcode.cn/problems/shortest-word-distance)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-word-distance/)|Easy|
-|244|[最短单词距离 II shortest-word-distance-ii](https://leetcode.cn/problems/shortest-word-distance-ii)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-word-distance-ii/)|Medium|
-|245|[最短单词距离 III shortest-word-distance-iii](https://leetcode.cn/problems/shortest-word-distance-iii)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-word-distance-iii/)|Medium|
-|246|[中心对称数 strobogrammatic-number](https://leetcode.cn/problems/strobogrammatic-number)|:lock:|[:memo:](https://leetcode.cn/articles/strobogrammatic-number/)|Easy|
-|247|[中心对称数 II strobogrammatic-number-ii](https://leetcode.cn/problems/strobogrammatic-number-ii)|:lock:|[:memo:](https://leetcode.cn/articles/strobogrammatic-number-ii/)|Medium|
-|248|[中心对称数 III strobogrammatic-number-iii](https://leetcode.cn/problems/strobogrammatic-number-iii)|:lock:|[:memo:](https://leetcode.cn/articles/strobogrammatic-number-iii/)|Hard|
-|249|[移位字符串分组 group-shifted-strings](https://leetcode.cn/problems/group-shifted-strings)|:lock:|[:memo:](https://leetcode.cn/articles/group-shifted-strings/)|Medium|
-|250|[统计同值子树 count-univalue-subtrees](https://leetcode.cn/problems/count-univalue-subtrees)|:lock:|[:memo:](https://leetcode.cn/articles/count-univalue-subtrees/)|Medium|
-|251|[展开二维向量 flatten-2d-vector](https://leetcode.cn/problems/flatten-2d-vector)|:lock:|[:memo:](https://leetcode.cn/articles/flatten-2d-vector/)|Medium|
-|252|[会议室 meeting-rooms](https://leetcode.cn/problems/meeting-rooms)|:lock:|[:memo:](https://leetcode.cn/articles/meeting-rooms/)|Easy|
-|253|[会议室 II meeting-rooms-ii](https://leetcode.cn/problems/meeting-rooms-ii)|:lock:|[:memo:](https://leetcode.cn/articles/meeting-rooms-ii/)|Medium|
-|254|[因子的组合 factor-combinations](https://leetcode.cn/problems/factor-combinations)|:lock:|[:memo:](https://leetcode.cn/articles/factor-combinations/)|Medium|
-|255|[验证前序遍历序列二叉搜索树 verify-preorder-sequence-in-binary-search-tree](https://leetcode.cn/problems/verify-preorder-sequence-in-binary-search-tree)|:lock:|[:memo:](https://leetcode.cn/articles/verify-preorder-sequence-in-binary-search-tree/)|Medium|
-|256|[粉刷房子 paint-house](https://leetcode.cn/problems/paint-house)|:lock:|[:memo:](https://leetcode.cn/articles/paint-house/)|Medium|
 |257|[二叉树的所有路径 binary-tree-paths](https://leetcode.cn/problems/binary-tree-paths)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/257-binary-tree-paths/binary-tree-paths.py)|[:memo:](https://leetcode.cn/articles/binary-tree-paths/)|Easy|
 |258|[各位相加 add-digits](https://leetcode.cn/problems/add-digits)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/258-add-digits/add-digits.py)|[:memo:](https://leetcode.cn/articles/add-digits/)|Easy|
-|259|[较小的三数之和 3sum-smaller](https://leetcode.cn/problems/3sum-smaller)|:lock:|[:memo:](https://leetcode.cn/articles/3sum-smaller/)|Medium|
 |260|[只出现一次的数字 III single-number-iii](https://leetcode.cn/problems/single-number-iii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/260-single-number-iii/single-number-iii.py)|[:memo:](https://leetcode.cn/articles/single-number-iii/)|Medium|
-|261|[以图判树 graph-valid-tree](https://leetcode.cn/problems/graph-valid-tree)|:lock:|[:memo:](https://leetcode.cn/articles/graph-valid-tree/)|Medium|
 |263|[丑数 ugly-number](https://leetcode.cn/problems/ugly-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/263-ugly-number/ugly-number.py)|[:memo:](https://leetcode.cn/articles/ugly-number/)|Easy|
 |264|[丑数 II ugly-number-ii](https://leetcode.cn/problems/ugly-number-ii)||[:memo:](https://leetcode.cn/articles/ugly-number-ii/)|Medium|
-|265|[粉刷房子 II paint-house-ii](https://leetcode.cn/problems/paint-house-ii)|:lock:|[:memo:](https://leetcode.cn/articles/paint-house-ii/)|Hard|
-|266|[回文排列 palindrome-permutation](https://leetcode.cn/problems/palindrome-permutation)|:lock:|[:memo:](https://leetcode.cn/articles/palindrome-permutation/)|Easy|
-|267|[回文排列 II palindrome-permutation-ii](https://leetcode.cn/problems/palindrome-permutation-ii)|:lock:|[:memo:](https://leetcode.cn/articles/palindrome-permutation-ii/)|Medium|
 |268|[丢失的数字 missing-number](https://leetcode.cn/problems/missing-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/268-missing-number/missing-number.py)|[:memo:](https://leetcode.cn/articles/missing-number/)|Easy|
-|269|[火星词典 alien-dictionary](https://leetcode.cn/problems/alien-dictionary)|:lock:|[:memo:](https://leetcode.cn/articles/alien-dictionary/)|Hard|
-|270|[最接近的二叉搜索树值 closest-binary-search-tree-value](https://leetcode.cn/problems/closest-binary-search-tree-value)|:lock:|[:memo:](https://leetcode.cn/articles/closest-binary-search-tree-value/)|Easy|
-|271|[字符串的编码与解码 encode-and-decode-strings](https://leetcode.cn/problems/encode-and-decode-strings)|:lock:|[:memo:](https://leetcode.cn/articles/encode-and-decode-strings/)|Medium|
-|272|[最接近的二叉搜索树值 II closest-binary-search-tree-value-ii](https://leetcode.cn/problems/closest-binary-search-tree-value-ii)|:lock:|[:memo:](https://leetcode.cn/articles/closest-binary-search-tree-value-ii/)|Hard|
 |273|[整数转换英文表示 integer-to-english-words](https://leetcode.cn/problems/integer-to-english-words)||[:memo:](https://leetcode.cn/articles/integer-to-english-words/)|Hard|
 |274|[H 指数 h-index](https://leetcode.cn/problems/h-index)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/274-h-index/h-index.py)|[:memo:](https://leetcode.cn/articles/h-index/)|Medium|
 |275|[H 指数 II h-index-ii](https://leetcode.cn/problems/h-index-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/275-h-index-ii/h-index-ii.py)|[:memo:](https://leetcode.cn/articles/h-index-ii/)|Medium|
-|276|[栅栏涂色 paint-fence](https://leetcode.cn/problems/paint-fence)|:lock:|[:memo:](https://leetcode.cn/articles/paint-fence/)|Medium|
-|277|[搜寻名人 find-the-celebrity](https://leetcode.cn/problems/find-the-celebrity)|:lock:|[:memo:](https://leetcode.cn/articles/find-the-celebrity/)|Medium|
 |278|[第一个错误的版本 first-bad-version](https://leetcode.cn/problems/first-bad-version)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/278-first-bad-version/first-bad-version.py)|[:memo:](https://leetcode.cn/articles/first-bad-version/)|Easy|
 |279|[完全平方数 perfect-squares](https://leetcode.cn/problems/perfect-squares)||[:memo:](https://leetcode.cn/articles/perfect-squares/)|Medium|
-|280|[摆动排序 wiggle-sort](https://leetcode.cn/problems/wiggle-sort)|:lock:|[:memo:](https://leetcode.cn/articles/wiggle-sort/)|Medium|
-|281|[锯齿迭代器 zigzag-iterator](https://leetcode.cn/problems/zigzag-iterator)|:lock:|[:memo:](https://leetcode.cn/articles/zigzag-iterator/)|Medium|
 |282|[给表达式添加运算符 expression-add-operators](https://leetcode.cn/problems/expression-add-operators)||[:memo:](https://leetcode.cn/articles/expression-add-operators/)|Hard|
 |283|[移动零 move-zeroes](https://leetcode.cn/problems/move-zeroes)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/283-move-zeroes/move-zeroes.py)|[:memo:](https://leetcode.cn/articles/move-zeroes/)|Easy|
 |284|[顶端迭代器 peeking-iterator](https://leetcode.cn/problems/peeking-iterator)||[:memo:](https://leetcode.cn/articles/peeking-iterator/)|Medium|
-|285|[二叉搜索树中的中序后继 inorder-successor-in-bst](https://leetcode.cn/problems/inorder-successor-in-bst)|:lock:|[:memo:](https://leetcode.cn/articles/inorder-successor-in-bst/)|Medium|
-|286|[墙与门 walls-and-gates](https://leetcode.cn/problems/walls-and-gates)|:lock:|[:memo:](https://leetcode.cn/articles/walls-and-gates/)|Medium|
 |287|[寻找重复数 find-the-duplicate-number](https://leetcode.cn/problems/find-the-duplicate-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/287-find-the-duplicate-number/find-the-duplicate-number.py)|[:memo:](https://leetcode.cn/articles/find-the-duplicate-number/)|Medium|
-|288|[单词的唯一缩写 unique-word-abbreviation](https://leetcode.cn/problems/unique-word-abbreviation)|:lock:|[:memo:](https://leetcode.cn/articles/unique-word-abbreviation/)|Medium|
 |289|[生命游戏 game-of-life](https://leetcode.cn/problems/game-of-life)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/289-game-of-life/game-of-life.py)|[:memo:](https://leetcode.cn/articles/game-of-life/)|Medium|
 |290|[单词规律 word-pattern](https://leetcode.cn/problems/word-pattern)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/290-word-pattern/word-pattern.py)|[:memo:](https://leetcode.cn/articles/word-pattern/)|Easy|
-|291|[单词规律 II word-pattern-ii](https://leetcode.cn/problems/word-pattern-ii)|:lock:|[:memo:](https://leetcode.cn/articles/word-pattern-ii/)|Medium|
 |292|[Nim 游戏 nim-game](https://leetcode.cn/problems/nim-game)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/292-nim-game/nim-game.py)|[:memo:](https://leetcode.cn/articles/nim-game/)|Easy|
-|293|[翻转游戏 flip-game](https://leetcode.cn/problems/flip-game)|:lock:|[:memo:](https://leetcode.cn/articles/flip-game/)|Easy|
-|294|[翻转游戏 II flip-game-ii](https://leetcode.cn/problems/flip-game-ii)|:lock:|[:memo:](https://leetcode.cn/articles/flip-game-ii/)|Medium|
 |295|[数据流的中位数 find-median-from-data-stream](https://leetcode.cn/problems/find-median-from-data-stream)||[:memo:](https://leetcode.cn/articles/find-median-from-data-stream/)|Hard|
-|296|[最佳的碰头地点 best-meeting-point](https://leetcode.cn/problems/best-meeting-point)|:lock:|[:memo:](https://leetcode.cn/articles/best-meeting-point/)|Hard|
 |297|[二叉树的序列化与反序列化 serialize-and-deserialize-binary-tree](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/297-serialize-and-deserialize-binary-tree/serialize-and-deserialize-binary-tree.py)|[:memo:](https://leetcode.cn/articles/serialize-and-deserialize-binary-tree/)|Hard|
-|298|[二叉树最长连续序列 binary-tree-longest-consecutive-sequence](https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence)|:lock:|[:memo:](https://leetcode.cn/articles/binary-tree-longest-consecutive-sequence/)|Medium|
 |299|[猜数字游戏 bulls-and-cows](https://leetcode.cn/problems/bulls-and-cows)||[:memo:](https://leetcode.cn/articles/bulls-and-cows/)|Medium|
 |300|[最长递增子序列 longest-increasing-subsequence](https://leetcode.cn/problems/longest-increasing-subsequence)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/300-longest-increasing-subsequence/longest-increasing-subsequence.py)|[:memo:](https://leetcode.cn/articles/longest-increasing-subsequence/)|Medium|
 |301|[删除无效的括号 remove-invalid-parentheses](https://leetcode.cn/problems/remove-invalid-parentheses)||[:memo:](https://leetcode.cn/articles/remove-invalid-parentheses/)|Hard|
-|302|[包含全部黑色像素的最小矩形 smallest-rectangle-enclosing-black-pixels](https://leetcode.cn/problems/smallest-rectangle-enclosing-black-pixels)|:lock:|[:memo:](https://leetcode.cn/articles/smallest-rectangle-enclosing-black-pixels/)|Hard|
 |303|[区域和检索 - 数组不可变 range-sum-query-immutable](https://leetcode.cn/problems/range-sum-query-immutable)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/303-range-sum-query-immutable/range-sum-query-immutable.py)|[:memo:](https://leetcode.cn/articles/range-sum-query-immutable/)|Easy|
 |304|[二维区域和检索 - 矩阵不可变 range-sum-query-2d-immutable](https://leetcode.cn/problems/range-sum-query-2d-immutable)||[:memo:](https://leetcode.cn/articles/range-sum-query-2d-immutable/)|Medium|
-|305|[岛屿数量 II number-of-islands-ii](https://leetcode.cn/problems/number-of-islands-ii)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-islands-ii/)|Hard|
 |306|[累加数 additive-number](https://leetcode.cn/problems/additive-number)||[:memo:](https://leetcode.cn/articles/additive-number/)|Medium|
 |307|[区域和检索 - 数组可修改 range-sum-query-mutable](https://leetcode.cn/problems/range-sum-query-mutable)||[:memo:](https://leetcode.cn/articles/range-sum-query-mutable/)|Medium|
-|308|[二维区域和检索 - 可变 range-sum-query-2d-mutable](https://leetcode.cn/problems/range-sum-query-2d-mutable)|:lock:|[:memo:](https://leetcode.cn/articles/range-sum-query-2d-mutable/)|Hard|
 |309|[最佳买卖股票时机含冷冻期 best-time-to-buy-and-sell-stock-with-cooldown](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown)||[:memo:](https://leetcode.cn/articles/best-time-to-buy-and-sell-stock-with-cooldown/)|Medium|
 |310|[最小高度树 minimum-height-trees](https://leetcode.cn/problems/minimum-height-trees)||[:memo:](https://leetcode.cn/articles/minimum-height-trees/)|Medium|
-|311|[稀疏矩阵的乘法 sparse-matrix-multiplication](https://leetcode.cn/problems/sparse-matrix-multiplication)|:lock:|[:memo:](https://leetcode.cn/articles/sparse-matrix-multiplication/)|Medium|
 |312|[戳气球 burst-balloons](https://leetcode.cn/problems/burst-balloons)||[:memo:](https://leetcode.cn/articles/burst-balloons/)|Hard|
 |313|[超级丑数 super-ugly-number](https://leetcode.cn/problems/super-ugly-number)||[:memo:](https://leetcode.cn/articles/super-ugly-number/)|Medium|
-|314|[二叉树的垂直遍历 binary-tree-vertical-order-traversal](https://leetcode.cn/problems/binary-tree-vertical-order-traversal)|:lock:|[:memo:](https://leetcode.cn/articles/binary-tree-vertical-order-traversal/)|Medium|
 |315|[计算右侧小于当前元素的个数 count-of-smaller-numbers-after-self](https://leetcode.cn/problems/count-of-smaller-numbers-after-self)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/315-count-of-smaller-numbers-after-self/count-of-smaller-numbers-after-self.py)|[:memo:](https://leetcode.cn/articles/count-of-smaller-numbers-after-self/)|Hard|
 |316|[去除重复字母 remove-duplicate-letters](https://leetcode.cn/problems/remove-duplicate-letters)||[:memo:](https://leetcode.cn/articles/remove-duplicate-letters/)|Medium|
-|317|[离建筑物最近的距离 shortest-distance-from-all-buildings](https://leetcode.cn/problems/shortest-distance-from-all-buildings)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-distance-from-all-buildings/)|Hard|
 |318|[最大单词长度乘积 maximum-product-of-word-lengths](https://leetcode.cn/problems/maximum-product-of-word-lengths)||[:memo:](https://leetcode.cn/articles/maximum-product-of-word-lengths/)|Medium|
 |319|[灯泡开关 bulb-switcher](https://leetcode.cn/problems/bulb-switcher)||[:memo:](https://leetcode.cn/articles/bulb-switcher/)|Medium|
-|320|[列举单词的全部缩写 generalized-abbreviation](https://leetcode.cn/problems/generalized-abbreviation)|:lock:|[:memo:](https://leetcode.cn/articles/generalized-abbreviation/)|Medium|
 |321|[拼接最大数 create-maximum-number](https://leetcode.cn/problems/create-maximum-number)||[:memo:](https://leetcode.cn/articles/create-maximum-number/)|Hard|
 |322|[零钱兑换 coin-change](https://leetcode.cn/problems/coin-change)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/322-coin-change/coin-change.py)|[:memo:](https://leetcode.cn/articles/coin-change/)|Medium|
-|323|[无向图中连通分量的数目 number-of-connected-components-in-an-undirected-graph](https://leetcode.cn/problems/number-of-connected-components-in-an-undirected-graph)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-connected-components-in-an-undirected-graph/)|Medium|
 |324|[摆动排序 II wiggle-sort-ii](https://leetcode.cn/problems/wiggle-sort-ii)||[:memo:](https://leetcode.cn/articles/wiggle-sort-ii/)|Medium|
-|325|[和等于 k 的最长子数组长度 maximum-size-subarray-sum-equals-k](https://leetcode.cn/problems/maximum-size-subarray-sum-equals-k)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-size-subarray-sum-equals-k/)|Medium|
 |326|[3 的幂 power-of-three](https://leetcode.cn/problems/power-of-three)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/326-power-of-three/power-of-three.py)|[:memo:](https://leetcode.cn/articles/power-of-three/)|Easy|
 |327|[区间和的个数 count-of-range-sum](https://leetcode.cn/problems/count-of-range-sum)||[:memo:](https://leetcode.cn/articles/count-of-range-sum/)|Hard|
 |328|[奇偶链表 odd-even-linked-list](https://leetcode.cn/problems/odd-even-linked-list)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/328-odd-even-linked-list/odd-even-linked-list.py)|[:memo:](https://leetcode.cn/articles/odd-even-linked-list/)|Medium|
@@ -336,44 +284,27 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |330|[按要求补齐数组 patching-array](https://leetcode.cn/problems/patching-array)||[:memo:](https://leetcode.cn/articles/patching-array/)|Hard|
 |331|[验证二叉树的前序序列化 verify-preorder-serialization-of-a-binary-tree](https://leetcode.cn/problems/verify-preorder-serialization-of-a-binary-tree)||[:memo:](https://leetcode.cn/articles/verify-preorder-serialization-of-a-binary-tree/)|Medium|
 |332|[重新安排行程 reconstruct-itinerary](https://leetcode.cn/problems/reconstruct-itinerary)||[:memo:](https://leetcode.cn/articles/reconstruct-itinerary/)|Hard|
-|333|[最大 BST 子树 largest-bst-subtree](https://leetcode.cn/problems/largest-bst-subtree)|:lock:|[:memo:](https://leetcode.cn/articles/largest-bst-subtree/)|Medium|
 |334|[递增的三元子序列 increasing-triplet-subsequence](https://leetcode.cn/problems/increasing-triplet-subsequence)||[:memo:](https://leetcode.cn/articles/increasing-triplet-subsequence/)|Medium|
 |335|[路径交叉 self-crossing](https://leetcode.cn/problems/self-crossing)||[:memo:](https://leetcode.cn/articles/self-crossing/)|Hard|
 |336|[回文对 palindrome-pairs](https://leetcode.cn/problems/palindrome-pairs)||[:memo:](https://leetcode.cn/articles/palindrome-pairs/)|Hard|
 |337|[打家劫舍 III house-robber-iii](https://leetcode.cn/problems/house-robber-iii)||[:memo:](https://leetcode.cn/articles/house-robber-iii/)|Medium|
 |338|[比特位计数 counting-bits](https://leetcode.cn/problems/counting-bits)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/338-counting-bits/counting-bits.py)|[:memo:](https://leetcode.cn/articles/counting-bits/)|Easy|
-|339|[嵌套列表权重和 nested-list-weight-sum](https://leetcode.cn/problems/nested-list-weight-sum)|:lock:|[:memo:](https://leetcode.cn/articles/nested-list-weight-sum/)|Medium|
-|340|[至多包含 K 个不同字符的最长子串 longest-substring-with-at-most-k-distinct-characters](https://leetcode.cn/problems/longest-substring-with-at-most-k-distinct-characters)|:lock:|[:memo:](https://leetcode.cn/articles/longest-substring-with-at-most-k-distinct-characters/)|Medium|
 |341|[扁平化嵌套列表迭代器 flatten-nested-list-iterator](https://leetcode.cn/problems/flatten-nested-list-iterator)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/341-flatten-nested-list-iterator/flatten-nested-list-iterator.py)|[:memo:](https://leetcode.cn/articles/flatten-nested-list-iterator/)|Medium|
 |342|[4的幂 power-of-four](https://leetcode.cn/problems/power-of-four)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/342-power-of-four/power-of-four.py)|[:memo:](https://leetcode.cn/articles/power-of-four/)|Easy|
 |343|[整数拆分 integer-break](https://leetcode.cn/problems/integer-break)||[:memo:](https://leetcode.cn/articles/integer-break/)|Medium|
 |344|[反转字符串 reverse-string](https://leetcode.cn/problems/reverse-string)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/344-reverse-string/reverse-string.py)|[:memo:](https://leetcode.cn/articles/reverse-string/)|Easy|
 |345|[反转字符串中的元音字母 reverse-vowels-of-a-string](https://leetcode.cn/problems/reverse-vowels-of-a-string)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/345-reverse-vowels-of-a-string/reverse-vowels-of-a-string.py)|[:memo:](https://leetcode.cn/articles/reverse-vowels-of-a-string/)|Easy|
-|346|[数据流中的移动平均值 moving-average-from-data-stream](https://leetcode.cn/problems/moving-average-from-data-stream)|:lock:|[:memo:](https://leetcode.cn/articles/moving-average-from-data-stream/)|Easy|
 |347|[前 K 个高频元素 top-k-frequent-elements](https://leetcode.cn/problems/top-k-frequent-elements)||[:memo:](https://leetcode.cn/articles/top-k-frequent-elements/)|Medium|
-|348|[设计井字棋 design-tic-tac-toe](https://leetcode.cn/problems/design-tic-tac-toe)|:lock:|[:memo:](https://leetcode.cn/articles/design-tic-tac-toe/)|Medium|
 |349|[两个数组的交集 intersection-of-two-arrays](https://leetcode.cn/problems/intersection-of-two-arrays)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/349-intersection-of-two-arrays/intersection-of-two-arrays.py)|[:memo:](https://leetcode.cn/articles/intersection-of-two-arrays/)|Easy|
 |350|[两个数组的交集 II intersection-of-two-arrays-ii](https://leetcode.cn/problems/intersection-of-two-arrays-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/350-intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.py)|[:memo:](https://leetcode.cn/articles/intersection-of-two-arrays-ii/)|Easy|
-|351|[安卓系统手势解锁 android-unlock-patterns](https://leetcode.cn/problems/android-unlock-patterns)|:lock:|[:memo:](https://leetcode.cn/articles/android-unlock-patterns/)|Medium|
 |352|[将数据流变为多个不相交区间 data-stream-as-disjoint-intervals](https://leetcode.cn/problems/data-stream-as-disjoint-intervals)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/352-data-stream-as-disjoint-intervals/data-stream-as-disjoint-intervals.py)|[:memo:](https://leetcode.cn/articles/data-stream-as-disjoint-intervals/)|Hard|
-|353|[贪吃蛇 design-snake-game](https://leetcode.cn/problems/design-snake-game)|:lock:|[:memo:](https://leetcode.cn/articles/design-snake-game/)|Medium|
 |354|[俄罗斯套娃信封问题 russian-doll-envelopes](https://leetcode.cn/problems/russian-doll-envelopes)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/354-russian-doll-envelopes/russian-doll-envelopes.py)|[:memo:](https://leetcode.cn/articles/russian-doll-envelopes/)|Hard|
 |355|[设计推特 design-twitter](https://leetcode.cn/problems/design-twitter)||[:memo:](https://leetcode.cn/articles/design-twitter/)|Medium|
-|356|[直线镜像 line-reflection](https://leetcode.cn/problems/line-reflection)|:lock:|[:memo:](https://leetcode.cn/articles/line-reflection/)|Medium|
 |357|[统计各位数字都不同的数字个数 count-numbers-with-unique-digits](https://leetcode.cn/problems/count-numbers-with-unique-digits)||[:memo:](https://leetcode.cn/articles/count-numbers-with-unique-digits/)|Medium|
-|358|[K 距离间隔重排字符串 rearrange-string-k-distance-apart](https://leetcode.cn/problems/rearrange-string-k-distance-apart)|:lock:|[:memo:](https://leetcode.cn/articles/rearrange-string-k-distance-apart/)|Hard|
-|359|[日志速率限制器 logger-rate-limiter](https://leetcode.cn/problems/logger-rate-limiter)|:lock:|[:memo:](https://leetcode.cn/articles/logger-rate-limiter/)|Easy|
-|360|[有序转化数组 sort-transformed-array](https://leetcode.cn/problems/sort-transformed-array)|:lock:|[:memo:](https://leetcode.cn/articles/sort-transformed-array/)|Medium|
-|361|[轰炸敌人 bomb-enemy](https://leetcode.cn/problems/bomb-enemy)|:lock:|[:memo:](https://leetcode.cn/articles/bomb-enemy/)|Medium|
-|362|[敲击计数器 design-hit-counter](https://leetcode.cn/problems/design-hit-counter)|:lock:|[:memo:](https://leetcode.cn/articles/design-hit-counter/)|Medium|
 |363|[矩形区域不超过 K 的最大数值和 max-sum-of-rectangle-no-larger-than-k](https://leetcode.cn/problems/max-sum-of-rectangle-no-larger-than-k)||[:memo:](https://leetcode.cn/articles/max-sum-of-rectangle-no-larger-than-k/)|Hard|
-|364|[加权嵌套序列和 II nested-list-weight-sum-ii](https://leetcode.cn/problems/nested-list-weight-sum-ii)|:lock:|[:memo:](https://leetcode.cn/articles/nested-list-weight-sum-ii/)|Medium|
 |365|[水壶问题 water-and-jug-problem](https://leetcode.cn/problems/water-and-jug-problem)||[:memo:](https://leetcode.cn/articles/water-and-jug-problem/)|Medium|
-|366|[寻找二叉树的叶子节点 find-leaves-of-binary-tree](https://leetcode.cn/problems/find-leaves-of-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/find-leaves-of-binary-tree/)|Medium|
 |367|[有效的完全平方数 valid-perfect-square](https://leetcode.cn/problems/valid-perfect-square)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/367-valid-perfect-square/valid-perfect-square.py)|[:memo:](https://leetcode.cn/articles/valid-perfect-square/)|Easy|
 |368|[最大整除子集 largest-divisible-subset](https://leetcode.cn/problems/largest-divisible-subset)||[:memo:](https://leetcode.cn/articles/largest-divisible-subset/)|Medium|
-|369|[给单链表加一 plus-one-linked-list](https://leetcode.cn/problems/plus-one-linked-list)|:lock:|[:memo:](https://leetcode.cn/articles/plus-one-linked-list/)|Medium|
-|370|[区间加法 range-addition](https://leetcode.cn/problems/range-addition)|:lock:|[:memo:](https://leetcode.cn/articles/range-addition/)|Medium|
 |371|[两整数之和 sum-of-two-integers](https://leetcode.cn/problems/sum-of-two-integers)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/371-sum-of-two-integers/sum-of-two-integers.py)|[:memo:](https://leetcode.cn/articles/sum-of-two-integers/)|Medium|
 |372|[超级次方 super-pow](https://leetcode.cn/problems/super-pow)||[:memo:](https://leetcode.cn/articles/super-pow/)|Medium|
 |373|[查找和最小的 K 对数字 find-k-pairs-with-smallest-sums](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums)||[:memo:](https://leetcode.cn/articles/find-k-pairs-with-smallest-sums/)|Medium|
@@ -382,7 +313,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |376|[摆动序列 wiggle-subsequence](https://leetcode.cn/problems/wiggle-subsequence)||[:memo:](https://leetcode.cn/articles/wiggle-subsequence/)|Medium|
 |377|[组合总和 Ⅳ combination-sum-iv](https://leetcode.cn/problems/combination-sum-iv)||[:memo:](https://leetcode.cn/articles/combination-sum-iv/)|Medium|
 |378|[有序矩阵中第 K 小的元素 kth-smallest-element-in-a-sorted-matrix](https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/378-kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.py)|[:memo:](https://leetcode.cn/articles/kth-smallest-element-in-a-sorted-matrix/)|Medium|
-|379|[电话目录管理系统 design-phone-directory](https://leetcode.cn/problems/design-phone-directory)|:lock:|[:memo:](https://leetcode.cn/articles/design-phone-directory/)|Medium|
 |380|[O(1) 时间插入、删除和获取随机元素 insert-delete-getrandom-o1](https://leetcode.cn/problems/insert-delete-getrandom-o1)||[:memo:](https://leetcode.cn/articles/insert-delete-getrandom-o1/)|Medium|
 |381|[O(1) 时间插入、删除和获取随机元素 - 允许重复 insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed)||[:memo:](https://leetcode.cn/articles/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
 |382|[链表随机节点 linked-list-random-node](https://leetcode.cn/problems/linked-list-random-node)||[:memo:](https://leetcode.cn/articles/linked-list-random-node/)|Medium|
@@ -411,24 +341,19 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |405|[数字转换为十六进制数 convert-a-number-to-hexadecimal](https://leetcode.cn/problems/convert-a-number-to-hexadecimal)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/405-convert-a-number-to-hexadecimal/convert-a-number-to-hexadecimal.py)|[:memo:](https://leetcode.cn/articles/convert-a-number-to-hexadecimal/)|Easy|
 |406|[根据身高重建队列 queue-reconstruction-by-height](https://leetcode.cn/problems/queue-reconstruction-by-height)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/406-queue-reconstruction-by-height/queue-reconstruction-by-height.py)|[:memo:](https://leetcode.cn/articles/queue-reconstruction-by-height/)|Medium|
 |407|[接雨水 II trapping-rain-water-ii](https://leetcode.cn/problems/trapping-rain-water-ii)||[:memo:](https://leetcode.cn/articles/trapping-rain-water-ii/)|Hard|
-|408|[有效单词缩写 valid-word-abbreviation](https://leetcode.cn/problems/valid-word-abbreviation)|:lock:|[:memo:](https://leetcode.cn/articles/valid-word-abbreviation/)|Easy|
 |409|[最长回文串 longest-palindrome](https://leetcode.cn/problems/longest-palindrome)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/409-longest-palindrome/longest-palindrome.py)|[:memo:](https://leetcode.cn/articles/longest-palindrome/)|Easy|
 |410|[分割数组的最大值 split-array-largest-sum](https://leetcode.cn/problems/split-array-largest-sum)||[:memo:](https://leetcode.cn/articles/split-array-largest-sum/)|Hard|
-|411|[最短独占单词缩写 minimum-unique-word-abbreviation](https://leetcode.cn/problems/minimum-unique-word-abbreviation)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-unique-word-abbreviation/)|Hard|
 |412|[Fizz Buzz fizz-buzz](https://leetcode.cn/problems/fizz-buzz)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/412-fizz-buzz/fizz-buzz.py)|[:memo:](https://leetcode.cn/articles/fizz-buzz/)|Easy|
 |413|[等差数列划分 arithmetic-slices](https://leetcode.cn/problems/arithmetic-slices)||[:memo:](https://leetcode.cn/articles/arithmetic-slices/)|Medium|
 |414|[第三大的数 third-maximum-number](https://leetcode.cn/problems/third-maximum-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/414-third-maximum-number/third-maximum-number.py)|[:memo:](https://leetcode.cn/articles/third-maximum-number/)|Easy|
 |415|[字符串相加 add-strings](https://leetcode.cn/problems/add-strings)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/415-add-strings/add-strings.py)|[:memo:](https://leetcode.cn/articles/add-strings/)|Easy|
 |416|[分割等和子集 partition-equal-subset-sum](https://leetcode.cn/problems/partition-equal-subset-sum)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/416-partition-equal-subset-sum/partition-equal-subset-sum.py)|[:memo:](https://leetcode.cn/articles/partition-equal-subset-sum/)|Medium|
 |417|[太平洋大西洋水流问题 pacific-atlantic-water-flow](https://leetcode.cn/problems/pacific-atlantic-water-flow)||[:memo:](https://leetcode.cn/articles/pacific-atlantic-water-flow/)|Medium|
-|418|[屏幕可显示句子的数量 sentence-screen-fitting](https://leetcode.cn/problems/sentence-screen-fitting)|:lock:|[:memo:](https://leetcode.cn/articles/sentence-screen-fitting/)|Medium|
 |419|[甲板上的战舰 battleships-in-a-board](https://leetcode.cn/problems/battleships-in-a-board)||[:memo:](https://leetcode.cn/articles/battleships-in-a-board/)|Medium|
 |420|[强密码检验器 strong-password-checker](https://leetcode.cn/problems/strong-password-checker)||[:memo:](https://leetcode.cn/articles/strong-password-checker/)|Hard|
 |421|[数组中两个数的最大异或值 maximum-xor-of-two-numbers-in-an-array](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array)||[:memo:](https://leetcode.cn/articles/maximum-xor-of-two-numbers-in-an-array/)|Medium|
-|422|[有效的单词方块 valid-word-square](https://leetcode.cn/problems/valid-word-square)|:lock:|[:memo:](https://leetcode.cn/articles/valid-word-square/)|Easy|
 |423|[从英文中重建数字 reconstruct-original-digits-from-english](https://leetcode.cn/problems/reconstruct-original-digits-from-english)||[:memo:](https://leetcode.cn/articles/reconstruct-original-digits-from-english/)|Medium|
 |424|[替换后的最长重复字符 longest-repeating-character-replacement](https://leetcode.cn/problems/longest-repeating-character-replacement)||[:memo:](https://leetcode.cn/articles/longest-repeating-character-replacement/)|Medium|
-|425|[单词方块 word-squares](https://leetcode.cn/problems/word-squares)|:lock:|[:memo:](https://leetcode.cn/articles/word-squares/)|Hard|
 |432|[全 O(1) 的数据结构 all-oone-data-structure](https://leetcode.cn/problems/all-oone-data-structure)||[:memo:](https://leetcode.cn/articles/all-oone-data-structure/)|Hard|
 |433|[最小基因变化 minimum-genetic-mutation](https://leetcode.cn/problems/minimum-genetic-mutation)||[:memo:](https://leetcode.cn/articles/minimum-genetic-mutation/)|Medium|
 |434|[字符串中的单词数 number-of-segments-in-a-string](https://leetcode.cn/problems/number-of-segments-in-a-string)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/434-number-of-segments-in-a-string/number-of-segments-in-a-string.py)|[:memo:](https://leetcode.cn/articles/number-of-segments-in-a-string/)|Easy|
@@ -436,12 +361,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |436|[寻找右区间 find-right-interval](https://leetcode.cn/problems/find-right-interval)||[:memo:](https://leetcode.cn/articles/find-right-interval/)|Medium|
 |437|[路径总和 III path-sum-iii](https://leetcode.cn/problems/path-sum-iii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/437-path-sum-iii/path-sum-iii.py)|[:memo:](https://leetcode.cn/articles/path-sum-iii/)|Medium|
 |438|[找到字符串中所有字母异位词 find-all-anagrams-in-a-string](https://leetcode.cn/problems/find-all-anagrams-in-a-string)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/438-find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.py)|[:memo:](https://leetcode.cn/articles/find-all-anagrams-in-a-string/)|Medium|
-|439|[三元表达式解析器 ternary-expression-parser](https://leetcode.cn/problems/ternary-expression-parser)|:lock:|[:memo:](https://leetcode.cn/articles/ternary-expression-parser/)|Medium|
 |440|[字典序的第K小数字 k-th-smallest-in-lexicographical-order](https://leetcode.cn/problems/k-th-smallest-in-lexicographical-order)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/440-k-th-smallest-in-lexicographical-order/k-th-smallest-in-lexicographical-order.py)|[:memo:](https://leetcode.cn/articles/k-th-smallest-in-lexicographical-order/)|Hard|
 |441|[排列硬币 arranging-coins](https://leetcode.cn/problems/arranging-coins)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/441-arranging-coins/arranging-coins.py)|[:memo:](https://leetcode.cn/articles/arranging-coins/)|Easy|
 |442|[数组中重复的数据 find-all-duplicates-in-an-array](https://leetcode.cn/problems/find-all-duplicates-in-an-array)||[:memo:](https://leetcode.cn/articles/find-all-duplicates-in-an-array/)|Medium|
 |443|[压缩字符串 string-compression](https://leetcode.cn/problems/string-compression)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/443-string-compression/string-compression.py)|[:memo:](https://leetcode.cn/articles/string-compression/)|Medium|
-|444|[序列重建 sequence-reconstruction](https://leetcode.cn/problems/sequence-reconstruction)|:lock:|[:memo:](https://leetcode.cn/articles/sequence-reconstruction/)|Medium|
 |445|[两数相加 II add-two-numbers-ii](https://leetcode.cn/problems/add-two-numbers-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/445-add-two-numbers-ii/add-two-numbers-ii.py)|[:memo:](https://leetcode.cn/articles/add-two-numbers-ii/)|Medium|
 |446|[等差数列划分 II - 子序列 arithmetic-slices-ii-subsequence](https://leetcode.cn/problems/arithmetic-slices-ii-subsequence)||[:memo:](https://leetcode.cn/articles/arithmetic-slices-ii-subsequence/)|Hard|
 |447|[回旋镖的数量 number-of-boomerangs](https://leetcode.cn/problems/number-of-boomerangs)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/447-number-of-boomerangs/number-of-boomerangs.py)|[:memo:](https://leetcode.cn/articles/number-of-boomerangs/)|Medium|
@@ -462,12 +385,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |462|[最小操作次数使数组元素相等 II minimum-moves-to-equal-array-elements-ii](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii)||[:memo:](https://leetcode.cn/articles/minimum-moves-to-equal-array-elements-ii/)|Medium|
 |463|[岛屿的周长 island-perimeter](https://leetcode.cn/problems/island-perimeter)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/463-island-perimeter/island-perimeter.py)|[:memo:](https://leetcode.cn/articles/island-perimeter/)|Easy|
 |464|[我能赢吗 can-i-win](https://leetcode.cn/problems/can-i-win)||[:memo:](https://leetcode.cn/articles/can-i-win/)|Medium|
-|465|[最优账单平衡 optimal-account-balancing](https://leetcode.cn/problems/optimal-account-balancing)|:lock:|[:memo:](https://leetcode.cn/articles/optimal-account-balancing/)|Hard|
 |466|[统计重复个数 count-the-repetitions](https://leetcode.cn/problems/count-the-repetitions)||[:memo:](https://leetcode.cn/articles/count-the-repetitions/)|Hard|
 |467|[环绕字符串中唯一的子字符串 unique-substrings-in-wraparound-string](https://leetcode.cn/problems/unique-substrings-in-wraparound-string)||[:memo:](https://leetcode.cn/articles/unique-substrings-in-wraparound-string/)|Medium|
 |468|[验证IP地址 validate-ip-address](https://leetcode.cn/problems/validate-ip-address)||[:memo:](https://leetcode.cn/articles/validate-ip-address/)|Medium|
-|469|[凸多边形 convex-polygon](https://leetcode.cn/problems/convex-polygon)|:lock:|[:memo:](https://leetcode.cn/articles/convex-polygon/)|Medium|
-|471|[编码最短长度的字符串 encode-string-with-shortest-length](https://leetcode.cn/problems/encode-string-with-shortest-length)|:lock:|[:memo:](https://leetcode.cn/articles/encode-string-with-shortest-length/)|Hard|
 |472|[连接词 concatenated-words](https://leetcode.cn/problems/concatenated-words)||[:memo:](https://leetcode.cn/articles/concatenated-words/)|Hard|
 |473|[火柴拼正方形 matchsticks-to-square](https://leetcode.cn/problems/matchsticks-to-square)||[:memo:](https://leetcode.cn/articles/matchsticks-to-square/)|Medium|
 |474|[一和零 ones-and-zeroes](https://leetcode.cn/problems/ones-and-zeroes)||[:memo:](https://leetcode.cn/articles/ones-and-zeroes/)|Medium|
@@ -479,13 +399,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |481|[神奇字符串 magical-string](https://leetcode.cn/problems/magical-string)||[:memo:](https://leetcode.cn/articles/magical-string/)|Medium|
 |482|[密钥格式化 license-key-formatting](https://leetcode.cn/problems/license-key-formatting)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/482-license-key-formatting/license-key-formatting.py)|[:memo:](https://leetcode.cn/articles/license-key-formatting/)|Easy|
 |483|[最小好进制 smallest-good-base](https://leetcode.cn/problems/smallest-good-base)||[:memo:](https://leetcode.cn/articles/smallest-good-base/)|Hard|
-|484|[寻找排列 find-permutation](https://leetcode.cn/problems/find-permutation)|:lock:|[:memo:](https://leetcode.cn/articles/find-permutation/)|Medium|
 |485|[最大连续 1 的个数 max-consecutive-ones](https://leetcode.cn/problems/max-consecutive-ones)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/485-max-consecutive-ones/max-consecutive-ones.py)|[:memo:](https://leetcode.cn/articles/max-consecutive-ones/)|Easy|
 |486|[预测赢家 predict-the-winner](https://leetcode.cn/problems/predict-the-winner)||[:memo:](https://leetcode.cn/articles/predict-the-winner/)|Medium|
-|487|[最大连续1的个数 II max-consecutive-ones-ii](https://leetcode.cn/problems/max-consecutive-ones-ii)|:lock:|[:memo:](https://leetcode.cn/articles/max-consecutive-ones-ii/)|Medium|
 |488|[祖玛游戏 zuma-game](https://leetcode.cn/problems/zuma-game)||[:memo:](https://leetcode.cn/articles/zuma-game/)|Hard|
 |489|[第 K 条最小指令 kth-smallest-instructions](https://leetcode.cn/problems/kth-smallest-instructions)||[:memo:](https://leetcode.cn/articles/kth-smallest-instructions/)|Hard|
-|490|[迷宫 the-maze](https://leetcode.cn/problems/the-maze)|:lock:|[:memo:](https://leetcode.cn/articles/the-maze/)|Medium|
 |491|[递增子序列 non-decreasing-subsequences](https://leetcode.cn/problems/non-decreasing-subsequences)||[:memo:](https://leetcode.cn/articles/non-decreasing-subsequences/)|Medium|
 |492|[构造矩形 construct-the-rectangle](https://leetcode.cn/problems/construct-the-rectangle)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/492-construct-the-rectangle/construct-the-rectangle.py)|[:memo:](https://leetcode.cn/articles/construct-the-rectangle/)|Easy|
 |493|[翻转对 reverse-pairs](https://leetcode.cn/problems/reverse-pairs)||[:memo:](https://leetcode.cn/articles/reverse-pairs/)|Hard|
@@ -493,27 +410,20 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |495|[提莫攻击 teemo-attacking](https://leetcode.cn/problems/teemo-attacking)||[:memo:](https://leetcode.cn/articles/teemo-attacking/)|Easy|
 |496|[下一个更大元素 I next-greater-element-i](https://leetcode.cn/problems/next-greater-element-i)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/496-next-greater-element-i/next-greater-element-i.py)|[:memo:](https://leetcode.cn/articles/next-greater-element-i/)|Easy|
 |498|[对角线遍历 diagonal-traverse](https://leetcode.cn/problems/diagonal-traverse)||[:memo:](https://leetcode.cn/articles/diagonal-traverse/)|Medium|
-|499|[迷宫 III the-maze-iii](https://leetcode.cn/problems/the-maze-iii)|:lock:|[:memo:](https://leetcode.cn/articles/the-maze-iii/)|Hard|
 |500|[键盘行 keyboard-row](https://leetcode.cn/problems/keyboard-row)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/500-keyboard-row/keyboard-row.py)|[:memo:](https://leetcode.cn/articles/keyboard-row/)|Easy|
 |501|[二叉搜索树中的众数 find-mode-in-binary-search-tree](https://leetcode.cn/problems/find-mode-in-binary-search-tree)||[:memo:](https://leetcode.cn/articles/find-mode-in-binary-search-tree/)|Easy|
 |502|[IPO ipo](https://leetcode.cn/problems/ipo)||[:memo:](https://leetcode.cn/articles/ipo/)|Hard|
 |503|[下一个更大元素 II next-greater-element-ii](https://leetcode.cn/problems/next-greater-element-ii)||[:memo:](https://leetcode.cn/articles/next-greater-element-ii/)|Medium|
 |504|[七进制数 base-7](https://leetcode.cn/problems/base-7)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/504-base-7/base-7.py)|[:memo:](https://leetcode.cn/articles/base-7/)|Easy|
-|505|[迷宫 II the-maze-ii](https://leetcode.cn/problems/the-maze-ii)|:lock:|[:memo:](https://leetcode.cn/articles/the-maze-ii/)|Medium|
 |506|[相对名次 relative-ranks](https://leetcode.cn/problems/relative-ranks)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/506-relative-ranks/relative-ranks.py)|[:memo:](https://leetcode.cn/articles/relative-ranks/)|Easy|
 |507|[完美数 perfect-number](https://leetcode.cn/problems/perfect-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/507-perfect-number/perfect-number.py)|[:memo:](https://leetcode.cn/articles/perfect-number/)|Easy|
 |508|[出现次数最多的子树元素和 most-frequent-subtree-sum](https://leetcode.cn/problems/most-frequent-subtree-sum)||[:memo:](https://leetcode.cn/articles/most-frequent-subtree-sum/)|Medium|
-|509|[二叉搜索树中的中序后继 II inorder-successor-in-bst-ii](https://leetcode.cn/problems/inorder-successor-in-bst-ii)|:lock:|[:memo:](https://leetcode.cn/articles/inorder-successor-in-bst-ii/)|Medium|
-|510|[1 比 0 多的子数组个数 count-subarrays-with-more-ones-than-zeros](https://leetcode.cn/problems/count-subarrays-with-more-ones-than-zeros)|:lock:|[:memo:](https://leetcode.cn/articles/count-subarrays-with-more-ones-than-zeros/)|Medium|
-|511|[从始点到终点的所有路径 all-paths-from-source-lead-to-destination](https://leetcode.cn/problems/all-paths-from-source-lead-to-destination)|:lock:|[:memo:](https://leetcode.cn/articles/all-paths-from-source-lead-to-destination/)|Medium|
-|512|[最大交替子数组和 maximum-alternating-subarray-sum](https://leetcode.cn/problems/maximum-alternating-subarray-sum)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-alternating-subarray-sum/)|Medium|
 |513|[找树左下角的值 find-bottom-left-tree-value](https://leetcode.cn/problems/find-bottom-left-tree-value)||[:memo:](https://leetcode.cn/articles/find-bottom-left-tree-value/)|Medium|
 |514|[自由之路 freedom-trail](https://leetcode.cn/problems/freedom-trail)||[:memo:](https://leetcode.cn/articles/freedom-trail/)|Hard|
 |515|[在每个树行中找最大值 find-largest-value-in-each-tree-row](https://leetcode.cn/problems/find-largest-value-in-each-tree-row)||[:memo:](https://leetcode.cn/articles/find-largest-value-in-each-tree-row/)|Medium|
 |516|[最长回文子序列 longest-palindromic-subsequence](https://leetcode.cn/problems/longest-palindromic-subsequence)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/516-longest-palindromic-subsequence/longest-palindromic-subsequence.py)|[:memo:](https://leetcode.cn/articles/longest-palindromic-subsequence/)|Medium|
 |517|[超级洗衣机 super-washing-machines](https://leetcode.cn/problems/super-washing-machines)||[:memo:](https://leetcode.cn/articles/super-washing-machines/)|Hard|
 |518|[零钱兑换 II coin-change-ii](https://leetcode.cn/problems/coin-change-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/518-coin-change-ii/coin-change-ii.py)|[:memo:](https://leetcode.cn/articles/coin-change-ii/)|Medium|
-|519|[范围和相等的最宽索引对 widest-pair-of-indices-with-equal-range-sum](https://leetcode.cn/problems/widest-pair-of-indices-with-equal-range-sum)|:lock:|[:memo:](https://leetcode.cn/articles/widest-pair-of-indices-with-equal-range-sum/)|Medium|
 |520|[检测大写字母 detect-capital](https://leetcode.cn/problems/detect-capital)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/520-detect-capital/detect-capital.py)|[:memo:](https://leetcode.cn/articles/detect-capital/)|Easy|
 |521|[最长特殊序列 Ⅰ longest-uncommon-subsequence-i](https://leetcode.cn/problems/longest-uncommon-subsequence-i)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/521-longest-uncommon-subsequence-i/longest-uncommon-subsequence-i.py)|[:memo:](https://leetcode.cn/articles/longest-uncommon-subsequence-i/)|Easy|
 |522|[最长特殊序列 II longest-uncommon-subsequence-ii](https://leetcode.cn/problems/longest-uncommon-subsequence-ii)||[:memo:](https://leetcode.cn/articles/longest-uncommon-subsequence-ii/)|Medium|
@@ -521,15 +431,11 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |524|[通过删除字母匹配到字典里最长单词 longest-word-in-dictionary-through-deleting](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting)||[:memo:](https://leetcode.cn/articles/longest-word-in-dictionary-through-deleting/)|Medium|
 |525|[连续数组 contiguous-array](https://leetcode.cn/problems/contiguous-array)||[:memo:](https://leetcode.cn/articles/contiguous-array/)|Medium|
 |526|[优美的排列 beautiful-arrangement](https://leetcode.cn/problems/beautiful-arrangement)||[:memo:](https://leetcode.cn/articles/beautiful-arrangement/)|Medium|
-|527|[单词缩写 word-abbreviation](https://leetcode.cn/problems/word-abbreviation)|:lock:|[:memo:](https://leetcode.cn/articles/word-abbreviation/)|Hard|
 |528|[交换链表中的节点 swapping-nodes-in-a-linked-list](https://leetcode.cn/problems/swapping-nodes-in-a-linked-list)||[:memo:](https://leetcode.cn/articles/swapping-nodes-in-a-linked-list/)|Medium|
 |529|[扫雷游戏 minesweeper](https://leetcode.cn/problems/minesweeper)||[:memo:](https://leetcode.cn/articles/minesweeper/)|Medium|
 |530|[二叉搜索树的最小绝对差 minimum-absolute-difference-in-bst](https://leetcode.cn/problems/minimum-absolute-difference-in-bst)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/530-minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.py)|[:memo:](https://leetcode.cn/articles/minimum-absolute-difference-in-bst/)|Easy|
-|531|[孤独像素 I lonely-pixel-i](https://leetcode.cn/problems/lonely-pixel-i)|:lock:|[:memo:](https://leetcode.cn/articles/lonely-pixel-i/)|Medium|
 |532|[数组中的 k-diff 数对 k-diff-pairs-in-an-array](https://leetcode.cn/problems/k-diff-pairs-in-an-array)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/532-k-diff-pairs-in-an-array/k-diff-pairs-in-an-array.py)|[:memo:](https://leetcode.cn/articles/k-diff-pairs-in-an-array/)|Medium|
-|533|[孤独像素 II lonely-pixel-ii](https://leetcode.cn/problems/lonely-pixel-ii)|:lock:|[:memo:](https://leetcode.cn/articles/lonely-pixel-ii/)|Medium|
 |535|[TinyURL 的加密与解密 encode-and-decode-tinyurl](https://leetcode.cn/problems/encode-and-decode-tinyurl)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/535-encode-and-decode-tinyurl/encode-and-decode-tinyurl.py)|[:memo:](https://leetcode.cn/articles/encode-and-decode-tinyurl/)|Medium|
-|536|[从字符串生成二叉树 construct-binary-tree-from-string](https://leetcode.cn/problems/construct-binary-tree-from-string)|:lock:|[:memo:](https://leetcode.cn/articles/construct-binary-tree-from-string/)|Medium|
 |537|[复数乘法 complex-number-multiplication](https://leetcode.cn/problems/complex-number-multiplication)||[:memo:](https://leetcode.cn/articles/complex-number-multiplication/)|Medium|
 |538|[把二叉搜索树转换为累加树 convert-bst-to-greater-tree](https://leetcode.cn/problems/convert-bst-to-greater-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/538-convert-bst-to-greater-tree/convert-bst-to-greater-tree.py)|[:memo:](https://leetcode.cn/articles/convert-bst-to-greater-tree/)|Medium|
 |539|[最小时间差 minimum-time-difference](https://leetcode.cn/problems/minimum-time-difference)||[:memo:](https://leetcode.cn/articles/minimum-time-difference/)|Medium|
@@ -537,38 +443,27 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |541|[反转字符串 II reverse-string-ii](https://leetcode.cn/problems/reverse-string-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/541-reverse-string-ii/reverse-string-ii.py)|[:memo:](https://leetcode.cn/articles/reverse-string-ii/)|Easy|
 |542|[01 矩阵 01-matrix](https://leetcode.cn/problems/01-matrix)||[:memo:](https://leetcode.cn/articles/01-matrix/)|Medium|
 |543|[二叉树的直径 diameter-of-binary-tree](https://leetcode.cn/problems/diameter-of-binary-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/543-diameter-of-binary-tree/diameter-of-binary-tree.py)|[:memo:](https://leetcode.cn/articles/diameter-of-binary-tree/)|Easy|
-|544|[输出比赛匹配对 output-contest-matches](https://leetcode.cn/problems/output-contest-matches)|:lock:|[:memo:](https://leetcode.cn/articles/output-contest-matches/)|Medium|
-|545|[二叉树的边界 boundary-of-binary-tree](https://leetcode.cn/problems/boundary-of-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/boundary-of-binary-tree/)|Medium|
 |546|[移除盒子 remove-boxes](https://leetcode.cn/problems/remove-boxes)||[:memo:](https://leetcode.cn/articles/remove-boxes/)|Hard|
 |547|[省份数量 number-of-provinces](https://leetcode.cn/problems/number-of-provinces)||[:memo:](https://leetcode.cn/articles/number-of-provinces/)|Medium|
-|548|[将数组分割成和相等的子数组 split-array-with-equal-sum](https://leetcode.cn/problems/split-array-with-equal-sum)|:lock:|[:memo:](https://leetcode.cn/articles/split-array-with-equal-sum/)|Hard|
-|549|[二叉树中最长的连续序列 binary-tree-longest-consecutive-sequence-ii](https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence-ii)|:lock:|[:memo:](https://leetcode.cn/articles/binary-tree-longest-consecutive-sequence-ii/)|Medium|
-|550|[获取食物的最短路径 shortest-path-to-get-food](https://leetcode.cn/problems/shortest-path-to-get-food)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-path-to-get-food/)|Medium|
 |551|[学生出勤记录 I student-attendance-record-i](https://leetcode.cn/problems/student-attendance-record-i)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/551-student-attendance-record-i/student-attendance-record-i.py)|[:memo:](https://leetcode.cn/articles/student-attendance-record-i/)|Easy|
 |552|[学生出勤记录 II student-attendance-record-ii](https://leetcode.cn/problems/student-attendance-record-ii)||[:memo:](https://leetcode.cn/articles/student-attendance-record-ii/)|Hard|
 |553|[最优除法 optimal-division](https://leetcode.cn/problems/optimal-division)||[:memo:](https://leetcode.cn/articles/optimal-division/)|Medium|
 |554|[砖墙 brick-wall](https://leetcode.cn/problems/brick-wall)||[:memo:](https://leetcode.cn/articles/brick-wall/)|Medium|
-|555|[分割连接字符串 split-concatenated-strings](https://leetcode.cn/problems/split-concatenated-strings)|:lock:|[:memo:](https://leetcode.cn/articles/split-concatenated-strings/)|Medium|
 |556|[下一个更大元素 III next-greater-element-iii](https://leetcode.cn/problems/next-greater-element-iii)||[:memo:](https://leetcode.cn/articles/next-greater-element-iii/)|Medium|
 |557|[反转字符串中的单词 III reverse-words-in-a-string-iii](https://leetcode.cn/problems/reverse-words-in-a-string-iii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/557-reverse-words-in-a-string-iii/reverse-words-in-a-string-iii.py)|[:memo:](https://leetcode.cn/articles/reverse-words-in-a-string-iii/)|Easy|
 |560|[和为 K 的子数组 subarray-sum-equals-k](https://leetcode.cn/problems/subarray-sum-equals-k)||[:memo:](https://leetcode.cn/articles/subarray-sum-equals-k/)|Medium|
 |561|[数组拆分 array-partition](https://leetcode.cn/problems/array-partition)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/561-array-partition/array-partition.py)|[:memo:](https://leetcode.cn/articles/array-partition/)|Easy|
-|562|[矩阵中最长的连续1线段 longest-line-of-consecutive-one-in-matrix](https://leetcode.cn/problems/longest-line-of-consecutive-one-in-matrix)|:lock:|[:memo:](https://leetcode.cn/articles/longest-line-of-consecutive-one-in-matrix/)|Medium|
 |563|[二叉树的坡度 binary-tree-tilt](https://leetcode.cn/problems/binary-tree-tilt)||[:memo:](https://leetcode.cn/articles/binary-tree-tilt/)|Easy|
 |564|[寻找最近的回文数 find-the-closest-palindrome](https://leetcode.cn/problems/find-the-closest-palindrome)||[:memo:](https://leetcode.cn/articles/find-the-closest-palindrome/)|Hard|
 |565|[数组嵌套 array-nesting](https://leetcode.cn/problems/array-nesting)||[:memo:](https://leetcode.cn/articles/array-nesting/)|Medium|
 |566|[重塑矩阵 reshape-the-matrix](https://leetcode.cn/problems/reshape-the-matrix)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/566-reshape-the-matrix/reshape-the-matrix.py)|[:memo:](https://leetcode.cn/articles/reshape-the-matrix/)|Easy|
 |567|[字符串的排列 permutation-in-string](https://leetcode.cn/problems/permutation-in-string)||[:memo:](https://leetcode.cn/articles/permutation-in-string/)|Medium|
-|568|[最大休假天数 maximum-vacation-days](https://leetcode.cn/problems/maximum-vacation-days)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-vacation-days/)|Hard|
 |572|[另一棵树的子树 subtree-of-another-tree](https://leetcode.cn/problems/subtree-of-another-tree)||[:memo:](https://leetcode.cn/articles/subtree-of-another-tree/)|Easy|
-|573|[松鼠模拟 squirrel-simulation](https://leetcode.cn/problems/squirrel-simulation)|:lock:|[:memo:](https://leetcode.cn/articles/squirrel-simulation/)|Medium|
 |575|[分糖果 distribute-candies](https://leetcode.cn/problems/distribute-candies)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/575-distribute-candies/distribute-candies.py)|[:memo:](https://leetcode.cn/articles/distribute-candies/)|Easy|
 |576|[出界的路径数 out-of-boundary-paths](https://leetcode.cn/problems/out-of-boundary-paths)||[:memo:](https://leetcode.cn/articles/out-of-boundary-paths/)|Medium|
 |581|[最短无序连续子数组 shortest-unsorted-continuous-subarray](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/581-shortest-unsorted-continuous-subarray/shortest-unsorted-continuous-subarray.py)|[:memo:](https://leetcode.cn/articles/shortest-unsorted-continuous-subarray/)|Medium|
-|582|[杀掉进程 kill-process](https://leetcode.cn/problems/kill-process)|:lock:|[:memo:](https://leetcode.cn/articles/kill-process/)|Medium|
 |583|[两个字符串的删除操作 delete-operation-for-two-strings](https://leetcode.cn/problems/delete-operation-for-two-strings)||[:memo:](https://leetcode.cn/articles/delete-operation-for-two-strings/)|Medium|
 |587|[安装栅栏 erect-the-fence](https://leetcode.cn/problems/erect-the-fence)||[:memo:](https://leetcode.cn/articles/erect-the-fence/)|Hard|
-|588|[设计内存文件系统 design-in-memory-file-system](https://leetcode.cn/problems/design-in-memory-file-system)|:lock:|[:memo:](https://leetcode.cn/articles/design-in-memory-file-system/)|Hard|
 |591|[标签验证器 tag-validator](https://leetcode.cn/problems/tag-validator)||[:memo:](https://leetcode.cn/articles/tag-validator/)|Hard|
 |592|[分数加减运算 fraction-addition-and-subtraction](https://leetcode.cn/problems/fraction-addition-and-subtraction)||[:memo:](https://leetcode.cn/articles/fraction-addition-and-subtraction/)|Medium|
 |593|[有效的正方形 valid-square](https://leetcode.cn/problems/valid-square)||[:memo:](https://leetcode.cn/articles/valid-square/)|Medium|
@@ -576,55 +471,41 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |598|[范围求和 II range-addition-ii](https://leetcode.cn/problems/range-addition-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/598-range-addition-ii/range-addition-ii.py)|[:memo:](https://leetcode.cn/articles/range-addition-ii/)|Easy|
 |599|[两个列表的最小索引总和 minimum-index-sum-of-two-lists](https://leetcode.cn/problems/minimum-index-sum-of-two-lists)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/599-minimum-index-sum-of-two-lists/minimum-index-sum-of-two-lists.py)|[:memo:](https://leetcode.cn/articles/minimum-index-sum-of-two-lists/)|Easy|
 |600|[不含连续1的非负整数 non-negative-integers-without-consecutive-ones](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones)||[:memo:](https://leetcode.cn/articles/non-negative-integers-without-consecutive-ones/)|Hard|
-|604|[迭代压缩字符串 design-compressed-string-iterator](https://leetcode.cn/problems/design-compressed-string-iterator)|:lock:|[:memo:](https://leetcode.cn/articles/design-compressed-string-iterator/)|Easy|
 |605|[种花问题 can-place-flowers](https://leetcode.cn/problems/can-place-flowers)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/605-can-place-flowers/can-place-flowers.py)|[:memo:](https://leetcode.cn/articles/can-place-flowers/)|Easy|
 |606|[根据二叉树创建字符串 construct-string-from-binary-tree](https://leetcode.cn/problems/construct-string-from-binary-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/606-construct-string-from-binary-tree/construct-string-from-binary-tree.py)|[:memo:](https://leetcode.cn/articles/construct-string-from-binary-tree/)|Easy|
 |609|[在系统中查找重复文件 find-duplicate-file-in-system](https://leetcode.cn/problems/find-duplicate-file-in-system)||[:memo:](https://leetcode.cn/articles/find-duplicate-file-in-system/)|Medium|
 |611|[有效三角形的个数 valid-triangle-number](https://leetcode.cn/problems/valid-triangle-number)||[:memo:](https://leetcode.cn/articles/valid-triangle-number/)|Medium|
-|616|[给字符串添加加粗标签 add-bold-tag-in-string](https://leetcode.cn/problems/add-bold-tag-in-string)|:lock:|[:memo:](https://leetcode.cn/articles/add-bold-tag-in-string/)|Medium|
 |617|[合并二叉树 merge-two-binary-trees](https://leetcode.cn/problems/merge-two-binary-trees)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/617-merge-two-binary-trees/merge-two-binary-trees.py)|[:memo:](https://leetcode.cn/articles/merge-two-binary-trees/)|Easy|
 |621|[任务调度器 task-scheduler](https://leetcode.cn/problems/task-scheduler)||[:memo:](https://leetcode.cn/articles/task-scheduler/)|Medium|
 |623|[在二叉树中增加一行 add-one-row-to-tree](https://leetcode.cn/problems/add-one-row-to-tree)||[:memo:](https://leetcode.cn/articles/add-one-row-to-tree/)|Medium|
-|624|[数组列表中的最大距离 maximum-distance-in-arrays](https://leetcode.cn/problems/maximum-distance-in-arrays)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-distance-in-arrays/)|Medium|
-|625|[最小因式分解 minimum-factorization](https://leetcode.cn/problems/minimum-factorization)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-factorization/)|Medium|
 |628|[三个数的最大乘积 maximum-product-of-three-numbers](https://leetcode.cn/problems/maximum-product-of-three-numbers)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/628-maximum-product-of-three-numbers/maximum-product-of-three-numbers.py)|[:memo:](https://leetcode.cn/articles/maximum-product-of-three-numbers/)|Easy|
 |629|[K个逆序对数组 k-inverse-pairs-array](https://leetcode.cn/problems/k-inverse-pairs-array)||[:memo:](https://leetcode.cn/articles/k-inverse-pairs-array/)|Hard|
 |630|[课程表 III course-schedule-iii](https://leetcode.cn/problems/course-schedule-iii)||[:memo:](https://leetcode.cn/articles/course-schedule-iii/)|Hard|
-|631|[设计 Excel 求和公式 design-excel-sum-formula](https://leetcode.cn/problems/design-excel-sum-formula)|:lock:|[:memo:](https://leetcode.cn/articles/design-excel-sum-formula/)|Hard|
 |632|[最小区间 smallest-range-covering-elements-from-k-lists](https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists)||[:memo:](https://leetcode.cn/articles/smallest-range-covering-elements-from-k-lists/)|Hard|
 |633|[平方数之和 sum-of-square-numbers](https://leetcode.cn/problems/sum-of-square-numbers)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/633-sum-of-square-numbers/sum-of-square-numbers.py)|[:memo:](https://leetcode.cn/articles/sum-of-square-numbers/)|Medium|
-|634|[寻找数组的错位排列 find-the-derangement-of-an-array](https://leetcode.cn/problems/find-the-derangement-of-an-array)|:lock:|[:memo:](https://leetcode.cn/articles/find-the-derangement-of-an-array/)|Medium|
-|635|[设计日志存储系统 design-log-storage-system](https://leetcode.cn/problems/design-log-storage-system)|:lock:|[:memo:](https://leetcode.cn/articles/design-log-storage-system/)|Medium|
 |636|[函数的独占时间 exclusive-time-of-functions](https://leetcode.cn/problems/exclusive-time-of-functions)||[:memo:](https://leetcode.cn/articles/exclusive-time-of-functions/)|Medium|
 |637|[二叉树的层平均值 average-of-levels-in-binary-tree](https://leetcode.cn/problems/average-of-levels-in-binary-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/637-average-of-levels-in-binary-tree/average-of-levels-in-binary-tree.py)|[:memo:](https://leetcode.cn/articles/average-of-levels-in-binary-tree/)|Easy|
 |638|[大礼包 shopping-offers](https://leetcode.cn/problems/shopping-offers)||[:memo:](https://leetcode.cn/articles/shopping-offers/)|Medium|
 |639|[解码方法 II decode-ways-ii](https://leetcode.cn/problems/decode-ways-ii)||[:memo:](https://leetcode.cn/articles/decode-ways-ii/)|Hard|
 |640|[求解方程 solve-the-equation](https://leetcode.cn/problems/solve-the-equation)||[:memo:](https://leetcode.cn/articles/solve-the-equation/)|Medium|
-|642|[设计搜索自动补全系统 design-search-autocomplete-system](https://leetcode.cn/problems/design-search-autocomplete-system)|:lock:|[:memo:](https://leetcode.cn/articles/design-search-autocomplete-system/)|Hard|
 |643|[子数组最大平均数 I maximum-average-subarray-i](https://leetcode.cn/problems/maximum-average-subarray-i)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/643-maximum-average-subarray-i/maximum-average-subarray-i.py)|[:memo:](https://leetcode.cn/articles/maximum-average-subarray-i/)|Easy|
-|644|[子数组最大平均数 II maximum-average-subarray-ii](https://leetcode.cn/problems/maximum-average-subarray-ii)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-average-subarray-ii/)|Hard|
 |645|[错误的集合 set-mismatch](https://leetcode.cn/problems/set-mismatch)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/645-set-mismatch/set-mismatch.py)|[:memo:](https://leetcode.cn/articles/set-mismatch/)|Easy|
 |646|[最长数对链 maximum-length-of-pair-chain](https://leetcode.cn/problems/maximum-length-of-pair-chain)||[:memo:](https://leetcode.cn/articles/maximum-length-of-pair-chain/)|Medium|
 |647|[回文子串 palindromic-substrings](https://leetcode.cn/problems/palindromic-substrings)||[:memo:](https://leetcode.cn/articles/palindromic-substrings/)|Medium|
 |648|[单词替换 replace-words](https://leetcode.cn/problems/replace-words)||[:memo:](https://leetcode.cn/articles/replace-words/)|Medium|
 |649|[Dota2 参议院 dota2-senate](https://leetcode.cn/problems/dota2-senate)||[:memo:](https://leetcode.cn/articles/dota2-senate/)|Medium|
 |650|[只有两个键的键盘 2-keys-keyboard](https://leetcode.cn/problems/2-keys-keyboard)||[:memo:](https://leetcode.cn/articles/2-keys-keyboard/)|Medium|
-|651|[4键键盘 4-keys-keyboard](https://leetcode.cn/problems/4-keys-keyboard)|:lock:|[:memo:](https://leetcode.cn/articles/4-keys-keyboard/)|Medium|
 |652|[寻找重复的子树 find-duplicate-subtrees](https://leetcode.cn/problems/find-duplicate-subtrees)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/652-find-duplicate-subtrees/find-duplicate-subtrees.py)|[:memo:](https://leetcode.cn/articles/find-duplicate-subtrees/)|Medium|
 |653|[两数之和 IV - 输入二叉搜索树 two-sum-iv-input-is-a-bst](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/653-two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.py)|[:memo:](https://leetcode.cn/articles/two-sum-iv-input-is-a-bst/)|Easy|
 |654|[最大二叉树 maximum-binary-tree](https://leetcode.cn/problems/maximum-binary-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/654-maximum-binary-tree/maximum-binary-tree.py)|[:memo:](https://leetcode.cn/articles/maximum-binary-tree/)|Medium|
 |655|[输出二叉树 print-binary-tree](https://leetcode.cn/problems/print-binary-tree)||[:memo:](https://leetcode.cn/articles/print-binary-tree/)|Medium|
-|656|[金币路径 coin-path](https://leetcode.cn/problems/coin-path)|:lock:|[:memo:](https://leetcode.cn/articles/coin-path/)|Hard|
 |657|[机器人能否返回原点 robot-return-to-origin](https://leetcode.cn/problems/robot-return-to-origin)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/657-robot-return-to-origin/robot-return-to-origin.py)|[:memo:](https://leetcode.cn/articles/robot-return-to-origin/)|Easy|
 |658|[找到 K 个最接近的元素 find-k-closest-elements](https://leetcode.cn/problems/find-k-closest-elements)||[:memo:](https://leetcode.cn/articles/find-k-closest-elements/)|Medium|
 |659|[分割数组为连续子序列 split-array-into-consecutive-subsequences](https://leetcode.cn/problems/split-array-into-consecutive-subsequences)||[:memo:](https://leetcode.cn/articles/split-array-into-consecutive-subsequences/)|Medium|
-|660|[移除 9 remove-9](https://leetcode.cn/problems/remove-9)|:lock:|[:memo:](https://leetcode.cn/articles/remove-9/)|Hard|
 |661|[图片平滑器 image-smoother](https://leetcode.cn/problems/image-smoother)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/661-image-smoother/image-smoother.py)|[:memo:](https://leetcode.cn/articles/image-smoother/)|Easy|
 |662|[二叉树最大宽度 maximum-width-of-binary-tree](https://leetcode.cn/problems/maximum-width-of-binary-tree)||[:memo:](https://leetcode.cn/articles/maximum-width-of-binary-tree/)|Medium|
-|663|[均匀树划分 equal-tree-partition](https://leetcode.cn/problems/equal-tree-partition)|:lock:|[:memo:](https://leetcode.cn/articles/equal-tree-partition/)|Medium|
 |664|[奇怪的打印机 strange-printer](https://leetcode.cn/problems/strange-printer)||[:memo:](https://leetcode.cn/articles/strange-printer/)|Hard|
 |665|[非递减数列 non-decreasing-array](https://leetcode.cn/problems/non-decreasing-array)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/665-non-decreasing-array/non-decreasing-array.py)|[:memo:](https://leetcode.cn/articles/non-decreasing-array/)|Medium|
-|666|[路径总和 IV path-sum-iv](https://leetcode.cn/problems/path-sum-iv)|:lock:|[:memo:](https://leetcode.cn/articles/path-sum-iv/)|Medium|
 |667|[优美的排列 II beautiful-arrangement-ii](https://leetcode.cn/problems/beautiful-arrangement-ii)||[:memo:](https://leetcode.cn/articles/beautiful-arrangement-ii/)|Medium|
 |668|[乘法表中第k小的数 kth-smallest-number-in-multiplication-table](https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table)||[:memo:](https://leetcode.cn/articles/kth-smallest-number-in-multiplication-table/)|Hard|
 |669|[修剪二叉搜索树 trim-a-binary-search-tree](https://leetcode.cn/problems/trim-a-binary-search-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/669-trim-a-binary-search-tree/trim-a-binary-search-tree.py)|[:memo:](https://leetcode.cn/articles/trim-a-binary-search-tree/)|Medium|
@@ -639,9 +520,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |678|[有效的括号字符串 valid-parenthesis-string](https://leetcode.cn/problems/valid-parenthesis-string)||[:memo:](https://leetcode.cn/articles/valid-parenthesis-string/)|Medium|
 |679|[24 点游戏 24-game](https://leetcode.cn/problems/24-game)||[:memo:](https://leetcode.cn/articles/24-game/)|Hard|
 |680|[验证回文串 II valid-palindrome-ii](https://leetcode.cn/problems/valid-palindrome-ii)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/680-valid-palindrome-ii/valid-palindrome-ii.py)|[:memo:](https://leetcode.cn/articles/valid-palindrome-ii/)|Easy|
-|681|[最近时刻 next-closest-time](https://leetcode.cn/problems/next-closest-time)|:lock:|[:memo:](https://leetcode.cn/articles/next-closest-time/)|Medium|
 |682|[棒球比赛 baseball-game](https://leetcode.cn/problems/baseball-game)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/682-baseball-game/baseball-game.py)|[:memo:](https://leetcode.cn/articles/baseball-game/)|Easy|
-|683|[K 个关闭的灯泡 k-empty-slots](https://leetcode.cn/problems/k-empty-slots)|:lock:|[:memo:](https://leetcode.cn/articles/k-empty-slots/)|Hard|
 |684|[冗余连接 redundant-connection](https://leetcode.cn/problems/redundant-connection)||[:memo:](https://leetcode.cn/articles/redundant-connection/)|Medium|
 |685|[冗余连接 II redundant-connection-ii](https://leetcode.cn/problems/redundant-connection-ii)||[:memo:](https://leetcode.cn/articles/redundant-connection-ii/)|Hard|
 |686|[重复叠加字符串匹配 repeated-string-match](https://leetcode.cn/problems/repeated-string-match)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/686-repeated-string-match/repeated-string-match.py)|[:memo:](https://leetcode.cn/articles/repeated-string-match/)|Medium|
@@ -652,45 +531,37 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |691|[贴纸拼词 stickers-to-spell-word](https://leetcode.cn/problems/stickers-to-spell-word)||[:memo:](https://leetcode.cn/articles/stickers-to-spell-word/)|Hard|
 |692|[前K个高频单词 top-k-frequent-words](https://leetcode.cn/problems/top-k-frequent-words)||[:memo:](https://leetcode.cn/articles/top-k-frequent-words/)|Medium|
 |693|[交替位二进制数 binary-number-with-alternating-bits](https://leetcode.cn/problems/binary-number-with-alternating-bits)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/693-binary-number-with-alternating-bits/binary-number-with-alternating-bits.py)|[:memo:](https://leetcode.cn/articles/binary-number-with-alternating-bits/)|Easy|
-|694|[不同岛屿的数量 number-of-distinct-islands](https://leetcode.cn/problems/number-of-distinct-islands)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-distinct-islands/)|Medium|
 |695|[岛屿的最大面积 max-area-of-island](https://leetcode.cn/problems/max-area-of-island)||[:memo:](https://leetcode.cn/articles/max-area-of-island/)|Medium|
 |696|[计数二进制子串 count-binary-substrings](https://leetcode.cn/problems/count-binary-substrings)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/696-count-binary-substrings/count-binary-substrings.py)|[:memo:](https://leetcode.cn/articles/count-binary-substrings/)|Easy|
 |697|[数组的度 degree-of-an-array](https://leetcode.cn/problems/degree-of-an-array)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/697-degree-of-an-array/degree-of-an-array.py)|[:memo:](https://leetcode.cn/articles/degree-of-an-array/)|Easy|
 |698|[划分为k个相等的子集 partition-to-k-equal-sum-subsets](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets)||[:memo:](https://leetcode.cn/articles/partition-to-k-equal-sum-subsets/)|Medium|
 |699|[掉落的方块 falling-squares](https://leetcode.cn/problems/falling-squares)||[:memo:](https://leetcode.cn/articles/falling-squares/)|Hard|
-|711|[不同岛屿的数量 II number-of-distinct-islands-ii](https://leetcode.cn/problems/number-of-distinct-islands-ii)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-distinct-islands-ii/)|Hard|
 |712|[两个字符串的最小ASCII删除和 minimum-ascii-delete-sum-for-two-strings](https://leetcode.cn/problems/minimum-ascii-delete-sum-for-two-strings)||[:memo:](https://leetcode.cn/articles/minimum-ascii-delete-sum-for-two-strings/)|Medium|
 |713|[乘积小于 K 的子数组 subarray-product-less-than-k](https://leetcode.cn/problems/subarray-product-less-than-k)||[:memo:](https://leetcode.cn/articles/subarray-product-less-than-k/)|Medium|
 |714|[买卖股票的最佳时机含手续费 best-time-to-buy-and-sell-stock-with-transaction-fee](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)||[:memo:](https://leetcode.cn/articles/best-time-to-buy-and-sell-stock-with-transaction-fee/)|Medium|
 |715|[Range 模块 range-module](https://leetcode.cn/problems/range-module)||[:memo:](https://leetcode.cn/articles/range-module/)|Hard|
-|716|[最大栈 max-stack](https://leetcode.cn/problems/max-stack)|:lock:|[:memo:](https://leetcode.cn/articles/max-stack/)|Hard|
 |717|[1 比特与 2 比特字符 1-bit-and-2-bit-characters](https://leetcode.cn/problems/1-bit-and-2-bit-characters)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/717-1-bit-and-2-bit-characters/1-bit-and-2-bit-characters.py)|[:memo:](https://leetcode.cn/articles/1-bit-and-2-bit-characters/)|Easy|
 |718|[最长重复子数组 maximum-length-of-repeated-subarray](https://leetcode.cn/problems/maximum-length-of-repeated-subarray)||[:memo:](https://leetcode.cn/articles/maximum-length-of-repeated-subarray/)|Medium|
 |719|[找出第 K 小的数对距离 find-k-th-smallest-pair-distance](https://leetcode.cn/problems/find-k-th-smallest-pair-distance)||[:memo:](https://leetcode.cn/articles/find-k-th-smallest-pair-distance/)|Hard|
 |720|[词典中最长的单词 longest-word-in-dictionary](https://leetcode.cn/problems/longest-word-in-dictionary)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/720-longest-word-in-dictionary/longest-word-in-dictionary.py)|[:memo:](https://leetcode.cn/articles/longest-word-in-dictionary/)|Medium|
 |721|[账户合并 accounts-merge](https://leetcode.cn/problems/accounts-merge)||[:memo:](https://leetcode.cn/articles/accounts-merge/)|Medium|
 |722|[删除注释 remove-comments](https://leetcode.cn/problems/remove-comments)||[:memo:](https://leetcode.cn/articles/remove-comments/)|Medium|
-|723|[粉碎糖果 candy-crush](https://leetcode.cn/problems/candy-crush)|:lock:|[:memo:](https://leetcode.cn/articles/candy-crush/)|Medium|
 |724|[寻找数组的中心下标 find-pivot-index](https://leetcode.cn/problems/find-pivot-index)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/724-find-pivot-index/find-pivot-index.py)|[:memo:](https://leetcode.cn/articles/find-pivot-index/)|Easy|
 |725|[分隔链表 split-linked-list-in-parts](https://leetcode.cn/problems/split-linked-list-in-parts)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/725-split-linked-list-in-parts/split-linked-list-in-parts.py)|[:memo:](https://leetcode.cn/articles/split-linked-list-in-parts/)|Medium|
 |726|[原子的数量 number-of-atoms](https://leetcode.cn/problems/number-of-atoms)||[:memo:](https://leetcode.cn/articles/number-of-atoms/)|Hard|
-|727|[最小窗口子序列 minimum-window-subsequence](https://leetcode.cn/problems/minimum-window-subsequence)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-window-subsequence/)|Hard|
 |728|[自除数 self-dividing-numbers](https://leetcode.cn/problems/self-dividing-numbers)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/728-self-dividing-numbers/self-dividing-numbers.py)|[:memo:](https://leetcode.cn/articles/self-dividing-numbers/)|Easy|
 |729|[我的日程安排表 I my-calendar-i](https://leetcode.cn/problems/my-calendar-i)||[:memo:](https://leetcode.cn/articles/my-calendar-i/)|Medium|
 |730|[统计不同回文子序列 count-different-palindromic-subsequences](https://leetcode.cn/problems/count-different-palindromic-subsequences)||[:memo:](https://leetcode.cn/articles/count-different-palindromic-subsequences/)|Hard|
 |731|[我的日程安排表 II my-calendar-ii](https://leetcode.cn/problems/my-calendar-ii)||[:memo:](https://leetcode.cn/articles/my-calendar-ii/)|Medium|
 |732|[我的日程安排表 III my-calendar-iii](https://leetcode.cn/problems/my-calendar-iii)||[:memo:](https://leetcode.cn/articles/my-calendar-iii/)|Hard|
 |733|[图像渲染 flood-fill](https://leetcode.cn/problems/flood-fill)||[:memo:](https://leetcode.cn/articles/flood-fill/)|Easy|
-|734|[句子相似性 sentence-similarity](https://leetcode.cn/problems/sentence-similarity)|:lock:|[:memo:](https://leetcode.cn/articles/sentence-similarity/)|Easy|
 |735|[行星碰撞 asteroid-collision](https://leetcode.cn/problems/asteroid-collision)||[:memo:](https://leetcode.cn/articles/asteroid-collision/)|Medium|
 |736|[Lisp 语法解析 parse-lisp-expression](https://leetcode.cn/problems/parse-lisp-expression)||[:memo:](https://leetcode.cn/articles/parse-lisp-expression/)|Hard|
-|737|[句子相似性 II sentence-similarity-ii](https://leetcode.cn/problems/sentence-similarity-ii)|:lock:|[:memo:](https://leetcode.cn/articles/sentence-similarity-ii/)|Medium|
 |738|[单调递增的数字 monotone-increasing-digits](https://leetcode.cn/problems/monotone-increasing-digits)||[:memo:](https://leetcode.cn/articles/monotone-increasing-digits/)|Medium|
 |739|[每日温度 daily-temperatures](https://leetcode.cn/problems/daily-temperatures)||[:memo:](https://leetcode.cn/articles/daily-temperatures/)|Medium|
 |740|[删除并获得点数 delete-and-earn](https://leetcode.cn/problems/delete-and-earn)||[:memo:](https://leetcode.cn/articles/delete-and-earn/)|Medium|
 |741|[摘樱桃 cherry-pickup](https://leetcode.cn/problems/cherry-pickup)||[:memo:](https://leetcode.cn/articles/cherry-pickup/)|Hard|
 |742|[转换成小写字母 to-lower-case](https://leetcode.cn/problems/to-lower-case)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/742-to-lower-case/to-lower-case.py)|[:memo:](https://leetcode.cn/articles/to-lower-case/)|Easy|
-|743|[二叉树最近的叶节点 closest-leaf-in-a-binary-tree](https://leetcode.cn/problems/closest-leaf-in-a-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/closest-leaf-in-a-binary-tree/)|Medium|
 |744|[网络延迟时间 network-delay-time](https://leetcode.cn/problems/network-delay-time)||[:memo:](https://leetcode.cn/articles/network-delay-time/)|Medium|
 |745|[寻找比目标字母大的最小字母 find-smallest-letter-greater-than-target](https://leetcode.cn/problems/find-smallest-letter-greater-than-target)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/745-find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.py)|[:memo:](https://leetcode.cn/articles/find-smallest-letter-greater-than-target/)|Easy|
 |746|[前缀和后缀搜索 prefix-and-suffix-search](https://leetcode.cn/problems/prefix-and-suffix-search)||[:memo:](https://leetcode.cn/articles/prefix-and-suffix-search/)|Hard|
@@ -698,27 +569,18 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |748|[至少是其他数字两倍的最大数 largest-number-at-least-twice-of-others](https://leetcode.cn/problems/largest-number-at-least-twice-of-others)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/748-largest-number-at-least-twice-of-others/largest-number-at-least-twice-of-others.py)|[:memo:](https://leetcode.cn/articles/largest-number-at-least-twice-of-others/)|Easy|
 |749|[最短补全词 shortest-completing-word](https://leetcode.cn/problems/shortest-completing-word)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/749-shortest-completing-word/shortest-completing-word.py)|[:memo:](https://leetcode.cn/articles/shortest-completing-word/)|Easy|
 |750|[隔离病毒 contain-virus](https://leetcode.cn/problems/contain-virus)||[:memo:](https://leetcode.cn/articles/contain-virus/)|Hard|
-|751|[角矩形的数量 number-of-corner-rectangles](https://leetcode.cn/problems/number-of-corner-rectangles)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-corner-rectangles/)|Medium|
-|752|[IP 到 CIDR ip-to-cidr](https://leetcode.cn/problems/ip-to-cidr)|:lock:|[:memo:](https://leetcode.cn/articles/ip-to-cidr/)|Medium|
 |753|[打开转盘锁 open-the-lock](https://leetcode.cn/problems/open-the-lock)||[:memo:](https://leetcode.cn/articles/open-the-lock/)|Medium|
 |754|[破解保险箱 cracking-the-safe](https://leetcode.cn/problems/cracking-the-safe)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/754-cracking-the-safe/cracking-the-safe.py)|[:memo:](https://leetcode.cn/articles/cracking-the-safe/)|Hard|
 |755|[到达终点数字 reach-a-number](https://leetcode.cn/problems/reach-a-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/755-reach-a-number/reach-a-number.py)|[:memo:](https://leetcode.cn/articles/reach-a-number/)|Medium|
-|756|[倒水 pour-water](https://leetcode.cn/problems/pour-water)|:lock:|[:memo:](https://leetcode.cn/articles/pour-water/)|Medium|
 |757|[金字塔转换矩阵 pyramid-transition-matrix](https://leetcode.cn/problems/pyramid-transition-matrix)||[:memo:](https://leetcode.cn/articles/pyramid-transition-matrix/)|Medium|
-|758|[将二叉搜索树转化为排序的双向链表 convert-binary-search-tree-to-sorted-doubly-linked-list](https://leetcode.cn/problems/convert-binary-search-tree-to-sorted-doubly-linked-list)|:lock:|[:memo:](https://leetcode.cn/articles/convert-binary-search-tree-to-sorted-doubly-linked-list/)|Medium|
 |759|[设置交集大小至少为2 set-intersection-size-at-least-two](https://leetcode.cn/problems/set-intersection-size-at-least-two)||[:memo:](https://leetcode.cn/articles/set-intersection-size-at-least-two/)|Hard|
-|760|[字符串中的加粗单词 bold-words-in-string](https://leetcode.cn/problems/bold-words-in-string)|:lock:|[:memo:](https://leetcode.cn/articles/bold-words-in-string/)|Medium|
-|761|[员工空闲时间 employee-free-time](https://leetcode.cn/problems/employee-free-time)|:lock:|[:memo:](https://leetcode.cn/articles/employee-free-time/)|Hard|
-|762|[找出变位映射 find-anagram-mappings](https://leetcode.cn/problems/find-anagram-mappings)|:lock:|[:memo:](https://leetcode.cn/articles/find-anagram-mappings/)|Easy|
 |763|[特殊的二进制序列 special-binary-string](https://leetcode.cn/problems/special-binary-string)||[:memo:](https://leetcode.cn/articles/special-binary-string/)|Hard|
 |764|[N 叉树的层序遍历 n-ary-tree-level-order-traversal](https://leetcode.cn/problems/n-ary-tree-level-order-traversal)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/764-n-ary-tree-level-order-traversal/n-ary-tree-level-order-traversal.py)|[:memo:](https://leetcode.cn/articles/n-ary-tree-level-order-traversal/)|Medium|
-|765|[序列化和反序列化 N 叉树 serialize-and-deserialize-n-ary-tree](https://leetcode.cn/problems/serialize-and-deserialize-n-ary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/serialize-and-deserialize-n-ary-tree/)|Hard|
 |766|[扁平化多级双向链表 flatten-a-multilevel-doubly-linked-list](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list)||[:memo:](https://leetcode.cn/articles/flatten-a-multilevel-doubly-linked-list/)|Medium|
 |767|[二进制表示中质数个计算置位 prime-number-of-set-bits-in-binary-representation](https://leetcode.cn/problems/prime-number-of-set-bits-in-binary-representation)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/767-prime-number-of-set-bits-in-binary-representation/prime-number-of-set-bits-in-binary-representation.py)|[:memo:](https://leetcode.cn/articles/prime-number-of-set-bits-in-binary-representation/)|Easy|
 |768|[划分字母区间 partition-labels](https://leetcode.cn/problems/partition-labels)||[:memo:](https://leetcode.cn/articles/partition-labels/)|Medium|
 |769|[最大加号标志 largest-plus-sign](https://leetcode.cn/problems/largest-plus-sign)||[:memo:](https://leetcode.cn/articles/largest-plus-sign/)|Medium|
 |770|[情侣牵手 couples-holding-hands](https://leetcode.cn/problems/couples-holding-hands)||[:memo:](https://leetcode.cn/articles/couples-holding-hands/)|Hard|
-|771|[将 N 叉树编码为二叉树 encode-n-ary-tree-to-binary-tree](https://leetcode.cn/problems/encode-n-ary-tree-to-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/encode-n-ary-tree-to-binary-tree/)|Hard|
 |772|[建立四叉树 construct-quad-tree](https://leetcode.cn/problems/construct-quad-tree)||[:memo:](https://leetcode.cn/articles/construct-quad-tree/)|Medium|
 |773|[四叉树交集 logical-or-of-two-binary-grids-represented-as-quad-trees](https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-trees)||[:memo:](https://leetcode.cn/articles/logical-or-of-two-binary-grids-represented-as-quad-trees/)|Medium|
 |774|[N 叉树的最大深度 maximum-depth-of-n-ary-tree](https://leetcode.cn/problems/maximum-depth-of-n-ary-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/774-maximum-depth-of-n-ary-tree/maximum-depth-of-n-ary-tree.py)|[:memo:](https://leetcode.cn/articles/maximum-depth-of-n-ary-tree/)|Easy|
@@ -732,13 +594,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |782|[宝石与石头 jewels-and-stones](https://leetcode.cn/problems/jewels-and-stones)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/782-jewels-and-stones/jewels-and-stones.py)|[:memo:](https://leetcode.cn/articles/jewels-and-stones/)|Easy|
 |783|[二叉搜索树中的搜索 search-in-a-binary-search-tree](https://leetcode.cn/problems/search-in-a-binary-search-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/783-search-in-a-binary-search-tree/search-in-a-binary-search-tree.py)|[:memo:](https://leetcode.cn/articles/search-in-a-binary-search-tree/)|Easy|
 |784|[二叉搜索树中的插入操作 insert-into-a-binary-search-tree](https://leetcode.cn/problems/insert-into-a-binary-search-tree)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/784-insert-into-a-binary-search-tree/insert-into-a-binary-search-tree.py)|[:memo:](https://leetcode.cn/articles/insert-into-a-binary-search-tree/)|Medium|
-|785|[基本计算器 III basic-calculator-iii](https://leetcode.cn/problems/basic-calculator-iii)|:lock:|[:memo:](https://leetcode.cn/articles/basic-calculator-iii/)|Hard|
-|786|[搜索长度未知的有序数组 search-in-a-sorted-array-of-unknown-size](https://leetcode.cn/problems/search-in-a-sorted-array-of-unknown-size)|:lock:|[:memo:](https://leetcode.cn/articles/search-in-a-sorted-array-of-unknown-size/)|Medium|
 |787|[滑动谜题 sliding-puzzle](https://leetcode.cn/problems/sliding-puzzle)||[:memo:](https://leetcode.cn/articles/sliding-puzzle/)|Hard|
-|788|[最小化去加油站的最大距离 minimize-max-distance-to-gas-station](https://leetcode.cn/problems/minimize-max-distance-to-gas-station)|:lock:|[:memo:](https://leetcode.cn/articles/minimize-max-distance-to-gas-station/)|Hard|
 |789|[数据流中的第 K 大元素 kth-largest-element-in-a-stream](https://leetcode.cn/problems/kth-largest-element-in-a-stream)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/789-kth-largest-element-in-a-stream/kth-largest-element-in-a-stream.py)|[:memo:](https://leetcode.cn/articles/kth-largest-element-in-a-stream/)|Easy|
 |790|[全局倒置与局部倒置 global-and-local-inversions](https://leetcode.cn/problems/global-and-local-inversions)||[:memo:](https://leetcode.cn/articles/global-and-local-inversions/)|Medium|
-|791|[拆分二叉搜索树 split-bst](https://leetcode.cn/problems/split-bst)|:lock:|[:memo:](https://leetcode.cn/articles/split-bst/)|Medium|
 |792|[二分查找 binary-search](https://leetcode.cn/problems/binary-search)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/792-binary-search/binary-search.py)|[:memo:](https://leetcode.cn/articles/binary-search/)|Easy|
 |793|[在LR字符串中交换相邻字符 swap-adjacent-in-lr-string](https://leetcode.cn/problems/swap-adjacent-in-lr-string)||[:memo:](https://leetcode.cn/articles/swap-adjacent-in-lr-string/)|Medium|
 |794|[水位上升的泳池中游泳 swim-in-rising-water](https://leetcode.cn/problems/swim-in-rising-water)||[:memo:](https://leetcode.cn/articles/swim-in-rising-water/)|Hard|
@@ -765,7 +623,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |815|[香槟塔 champagne-tower](https://leetcode.cn/problems/champagne-tower)||[:memo:](https://leetcode.cn/articles/champagne-tower/)|Medium|
 |816|[设计哈希集合 design-hashset](https://leetcode.cn/problems/design-hashset)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/816-design-hashset/design-hashset.py)|[:memo:](https://leetcode.cn/articles/design-hashset/)|Easy|
 |817|[设计哈希映射 design-hashmap](https://leetcode.cn/problems/design-hashmap)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/817-design-hashmap/design-hashmap.py)|[:memo:](https://leetcode.cn/articles/design-hashmap/)|Easy|
-|818|[相似 RGB 颜色 similar-rgb-color](https://leetcode.cn/problems/similar-rgb-color)|:lock:|[:memo:](https://leetcode.cn/articles/similar-rgb-color/)|Easy|
 |819|[使序列递增的最小交换次数 minimum-swaps-to-make-sequences-increasing](https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing)||[:memo:](https://leetcode.cn/articles/minimum-swaps-to-make-sequences-increasing/)|Hard|
 |820|[找到最终的安全状态 find-eventual-safe-states](https://leetcode.cn/problems/find-eventual-safe-states)||[:memo:](https://leetcode.cn/articles/find-eventual-safe-states/)|Medium|
 |821|[打砖块 bricks-falling-when-hit](https://leetcode.cn/problems/bricks-falling-when-hit)||[:memo:](https://leetcode.cn/articles/bricks-falling-when-hit/)|Hard|
@@ -790,7 +647,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |841|[字符的最短距离 shortest-distance-to-a-character](https://leetcode.cn/problems/shortest-distance-to-a-character)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/841-shortest-distance-to-a-character/shortest-distance-to-a-character.py)|[:memo:](https://leetcode.cn/articles/shortest-distance-to-a-character/)|Easy|
 |842|[翻转卡片游戏 card-flipping-game](https://leetcode.cn/problems/card-flipping-game)||[:memo:](https://leetcode.cn/articles/card-flipping-game/)|Medium|
 |843|[带因子的二叉树 binary-trees-with-factors](https://leetcode.cn/problems/binary-trees-with-factors)||[:memo:](https://leetcode.cn/articles/binary-trees-with-factors/)|Medium|
-|850|[循环有序列表的插入 insert-into-a-sorted-circular-linked-list](https://leetcode.cn/problems/insert-into-a-sorted-circular-linked-list)|:lock:|[:memo:](https://leetcode.cn/articles/insert-into-a-sorted-circular-linked-list/)|Medium|
 |851|[山羊拉丁文 goat-latin](https://leetcode.cn/problems/goat-latin)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/851-goat-latin/goat-latin.py)|[:memo:](https://leetcode.cn/articles/goat-latin/)|Easy|
 |852|[适龄的朋友 friends-of-appropriate-ages](https://leetcode.cn/problems/friends-of-appropriate-ages)||[:memo:](https://leetcode.cn/articles/friends-of-appropriate-ages/)|Medium|
 |853|[安排工作以达到最大收益 most-profit-assigning-work](https://leetcode.cn/problems/most-profit-assigning-work)||[:memo:](https://leetcode.cn/articles/most-profit-assigning-work/)|Medium|
@@ -805,7 +661,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |862|[字符串中的查找与替换 find-and-replace-in-string](https://leetcode.cn/problems/find-and-replace-in-string)||[:memo:](https://leetcode.cn/articles/find-and-replace-in-string/)|Medium|
 |863|[树中距离之和 sum-of-distances-in-tree](https://leetcode.cn/problems/sum-of-distances-in-tree)||[:memo:](https://leetcode.cn/articles/sum-of-distances-in-tree/)|Hard|
 |864|[图像重叠 image-overlap](https://leetcode.cn/problems/image-overlap)||[:memo:](https://leetcode.cn/articles/image-overlap/)|Medium|
-|865|[扫地机器人 robot-room-cleaner](https://leetcode.cn/problems/robot-room-cleaner)|:lock:|[:memo:](https://leetcode.cn/articles/robot-room-cleaner/)|Hard|
 |866|[矩形重叠 rectangle-overlap](https://leetcode.cn/problems/rectangle-overlap)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/866-rectangle-overlap/rectangle-overlap.py)|[:memo:](https://leetcode.cn/articles/rectangle-overlap/)|Easy|
 |867|[新 21 点 new-21-game](https://leetcode.cn/problems/new-21-game)||[:memo:](https://leetcode.cn/articles/new-21-game/)|Medium|
 |868|[推多米诺 push-dominoes](https://leetcode.cn/problems/push-dominoes)||[:memo:](https://leetcode.cn/articles/push-dominoes/)|Medium|
@@ -986,64 +841,35 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1048|[笨阶乘 clumsy-factorial](https://leetcode.cn/problems/clumsy-factorial)||[:memo:](https://leetcode.cn/articles/clumsy-factorial/)|Medium|
 |1049|[行相等的最少多米诺旋转 minimum-domino-rotations-for-equal-row](https://leetcode.cn/problems/minimum-domino-rotations-for-equal-row)||[:memo:](https://leetcode.cn/articles/minimum-domino-rotations-for-equal-row/)|Medium|
 |1050|[前序遍历构造二叉搜索树 construct-binary-search-tree-from-preorder-traversal](https://leetcode.cn/problems/construct-binary-search-tree-from-preorder-traversal)||[:memo:](https://leetcode.cn/articles/construct-binary-search-tree-from-preorder-traversal/)|Medium|
-|1051|[形成字符串的最短路径 shortest-way-to-form-string](https://leetcode.cn/problems/shortest-way-to-form-string)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-way-to-form-string/)|Medium|
-|1052|[校园自行车分配 campus-bikes](https://leetcode.cn/problems/campus-bikes)|:lock:|[:memo:](https://leetcode.cn/articles/campus-bikes/)|Medium|
-|1053|[最小化舍入误差以满足目标 minimize-rounding-error-to-meet-target](https://leetcode.cn/problems/minimize-rounding-error-to-meet-target)|:lock:|[:memo:](https://leetcode.cn/articles/minimize-rounding-error-to-meet-target/)|Medium|
 |1054|[十进制整数的反码 complement-of-base-10-integer](https://leetcode.cn/problems/complement-of-base-10-integer)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1054-complement-of-base-10-integer/complement-of-base-10-integer.py)|[:memo:](https://leetcode.cn/articles/complement-of-base-10-integer/)|Easy|
 |1055|[总持续时间可被 60 整除的歌曲 pairs-of-songs-with-total-durations-divisible-by-60](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1055-pairs-of-songs-with-total-durations-divisible-by-60/pairs-of-songs-with-total-durations-divisible-by-60.py)|[:memo:](https://leetcode.cn/articles/pairs-of-songs-with-total-durations-divisible-by-60/)|Medium|
 |1056|[在 D 天内送达包裹的能力 capacity-to-ship-packages-within-d-days](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days)||[:memo:](https://leetcode.cn/articles/capacity-to-ship-packages-within-d-days/)|Medium|
 |1057|[至少有 1 位重复的数字 numbers-with-repeated-digits](https://leetcode.cn/problems/numbers-with-repeated-digits)||[:memo:](https://leetcode.cn/articles/numbers-with-repeated-digits/)|Hard|
 |1058|[按字典序排列最小的等效字符串 lexicographically-smallest-equivalent-string](https://leetcode.cn/problems/lexicographically-smallest-equivalent-string)||[:memo:](https://leetcode.cn/articles/lexicographically-smallest-equivalent-string/)|Medium|
-|1059|[有序数组中的缺失元素 missing-element-in-sorted-array](https://leetcode.cn/problems/missing-element-in-sorted-array)|:lock:|[:memo:](https://leetcode.cn/articles/missing-element-in-sorted-array/)|Medium|
-|1060|[最长重复子串 longest-repeating-substring](https://leetcode.cn/problems/longest-repeating-substring)|:lock:|[:memo:](https://leetcode.cn/articles/longest-repeating-substring/)|Medium|
-|1061|[有效子数组的数目 number-of-valid-subarrays](https://leetcode.cn/problems/number-of-valid-subarrays)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-valid-subarrays/)|Hard|
 |1062|[将数组分成和相等的三个部分 partition-array-into-three-parts-with-equal-sum](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1062-partition-array-into-three-parts-with-equal-sum/partition-array-into-three-parts-with-equal-sum.py)|[:memo:](https://leetcode.cn/articles/partition-array-into-three-parts-with-equal-sum/)|Easy|
 |1063|[最佳观光组合 best-sightseeing-pair](https://leetcode.cn/problems/best-sightseeing-pair)||[:memo:](https://leetcode.cn/articles/best-sightseeing-pair/)|Medium|
 |1064|[可被 K 整除的最小整数 smallest-integer-divisible-by-k](https://leetcode.cn/problems/smallest-integer-divisible-by-k)||[:memo:](https://leetcode.cn/articles/smallest-integer-divisible-by-k/)|Medium|
 |1065|[子串能表示从 1 到 N 数字的二进制串 binary-string-with-substrings-representing-1-to-n](https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n)||[:memo:](https://leetcode.cn/articles/binary-string-with-substrings-representing-1-to-n/)|Medium|
-|1066|[不动点 fixed-point](https://leetcode.cn/problems/fixed-point)|:lock:|[:memo:](https://leetcode.cn/articles/fixed-point/)|Easy|
-|1067|[校园自行车分配 II campus-bikes-ii](https://leetcode.cn/problems/campus-bikes-ii)|:lock:|[:memo:](https://leetcode.cn/articles/campus-bikes-ii/)|Medium|
-|1068|[范围内的数字计数 digit-count-in-range](https://leetcode.cn/problems/digit-count-in-range)|:lock:|[:memo:](https://leetcode.cn/articles/digit-count-in-range/)|Hard|
-|1069|[易混淆数 confusing-number](https://leetcode.cn/problems/confusing-number)|:lock:|[:memo:](https://leetcode.cn/articles/confusing-number/)|Easy|
 |1070|[负二进制转换 convert-to-base-2](https://leetcode.cn/problems/convert-to-base-2)||[:memo:](https://leetcode.cn/articles/convert-to-base-2/)|Medium|
 |1071|[可被 5 整除的二进制前缀 binary-prefix-divisible-by-5](https://leetcode.cn/problems/binary-prefix-divisible-by-5)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1071-binary-prefix-divisible-by-5/binary-prefix-divisible-by-5.py)|[:memo:](https://leetcode.cn/articles/binary-prefix-divisible-by-5/)|Easy|
 |1072|[链表中的下一个更大节点 next-greater-node-in-linked-list](https://leetcode.cn/problems/next-greater-node-in-linked-list)||[:memo:](https://leetcode.cn/articles/next-greater-node-in-linked-list/)|Medium|
 |1073|[飞地的数量 number-of-enclaves](https://leetcode.cn/problems/number-of-enclaves)||[:memo:](https://leetcode.cn/articles/number-of-enclaves/)|Medium|
-|1074|[前五科的均分 high-five](https://leetcode.cn/problems/high-five)|:lock:|[:memo:](https://leetcode.cn/articles/high-five/)|Easy|
-|1075|[字符串的索引对 index-pairs-of-a-string](https://leetcode.cn/problems/index-pairs-of-a-string)|:lock:|[:memo:](https://leetcode.cn/articles/index-pairs-of-a-string/)|Easy|
-|1076|[花括号展开 brace-expansion](https://leetcode.cn/problems/brace-expansion)|:lock:|[:memo:](https://leetcode.cn/articles/brace-expansion/)|Medium|
-|1077|[易混淆数 II confusing-number-ii](https://leetcode.cn/problems/confusing-number-ii)|:lock:|[:memo:](https://leetcode.cn/articles/confusing-number-ii/)|Hard|
 |1078|[删除最外层的括号 remove-outermost-parentheses](https://leetcode.cn/problems/remove-outermost-parentheses)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1078-remove-outermost-parentheses/remove-outermost-parentheses.py)|[:memo:](https://leetcode.cn/articles/remove-outermost-parentheses/)|Easy|
 |1079|[从根到叶的二进制数之和 sum-of-root-to-leaf-binary-numbers](https://leetcode.cn/problems/sum-of-root-to-leaf-binary-numbers)||[:memo:](https://leetcode.cn/articles/sum-of-root-to-leaf-binary-numbers/)|Easy|
 |1080|[驼峰式匹配 camelcase-matching](https://leetcode.cn/problems/camelcase-matching)||[:memo:](https://leetcode.cn/articles/camelcase-matching/)|Medium|
 |1081|[视频拼接 video-stitching](https://leetcode.cn/problems/video-stitching)||[:memo:](https://leetcode.cn/articles/video-stitching/)|Medium|
-|1082|[最小元素各数位之和 sum-of-digits-in-the-minimum-number](https://leetcode.cn/problems/sum-of-digits-in-the-minimum-number)|:lock:|[:memo:](https://leetcode.cn/articles/sum-of-digits-in-the-minimum-number/)|Easy|
-|1083|[小于 K 的两数之和 two-sum-less-than-k](https://leetcode.cn/problems/two-sum-less-than-k)|:lock:|[:memo:](https://leetcode.cn/articles/two-sum-less-than-k/)|Easy|
-|1084|[长度为 K 的无重复字符子串 find-k-length-substrings-with-no-repeated-characters](https://leetcode.cn/problems/find-k-length-substrings-with-no-repeated-characters)|:lock:|[:memo:](https://leetcode.cn/articles/find-k-length-substrings-with-no-repeated-characters/)|Medium|
-|1085|[彼此熟识的最早时间 the-earliest-moment-when-everyone-become-friends](https://leetcode.cn/problems/the-earliest-moment-when-everyone-become-friends)|:lock:|[:memo:](https://leetcode.cn/articles/the-earliest-moment-when-everyone-become-friends/)|Medium|
 |1086|[除数博弈 divisor-game](https://leetcode.cn/problems/divisor-game)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1086-divisor-game/divisor-game.py)|[:memo:](https://leetcode.cn/articles/divisor-game/)|Easy|
 |1087|[最长等差数列 longest-arithmetic-subsequence](https://leetcode.cn/problems/longest-arithmetic-subsequence)||[:memo:](https://leetcode.cn/articles/longest-arithmetic-subsequence/)|Medium|
-|1088|[一月有多少天 number-of-days-in-a-month](https://leetcode.cn/problems/number-of-days-in-a-month)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-days-in-a-month/)|Easy|
-|1089|[删去字符串中的元音 remove-vowels-from-a-string](https://leetcode.cn/problems/remove-vowels-from-a-string)|:lock:|[:memo:](https://leetcode.cn/articles/remove-vowels-from-a-string/)|Easy|
-|1090|[阿姆斯特朗数 armstrong-number](https://leetcode.cn/problems/armstrong-number)|:lock:|[:memo:](https://leetcode.cn/articles/armstrong-number/)|Easy|
-|1091|[子树的最大平均值 maximum-average-subtree](https://leetcode.cn/problems/maximum-average-subtree)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-average-subtree/)|Medium|
 |1092|[节点与其祖先之间的最大差值 maximum-difference-between-node-and-ancestor](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor)||[:memo:](https://leetcode.cn/articles/maximum-difference-between-node-and-ancestor/)|Medium|
 |1093|[从先序遍历还原二叉树 recover-a-tree-from-preorder-traversal](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal)||[:memo:](https://leetcode.cn/articles/recover-a-tree-from-preorder-traversal/)|Hard|
 |1094|[距离顺序排列矩阵单元格 matrix-cells-in-distance-order](https://leetcode.cn/problems/matrix-cells-in-distance-order)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1094-matrix-cells-in-distance-order/matrix-cells-in-distance-order.py)|[:memo:](https://leetcode.cn/articles/matrix-cells-in-distance-order/)|Easy|
 |1095|[两地调度 two-city-scheduling](https://leetcode.cn/problems/two-city-scheduling)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1095-two-city-scheduling/two-city-scheduling.py)|[:memo:](https://leetcode.cn/articles/two-city-scheduling/)|Medium|
 |1096|[两个非重叠子数组的最大和 maximum-sum-of-two-non-overlapping-subarrays](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays)||[:memo:](https://leetcode.cn/articles/maximum-sum-of-two-non-overlapping-subarrays/)|Medium|
 |1097|[字符流 stream-of-characters](https://leetcode.cn/problems/stream-of-characters)||[:memo:](https://leetcode.cn/articles/stream-of-characters/)|Hard|
-|1098|[最大唯一数 largest-unique-number](https://leetcode.cn/problems/largest-unique-number)|:lock:|[:memo:](https://leetcode.cn/articles/largest-unique-number/)|Easy|
-|1099|[得分最高的路径 path-with-maximum-minimum-value](https://leetcode.cn/problems/path-with-maximum-minimum-value)|:lock:|[:memo:](https://leetcode.cn/articles/path-with-maximum-minimum-value/)|Medium|
-|1100|[最低成本联通所有城市 connecting-cities-with-minimum-cost](https://leetcode.cn/problems/connecting-cities-with-minimum-cost)|:lock:|[:memo:](https://leetcode.cn/articles/connecting-cities-with-minimum-cost/)|Medium|
-|1101|[并行课程 parallel-courses](https://leetcode.cn/problems/parallel-courses)|:lock:|[:memo:](https://leetcode.cn/articles/parallel-courses/)|Medium|
-|1102|[检查一个数是否在数组中占绝大多数 check-if-a-number-is-majority-element-in-a-sorted-array](https://leetcode.cn/problems/check-if-a-number-is-majority-element-in-a-sorted-array)|:lock:|[:memo:](https://leetcode.cn/articles/check-if-a-number-is-majority-element-in-a-sorted-array/)|Easy|
 |1103|[移动石子直到连续 moving-stones-until-consecutive](https://leetcode.cn/problems/moving-stones-until-consecutive)||[:memo:](https://leetcode.cn/articles/moving-stones-until-consecutive/)|Medium|
 |1104|[边界着色 coloring-a-border](https://leetcode.cn/problems/coloring-a-border)||[:memo:](https://leetcode.cn/articles/coloring-a-border/)|Medium|
 |1105|[不相交的线 uncrossed-lines](https://leetcode.cn/problems/uncrossed-lines)||[:memo:](https://leetcode.cn/articles/uncrossed-lines/)|Medium|
 |1106|[逃离大迷宫 escape-a-large-maze](https://leetcode.cn/problems/escape-a-large-maze)||[:memo:](https://leetcode.cn/articles/escape-a-large-maze/)|Hard|
-|1107|[最少交换次数来组合所有的 1 minimum-swaps-to-group-all-1s-together](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-swaps-to-group-all-1s-together/)|Medium|
-|1108|[用户网站访问行为分析 analyze-user-website-visit-pattern](https://leetcode.cn/problems/analyze-user-website-visit-pattern)|:lock:|[:memo:](https://leetcode.cn/articles/analyze-user-website-visit-pattern/)|Medium|
 |1111|[多边形三角剖分的最低得分 minimum-score-triangulation-of-polygon](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon)||[:memo:](https://leetcode.cn/articles/minimum-score-triangulation-of-polygon/)|Medium|
 |1112|[拼写单词 find-words-that-can-be-formed-by-characters](https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters)||[:memo:](https://leetcode.cn/articles/find-words-that-can-be-formed-by-characters/)|Easy|
 |1113|[移动石子直到连续 II moving-stones-until-consecutive-ii](https://leetcode.cn/problems/moving-stones-until-consecutive-ii)||[:memo:](https://leetcode.cn/articles/moving-stones-until-consecutive-ii/)|Medium|
@@ -1051,71 +877,39 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1115|[有效的回旋镖 valid-boomerang](https://leetcode.cn/problems/valid-boomerang)||[:memo:](https://leetcode.cn/articles/valid-boomerang/)|Easy|
 |1116|[最大层内元素和 maximum-level-sum-of-a-binary-tree](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree)||[:memo:](https://leetcode.cn/articles/maximum-level-sum-of-a-binary-tree/)|Medium|
 |1117|[地图分析 as-far-from-land-as-possible](https://leetcode.cn/problems/as-far-from-land-as-possible)||[:memo:](https://leetcode.cn/articles/as-far-from-land-as-possible/)|Medium|
-|1118|[将数组分成几个递增序列 divide-array-into-increasing-sequences](https://leetcode.cn/problems/divide-array-into-increasing-sequences)|:lock:|[:memo:](https://leetcode.cn/articles/divide-array-into-increasing-sequences/)|Hard|
 |1119|[困于环中的机器人 robot-bounded-in-circle](https://leetcode.cn/problems/robot-bounded-in-circle)||[:memo:](https://leetcode.cn/articles/robot-bounded-in-circle/)|Medium|
 |1120|[不邻接植花 flower-planting-with-no-adjacent](https://leetcode.cn/problems/flower-planting-with-no-adjacent)||[:memo:](https://leetcode.cn/articles/flower-planting-with-no-adjacent/)|Medium|
 |1121|[分隔数组以得到最大和 partition-array-for-maximum-sum](https://leetcode.cn/problems/partition-array-for-maximum-sum)||[:memo:](https://leetcode.cn/articles/partition-array-for-maximum-sum/)|Medium|
 |1122|[最长重复子串 longest-duplicate-substring](https://leetcode.cn/problems/longest-duplicate-substring)||[:memo:](https://leetcode.cn/articles/longest-duplicate-substring/)|Hard|
-|1123|[单行键盘 single-row-keyboard](https://leetcode.cn/problems/single-row-keyboard)|:lock:|[:memo:](https://leetcode.cn/articles/single-row-keyboard/)|Easy|
-|1124|[字符串转化 string-transforms-into-another-string](https://leetcode.cn/problems/string-transforms-into-another-string)|:lock:|[:memo:](https://leetcode.cn/articles/string-transforms-into-another-string/)|Hard|
-|1125|[设计文件系统 design-file-system](https://leetcode.cn/problems/design-file-system)|:lock:|[:memo:](https://leetcode.cn/articles/design-file-system/)|Medium|
-|1126|[连接棒材的最低费用 minimum-cost-to-connect-sticks](https://leetcode.cn/problems/minimum-cost-to-connect-sticks)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-cost-to-connect-sticks/)|Medium|
 |1127|[最后一块石头的重量 last-stone-weight](https://leetcode.cn/problems/last-stone-weight)||[:memo:](https://leetcode.cn/articles/last-stone-weight/)|Easy|
 |1128|[删除字符串中的所有相邻重复项 remove-all-adjacent-duplicates-in-string](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string)||[:memo:](https://leetcode.cn/articles/remove-all-adjacent-duplicates-in-string/)|Easy|
 |1129|[最长字符串链 longest-string-chain](https://leetcode.cn/problems/longest-string-chain)||[:memo:](https://leetcode.cn/articles/longest-string-chain/)|Medium|
 |1130|[最后一块石头的重量 II last-stone-weight-ii](https://leetcode.cn/problems/last-stone-weight-ii)||[:memo:](https://leetcode.cn/articles/last-stone-weight-ii/)|Medium|
-|1131|[统计只含单一字母的子串 count-substrings-with-only-one-distinct-letter](https://leetcode.cn/problems/count-substrings-with-only-one-distinct-letter)|:lock:|[:memo:](https://leetcode.cn/articles/count-substrings-with-only-one-distinct-letter/)|Easy|
-|1132|[前后拼接 before-and-after-puzzle](https://leetcode.cn/problems/before-and-after-puzzle)|:lock:|[:memo:](https://leetcode.cn/articles/before-and-after-puzzle/)|Medium|
 |1133|[按字典序排在最后的子串 last-substring-in-lexicographical-order](https://leetcode.cn/problems/last-substring-in-lexicographical-order)||[:memo:](https://leetcode.cn/articles/last-substring-in-lexicographical-order/)|Hard|
-|1134|[与目标颜色间的最短距离 shortest-distance-to-target-color](https://leetcode.cn/problems/shortest-distance-to-target-color)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-distance-to-target-color/)|Medium|
 |1137|[高度检查器 height-checker](https://leetcode.cn/problems/height-checker)||[:memo:](https://leetcode.cn/articles/height-checker/)|Easy|
 |1138|[爱生气的书店老板 grumpy-bookstore-owner](https://leetcode.cn/problems/grumpy-bookstore-owner)||[:memo:](https://leetcode.cn/articles/grumpy-bookstore-owner/)|Medium|
 |1139|[交换一次的先前排列 previous-permutation-with-one-swap](https://leetcode.cn/problems/previous-permutation-with-one-swap)||[:memo:](https://leetcode.cn/articles/previous-permutation-with-one-swap/)|Medium|
 |1140|[距离相等的条形码 distant-barcodes](https://leetcode.cn/problems/distant-barcodes)||[:memo:](https://leetcode.cn/articles/distant-barcodes/)|Medium|
-|1141|[最多可以买到的苹果数量 how-many-apples-can-you-put-into-the-basket](https://leetcode.cn/problems/how-many-apples-can-you-put-into-the-basket)|:lock:|[:memo:](https://leetcode.cn/articles/how-many-apples-can-you-put-into-the-basket/)|Easy|
-|1142|[进击的骑士 minimum-knight-moves](https://leetcode.cn/problems/minimum-knight-moves)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-knight-moves/)|Medium|
-|1143|[找出所有行中最小公共元素 find-smallest-common-element-in-all-rows](https://leetcode.cn/problems/find-smallest-common-element-in-all-rows)|:lock:|[:memo:](https://leetcode.cn/articles/find-smallest-common-element-in-all-rows/)|Medium|
-|1144|[水资源分配优化 optimize-water-distribution-in-a-village](https://leetcode.cn/problems/optimize-water-distribution-in-a-village)|:lock:|[:memo:](https://leetcode.cn/articles/optimize-water-distribution-in-a-village/)|Hard|
 |1145|[元素和为目标值的子矩阵数量 number-of-submatrices-that-sum-to-target](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target)||[:memo:](https://leetcode.cn/articles/number-of-submatrices-that-sum-to-target/)|Hard|
 |1146|[字符串的最大公因子 greatest-common-divisor-of-strings](https://leetcode.cn/problems/greatest-common-divisor-of-strings)||[:memo:](https://leetcode.cn/articles/greatest-common-divisor-of-strings/)|Easy|
 |1147|[按列翻转得到最大值等行数 flip-columns-for-maximum-number-of-equal-rows](https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows)||[:memo:](https://leetcode.cn/articles/flip-columns-for-maximum-number-of-equal-rows/)|Medium|
 |1148|[负二进制数相加 adding-two-negabinary-numbers](https://leetcode.cn/problems/adding-two-negabinary-numbers)||[:memo:](https://leetcode.cn/articles/adding-two-negabinary-numbers/)|Medium|
-|1149|[三个有序数组的交集 intersection-of-three-sorted-arrays](https://leetcode.cn/problems/intersection-of-three-sorted-arrays)|:lock:|[:memo:](https://leetcode.cn/articles/intersection-of-three-sorted-arrays/)|Easy|
-|1150|[查找两棵二叉搜索树之和 two-sum-bsts](https://leetcode.cn/problems/two-sum-bsts)|:lock:|[:memo:](https://leetcode.cn/articles/two-sum-bsts/)|Medium|
-|1151|[步进数 stepping-numbers](https://leetcode.cn/problems/stepping-numbers)|:lock:|[:memo:](https://leetcode.cn/articles/stepping-numbers/)|Medium|
-|1152|[矩阵中 1 的最大数量 maximum-number-of-ones](https://leetcode.cn/problems/maximum-number-of-ones)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-number-of-ones/)|Hard|
 |1156|[Bigram 分词 occurrences-after-bigram](https://leetcode.cn/problems/occurrences-after-bigram)||[:memo:](https://leetcode.cn/articles/occurrences-after-bigram/)|Easy|
 |1157|[根到叶路径上的不足节点 insufficient-nodes-in-root-to-leaf-paths](https://leetcode.cn/problems/insufficient-nodes-in-root-to-leaf-paths)||[:memo:](https://leetcode.cn/articles/insufficient-nodes-in-root-to-leaf-paths/)|Medium|
 |1159|[不同字符的最小子序列 smallest-subsequence-of-distinct-characters](https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters)||[:memo:](https://leetcode.cn/articles/smallest-subsequence-of-distinct-characters/)|Medium|
 |1160|[活字印刷 letter-tile-possibilities](https://leetcode.cn/problems/letter-tile-possibilities)||[:memo:](https://leetcode.cn/articles/letter-tile-possibilities/)|Medium|
-|1164|[等差数列中缺失的数字 missing-number-in-arithmetic-progression](https://leetcode.cn/problems/missing-number-in-arithmetic-progression)|:lock:|[:memo:](https://leetcode.cn/articles/missing-number-in-arithmetic-progression/)|Easy|
-|1165|[安排会议日程 meeting-scheduler](https://leetcode.cn/problems/meeting-scheduler)|:lock:|[:memo:](https://leetcode.cn/articles/meeting-scheduler/)|Medium|
-|1166|[抛掷硬币 toss-strange-coins](https://leetcode.cn/problems/toss-strange-coins)|:lock:|[:memo:](https://leetcode.cn/articles/toss-strange-coins/)|Medium|
-|1167|[建造街区的最短时间 minimum-time-to-build-blocks](https://leetcode.cn/problems/minimum-time-to-build-blocks)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-time-to-build-blocks/)|Hard|
 |1168|[复写零 duplicate-zeros](https://leetcode.cn/problems/duplicate-zeros)||[:memo:](https://leetcode.cn/articles/duplicate-zeros/)|Easy|
 |1169|[受标签影响的最大值 largest-values-from-labels](https://leetcode.cn/problems/largest-values-from-labels)||[:memo:](https://leetcode.cn/articles/largest-values-from-labels/)|Medium|
 |1170|[最短公共超序列 shortest-common-supersequence](https://leetcode.cn/problems/shortest-common-supersequence)||[:memo:](https://leetcode.cn/articles/shortest-common-supersequence/)|Hard|
 |1171|[二进制矩阵中的最短路径 shortest-path-in-binary-matrix](https://leetcode.cn/problems/shortest-path-in-binary-matrix)||[:memo:](https://leetcode.cn/articles/shortest-path-in-binary-matrix/)|Medium|
-|1175|[数组变换 array-transformation](https://leetcode.cn/problems/array-transformation)|:lock:|[:memo:](https://leetcode.cn/articles/array-transformation/)|Easy|
-|1176|[力扣排行榜 design-a-leaderboard](https://leetcode.cn/problems/design-a-leaderboard)|:lock:|[:memo:](https://leetcode.cn/articles/design-a-leaderboard/)|Medium|
-|1177|[树的直径 tree-diameter](https://leetcode.cn/problems/tree-diameter)|:lock:|[:memo:](https://leetcode.cn/articles/tree-diameter/)|Medium|
-|1178|[验证回文字符串 III valid-palindrome-iii](https://leetcode.cn/problems/valid-palindrome-iii)|:lock:|[:memo:](https://leetcode.cn/articles/valid-palindrome-iii/)|Hard|
 |1183|[大样本统计 statistics-from-a-large-sample](https://leetcode.cn/problems/statistics-from-a-large-sample)||[:memo:](https://leetcode.cn/articles/statistics-from-a-large-sample/)|Medium|
 |1184|[拼车 car-pooling](https://leetcode.cn/problems/car-pooling)||[:memo:](https://leetcode.cn/articles/car-pooling/)|Medium|
 |1185|[山脉数组中查找目标值 find-in-mountain-array](https://leetcode.cn/problems/find-in-mountain-array)||[:memo:](https://leetcode.cn/articles/find-in-mountain-array/)|Hard|
 |1188|[花括号展开 II brace-expansion-ii](https://leetcode.cn/problems/brace-expansion-ii)||[:memo:](https://leetcode.cn/articles/brace-expansion-ii/)|Hard|
-|1189|[加密数字 encode-number](https://leetcode.cn/problems/encode-number)|:lock:|[:memo:](https://leetcode.cn/articles/encode-number/)|Medium|
-|1190|[最小公共区域 smallest-common-region](https://leetcode.cn/problems/smallest-common-region)|:lock:|[:memo:](https://leetcode.cn/articles/smallest-common-region/)|Medium|
-|1191|[近义词句子 synonymous-sentences](https://leetcode.cn/problems/synonymous-sentences)|:lock:|[:memo:](https://leetcode.cn/articles/synonymous-sentences/)|Medium|
-|1192|[分享巧克力 divide-chocolate](https://leetcode.cn/problems/divide-chocolate)|:lock:|[:memo:](https://leetcode.cn/articles/divide-chocolate/)|Hard|
 |1194|[二叉树寻路 path-in-zigzag-labelled-binary-tree](https://leetcode.cn/problems/path-in-zigzag-labelled-binary-tree)||[:memo:](https://leetcode.cn/articles/path-in-zigzag-labelled-binary-tree/)|Medium|
 |1195|[分糖果 II distribute-candies-to-people](https://leetcode.cn/problems/distribute-candies-to-people)||[:memo:](https://leetcode.cn/articles/distribute-candies-to-people/)|Easy|
 |1196|[填充书架 filling-bookcase-shelves](https://leetcode.cn/problems/filling-bookcase-shelves)||[:memo:](https://leetcode.cn/articles/filling-bookcase-shelves/)|Medium|
 |1197|[解析布尔表达式 parsing-a-boolean-expression](https://leetcode.cn/problems/parsing-a-boolean-expression)||[:memo:](https://leetcode.cn/articles/parsing-a-boolean-expression/)|Hard|
-|1199|[十六进制魔术数字 hexspeak](https://leetcode.cn/problems/hexspeak)|:lock:|[:memo:](https://leetcode.cn/articles/hexspeak/)|Easy|
-|1200|[删除区间 remove-interval](https://leetcode.cn/problems/remove-interval)|:lock:|[:memo:](https://leetcode.cn/articles/remove-interval/)|Medium|
-|1201|[删除树节点 delete-tree-nodes](https://leetcode.cn/problems/delete-tree-nodes)|:lock:|[:memo:](https://leetcode.cn/articles/delete-tree-nodes/)|Medium|
-|1202|[删除回文子数组 palindrome-removal](https://leetcode.cn/problems/palindrome-removal)|:lock:|[:memo:](https://leetcode.cn/articles/palindrome-removal/)|Hard|
 |1205|[IP 地址无效化 defanging-an-ip-address](https://leetcode.cn/problems/defanging-an-ip-address)||[:memo:](https://leetcode.cn/articles/defanging-an-ip-address/)|Easy|
 |1206|[航班预订统计 corporate-flight-bookings](https://leetcode.cn/problems/corporate-flight-bookings)||[:memo:](https://leetcode.cn/articles/corporate-flight-bookings/)|Medium|
 |1207|[删点成林 delete-nodes-and-return-forest](https://leetcode.cn/problems/delete-nodes-and-return-forest)||[:memo:](https://leetcode.cn/articles/delete-nodes-and-return-forest/)|Medium|
@@ -1123,7 +917,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1210|[删除某些元素后的数组均值 mean-of-array-after-removing-some-elements](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements)||[:memo:](https://leetcode.cn/articles/mean-of-array-after-removing-some-elements/)|Easy|
 |1211|[字母组合迭代器 iterator-for-combination](https://leetcode.cn/problems/iterator-for-combination)||[:memo:](https://leetcode.cn/articles/iterator-for-combination/)|Medium|
 |1212|[顺次数 sequential-digits](https://leetcode.cn/problems/sequential-digits)||[:memo:](https://leetcode.cn/articles/sequential-digits/)|Medium|
-|1213|[不相交的握手 handshakes-that-dont-cross](https://leetcode.cn/problems/handshakes-that-dont-cross)|:lock:|[:memo:](https://leetcode.cn/articles/handshakes-that-dont-cross/)|Hard|
 |1217|[数组的相对排序 relative-sort-array](https://leetcode.cn/problems/relative-sort-array)||[:memo:](https://leetcode.cn/articles/relative-sort-array/)|Easy|
 |1218|[最深叶节点的最近公共祖先 lowest-common-ancestor-of-deepest-leaves](https://leetcode.cn/problems/lowest-common-ancestor-of-deepest-leaves)||[:memo:](https://leetcode.cn/articles/lowest-common-ancestor-of-deepest-leaves/)|Medium|
 |1219|[表现良好的最长时间段 longest-well-performing-interval](https://leetcode.cn/problems/longest-well-performing-interval)||[:memo:](https://leetcode.cn/articles/longest-well-performing-interval/)|Medium|
@@ -1138,7 +931,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1230|[绝对值表达式的最大值 maximum-of-absolute-value-expression](https://leetcode.cn/problems/maximum-of-absolute-value-expression)||[:memo:](https://leetcode.cn/articles/maximum-of-absolute-value-expression/)|Medium|
 |1231|[将每个元素替换为右侧最大元素 replace-elements-with-greatest-element-on-right-side](https://leetcode.cn/problems/replace-elements-with-greatest-element-on-right-side)||[:memo:](https://leetcode.cn/articles/replace-elements-with-greatest-element-on-right-side/)|Easy|
 |1232|[转变数组后最接近目标值的数组和 sum-of-mutated-array-closest-to-target](https://leetcode.cn/problems/sum-of-mutated-array-closest-to-target)||[:memo:](https://leetcode.cn/articles/sum-of-mutated-array-closest-to-target/)|Medium|
-|1233|[矩形内船只的数目 number-of-ships-in-a-rectangle](https://leetcode.cn/problems/number-of-ships-in-a-rectangle)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-ships-in-a-rectangle/)|Hard|
 |1234|[最大得分的路径数目 number-of-paths-with-max-score](https://leetcode.cn/problems/number-of-paths-with-max-score)||[:memo:](https://leetcode.cn/articles/number-of-paths-with-max-score/)|Hard|
 |1236|[第 N 个泰波那契数 n-th-tribonacci-number](https://leetcode.cn/problems/n-th-tribonacci-number)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1236-n-th-tribonacci-number/n-th-tribonacci-number.py)|[:memo:](https://leetcode.cn/articles/n-th-tribonacci-number/)|Easy|
 |1238|[字母板上的路径 alphabet-board-path](https://leetcode.cn/problems/alphabet-board-path)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/1238-alphabet-board-path/alphabet-board-path.py)|[:memo:](https://leetcode.cn/articles/alphabet-board-path/)|Medium|
@@ -1166,7 +958,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1264|[可以输入的最大单词数 maximum-number-of-words-you-can-type](https://leetcode.cn/problems/maximum-number-of-words-you-can-type)||[:memo:](https://leetcode.cn/articles/maximum-number-of-words-you-can-type/)|Easy|
 |1267|[从链表中删去总和值为零的连续节点 remove-zero-sum-consecutive-nodes-from-linked-list](https://leetcode.cn/problems/remove-zero-sum-consecutive-nodes-from-linked-list)||[:memo:](https://leetcode.cn/articles/remove-zero-sum-consecutive-nodes-from-linked-list/)|Medium|
 |1270|[餐盘栈 dinner-plate-stacks](https://leetcode.cn/problems/dinner-plate-stacks)||[:memo:](https://leetcode.cn/articles/dinner-plate-stacks/)|Hard|
-|1271|[网络爬虫 web-crawler](https://leetcode.cn/problems/web-crawler)|:lock:|[:memo:](https://leetcode.cn/articles/web-crawler/)|Medium|
 |1272|[查询无效交易 invalid-transactions](https://leetcode.cn/problems/invalid-transactions)||[:memo:](https://leetcode.cn/articles/invalid-transactions/)|Medium|
 |1273|[比较字符串最小字母出现频次 compare-strings-by-frequency-of-the-smallest-character](https://leetcode.cn/problems/compare-strings-by-frequency-of-the-smallest-character)||[:memo:](https://leetcode.cn/articles/compare-strings-by-frequency-of-the-smallest-character/)|Medium|
 |1274|[日期之间隔几天 number-of-days-between-two-dates](https://leetcode.cn/problems/number-of-days-between-two-dates)||[:memo:](https://leetcode.cn/articles/number-of-days-between-two-dates/)|Easy|
@@ -1174,7 +965,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1276|[最接近的因数 closest-divisors](https://leetcode.cn/problems/closest-divisors)||[:memo:](https://leetcode.cn/articles/closest-divisors/)|Medium|
 |1277|[形成三的最大倍数 largest-multiple-of-three](https://leetcode.cn/problems/largest-multiple-of-three)||[:memo:](https://leetcode.cn/articles/largest-multiple-of-three/)|Hard|
 |1279|[质数排列 prime-arrangements](https://leetcode.cn/problems/prime-arrangements)||[:memo:](https://leetcode.cn/articles/prime-arrangements/)|Easy|
-|1280|[健身计划评估 diet-plan-performance](https://leetcode.cn/problems/diet-plan-performance)|:lock:|[:memo:](https://leetcode.cn/articles/diet-plan-performance/)|Easy|
 |1281|[构建回文串检测 can-make-palindrome-from-substring](https://leetcode.cn/problems/can-make-palindrome-from-substring)||[:memo:](https://leetcode.cn/articles/can-make-palindrome-from-substring/)|Medium|
 |1282|[猜字谜 number-of-valid-words-for-each-puzzle](https://leetcode.cn/problems/number-of-valid-words-for-each-puzzle)||[:memo:](https://leetcode.cn/articles/number-of-valid-words-for-each-puzzle/)|Hard|
 |1283|[转变日期格式 reformat-date](https://leetcode.cn/problems/reformat-date)||[:memo:](https://leetcode.cn/articles/reformat-date/)|Easy|
@@ -1225,9 +1015,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1342|[可以攻击国王的皇后 queens-that-can-attack-the-king](https://leetcode.cn/problems/queens-that-can-attack-the-king)||[:memo:](https://leetcode.cn/articles/queens-that-can-attack-the-king/)|Medium|
 |1343|[掷骰子模拟 dice-roll-simulation](https://leetcode.cn/problems/dice-roll-simulation)||[:memo:](https://leetcode.cn/articles/dice-roll-simulation/)|Hard|
 |1344|[最大相等频率 maximum-equal-frequency](https://leetcode.cn/problems/maximum-equal-frequency)||[:memo:](https://leetcode.cn/articles/maximum-equal-frequency/)|Hard|
-|1345|[字符串的左右移 perform-string-shifts](https://leetcode.cn/problems/perform-string-shifts)|:lock:|[:memo:](https://leetcode.cn/articles/perform-string-shifts/)|Easy|
 |1346|[K 次操作后最大化顶端元素 maximize-the-topmost-element-after-k-moves](https://leetcode.cn/problems/maximize-the-topmost-element-after-k-moves)||[:memo:](https://leetcode.cn/articles/maximize-the-topmost-element-after-k-moves/)|Medium|
-|1347|[无向图中到环的距离 distance-to-a-cycle-in-undirected-graph](https://leetcode.cn/problems/distance-to-a-cycle-in-undirected-graph)|:lock:|[:memo:](https://leetcode.cn/articles/distance-to-a-cycle-in-undirected-graph/)|Hard|
 |1348|[拼接数组的最大分数 maximum-score-of-spliced-array](https://leetcode.cn/problems/maximum-score-of-spliced-array)||[:memo:](https://leetcode.cn/articles/maximum-score-of-spliced-array/)|Hard|
 |1349|[缀点成线 check-if-it-is-a-straight-line](https://leetcode.cn/problems/check-if-it-is-a-straight-line)||[:memo:](https://leetcode.cn/articles/check-if-it-is-a-straight-line/)|Easy|
 |1350|[删除子文件夹 remove-sub-folders-from-the-filesystem](https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem)||[:memo:](https://leetcode.cn/articles/remove-sub-folders-from-the-filesystem/)|Medium|
@@ -1244,13 +1032,11 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1362|[飞机座位分配概率 airplane-seat-assignment-probability](https://leetcode.cn/problems/airplane-seat-assignment-probability)||[:memo:](https://leetcode.cn/articles/airplane-seat-assignment-probability/)|Medium|
 |1363|[兼具大小写的最好英文字母 greatest-english-letter-in-upper-and-lower-case](https://leetcode.cn/problems/greatest-english-letter-in-upper-and-lower-case)||[:memo:](https://leetcode.cn/articles/greatest-english-letter-in-upper-and-lower-case/)|Easy|
 |1364|[同积元组 tuple-with-same-product](https://leetcode.cn/problems/tuple-with-same-product)||[:memo:](https://leetcode.cn/articles/tuple-with-same-product/)|Medium|
-|1366|[第一个唯一数字 first-unique-number](https://leetcode.cn/problems/first-unique-number)|:lock:|[:memo:](https://leetcode.cn/articles/first-unique-number/)|Medium|
 |1367|[堆叠长方体的最大高度 maximum-height-by-stacking-cuboids](https://leetcode.cn/problems/maximum-height-by-stacking-cuboids)||[:memo:](https://leetcode.cn/articles/maximum-height-by-stacking-cuboids/)|Hard|
 |1369|[交换字符使得字符串相同 minimum-swaps-to-make-strings-equal](https://leetcode.cn/problems/minimum-swaps-to-make-strings-equal)||[:memo:](https://leetcode.cn/articles/minimum-swaps-to-make-strings-equal/)|Medium|
 |1370|[统计「优美子数组」 count-number-of-nice-subarrays](https://leetcode.cn/problems/count-number-of-nice-subarrays)||[:memo:](https://leetcode.cn/articles/count-number-of-nice-subarrays/)|Medium|
 |1371|[移除无效的括号 minimum-remove-to-make-valid-parentheses](https://leetcode.cn/problems/minimum-remove-to-make-valid-parentheses)||[:memo:](https://leetcode.cn/articles/minimum-remove-to-make-valid-parentheses/)|Medium|
 |1372|[检查「好数组」 check-if-it-is-a-good-array](https://leetcode.cn/problems/check-if-it-is-a-good-array)||[:memo:](https://leetcode.cn/articles/check-if-it-is-a-good-array/)|Hard|
-|1374|[至少有一个 1 的最左端列 leftmost-column-with-at-least-a-one](https://leetcode.cn/problems/leftmost-column-with-at-least-a-one)|:lock:|[:memo:](https://leetcode.cn/articles/leftmost-column-with-at-least-a-one/)|Medium|
 |1375|[找到指定长度的回文数 find-palindrome-with-fixed-length](https://leetcode.cn/problems/find-palindrome-with-fixed-length)||[:memo:](https://leetcode.cn/articles/find-palindrome-with-fixed-length/)|Medium|
 |1376|[卖木头块 selling-pieces-of-wood](https://leetcode.cn/problems/selling-pieces-of-wood)||[:memo:](https://leetcode.cn/articles/selling-pieces-of-wood/)|Hard|
 |1378|[奇数值单元格的数目 cells-with-odd-values-in-a-matrix](https://leetcode.cn/problems/cells-with-odd-values-in-a-matrix)||[:memo:](https://leetcode.cn/articles/cells-with-odd-values-in-a-matrix/)|Easy|
@@ -1258,14 +1044,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1380|[统计封闭岛屿的数目 number-of-closed-islands](https://leetcode.cn/problems/number-of-closed-islands)||[:memo:](https://leetcode.cn/articles/number-of-closed-islands/)|Medium|
 |1381|[得分最高的单词集合 maximum-score-words-formed-by-letters](https://leetcode.cn/problems/maximum-score-words-formed-by-letters)||[:memo:](https://leetcode.cn/articles/maximum-score-words-formed-by-letters/)|Hard|
 |1382|[计算应缴税款总额 calculate-amount-paid-in-taxes](https://leetcode.cn/problems/calculate-amount-paid-in-taxes)||[:memo:](https://leetcode.cn/articles/calculate-amount-paid-in-taxes/)|Easy|
-|1383|[单因数三元组 number-of-single-divisor-triplets](https://leetcode.cn/problems/number-of-single-divisor-triplets)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-single-divisor-triplets/)|Medium|
-|1384|[找出适应屏幕的最大字号 maximum-font-to-fit-a-sentence-in-a-screen](https://leetcode.cn/problems/maximum-font-to-fit-a-sentence-in-a-screen)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-font-to-fit-a-sentence-in-a-screen/)|Medium|
-|1385|[建造纸牌屋的方法数 number-of-ways-to-build-house-of-cards](https://leetcode.cn/problems/number-of-ways-to-build-house-of-cards)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-ways-to-build-house-of-cards/)|Medium|
 |1386|[二维网格迁移 shift-2d-grid](https://leetcode.cn/problems/shift-2d-grid)||[:memo:](https://leetcode.cn/articles/shift-2d-grid/)|Easy|
 |1387|[在受污染的二叉树中查找元素 find-elements-in-a-contaminated-binary-tree](https://leetcode.cn/problems/find-elements-in-a-contaminated-binary-tree)||[:memo:](https://leetcode.cn/articles/find-elements-in-a-contaminated-binary-tree/)|Medium|
 |1388|[可被三整除的最大和 greatest-sum-divisible-by-three](https://leetcode.cn/problems/greatest-sum-divisible-by-three)||[:memo:](https://leetcode.cn/articles/greatest-sum-divisible-by-three/)|Medium|
 |1389|[推箱子 minimum-moves-to-move-a-box-to-their-target-location](https://leetcode.cn/problems/minimum-moves-to-move-a-box-to-their-target-location)||[:memo:](https://leetcode.cn/articles/minimum-moves-to-move-a-box-to-their-target-location/)|Hard|
-|1391|[数元素 counting-elements](https://leetcode.cn/problems/counting-elements)|:lock:|[:memo:](https://leetcode.cn/articles/counting-elements/)|Easy|
 |1392|[找出两数组的不同 find-the-difference-of-two-arrays](https://leetcode.cn/problems/find-the-difference-of-two-arrays)||[:memo:](https://leetcode.cn/articles/find-the-difference-of-two-arrays/)|Easy|
 |1393|[从栈中取出 K 个硬币的最大面值和 maximum-value-of-k-coins-from-piles](https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles)||[:memo:](https://leetcode.cn/articles/maximum-value-of-k-coins-from-piles/)|Hard|
 |1394|[网格中的最小路径代价 minimum-path-cost-in-a-grid](https://leetcode.cn/problems/minimum-path-cost-in-a-grid)||[:memo:](https://leetcode.cn/articles/minimum-path-cost-in-a-grid/)|Medium|
@@ -1277,7 +1059,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1401|[不浪费原料的汉堡制作方案 number-of-burgers-with-no-waste-of-ingredients](https://leetcode.cn/problems/number-of-burgers-with-no-waste-of-ingredients)||[:memo:](https://leetcode.cn/articles/number-of-burgers-with-no-waste-of-ingredients/)|Medium|
 |1402|[统计全为 1 的正方形子矩阵 count-square-submatrices-with-all-ones](https://leetcode.cn/problems/count-square-submatrices-with-all-ones)||[:memo:](https://leetcode.cn/articles/count-square-submatrices-with-all-ones/)|Medium|
 |1403|[分割回文串 III palindrome-partitioning-iii](https://leetcode.cn/problems/palindrome-partitioning-iii)||[:memo:](https://leetcode.cn/articles/palindrome-partitioning-iii/)|Hard|
-|1404|[逆序打印不可变链表 print-immutable-linked-list-in-reverse](https://leetcode.cn/problems/print-immutable-linked-list-in-reverse)|:lock:|[:memo:](https://leetcode.cn/articles/print-immutable-linked-list-in-reverse/)|Medium|
 |1406|[整数的各位积和之差 subtract-the-product-and-sum-of-digits-of-an-integer](https://leetcode.cn/problems/subtract-the-product-and-sum-of-digits-of-an-integer)||[:memo:](https://leetcode.cn/articles/subtract-the-product-and-sum-of-digits-of-an-integer/)|Easy|
 |1407|[用户分组 group-the-people-given-the-group-size-they-belong-to](https://leetcode.cn/problems/group-the-people-given-the-group-size-they-belong-to)||[:memo:](https://leetcode.cn/articles/group-the-people-given-the-group-size-they-belong-to/)|Medium|
 |1408|[使结果不超过阈值的最小除数 find-the-smallest-divisor-given-a-threshold](https://leetcode.cn/problems/find-the-smallest-divisor-given-a-threshold)||[:memo:](https://leetcode.cn/articles/find-the-smallest-divisor-given-a-threshold/)|Medium|
@@ -1285,9 +1066,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1411|[二进制链表转整数 convert-binary-number-in-a-linked-list-to-integer](https://leetcode.cn/problems/convert-binary-number-in-a-linked-list-to-integer)||[:memo:](https://leetcode.cn/articles/convert-binary-number-in-a-linked-list-to-integer/)|Easy|
 |1413|[元素和小于等于阈值的正方形的最大边长 maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold)||[:memo:](https://leetcode.cn/articles/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)|Medium|
 |1414|[网格中的最短路径 shortest-path-in-a-grid-with-obstacles-elimination](https://leetcode.cn/problems/shortest-path-in-a-grid-with-obstacles-elimination)||[:memo:](https://leetcode.cn/articles/shortest-path-in-a-grid-with-obstacles-elimination/)|Hard|
-|1416|[检查数组是否连贯 check-if-an-array-is-consecutive](https://leetcode.cn/problems/check-if-an-array-is-consecutive)|:lock:|[:memo:](https://leetcode.cn/articles/check-if-an-array-is-consecutive/)|Easy|
 |1418|[公平分发饼干 fair-distribution-of-cookies](https://leetcode.cn/problems/fair-distribution-of-cookies)||[:memo:](https://leetcode.cn/articles/fair-distribution-of-cookies/)|Medium|
-|1419|[数组变为有序的最小操作次数 make-array-non-decreasing-or-non-increasing](https://leetcode.cn/problems/make-array-non-decreasing-or-non-increasing)|:lock:|[:memo:](https://leetcode.cn/articles/make-array-non-decreasing-or-non-increasing/)|Hard|
 |1421|[统计位数为偶数的数字 find-numbers-with-even-number-of-digits](https://leetcode.cn/problems/find-numbers-with-even-number-of-digits)||[:memo:](https://leetcode.cn/articles/find-numbers-with-even-number-of-digits/)|Easy|
 |1422|[划分数组为连续数字的集合 divide-array-in-sets-of-k-consecutive-numbers](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers)||[:memo:](https://leetcode.cn/articles/divide-array-in-sets-of-k-consecutive-numbers/)|Medium|
 |1423|[子串的最大出现次数 maximum-number-of-occurrences-of-a-substring](https://leetcode.cn/problems/maximum-number-of-occurrences-of-a-substring)||[:memo:](https://leetcode.cn/articles/maximum-number-of-occurrences-of-a-substring/)|Medium|
@@ -1298,7 +1077,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1429|[口算难题 verbal-arithmetic-puzzle](https://leetcode.cn/problems/verbal-arithmetic-puzzle)||[:memo:](https://leetcode.cn/articles/verbal-arithmetic-puzzle/)|Hard|
 |1430|[找到一个数字的 K 美丽值 find-the-k-beauty-of-a-number](https://leetcode.cn/problems/find-the-k-beauty-of-a-number)||[:memo:](https://leetcode.cn/articles/find-the-k-beauty-of-a-number/)|Easy|
 |1431|[有向无环图中一个节点的所有祖先 all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph)||[:memo:](https://leetcode.cn/articles/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)|Medium|
-|1432|[判断给定的序列是否是二叉树从根到叶的路径 check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree](https://leetcode.cn/problems/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/check-if-a-string-is-a-valid-sequence-from-root-to-leaves-path-in-a-binary-tree/)|Medium|
 |1433|[加密解密字符串 encrypt-and-decrypt-strings](https://leetcode.cn/problems/encrypt-and-decrypt-strings)||[:memo:](https://leetcode.cn/articles/encrypt-and-decrypt-strings/)|Hard|
 |1434|[解码字母到整数映射 decrypt-string-from-alphabet-to-integer-mapping](https://leetcode.cn/problems/decrypt-string-from-alphabet-to-integer-mapping)||[:memo:](https://leetcode.cn/articles/decrypt-string-from-alphabet-to-integer-mapping/)|Easy|
 |1435|[子数组异或查询 xor-queries-of-a-subarray](https://leetcode.cn/problems/xor-queries-of-a-subarray)||[:memo:](https://leetcode.cn/articles/xor-queries-of-a-subarray/)|Medium|
@@ -1432,7 +1210,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1603|[一维数组的动态和 running-sum-of-1d-array](https://leetcode.cn/problems/running-sum-of-1d-array)||[:memo:](https://leetcode.cn/articles/running-sum-of-1d-array/)|Easy|
 |1604|[不同整数的最少数目 least-number-of-unique-integers-after-k-removals](https://leetcode.cn/problems/least-number-of-unique-integers-after-k-removals)||[:memo:](https://leetcode.cn/articles/least-number-of-unique-integers-after-k-removals/)|Medium|
 |1605|[制作 m 束花所需的最少天数 minimum-number-of-days-to-make-m-bouquets](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets)||[:memo:](https://leetcode.cn/articles/minimum-number-of-days-to-make-m-bouquets/)|Medium|
-|1609|[寻找所有的独生节点 find-all-the-lonely-nodes](https://leetcode.cn/problems/find-all-the-lonely-nodes)|:lock:|[:memo:](https://leetcode.cn/articles/find-all-the-lonely-nodes/)|Easy|
 |1610|[数组异或操作 xor-operation-in-an-array](https://leetcode.cn/problems/xor-operation-in-an-array)||[:memo:](https://leetcode.cn/articles/xor-operation-in-an-array/)|Easy|
 |1611|[保证文件名唯一 making-file-names-unique](https://leetcode.cn/problems/making-file-names-unique)||[:memo:](https://leetcode.cn/articles/making-file-names-unique/)|Medium|
 |1612|[避免洪水泛滥 avoid-flood-in-the-city](https://leetcode.cn/problems/avoid-flood-in-the-city)||[:memo:](https://leetcode.cn/articles/avoid-flood-in-the-city/)|Medium|
@@ -1440,12 +1217,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1615|[子数组和排序后的区间和 range-sum-of-sorted-subarray-sums](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums)||[:memo:](https://leetcode.cn/articles/range-sum-of-sorted-subarray-sums/)|Medium|
 |1616|[三次操作后最大值与最小值的最小差 minimum-difference-between-largest-and-smallest-value-in-three-moves](https://leetcode.cn/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves)||[:memo:](https://leetcode.cn/articles/minimum-difference-between-largest-and-smallest-value-in-three-moves/)|Medium|
 |1617|[石子游戏 IV stone-game-iv](https://leetcode.cn/problems/stone-game-iv)||[:memo:](https://leetcode.cn/articles/stone-game-iv/)|Hard|
-|1618|[删除链表 M 个节点之后的 N 个节点 delete-n-nodes-after-m-nodes-of-a-linked-list](https://leetcode.cn/problems/delete-n-nodes-after-m-nodes-of-a-linked-list)|:lock:|[:memo:](https://leetcode.cn/articles/delete-n-nodes-after-m-nodes-of-a-linked-list/)|Easy|
 |1619|[判断路径是否相交 path-crossing](https://leetcode.cn/problems/path-crossing)||[:memo:](https://leetcode.cn/articles/path-crossing/)|Easy|
 |1620|[检查数组对是否可以被 k 整除 check-if-array-pairs-are-divisible-by-k](https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k)||[:memo:](https://leetcode.cn/articles/check-if-array-pairs-are-divisible-by-k/)|Medium|
 |1621|[满足条件的子序列数目 number-of-subsequences-that-satisfy-the-given-sum-condition](https://leetcode.cn/problems/number-of-subsequences-that-satisfy-the-given-sum-condition)||[:memo:](https://leetcode.cn/articles/number-of-subsequences-that-satisfy-the-given-sum-condition/)|Medium|
 |1622|[满足不等式的最大值 max-value-of-equation](https://leetcode.cn/problems/max-value-of-equation)||[:memo:](https://leetcode.cn/articles/max-value-of-equation/)|Hard|
-|1624|[克隆含随机指针的二叉树 clone-binary-tree-with-random-pointer](https://leetcode.cn/problems/clone-binary-tree-with-random-pointer)|:lock:|[:memo:](https://leetcode.cn/articles/clone-binary-tree-with-random-pointer/)|Medium|
 |1626|[判断能否形成等差数列 can-make-arithmetic-progression-from-sequence](https://leetcode.cn/problems/can-make-arithmetic-progression-from-sequence)||[:memo:](https://leetcode.cn/articles/can-make-arithmetic-progression-from-sequence/)|Easy|
 |1627|[所有蚂蚁掉下来前的最后一刻 last-moment-before-all-ants-fall-out-of-a-plank](https://leetcode.cn/problems/last-moment-before-all-ants-fall-out-of-a-plank)||[:memo:](https://leetcode.cn/articles/last-moment-before-all-ants-fall-out-of-a-plank/)|Medium|
 |1628|[统计全 1 子矩形 count-submatrices-with-all-ones](https://leetcode.cn/problems/count-submatrices-with-all-ones)||[:memo:](https://leetcode.cn/articles/count-submatrices-with-all-ones/)|Medium|
@@ -1454,12 +1229,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1631|[和为奇数的子数组数目 number-of-sub-arrays-with-odd-sum](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum)||[:memo:](https://leetcode.cn/articles/number-of-sub-arrays-with-odd-sum/)|Medium|
 |1632|[字符串的好分割数目 number-of-good-ways-to-split-a-string](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string)||[:memo:](https://leetcode.cn/articles/number-of-good-ways-to-split-a-string/)|Medium|
 |1633|[形成目标数组的子数组最少增加次数 minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array)||[:memo:](https://leetcode.cn/articles/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)|Hard|
-|1634|[克隆 N 叉树 clone-n-ary-tree](https://leetcode.cn/problems/clone-n-ary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/clone-n-ary-tree/)|Medium|
 |1635|[好数对的数目 number-of-good-pairs](https://leetcode.cn/problems/number-of-good-pairs)||[:memo:](https://leetcode.cn/articles/number-of-good-pairs/)|Easy|
 |1636|[仅含 1 的子串数 number-of-substrings-with-only-1s](https://leetcode.cn/problems/number-of-substrings-with-only-1s)||[:memo:](https://leetcode.cn/articles/number-of-substrings-with-only-1s/)|Medium|
 |1637|[压缩字符串 II string-compression-ii](https://leetcode.cn/problems/string-compression-ii)||[:memo:](https://leetcode.cn/articles/string-compression-ii/)|Hard|
 |1638|[服务中心的最佳位置 best-position-for-a-service-centre](https://leetcode.cn/problems/best-position-for-a-service-centre)||[:memo:](https://leetcode.cn/articles/best-position-for-a-service-centre/)|Hard|
-|1640|[设计文件分享系统 design-a-file-sharing-system](https://leetcode.cn/problems/design-a-file-sharing-system)|:lock:|[:memo:](https://leetcode.cn/articles/design-a-file-sharing-system/)|Medium|
 |1642|[换水问题 water-bottles](https://leetcode.cn/problems/water-bottles)||[:memo:](https://leetcode.cn/articles/water-bottles/)|Easy|
 |1643|[子树中标签相同的节点数 number-of-nodes-in-the-sub-tree-with-the-same-label](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label)||[:memo:](https://leetcode.cn/articles/number-of-nodes-in-the-sub-tree-with-the-same-label/)|Medium|
 |1644|[最多的不重叠子字符串 maximum-number-of-non-overlapping-substrings](https://leetcode.cn/problems/maximum-number-of-non-overlapping-substrings)||[:memo:](https://leetcode.cn/articles/maximum-number-of-non-overlapping-substrings/)|Hard|
@@ -1468,11 +1241,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1647|[K 次操作转变字符串 can-convert-string-in-k-moves](https://leetcode.cn/problems/can-convert-string-in-k-moves)||[:memo:](https://leetcode.cn/articles/can-convert-string-in-k-moves/)|Medium|
 |1648|[平衡括号字符串的最少插入次数 minimum-insertions-to-balance-a-parentheses-string](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string)||[:memo:](https://leetcode.cn/articles/minimum-insertions-to-balance-a-parentheses-string/)|Medium|
 |1649|[和为目标值且不重叠的非空子数组的最大数目 maximum-number-of-non-overlapping-subarrays-with-sum-equals-target](https://leetcode.cn/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target)||[:memo:](https://leetcode.cn/articles/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)|Medium|
-|1650|[找到 N 叉树的根节点 find-root-of-n-ary-tree](https://leetcode.cn/problems/find-root-of-n-ary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/find-root-of-n-ary-tree/)|Medium|
 |1651|[重新排列字符串 shuffle-string](https://leetcode.cn/problems/shuffle-string)||[:memo:](https://leetcode.cn/articles/shuffle-string/)|Easy|
 |1652|[最少的后缀翻转次数 minimum-suffix-flips](https://leetcode.cn/problems/minimum-suffix-flips)||[:memo:](https://leetcode.cn/articles/minimum-suffix-flips/)|Medium|
 |1653|[好叶子节点对的数量 number-of-good-leaf-nodes-pairs](https://leetcode.cn/problems/number-of-good-leaf-nodes-pairs)||[:memo:](https://leetcode.cn/articles/number-of-good-leaf-nodes-pairs/)|Medium|
-|1655|[移动 N 叉树的子树 move-sub-tree-of-n-ary-tree](https://leetcode.cn/problems/move-sub-tree-of-n-ary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/move-sub-tree-of-n-ary-tree/)|Hard|
 |1656|[统计好三元组 count-good-triplets](https://leetcode.cn/problems/count-good-triplets)||[:memo:](https://leetcode.cn/articles/count-good-triplets/)|Easy|
 |1657|[找出数组游戏的赢家 find-the-winner-of-an-array-game](https://leetcode.cn/problems/find-the-winner-of-an-array-game)||[:memo:](https://leetcode.cn/articles/find-the-winner-of-an-array-game/)|Medium|
 |1658|[排布二进制网格的最少交换次数 minimum-swaps-to-arrange-a-binary-grid](https://leetcode.cn/problems/minimum-swaps-to-arrange-a-binary-grid)||[:memo:](https://leetcode.cn/articles/minimum-swaps-to-arrange-a-binary-grid/)|Medium|
@@ -1481,12 +1252,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1661|[可以到达所有点的最少点数目 minimum-number-of-vertices-to-reach-all-nodes](https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes)||[:memo:](https://leetcode.cn/articles/minimum-number-of-vertices-to-reach-all-nodes/)|Medium|
 |1662|[得到目标数组的最少函数调用次数 minimum-numbers-of-function-calls-to-make-target-array](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array)||[:memo:](https://leetcode.cn/articles/minimum-numbers-of-function-calls-to-make-target-array/)|Medium|
 |1663|[二维网格图中探测环 detect-cycles-in-2d-grid](https://leetcode.cn/problems/detect-cycles-in-2d-grid)||[:memo:](https://leetcode.cn/articles/detect-cycles-in-2d-grid/)|Medium|
-|1665|[N 叉树的直径 diameter-of-n-ary-tree](https://leetcode.cn/problems/diameter-of-n-ary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/diameter-of-n-ary-tree/)|Medium|
 |1666|[整理字符串 make-the-string-great](https://leetcode.cn/problems/make-the-string-great)||[:memo:](https://leetcode.cn/articles/make-the-string-great/)|Easy|
 |1667|[找出第 N 个二进制字符串中的第 K 位 find-kth-bit-in-nth-binary-string](https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string)||[:memo:](https://leetcode.cn/articles/find-kth-bit-in-nth-binary-string/)|Medium|
 |1668|[找出最长的超赞子字符串 find-longest-awesome-substring](https://leetcode.cn/problems/find-longest-awesome-substring)||[:memo:](https://leetcode.cn/articles/find-longest-awesome-substring/)|Hard|
 |1669|[切棍子的最小成本 minimum-cost-to-cut-a-stick](https://leetcode.cn/problems/minimum-cost-to-cut-a-stick)||[:memo:](https://leetcode.cn/articles/minimum-cost-to-cut-a-stick/)|Hard|
-|1672|[找到最大整数的索引 find-the-index-of-the-large-integer](https://leetcode.cn/problems/find-the-index-of-the-large-integer)|:lock:|[:memo:](https://leetcode.cn/articles/find-the-index-of-the-large-integer/)|Medium|
 |1674|[使数组中所有元素相等的最小操作数 minimum-operations-to-make-array-equal](https://leetcode.cn/problems/minimum-operations-to-make-array-equal)||[:memo:](https://leetcode.cn/articles/minimum-operations-to-make-array-equal/)|Medium|
 |1675|[两球之间的磁力 magnetic-force-between-two-balls](https://leetcode.cn/problems/magnetic-force-between-two-balls)||[:memo:](https://leetcode.cn/articles/magnetic-force-between-two-balls/)|Medium|
 |1676|[吃掉 N 个橘子的最少天数 minimum-number-of-days-to-eat-n-oranges](https://leetcode.cn/problems/minimum-number-of-days-to-eat-n-oranges)||[:memo:](https://leetcode.cn/articles/minimum-number-of-days-to-eat-n-oranges/)|Hard|
@@ -1494,12 +1263,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1678|[分割字符串的方案数 number-of-ways-to-split-a-string](https://leetcode.cn/problems/number-of-ways-to-split-a-string)||[:memo:](https://leetcode.cn/articles/number-of-ways-to-split-a-string/)|Medium|
 |1679|[删除最短的子数组使剩余数组有序 shortest-subarray-to-be-removed-to-make-array-sorted](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted)||[:memo:](https://leetcode.cn/articles/shortest-subarray-to-be-removed-to-make-array-sorted/)|Medium|
 |1680|[统计所有可行路径 count-all-possible-routes](https://leetcode.cn/problems/count-all-possible-routes)||[:memo:](https://leetcode.cn/articles/count-all-possible-routes/)|Hard|
-|1681|[找出隐藏数组中出现次数最多的元素 guess-the-majority-in-a-hidden-array](https://leetcode.cn/problems/guess-the-majority-in-a-hidden-array)|:lock:|[:memo:](https://leetcode.cn/articles/guess-the-majority-in-a-hidden-array/)|Medium|
 |1682|[圆形赛道上经过次数最多的扇区 most-visited-sector-in-a-circular-track](https://leetcode.cn/problems/most-visited-sector-in-a-circular-track)||[:memo:](https://leetcode.cn/articles/most-visited-sector-in-a-circular-track/)|Easy|
 |1683|[你可以获得的最大硬币数目 maximum-number-of-coins-you-can-get](https://leetcode.cn/problems/maximum-number-of-coins-you-can-get)||[:memo:](https://leetcode.cn/articles/maximum-number-of-coins-you-can-get/)|Medium|
 |1684|[查找大小为 M 的最新分组 find-latest-group-of-size-m](https://leetcode.cn/problems/find-latest-group-of-size-m)||[:memo:](https://leetcode.cn/articles/find-latest-group-of-size-m/)|Medium|
 |1685|[石子游戏 V stone-game-v](https://leetcode.cn/problems/stone-game-v)||[:memo:](https://leetcode.cn/articles/stone-game-v/)|Hard|
-|1687|[图中最相似的路径 the-most-similar-path-in-a-graph](https://leetcode.cn/problems/the-most-similar-path-in-a-graph)|:lock:|[:memo:](https://leetcode.cn/articles/the-most-similar-path-in-a-graph/)|Hard|
 |1689|[重复至少 K 次且长度为 M 的模式 detect-pattern-of-length-m-repeated-k-or-more-times](https://leetcode.cn/problems/detect-pattern-of-length-m-repeated-k-or-more-times)||[:memo:](https://leetcode.cn/articles/detect-pattern-of-length-m-repeated-k-or-more-times/)|Easy|
 |1690|[乘积为正数的最长子数组长度 maximum-length-of-subarray-with-positive-product](https://leetcode.cn/problems/maximum-length-of-subarray-with-positive-product)||[:memo:](https://leetcode.cn/articles/maximum-length-of-subarray-with-positive-product/)|Medium|
 |1691|[使陆地分离的最少天数 minimum-number-of-days-to-disconnect-island](https://leetcode.cn/problems/minimum-number-of-days-to-disconnect-island)||[:memo:](https://leetcode.cn/articles/minimum-number-of-days-to-disconnect-island/)|Hard|
@@ -1508,12 +1275,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1694|[使数组和能被 P 整除 make-sum-divisible-by-p](https://leetcode.cn/problems/make-sum-divisible-by-p)||[:memo:](https://leetcode.cn/articles/make-sum-divisible-by-p/)|Medium|
 |1695|[所有排列中的最大和 maximum-sum-obtained-of-any-permutation](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation)||[:memo:](https://leetcode.cn/articles/maximum-sum-obtained-of-any-permutation/)|Medium|
 |1696|[奇怪的打印机 II strange-printer-ii](https://leetcode.cn/problems/strange-printer-ii)||[:memo:](https://leetcode.cn/articles/strange-printer-ii/)|Hard|
-|1697|[只有一个不同字符的字符串 strings-differ-by-one-character](https://leetcode.cn/problems/strings-differ-by-one-character)|:lock:|[:memo:](https://leetcode.cn/articles/strings-differ-by-one-character/)|Medium|
 |1698|[替换所有的问号 replace-all-s-to-avoid-consecutive-repeating-characters](https://leetcode.cn/problems/replace-all-s-to-avoid-consecutive-repeating-characters)||[:memo:](https://leetcode.cn/articles/replace-all-s-to-avoid-consecutive-repeating-characters/)|Easy|
 |1699|[数的平方等于两数乘积的方法数 number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers](https://leetcode.cn/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers)||[:memo:](https://leetcode.cn/articles/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)|Medium|
 |1700|[使绳子变成彩色的最短时间 minimum-time-to-make-rope-colorful](https://leetcode.cn/problems/minimum-time-to-make-rope-colorful)||[:memo:](https://leetcode.cn/articles/minimum-time-to-make-rope-colorful/)|Medium|
 |1701|[保证图可完全遍历 remove-max-number-of-edges-to-keep-graph-fully-traversable](https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)||[:memo:](https://leetcode.cn/articles/remove-max-number-of-edges-to-keep-graph-fully-traversable/)|Hard|
-|1703|[把箱子放进仓库里 I put-boxes-into-the-warehouse-i](https://leetcode.cn/problems/put-boxes-into-the-warehouse-i)|:lock:|[:memo:](https://leetcode.cn/articles/put-boxes-into-the-warehouse-i/)|Medium|
 |1704|[二进制矩阵中的特殊位置 special-positions-in-a-binary-matrix](https://leetcode.cn/problems/special-positions-in-a-binary-matrix)||[:memo:](https://leetcode.cn/articles/special-positions-in-a-binary-matrix/)|Easy|
 |1705|[统计不开心的朋友 count-unhappy-friends](https://leetcode.cn/problems/count-unhappy-friends)||[:memo:](https://leetcode.cn/articles/count-unhappy-friends/)|Medium|
 |1706|[连接所有点的最小费用 min-cost-to-connect-all-points](https://leetcode.cn/problems/min-cost-to-connect-all-points)||[:memo:](https://leetcode.cn/articles/min-cost-to-connect-all-points/)|Medium|
@@ -1522,12 +1287,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1709|[警告一小时内使用相同员工卡大于等于三次的人 alert-using-same-key-card-three-or-more-times-in-a-one-hour-period](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period)||[:memo:](https://leetcode.cn/articles/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)|Medium|
 |1710|[找到处理最多请求的服务器 find-servers-that-handled-most-number-of-requests](https://leetcode.cn/problems/find-servers-that-handled-most-number-of-requests)||[:memo:](https://leetcode.cn/articles/find-servers-that-handled-most-number-of-requests/)|Hard|
 |1711|[给定行和列的和求可行矩阵 find-valid-matrix-given-row-and-column-sums](https://leetcode.cn/problems/find-valid-matrix-given-row-and-column-sums)||[:memo:](https://leetcode.cn/articles/find-valid-matrix-given-row-and-column-sums/)|Medium|
-|1713|[两个稀疏向量的点积 dot-product-of-two-sparse-vectors](https://leetcode.cn/problems/dot-product-of-two-sparse-vectors)|:lock:|[:memo:](https://leetcode.cn/articles/dot-product-of-two-sparse-vectors/)|Medium|
 |1714|[重新排列单词间的空格 rearrange-spaces-between-words](https://leetcode.cn/problems/rearrange-spaces-between-words)||[:memo:](https://leetcode.cn/articles/rearrange-spaces-between-words/)|Easy|
 |1715|[拆分字符串使唯一子字符串的数目最大 split-a-string-into-the-max-number-of-unique-substrings](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings)||[:memo:](https://leetcode.cn/articles/split-a-string-into-the-max-number-of-unique-substrings/)|Medium|
 |1716|[矩阵的最大非负积 maximum-non-negative-product-in-a-matrix](https://leetcode.cn/problems/maximum-non-negative-product-in-a-matrix)||[:memo:](https://leetcode.cn/articles/maximum-non-negative-product-in-a-matrix/)|Medium|
 |1717|[连通两组点的最小成本 minimum-cost-to-connect-two-groups-of-points](https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points)||[:memo:](https://leetcode.cn/articles/minimum-cost-to-connect-two-groups-of-points/)|Hard|
-|1719|[把箱子放进仓库里 II put-boxes-into-the-warehouse-ii](https://leetcode.cn/problems/put-boxes-into-the-warehouse-ii)|:lock:|[:memo:](https://leetcode.cn/articles/put-boxes-into-the-warehouse-ii/)|Medium|
 |1720|[文件夹操作日志搜集器 crawler-log-folder](https://leetcode.cn/problems/crawler-log-folder)||[:memo:](https://leetcode.cn/articles/crawler-log-folder/)|Easy|
 |1721|[经营摩天轮的最大利润 maximum-profit-of-operating-a-centennial-wheel](https://leetcode.cn/problems/maximum-profit-of-operating-a-centennial-wheel)||[:memo:](https://leetcode.cn/articles/maximum-profit-of-operating-a-centennial-wheel/)|Medium|
 |1722|[王位继承顺序 throne-inheritance](https://leetcode.cn/problems/throne-inheritance)||[:memo:](https://leetcode.cn/articles/throne-inheritance/)|Medium|
@@ -1536,12 +1299,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1726|[网络信号最好的坐标 coordinate-with-maximum-network-quality](https://leetcode.cn/problems/coordinate-with-maximum-network-quality)||[:memo:](https://leetcode.cn/articles/coordinate-with-maximum-network-quality/)|Medium|
 |1727|[猫和老鼠 II cat-and-mouse-ii](https://leetcode.cn/problems/cat-and-mouse-ii)||[:memo:](https://leetcode.cn/articles/cat-and-mouse-ii/)|Hard|
 |1728|[奇妙序列 fancy-sequence](https://leetcode.cn/problems/fancy-sequence)||[:memo:](https://leetcode.cn/articles/fancy-sequence/)|Hard|
-|1729|[二叉搜索树迭代器 II binary-search-tree-iterator-ii](https://leetcode.cn/problems/binary-search-tree-iterator-ii)|:lock:|[:memo:](https://leetcode.cn/articles/binary-search-tree-iterator-ii/)|Medium|
 |1730|[特殊数组的特征值 special-array-with-x-elements-greater-than-or-equal-x](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x)||[:memo:](https://leetcode.cn/articles/special-array-with-x-elements-greater-than-or-equal-x/)|Easy|
 |1731|[奇偶树 even-odd-tree](https://leetcode.cn/problems/even-odd-tree)||[:memo:](https://leetcode.cn/articles/even-odd-tree/)|Medium|
 |1732|[使整数变为 0 的最少操作次数 minimum-one-bit-operations-to-make-integers-zero](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero)||[:memo:](https://leetcode.cn/articles/minimum-one-bit-operations-to-make-integers-zero/)|Hard|
 |1733|[可见点的最大数目 maximum-number-of-visible-points](https://leetcode.cn/problems/maximum-number-of-visible-points)||[:memo:](https://leetcode.cn/articles/maximum-number-of-visible-points/)|Hard|
-|1736|[根据中缀表达式构造二叉表达式树 build-binary-expression-tree-from-infix-expression](https://leetcode.cn/problems/build-binary-expression-tree-from-infix-expression)|:lock:|[:memo:](https://leetcode.cn/articles/build-binary-expression-tree-from-infix-expression/)|Hard|
 |1737|[括号的最大嵌套深度 maximum-nesting-depth-of-the-parentheses](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses)||[:memo:](https://leetcode.cn/articles/maximum-nesting-depth-of-the-parentheses/)|Easy|
 |1738|[最大网络秩 maximal-network-rank](https://leetcode.cn/problems/maximal-network-rank)||[:memo:](https://leetcode.cn/articles/maximal-network-rank/)|Medium|
 |1739|[分割两个字符串得到回文串 split-two-strings-to-make-palindrome](https://leetcode.cn/problems/split-two-strings-to-make-palindrome)||[:memo:](https://leetcode.cn/articles/split-two-strings-to-make-palindrome/)|Medium|
@@ -1550,11 +1311,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1742|[两点之间不包含任何点的最宽垂直面积 widest-vertical-area-between-two-points-containing-no-points](https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points)||[:memo:](https://leetcode.cn/articles/widest-vertical-area-between-two-points-containing-no-points/)|Medium|
 |1743|[统计只差一个字符的子串数目 count-substrings-that-differ-by-one-character](https://leetcode.cn/problems/count-substrings-that-differ-by-one-character)||[:memo:](https://leetcode.cn/articles/count-substrings-that-differ-by-one-character/)|Medium|
 |1744|[通过给定词典构造目标字符串的方案数 number-of-ways-to-form-a-target-string-given-a-dictionary](https://leetcode.cn/problems/number-of-ways-to-form-a-target-string-given-a-dictionary)||[:memo:](https://leetcode.cn/articles/number-of-ways-to-form-a-target-string-given-a-dictionary/)|Hard|
-|1745|[找到二叉树中最近的右侧节点 find-nearest-right-node-in-binary-tree](https://leetcode.cn/problems/find-nearest-right-node-in-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/find-nearest-right-node-in-binary-tree/)|Medium|
 |1746|[两个相同字符之间的最长子字符串 largest-substring-between-two-equal-characters](https://leetcode.cn/problems/largest-substring-between-two-equal-characters)||[:memo:](https://leetcode.cn/articles/largest-substring-between-two-equal-characters/)|Easy|
 |1747|[执行操作后字典序最小的字符串 lexicographically-smallest-string-after-applying-operations](https://leetcode.cn/problems/lexicographically-smallest-string-after-applying-operations)||[:memo:](https://leetcode.cn/articles/lexicographically-smallest-string-after-applying-operations/)|Medium|
 |1748|[无矛盾的最佳球队 best-team-with-no-conflicts](https://leetcode.cn/problems/best-team-with-no-conflicts)||[:memo:](https://leetcode.cn/articles/best-team-with-no-conflicts/)|Medium|
-|1750|[检查两棵二叉表达式树是否等价 check-if-two-expression-trees-are-equivalent](https://leetcode.cn/problems/check-if-two-expression-trees-are-equivalent)|:lock:|[:memo:](https://leetcode.cn/articles/check-if-two-expression-trees-are-equivalent/)|Medium|
 |1751|[按键持续时间最长的键 slowest-key](https://leetcode.cn/problems/slowest-key)||[:memo:](https://leetcode.cn/articles/slowest-key/)|Easy|
 |1752|[等差子数组 arithmetic-subarrays](https://leetcode.cn/problems/arithmetic-subarrays)||[:memo:](https://leetcode.cn/articles/arithmetic-subarrays/)|Medium|
 |1753|[最小体力消耗路径 path-with-minimum-effort](https://leetcode.cn/problems/path-with-minimum-effort)||[:memo:](https://leetcode.cn/articles/path-with-minimum-effort/)|Medium|
@@ -1569,17 +1328,14 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1765|[合并两个链表 merge-in-between-linked-lists](https://leetcode.cn/problems/merge-in-between-linked-lists)||[:memo:](https://leetcode.cn/articles/merge-in-between-linked-lists/)|Medium|
 |1766|[得到山形数组的最少删除次数 minimum-number-of-removals-to-make-mountain-array](https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array)||[:memo:](https://leetcode.cn/articles/minimum-number-of-removals-to-make-mountain-array/)|Hard|
 |1767|[设计前中后队列 design-front-middle-back-queue](https://leetcode.cn/problems/design-front-middle-back-queue)||[:memo:](https://leetcode.cn/articles/design-front-middle-back-queue/)|Medium|
-|1768|[设计带解析函数的表达式树 design-an-expression-tree-with-evaluate-function](https://leetcode.cn/problems/design-an-expression-tree-with-evaluate-function)|:lock:|[:memo:](https://leetcode.cn/articles/design-an-expression-tree-with-evaluate-function/)|Medium|
 |1769|[获取生成数组中的最大值 get-maximum-in-generated-array](https://leetcode.cn/problems/get-maximum-in-generated-array)||[:memo:](https://leetcode.cn/articles/get-maximum-in-generated-array/)|Easy|
 |1770|[字符频次唯一的最小删除次数 minimum-deletions-to-make-character-frequencies-unique](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique)||[:memo:](https://leetcode.cn/articles/minimum-deletions-to-make-character-frequencies-unique/)|Medium|
 |1771|[销售价值减少的颜色球 sell-diminishing-valued-colored-balls](https://leetcode.cn/problems/sell-diminishing-valued-colored-balls)||[:memo:](https://leetcode.cn/articles/sell-diminishing-valued-colored-balls/)|Medium|
 |1772|[通过指令创建有序数组 create-sorted-array-through-instructions](https://leetcode.cn/problems/create-sorted-array-through-instructions)||[:memo:](https://leetcode.cn/articles/create-sorted-array-through-instructions/)|Hard|
-|1774|[求两个多项式链表的和 add-two-polynomials-represented-as-linked-lists](https://leetcode.cn/problems/add-two-polynomials-represented-as-linked-lists)|:lock:|[:memo:](https://leetcode.cn/articles/add-two-polynomials-represented-as-linked-lists/)|Medium|
 |1775|[设计有序流 design-an-ordered-stream](https://leetcode.cn/problems/design-an-ordered-stream)||[:memo:](https://leetcode.cn/articles/design-an-ordered-stream/)|Easy|
 |1776|[将 x 减到 0 的最小操作数 minimum-operations-to-reduce-x-to-zero](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero)||[:memo:](https://leetcode.cn/articles/minimum-operations-to-reduce-x-to-zero/)|Medium|
 |1777|[确定两个字符串是否接近 determine-if-two-strings-are-close](https://leetcode.cn/problems/determine-if-two-strings-are-close)||[:memo:](https://leetcode.cn/articles/determine-if-two-strings-are-close/)|Medium|
 |1778|[最大化网格幸福感 maximize-grid-happiness](https://leetcode.cn/problems/maximize-grid-happiness)||[:memo:](https://leetcode.cn/articles/maximize-grid-happiness/)|Hard|
-|1780|[二叉树的最近公共祖先 II lowest-common-ancestor-of-a-binary-tree-ii](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree-ii)|:lock:|[:memo:](https://leetcode.cn/articles/lowest-common-ancestor-of-a-binary-tree-ii/)|Medium|
 |1781|[检查两个字符串数组是否相等 check-if-two-string-arrays-are-equivalent](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent)||[:memo:](https://leetcode.cn/articles/check-if-two-string-arrays-are-equivalent/)|Easy|
 |1782|[具有给定数值的最小字符串 smallest-string-with-a-given-numeric-value](https://leetcode.cn/problems/smallest-string-with-a-given-numeric-value)||[:memo:](https://leetcode.cn/articles/smallest-string-with-a-given-numeric-value/)|Medium|
 |1783|[生成平衡数组的方案数 ways-to-make-a-fair-array](https://leetcode.cn/problems/ways-to-make-a-fair-array)||[:memo:](https://leetcode.cn/articles/ways-to-make-a-fair-array/)|Medium|
@@ -1588,12 +1344,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1787|[有序数组中差绝对值之和 sum-of-absolute-differences-in-a-sorted-array](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array)||[:memo:](https://leetcode.cn/articles/sum-of-absolute-differences-in-a-sorted-array/)|Medium|
 |1788|[石子游戏 VI stone-game-vi](https://leetcode.cn/problems/stone-game-vi)||[:memo:](https://leetcode.cn/articles/stone-game-vi/)|Medium|
 |1789|[从仓库到码头运输箱子 delivering-boxes-from-storage-to-ports](https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports)||[:memo:](https://leetcode.cn/articles/delivering-boxes-from-storage-to-ports/)|Hard|
-|1790|[二叉树的最近公共祖先 III lowest-common-ancestor-of-a-binary-tree-iii](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree-iii)|:lock:|[:memo:](https://leetcode.cn/articles/lowest-common-ancestor-of-a-binary-tree-iii/)|Medium|
 |1791|[最富有客户的资产总量 richest-customer-wealth](https://leetcode.cn/problems/richest-customer-wealth)||[:memo:](https://leetcode.cn/articles/richest-customer-wealth/)|Easy|
 |1792|[找出最具竞争力的子序列 find-the-most-competitive-subsequence](https://leetcode.cn/problems/find-the-most-competitive-subsequence)||[:memo:](https://leetcode.cn/articles/find-the-most-competitive-subsequence/)|Medium|
 |1793|[使数组互补的最少操作次数 minimum-moves-to-make-array-complementary](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary)||[:memo:](https://leetcode.cn/articles/minimum-moves-to-make-array-complementary/)|Medium|
 |1794|[数组的最小偏移量 minimize-deviation-in-array](https://leetcode.cn/problems/minimize-deviation-in-array)||[:memo:](https://leetcode.cn/articles/minimize-deviation-in-array/)|Hard|
-|1796|[纠正二叉树 correct-a-binary-tree](https://leetcode.cn/problems/correct-a-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/correct-a-binary-tree/)|Medium|
 |1797|[设计 Goal 解析器 goal-parser-interpretation](https://leetcode.cn/problems/goal-parser-interpretation)||[:memo:](https://leetcode.cn/articles/goal-parser-interpretation/)|Easy|
 |1798|[K 和数对的最大数目 max-number-of-k-sum-pairs](https://leetcode.cn/problems/max-number-of-k-sum-pairs)||[:memo:](https://leetcode.cn/articles/max-number-of-k-sum-pairs/)|Medium|
 |1799|[最小不兼容性 minimum-incompatibility](https://leetcode.cn/problems/minimum-incompatibility)||[:memo:](https://leetcode.cn/articles/minimum-incompatibility/)|Hard|
@@ -1605,23 +1359,18 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1806|[比赛中的配对次数 count-of-matches-in-tournament](https://leetcode.cn/problems/count-of-matches-in-tournament)||[:memo:](https://leetcode.cn/articles/count-of-matches-in-tournament/)|Easy|
 |1807|[十-二进制数的最少数目 partitioning-into-minimum-number-of-deci-binary-numbers](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers)||[:memo:](https://leetcode.cn/articles/partitioning-into-minimum-number-of-deci-binary-numbers/)|Medium|
 |1808|[石子游戏 VII stone-game-vii](https://leetcode.cn/problems/stone-game-vii)||[:memo:](https://leetcode.cn/articles/stone-game-vii/)|Medium|
-|1809|[数组中特殊等间距元素的和 sum-of-special-evenly-spaced-elements-in-array](https://leetcode.cn/problems/sum-of-special-evenly-spaced-elements-in-array)|:lock:|[:memo:](https://leetcode.cn/articles/sum-of-special-evenly-spaced-elements-in-array/)|Hard|
-|1810|[改变二叉树的根节点 change-the-root-of-a-binary-tree](https://leetcode.cn/problems/change-the-root-of-a-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/change-the-root-of-a-binary-tree/)|Medium|
 |1812|[重新格式化电话号码 reformat-phone-number](https://leetcode.cn/problems/reformat-phone-number)||[:memo:](https://leetcode.cn/articles/reformat-phone-number/)|Easy|
 |1813|[删除子数组的最大得分 maximum-erasure-value](https://leetcode.cn/problems/maximum-erasure-value)||[:memo:](https://leetcode.cn/articles/maximum-erasure-value/)|Medium|
 |1814|[跳跃游戏 VI jump-game-vi](https://leetcode.cn/problems/jump-game-vi)||[:memo:](https://leetcode.cn/articles/jump-game-vi/)|Medium|
 |1815|[检查边长度限制的路径是否存在 checking-existence-of-edge-length-limited-paths](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths)||[:memo:](https://leetcode.cn/articles/checking-existence-of-edge-length-limited-paths/)|Hard|
-|1816|[二叉树的最近公共祖先 IV lowest-common-ancestor-of-a-binary-tree-iv](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree-iv)|:lock:|[:memo:](https://leetcode.cn/articles/lowest-common-ancestor-of-a-binary-tree-iv/)|Medium|
 |1817|[计算力扣银行的钱 calculate-money-in-leetcode-bank](https://leetcode.cn/problems/calculate-money-in-leetcode-bank)||[:memo:](https://leetcode.cn/articles/calculate-money-in-leetcode-bank/)|Easy|
 |1818|[删除子字符串的最大得分 maximum-score-from-removing-substrings](https://leetcode.cn/problems/maximum-score-from-removing-substrings)||[:memo:](https://leetcode.cn/articles/maximum-score-from-removing-substrings/)|Medium|
 |1819|[构建字典序最大的可行序列 construct-the-lexicographically-largest-valid-sequence](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence)||[:memo:](https://leetcode.cn/articles/construct-the-lexicographically-largest-valid-sequence/)|Medium|
 |1820|[重构一棵树的方案数 number-of-ways-to-reconstruct-a-tree](https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree)||[:memo:](https://leetcode.cn/articles/number-of-ways-to-reconstruct-a-tree/)|Hard|
-|1822|[最长回文子序列 II longest-palindromic-subsequence-ii](https://leetcode.cn/problems/longest-palindromic-subsequence-ii)|:lock:|[:memo:](https://leetcode.cn/articles/longest-palindromic-subsequence-ii/)|Medium|
 |1823|[判断字符串的两半是否相似 determine-if-string-halves-are-alike](https://leetcode.cn/problems/determine-if-string-halves-are-alike)||[:memo:](https://leetcode.cn/articles/determine-if-string-halves-are-alike/)|Easy|
 |1824|[吃苹果的最大数目 maximum-number-of-eaten-apples](https://leetcode.cn/problems/maximum-number-of-eaten-apples)||[:memo:](https://leetcode.cn/articles/maximum-number-of-eaten-apples/)|Medium|
 |1825|[完成所有工作的最短时间 find-minimum-time-to-finish-all-jobs](https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs)||[:memo:](https://leetcode.cn/articles/find-minimum-time-to-finish-all-jobs/)|Hard|
 |1826|[与数组中元素的最大异或值 maximum-xor-with-an-element-from-array](https://leetcode.cn/problems/maximum-xor-with-an-element-from-array)||[:memo:](https://leetcode.cn/articles/maximum-xor-with-an-element-from-array/)|Hard|
-|1828|[计算分配糖果的不同方式 count-ways-to-distribute-candies](https://leetcode.cn/problems/count-ways-to-distribute-candies)|:lock:|[:memo:](https://leetcode.cn/articles/count-ways-to-distribute-candies/)|Hard|
 |1829|[卡车上的最大单元数 maximum-units-on-a-truck](https://leetcode.cn/problems/maximum-units-on-a-truck)||[:memo:](https://leetcode.cn/articles/maximum-units-on-a-truck/)|Easy|
 |1830|[大餐计数 count-good-meals](https://leetcode.cn/problems/count-good-meals)||[:memo:](https://leetcode.cn/articles/count-good-meals/)|Medium|
 |1831|[将数组分成三个子数组的方案数 ways-to-split-array-into-three-subarrays](https://leetcode.cn/problems/ways-to-split-array-into-three-subarrays)||[:memo:](https://leetcode.cn/articles/ways-to-split-array-into-three-subarrays/)|Medium|
@@ -1630,13 +1379,11 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1834|[需要教语言的最少人数 minimum-number-of-people-to-teach](https://leetcode.cn/problems/minimum-number-of-people-to-teach)||[:memo:](https://leetcode.cn/articles/minimum-number-of-people-to-teach/)|Medium|
 |1835|[解码异或后的排列 decode-xored-permutation](https://leetcode.cn/problems/decode-xored-permutation)||[:memo:](https://leetcode.cn/articles/decode-xored-permutation/)|Medium|
 |1836|[生成乘积数组的方案数 count-ways-to-make-array-with-product](https://leetcode.cn/problems/count-ways-to-make-array-with-product)||[:memo:](https://leetcode.cn/articles/count-ways-to-make-array-with-product/)|Hard|
-|1838|[字符串的不同子字符串个数 number-of-distinct-substrings-in-a-string](https://leetcode.cn/problems/number-of-distinct-substrings-in-a-string)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-distinct-substrings-in-a-string/)|Medium|
 |1839|[解码异或后的数组 decode-xored-array](https://leetcode.cn/problems/decode-xored-array)||[:memo:](https://leetcode.cn/articles/decode-xored-array/)|Easy|
 |1840|[执行交换操作后的最小汉明距离 minimize-hamming-distance-after-swap-operations](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations)||[:memo:](https://leetcode.cn/articles/minimize-hamming-distance-after-swap-operations/)|Medium|
 |1843|[可以形成最大正方形的矩形数目 number-of-rectangles-that-can-form-the-largest-square](https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square)||[:memo:](https://leetcode.cn/articles/number-of-rectangles-that-can-form-the-largest-square/)|Easy|
 |1844|[盒子中小球的最大数量 maximum-number-of-balls-in-a-box](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box)||[:memo:](https://leetcode.cn/articles/maximum-number-of-balls-in-a-box/)|Easy|
 |1845|[重新排列后的最大子矩阵 largest-submatrix-with-rearrangements](https://leetcode.cn/problems/largest-submatrix-with-rearrangements)||[:memo:](https://leetcode.cn/articles/largest-submatrix-with-rearrangements/)|Medium|
-|1847|[长度为 K 的最大子数组 largest-subarray-length-k](https://leetcode.cn/problems/largest-subarray-length-k)|:lock:|[:memo:](https://leetcode.cn/articles/largest-subarray-length-k/)|Easy|
 |1848|[唯一元素的和 sum-of-unique-elements](https://leetcode.cn/problems/sum-of-unique-elements)||[:memo:](https://leetcode.cn/articles/sum-of-unique-elements/)|Easy|
 |1849|[任意子数组和的绝对值的最大值 maximum-absolute-sum-of-any-subarray](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray)||[:memo:](https://leetcode.cn/articles/maximum-absolute-sum-of-any-subarray/)|Medium|
 |1850|[删除字符串两端相同字符后的最短长度 minimum-length-of-string-after-deleting-similar-ends](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends)||[:memo:](https://leetcode.cn/articles/minimum-length-of-string-after-deleting-similar-ends/)|Medium|
@@ -1645,7 +1392,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1859|[满足三条件之一需改变的最少字符数 change-minimum-characters-to-satisfy-one-of-three-conditions](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions)||[:memo:](https://leetcode.cn/articles/change-minimum-characters-to-satisfy-one-of-three-conditions/)|Medium|
 |1860|[找出第 K 大的异或坐标值 find-kth-largest-xor-coordinate-value](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value)||[:memo:](https://leetcode.cn/articles/find-kth-largest-xor-coordinate-value/)|Medium|
 |1861|[放置盒子 building-boxes](https://leetcode.cn/problems/building-boxes)||[:memo:](https://leetcode.cn/articles/building-boxes/)|Hard|
-|1865|[检查边长度限制的路径是否存在 II checking-existence-of-edge-length-limited-paths-ii](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths-ii)|:lock:|[:memo:](https://leetcode.cn/articles/checking-existence-of-edge-length-limited-paths-ii/)|Hard|
 |1866|[从相邻元素对还原数组 restore-the-array-from-adjacent-pairs](https://leetcode.cn/problems/restore-the-array-from-adjacent-pairs)||[:memo:](https://leetcode.cn/articles/restore-the-array-from-adjacent-pairs/)|Medium|
 |1871|[回文串分割 IV palindrome-partitioning-iv](https://leetcode.cn/problems/palindrome-partitioning-iv)||[:memo:](https://leetcode.cn/articles/palindrome-partitioning-iv/)|Hard|
 |1872|[你能在你最喜欢的那天吃到你最喜欢的糖果吗？ can-you-eat-your-favorite-candy-on-your-favorite-day](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day)||[:memo:](https://leetcode.cn/articles/can-you-eat-your-favorite-candy-on-your-favorite-day/)|Medium|
@@ -1657,7 +1403,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1879|[移除石子的最大得分 maximum-score-from-removing-stones](https://leetcode.cn/problems/maximum-score-from-removing-stones)||[:memo:](https://leetcode.cn/articles/maximum-score-from-removing-stones/)|Medium|
 |1880|[构造字典序最大的合并字符串 largest-merge-of-two-strings](https://leetcode.cn/problems/largest-merge-of-two-strings)||[:memo:](https://leetcode.cn/articles/largest-merge-of-two-strings/)|Medium|
 |1881|[最接近目标值的子序列和 closest-subsequence-sum](https://leetcode.cn/problems/closest-subsequence-sum)||[:memo:](https://leetcode.cn/articles/closest-subsequence-sum/)|Hard|
-|1883|[找到二叉树中的距离 find-distance-in-a-binary-tree](https://leetcode.cn/problems/find-distance-in-a-binary-tree)|:lock:|[:memo:](https://leetcode.cn/articles/find-distance-in-a-binary-tree/)|Medium|
 |1884|[生成交替二进制字符串的最少操作数 minimum-changes-to-make-alternating-binary-string](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string)||[:memo:](https://leetcode.cn/articles/minimum-changes-to-make-alternating-binary-string/)|Easy|
 |1885|[统计同构子字符串的数目 count-number-of-homogenous-substrings](https://leetcode.cn/problems/count-number-of-homogenous-substrings)||[:memo:](https://leetcode.cn/articles/count-number-of-homogenous-substrings/)|Medium|
 |1886|[袋子里最少数目的球 minimum-limit-of-balls-in-a-bag](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag)||[:memo:](https://leetcode.cn/articles/minimum-limit-of-balls-in-a-bag/)|Medium|
@@ -1666,7 +1411,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1889|[判断一个数字是否可以表示成三的幂的和 check-if-number-is-a-sum-of-powers-of-three](https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three)||[:memo:](https://leetcode.cn/articles/check-if-number-is-a-sum-of-powers-of-three/)|Medium|
 |1890|[所有子字符串美丽值之和 sum-of-beauty-of-all-substrings](https://leetcode.cn/problems/sum-of-beauty-of-all-substrings)||[:memo:](https://leetcode.cn/articles/sum-of-beauty-of-all-substrings/)|Medium|
 |1891|[统计点对的数目 count-pairs-of-nodes](https://leetcode.cn/problems/count-pairs-of-nodes)||[:memo:](https://leetcode.cn/articles/count-pairs-of-nodes/)|Hard|
-|1893|[经过一次操作后的最大子数组和 maximum-subarray-sum-after-one-operation](https://leetcode.cn/problems/maximum-subarray-sum-after-one-operation)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-subarray-sum-after-one-operation/)|Medium|
 |1894|[交替合并字符串 merge-strings-alternately](https://leetcode.cn/problems/merge-strings-alternately)||[:memo:](https://leetcode.cn/articles/merge-strings-alternately/)|Easy|
 |1895|[移动所有球到每个盒子所需的最小操作数 minimum-number-of-operations-to-move-all-balls-to-each-box](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box)||[:memo:](https://leetcode.cn/articles/minimum-number-of-operations-to-move-all-balls-to-each-box/)|Medium|
 |1896|[执行乘法运算的最大分数 maximum-score-from-performing-multiplication-operations](https://leetcode.cn/problems/maximum-score-from-performing-multiplication-operations)||[:memo:](https://leetcode.cn/articles/maximum-score-from-performing-multiplication-operations/)|Hard|
@@ -1675,12 +1419,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1900|[最接近目标价格的甜点成本 closest-dessert-cost](https://leetcode.cn/problems/closest-dessert-cost)||[:memo:](https://leetcode.cn/articles/closest-dessert-cost/)|Medium|
 |1901|[通过最少操作次数使数组的和相等 equal-sum-arrays-with-minimum-number-of-operations](https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations)||[:memo:](https://leetcode.cn/articles/equal-sum-arrays-with-minimum-number-of-operations/)|Medium|
 |1902|[车队 II car-fleet-ii](https://leetcode.cn/problems/car-fleet-ii)||[:memo:](https://leetcode.cn/articles/car-fleet-ii/)|Hard|
-|1903|[设计最近使用（MRU）队列 design-most-recently-used-queue](https://leetcode.cn/problems/design-most-recently-used-queue)|:lock:|[:memo:](https://leetcode.cn/articles/design-most-recently-used-queue/)|Medium|
 |1904|[字符串中第二大的数字 second-largest-digit-in-a-string](https://leetcode.cn/problems/second-largest-digit-in-a-string)||[:memo:](https://leetcode.cn/articles/second-largest-digit-in-a-string/)|Easy|
 |1905|[设计一个验证系统 design-authentication-manager](https://leetcode.cn/problems/design-authentication-manager)||[:memo:](https://leetcode.cn/articles/design-authentication-manager/)|Medium|
 |1906|[N 次操作后的最大分数和 maximize-score-after-n-operations](https://leetcode.cn/problems/maximize-score-after-n-operations)||[:memo:](https://leetcode.cn/articles/maximize-score-after-n-operations/)|Hard|
 |1907|[统计异或值在范围内的数对有多少 count-pairs-with-xor-in-a-range](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range)||[:memo:](https://leetcode.cn/articles/count-pairs-with-xor-in-a-range/)|Hard|
-|1909|[能看到海景的建筑物 buildings-with-an-ocean-view](https://leetcode.cn/problems/buildings-with-an-ocean-view)|:lock:|[:memo:](https://leetcode.cn/articles/buildings-with-an-ocean-view/)|Medium|
 |1910|[检查二进制字符串字段 check-if-binary-string-has-at-most-one-segment-of-ones](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones)||[:memo:](https://leetcode.cn/articles/check-if-binary-string-has-at-most-one-segment-of-ones/)|Easy|
 |1911|[构成特定和需要添加的最少元素 minimum-elements-to-add-to-form-a-given-sum](https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum)||[:memo:](https://leetcode.cn/articles/minimum-elements-to-add-to-form-a-given-sum/)|Medium|
 |1912|[从第一个节点出发到最后一个节点的受限路径数 number-of-restricted-paths-from-first-to-last-node](https://leetcode.cn/problems/number-of-restricted-paths-from-first-to-last-node)||[:memo:](https://leetcode.cn/articles/number-of-restricted-paths-from-first-to-last-node/)|Medium|
@@ -1689,7 +1431,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1916|[找出星型图的中心节点 find-center-of-star-graph](https://leetcode.cn/problems/find-center-of-star-graph)||[:memo:](https://leetcode.cn/articles/find-center-of-star-graph/)|Easy|
 |1917|[最大平均通过率 maximum-average-pass-ratio](https://leetcode.cn/problems/maximum-average-pass-ratio)||[:memo:](https://leetcode.cn/articles/maximum-average-pass-ratio/)|Medium|
 |1918|[好子数组的最大分数 maximum-score-of-a-good-subarray](https://leetcode.cn/problems/maximum-score-of-a-good-subarray)||[:memo:](https://leetcode.cn/articles/maximum-score-of-a-good-subarray/)|Hard|
-|1919|[按受欢迎程度排列功能 sort-features-by-popularity](https://leetcode.cn/problems/sort-features-by-popularity)|:lock:|[:memo:](https://leetcode.cn/articles/sort-features-by-popularity/)|Medium|
 |1920|[判断国际象棋棋盘中一个格子的颜色 determine-color-of-a-chessboard-square](https://leetcode.cn/problems/determine-color-of-a-chessboard-square)||[:memo:](https://leetcode.cn/articles/determine-color-of-a-chessboard-square/)|Easy|
 |1923|[句子相似性 III sentence-similarity-iii](https://leetcode.cn/problems/sentence-similarity-iii)||[:memo:](https://leetcode.cn/articles/sentence-similarity-iii/)|Medium|
 |1924|[得到新鲜甜甜圈的最多组数 maximum-number-of-groups-getting-fresh-donuts](https://leetcode.cn/problems/maximum-number-of-groups-getting-fresh-donuts)||[:memo:](https://leetcode.cn/articles/maximum-number-of-groups-getting-fresh-donuts/)|Hard|
@@ -1698,22 +1439,18 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1928|[积压订单中的订单总数 number-of-orders-in-the-backlog](https://leetcode.cn/problems/number-of-orders-in-the-backlog)||[:memo:](https://leetcode.cn/articles/number-of-orders-in-the-backlog/)|Medium|
 |1929|[有界数组中指定下标处的最大值 maximum-value-at-a-given-index-in-a-bounded-array](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array)||[:memo:](https://leetcode.cn/articles/maximum-value-at-a-given-index-in-a-bounded-array/)|Medium|
 |1930|[你能构造出连续值的最大数目 maximum-number-of-consecutive-values-you-can-make](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make)||[:memo:](https://leetcode.cn/articles/maximum-number-of-consecutive-values-you-can-make/)|Medium|
-|1931|[未知网格中的最短路径 shortest-path-in-a-hidden-grid](https://leetcode.cn/problems/shortest-path-in-a-hidden-grid)|:lock:|[:memo:](https://leetcode.cn/articles/shortest-path-in-a-hidden-grid/)|Medium|
 |1933|[字符串中不同整数的数目 number-of-different-integers-in-a-string](https://leetcode.cn/problems/number-of-different-integers-in-a-string)||[:memo:](https://leetcode.cn/articles/number-of-different-integers-in-a-string/)|Easy|
 |1934|[替换字符串中的括号内容 evaluate-the-bracket-pairs-of-a-string](https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string)||[:memo:](https://leetcode.cn/articles/evaluate-the-bracket-pairs-of-a-string/)|Medium|
 |1935|[还原排列的最少操作步数 minimum-number-of-operations-to-reinitialize-a-permutation](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation)||[:memo:](https://leetcode.cn/articles/minimum-number-of-operations-to-reinitialize-a-permutation/)|Medium|
 |1936|[好因子的最大数目 maximize-number-of-nice-divisors](https://leetcode.cn/problems/maximize-number-of-nice-divisors)||[:memo:](https://leetcode.cn/articles/maximize-number-of-nice-divisors/)|Hard|
-|1937|[最大化花园的美观度 maximize-the-beauty-of-the-garden](https://leetcode.cn/problems/maximize-the-beauty-of-the-garden)|:lock:|[:memo:](https://leetcode.cn/articles/maximize-the-beauty-of-the-garden/)|Hard|
 |1938|[最少操作使数组递增 minimum-operations-to-make-the-array-increasing](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing)||[:memo:](https://leetcode.cn/articles/minimum-operations-to-make-the-array-increasing/)|Easy|
 |1939|[统计一个圆中点的数目 queries-on-number-of-points-inside-a-circle](https://leetcode.cn/problems/queries-on-number-of-points-inside-a-circle)||[:memo:](https://leetcode.cn/articles/queries-on-number-of-points-inside-a-circle/)|Medium|
 |1940|[每个查询的最大异或值 maximum-xor-for-each-query](https://leetcode.cn/problems/maximum-xor-for-each-query)||[:memo:](https://leetcode.cn/articles/maximum-xor-for-each-query/)|Medium|
 |1941|[使字符串有序的最少操作次数 minimum-number-of-operations-to-make-string-sorted](https://leetcode.cn/problems/minimum-number-of-operations-to-make-string-sorted)||[:memo:](https://leetcode.cn/articles/minimum-number-of-operations-to-make-string-sorted/)|Hard|
-|1943|[统计距离最小的子串对个数 count-pairs-of-equal-substrings-with-minimum-difference](https://leetcode.cn/problems/count-pairs-of-equal-substrings-with-minimum-difference)|:lock:|[:memo:](https://leetcode.cn/articles/count-pairs-of-equal-substrings-with-minimum-difference/)|Medium|
 |1944|[截断句子 truncate-sentence](https://leetcode.cn/problems/truncate-sentence)||[:memo:](https://leetcode.cn/articles/truncate-sentence/)|Easy|
 |1945|[查找用户活跃分钟数 finding-the-users-active-minutes](https://leetcode.cn/problems/finding-the-users-active-minutes)||[:memo:](https://leetcode.cn/articles/finding-the-users-active-minutes/)|Medium|
 |1946|[绝对差值和 minimum-absolute-sum-difference](https://leetcode.cn/problems/minimum-absolute-sum-difference)||[:memo:](https://leetcode.cn/articles/minimum-absolute-sum-difference/)|Medium|
 |1947|[序列中不同最大公约数的数目 number-of-different-subsequences-gcds](https://leetcode.cn/problems/number-of-different-subsequences-gcds)||[:memo:](https://leetcode.cn/articles/number-of-different-subsequences-gcds/)|Hard|
-|1949|[实现 Trie （前缀树） II implement-trie-ii-prefix-tree](https://leetcode.cn/problems/implement-trie-ii-prefix-tree)|:lock:|[:memo:](https://leetcode.cn/articles/implement-trie-ii-prefix-tree/)|Medium|
 |1950|[数组元素积的符号 sign-of-the-product-of-an-array](https://leetcode.cn/problems/sign-of-the-product-of-an-array)||[:memo:](https://leetcode.cn/articles/sign-of-the-product-of-an-array/)|Easy|
 |1951|[找出游戏的获胜者 find-the-winner-of-the-circular-game](https://leetcode.cn/problems/find-the-winner-of-the-circular-game)||[:memo:](https://leetcode.cn/articles/find-the-winner-of-the-circular-game/)|Medium|
 |1952|[最少侧跳次数 minimum-sideway-jumps](https://leetcode.cn/problems/minimum-sideway-jumps)||[:memo:](https://leetcode.cn/articles/minimum-sideway-jumps/)|Medium|
@@ -1722,7 +1459,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1955|[座位预约管理系统 seat-reservation-manager](https://leetcode.cn/problems/seat-reservation-manager)||[:memo:](https://leetcode.cn/articles/seat-reservation-manager/)|Medium|
 |1956|[减小和重新排列数组后的最大元素 maximum-element-after-decreasing-and-rearranging](https://leetcode.cn/problems/maximum-element-after-decreasing-and-rearranging)||[:memo:](https://leetcode.cn/articles/maximum-element-after-decreasing-and-rearranging/)|Medium|
 |1957|[最近的房间 closest-room](https://leetcode.cn/problems/closest-room)||[:memo:](https://leetcode.cn/articles/closest-room/)|Hard|
-|1959|[隐藏网格下的最小消耗路径 minimum-path-cost-in-a-hidden-grid](https://leetcode.cn/problems/minimum-path-cost-in-a-hidden-grid)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-path-cost-in-a-hidden-grid/)|Medium|
 |1960|[判断句子是否为全字母句 check-if-the-sentence-is-pangram](https://leetcode.cn/problems/check-if-the-sentence-is-pangram)||[:memo:](https://leetcode.cn/articles/check-if-the-sentence-is-pangram/)|Easy|
 |1961|[雪糕的最大数量 maximum-ice-cream-bars](https://leetcode.cn/problems/maximum-ice-cream-bars)||[:memo:](https://leetcode.cn/articles/maximum-ice-cream-bars/)|Medium|
 |1962|[单线程 CPU single-threaded-cpu](https://leetcode.cn/problems/single-threaded-cpu)||[:memo:](https://leetcode.cn/articles/single-threaded-cpu/)|Medium|
@@ -1731,7 +1467,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1966|[最高频元素的频数 frequency-of-the-most-frequent-element](https://leetcode.cn/problems/frequency-of-the-most-frequent-element)||[:memo:](https://leetcode.cn/articles/frequency-of-the-most-frequent-element/)|Medium|
 |1967|[所有元音按顺序排布的最长子字符串 longest-substring-of-all-vowels-in-order](https://leetcode.cn/problems/longest-substring-of-all-vowels-in-order)||[:memo:](https://leetcode.cn/articles/longest-substring-of-all-vowels-in-order/)|Medium|
 |1968|[最高建筑高度 maximum-building-height](https://leetcode.cn/problems/maximum-building-height)||[:memo:](https://leetcode.cn/articles/maximum-building-height/)|Hard|
-|1969|[最多邀请的个数 maximum-number-of-accepted-invitations](https://leetcode.cn/problems/maximum-number-of-accepted-invitations)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-number-of-accepted-invitations/)|Medium|
 |1970|[将句子排序 sorting-the-sentence](https://leetcode.cn/problems/sorting-the-sentence)||[:memo:](https://leetcode.cn/articles/sorting-the-sentence/)|Easy|
 |1971|[增长的内存泄露 incremental-memory-leak](https://leetcode.cn/problems/incremental-memory-leak)||[:memo:](https://leetcode.cn/articles/incremental-memory-leak/)|Medium|
 |1972|[旋转盒子 rotating-the-box](https://leetcode.cn/problems/rotating-the-box)||[:memo:](https://leetcode.cn/articles/rotating-the-box/)|Medium|
@@ -1739,9 +1474,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1976|[将字符串拆分为递减的连续值 splitting-a-string-into-descending-consecutive-values](https://leetcode.cn/problems/splitting-a-string-into-descending-consecutive-values)||[:memo:](https://leetcode.cn/articles/splitting-a-string-into-descending-consecutive-values/)|Medium|
 |1977|[包含每个查询的最小区间 minimum-interval-to-include-each-query](https://leetcode.cn/problems/minimum-interval-to-include-each-query)||[:memo:](https://leetcode.cn/articles/minimum-interval-to-include-each-query/)|Hard|
 |1978|[邻位交换的最小次数 minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://leetcode.cn/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number)||[:memo:](https://leetcode.cn/articles/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)|Medium|
-|1979|[捉迷藏中可捕获的最大人数 maximum-number-of-people-that-can-be-caught-in-tag](https://leetcode.cn/problems/maximum-number-of-people-that-can-be-caught-in-tag)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-number-of-people-that-can-be-caught-in-tag/)|Medium|
-|1980|[有缺陷的传感器 faulty-sensor](https://leetcode.cn/problems/faulty-sensor)|:lock:|[:memo:](https://leetcode.cn/articles/faulty-sensor/)|Easy|
-|1982|[从未排序的链表中移除重复元素 remove-duplicates-from-an-unsorted-linked-list](https://leetcode.cn/problems/remove-duplicates-from-an-unsorted-linked-list)|:lock:|[:memo:](https://leetcode.cn/articles/remove-duplicates-from-an-unsorted-linked-list/)|Medium|
 |1983|[人口最多的年份 maximum-population-year](https://leetcode.cn/problems/maximum-population-year)||[:memo:](https://leetcode.cn/articles/maximum-population-year/)|Easy|
 |1984|[下标对中的最大距离 maximum-distance-between-a-pair-of-values](https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values)||[:memo:](https://leetcode.cn/articles/maximum-distance-between-a-pair-of-values/)|Medium|
 |1985|[子数组最小乘积的最大值 maximum-subarray-min-product](https://leetcode.cn/problems/maximum-subarray-min-product)||[:memo:](https://leetcode.cn/articles/maximum-subarray-min-product/)|Medium|
@@ -1750,22 +1482,17 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1988|[数组中最大数对和的最小值 minimize-maximum-pair-sum-in-array](https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array)||[:memo:](https://leetcode.cn/articles/minimize-maximum-pair-sum-in-array/)|Medium|
 |1989|[两个数组最小的异或值之和 minimum-xor-sum-of-two-arrays](https://leetcode.cn/problems/minimum-xor-sum-of-two-arrays)||[:memo:](https://leetcode.cn/articles/minimum-xor-sum-of-two-arrays/)|Hard|
 |1990|[矩阵中最大的三个菱形和 get-biggest-three-rhombus-sums-in-a-grid](https://leetcode.cn/problems/get-biggest-three-rhombus-sums-in-a-grid)||[:memo:](https://leetcode.cn/articles/get-biggest-three-rhombus-sums-in-a-grid/)|Medium|
-|1992|[给按照绝对值排序的链表排序 sort-linked-list-already-sorted-using-absolute-values](https://leetcode.cn/problems/sort-linked-list-already-sorted-using-absolute-values)|:lock:|[:memo:](https://leetcode.cn/articles/sort-linked-list-already-sorted-using-absolute-values/)|Medium|
 |1993|[找出所有子集的异或总和再求和 sum-of-all-subset-xor-totals](https://leetcode.cn/problems/sum-of-all-subset-xor-totals)||[:memo:](https://leetcode.cn/articles/sum-of-all-subset-xor-totals/)|Easy|
 |1994|[构成交替字符串需要的最小交换次数 minimum-number-of-swaps-to-make-the-binary-string-alternating](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating)||[:memo:](https://leetcode.cn/articles/minimum-number-of-swaps-to-make-the-binary-string-alternating/)|Medium|
 |1995|[找出和为指定值的下标对 finding-pairs-with-a-certain-sum](https://leetcode.cn/problems/finding-pairs-with-a-certain-sum)||[:memo:](https://leetcode.cn/articles/finding-pairs-with-a-certain-sum/)|Medium|
 |1996|[恰有 K 根木棍可以看到的排列数目 number-of-ways-to-rearrange-sticks-with-k-sticks-visible](https://leetcode.cn/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible)||[:memo:](https://leetcode.cn/articles/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)|Hard|
-|1997|[下个由相同数字构成的回文串 next-palindrome-using-same-digits](https://leetcode.cn/problems/next-palindrome-using-same-digits)|:lock:|[:memo:](https://leetcode.cn/articles/next-palindrome-using-same-digits/)|Hard|
 |1999|[哪种连续子字符串更长 longer-contiguous-segments-of-ones-than-zeros](https://leetcode.cn/problems/longer-contiguous-segments-of-ones-than-zeros)||[:memo:](https://leetcode.cn/articles/longer-contiguous-segments-of-ones-than-zeros/)|Easy|
 |2000|[准时到达的列车最小时速 minimum-speed-to-arrive-on-time](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time)||[:memo:](https://leetcode.cn/articles/minimum-speed-to-arrive-on-time/)|Medium|
 |2001|[跳跃游戏 VII jump-game-vii](https://leetcode.cn/problems/jump-game-vii)||[:memo:](https://leetcode.cn/articles/jump-game-vii/)|Medium|
 |2002|[石子游戏 VIII stone-game-viii](https://leetcode.cn/problems/stone-game-viii)||[:memo:](https://leetcode.cn/articles/stone-game-viii/)|Hard|
-|2003|[每个子数组的数字种类数 distinct-numbers-in-each-subarray](https://leetcode.cn/problems/distinct-numbers-in-each-subarray)|:lock:|[:memo:](https://leetcode.cn/articles/distinct-numbers-in-each-subarray/)|Medium|
 |2005|[检查是否区域内所有整数都被覆盖 check-if-all-the-integers-in-a-range-are-covered](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered)||[:memo:](https://leetcode.cn/articles/check-if-all-the-integers-in-a-range-are-covered/)|Easy|
 |2006|[找到需要补充粉笔的学生编号 find-the-student-that-will-replace-the-chalk](https://leetcode.cn/problems/find-the-student-that-will-replace-the-chalk)||[:memo:](https://leetcode.cn/articles/find-the-student-that-will-replace-the-chalk/)|Medium|
-|2007|[K 条高速公路的最大旅行费用 maximum-cost-of-trip-with-k-highways](https://leetcode.cn/problems/maximum-cost-of-trip-with-k-highways)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-cost-of-trip-with-k-highways/)|Hard|
 |2008|[反转表达式值的最少操作次数 minimum-cost-to-change-the-final-value-of-expression](https://leetcode.cn/problems/minimum-cost-to-change-the-final-value-of-expression)||[:memo:](https://leetcode.cn/articles/minimum-cost-to-change-the-final-value-of-expression/)|Hard|
-|2009|[包含所有前缀的最长单词 longest-word-with-all-prefixes](https://leetcode.cn/problems/longest-word-with-all-prefixes)|:lock:|[:memo:](https://leetcode.cn/articles/longest-word-with-all-prefixes/)|Medium|
 |2010|[检查某单词是否等于两单词之和 check-if-word-equals-summation-of-two-words](https://leetcode.cn/problems/check-if-word-equals-summation-of-two-words)||[:memo:](https://leetcode.cn/articles/check-if-word-equals-summation-of-two-words/)|Easy|
 |2011|[插入后的最大值 maximum-value-after-insertion](https://leetcode.cn/problems/maximum-value-after-insertion)||[:memo:](https://leetcode.cn/articles/maximum-value-after-insertion/)|Medium|
 |2012|[使用服务器处理任务 process-tasks-using-servers](https://leetcode.cn/problems/process-tasks-using-servers)||[:memo:](https://leetcode.cn/articles/process-tasks-using-servers/)|Medium|
@@ -1774,7 +1501,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2016|[使数组元素相等的减少操作次数 reduction-operations-to-make-the-array-elements-equal](https://leetcode.cn/problems/reduction-operations-to-make-the-array-elements-equal)||[:memo:](https://leetcode.cn/articles/reduction-operations-to-make-the-array-elements-equal/)|Medium|
 |2017|[使二进制字符串字符交替的最少反转次数 minimum-number-of-flips-to-make-the-binary-string-alternating](https://leetcode.cn/problems/minimum-number-of-flips-to-make-the-binary-string-alternating)||[:memo:](https://leetcode.cn/articles/minimum-number-of-flips-to-make-the-binary-string-alternating/)|Medium|
 |2018|[装包裹的最小浪费空间 minimum-space-wasted-from-packaging](https://leetcode.cn/problems/minimum-space-wasted-from-packaging)||[:memo:](https://leetcode.cn/articles/minimum-space-wasted-from-packaging/)|Hard|
-|2019|[两个行程编码数组的积 product-of-two-run-length-encoded-arrays](https://leetcode.cn/problems/product-of-two-run-length-encoded-arrays)|:lock:|[:memo:](https://leetcode.cn/articles/product-of-two-run-length-encoded-arrays/)|Medium|
 |2020|[删除一个元素使数组严格递增 remove-one-element-to-make-the-array-strictly-increasing](https://leetcode.cn/problems/remove-one-element-to-make-the-array-strictly-increasing)||[:memo:](https://leetcode.cn/articles/remove-one-element-to-make-the-array-strictly-increasing/)|Easy|
 |2021|[删除一个字符串中所有出现的给定子字符串 remove-all-occurrences-of-a-substring](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring)||[:memo:](https://leetcode.cn/articles/remove-all-occurrences-of-a-substring/)|Medium|
 |2022|[最大子序列交替和 maximum-alternating-subsequence-sum](https://leetcode.cn/problems/maximum-alternating-subsequence-sum)||[:memo:](https://leetcode.cn/articles/maximum-alternating-subsequence-sum/)|Medium|
@@ -1783,13 +1509,11 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2026|[合并若干三元组以形成目标三元组 merge-triplets-to-form-target-triplet](https://leetcode.cn/problems/merge-triplets-to-form-target-triplet)||[:memo:](https://leetcode.cn/articles/merge-triplets-to-form-target-triplet/)|Medium|
 |2027|[可移除字符的最大数目 maximum-number-of-removable-characters](https://leetcode.cn/problems/maximum-number-of-removable-characters)||[:memo:](https://leetcode.cn/articles/maximum-number-of-removable-characters/)|Medium|
 |2028|[最佳运动员的比拼回合 the-earliest-and-latest-rounds-where-players-compete](https://leetcode.cn/problems/the-earliest-and-latest-rounds-where-players-compete)||[:memo:](https://leetcode.cn/articles/the-earliest-and-latest-rounds-where-players-compete/)|Hard|
-|2029|[两个数组的最小乘积和 minimize-product-sum-of-two-arrays](https://leetcode.cn/problems/minimize-product-sum-of-two-arrays)|:lock:|[:memo:](https://leetcode.cn/articles/minimize-product-sum-of-two-arrays/)|Medium|
 |2031|[鸡蛋掉落-两枚鸡蛋 egg-drop-with-2-eggs-and-n-floors](https://leetcode.cn/problems/egg-drop-with-2-eggs-and-n-floors)||[:memo:](https://leetcode.cn/articles/egg-drop-with-2-eggs-and-n-floors/)|Medium|
 |2032|[字符串中的最大奇数 largest-odd-number-in-string](https://leetcode.cn/problems/largest-odd-number-in-string)||[:memo:](https://leetcode.cn/articles/largest-odd-number-in-string/)|Easy|
 |2033|[你完成的完整对局数 the-number-of-full-rounds-you-have-played](https://leetcode.cn/problems/the-number-of-full-rounds-you-have-played)||[:memo:](https://leetcode.cn/articles/the-number-of-full-rounds-you-have-played/)|Medium|
 |2034|[查询差绝对值的最小值 minimum-absolute-difference-queries](https://leetcode.cn/problems/minimum-absolute-difference-queries)||[:memo:](https://leetcode.cn/articles/minimum-absolute-difference-queries/)|Medium|
 |2035|[统计子岛屿 count-sub-islands](https://leetcode.cn/problems/count-sub-islands)||[:memo:](https://leetcode.cn/articles/count-sub-islands/)|Medium|
-|2036|[统计数对 count-pairs-in-two-arrays](https://leetcode.cn/problems/count-pairs-in-two-arrays)|:lock:|[:memo:](https://leetcode.cn/articles/count-pairs-in-two-arrays/)|Medium|
 |2037|[统计平方和三元组的数目 count-square-sum-triples](https://leetcode.cn/problems/count-square-sum-triples)||[:memo:](https://leetcode.cn/articles/count-square-sum-triples/)|Easy|
 |2038|[迷宫中离入口最近的出口 nearest-exit-from-entrance-in-maze](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze)||[:memo:](https://leetcode.cn/articles/nearest-exit-from-entrance-in-maze/)|Medium|
 |2039|[求和游戏 sum-game](https://leetcode.cn/problems/sum-game)||[:memo:](https://leetcode.cn/articles/sum-game/)|Medium|
@@ -1797,40 +1521,27 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2042|[两个数对之间的最大乘积差 maximum-product-difference-between-two-pairs](https://leetcode.cn/problems/maximum-product-difference-between-two-pairs)||[:memo:](https://leetcode.cn/articles/maximum-product-difference-between-two-pairs/)|Easy|
 |2043|[循环轮转矩阵 cyclically-rotating-a-grid](https://leetcode.cn/problems/cyclically-rotating-a-grid)||[:memo:](https://leetcode.cn/articles/cyclically-rotating-a-grid/)|Medium|
 |2044|[最美子字符串的数目 number-of-wonderful-substrings](https://leetcode.cn/problems/number-of-wonderful-substrings)||[:memo:](https://leetcode.cn/articles/number-of-wonderful-substrings/)|Medium|
-|2045|[割绳子 cutting-ribbons](https://leetcode.cn/problems/cutting-ribbons)|:lock:|[:memo:](https://leetcode.cn/articles/cutting-ribbons/)|Medium|
 |2047|[寻找峰值 II find-a-peak-element-ii](https://leetcode.cn/problems/find-a-peak-element-ii)||[:memo:](https://leetcode.cn/articles/find-a-peak-element-ii/)|Medium|
 |2048|[基于排列构建数组 build-array-from-permutation](https://leetcode.cn/problems/build-array-from-permutation)||[:memo:](https://leetcode.cn/articles/build-array-from-permutation/)|Easy|
 |2049|[消灭怪物的最大数量 eliminate-maximum-number-of-monsters](https://leetcode.cn/problems/eliminate-maximum-number-of-monsters)||[:memo:](https://leetcode.cn/articles/eliminate-maximum-number-of-monsters/)|Medium|
 |2050|[统计好数字的数目 count-good-numbers](https://leetcode.cn/problems/count-good-numbers)||[:memo:](https://leetcode.cn/articles/count-good-numbers/)|Medium|
 |2051|[最长公共子路径 longest-common-subpath](https://leetcode.cn/problems/longest-common-subpath)||[:memo:](https://leetcode.cn/articles/longest-common-subpath/)|Hard|
-|2052|[给定二叉搜索树的插入顺序求深度 depth-of-bst-given-insertion-order](https://leetcode.cn/problems/depth-of-bst-given-insertion-order)|:lock:|[:memo:](https://leetcode.cn/articles/depth-of-bst-given-insertion-order/)|Medium|
 |2053|[检查是否所有字符出现次数相同 check-if-all-characters-have-equal-number-of-occurrences](https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences)||[:memo:](https://leetcode.cn/articles/check-if-all-characters-have-equal-number-of-occurrences/)|Easy|
 |2054|[最小未被占据椅子的编号 the-number-of-the-smallest-unoccupied-chair](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair)||[:memo:](https://leetcode.cn/articles/the-number-of-the-smallest-unoccupied-chair/)|Medium|
 |2055|[描述绘画结果 describe-the-painting](https://leetcode.cn/problems/describe-the-painting)||[:memo:](https://leetcode.cn/articles/describe-the-painting/)|Medium|
-|2056|[跳跃游戏 VIII jump-game-viii](https://leetcode.cn/problems/jump-game-viii)|:lock:|[:memo:](https://leetcode.cn/articles/jump-game-viii/)|Medium|
 |2058|[数组串联 concatenation-of-array](https://leetcode.cn/problems/concatenation-of-array)||[:memo:](https://leetcode.cn/articles/concatenation-of-array/)|Easy|
 |2059|[长度为 3 的不同回文子序列 unique-length-3-palindromic-subsequences](https://leetcode.cn/problems/unique-length-3-palindromic-subsequences)||[:memo:](https://leetcode.cn/articles/unique-length-3-palindromic-subsequences/)|Medium|
 |2060|[合并多棵二叉搜索树 merge-bsts-to-create-single-bst](https://leetcode.cn/problems/merge-bsts-to-create-single-bst)||[:memo:](https://leetcode.cn/articles/merge-bsts-to-create-single-bst/)|Hard|
 |2061|[用三种不同颜色为网格涂色 painting-a-grid-with-three-different-colors](https://leetcode.cn/problems/painting-a-grid-with-three-different-colors)||[:memo:](https://leetcode.cn/articles/painting-a-grid-with-three-different-colors/)|Hard|
-|2062|[Nim 游戏 II game-of-nim](https://leetcode.cn/problems/game-of-nim)|:lock:|[:memo:](https://leetcode.cn/articles/game-of-nim/)|Medium|
-|2065|[检查方程中的矛盾之处 check-for-contradictions-in-equations](https://leetcode.cn/problems/check-for-contradictions-in-equations)|:lock:|[:memo:](https://leetcode.cn/articles/check-for-contradictions-in-equations/)|Hard|
 |2066|[新增的最少台阶数 add-minimum-number-of-rungs](https://leetcode.cn/problems/add-minimum-number-of-rungs)||[:memo:](https://leetcode.cn/articles/add-minimum-number-of-rungs/)|Medium|
 |2067|[扣分后的最大得分 maximum-number-of-points-with-cost](https://leetcode.cn/problems/maximum-number-of-points-with-cost)||[:memo:](https://leetcode.cn/articles/maximum-number-of-points-with-cost/)|Medium|
 |2068|[查询最大基因差 maximum-genetic-difference-query](https://leetcode.cn/problems/maximum-genetic-difference-query)||[:memo:](https://leetcode.cn/articles/maximum-genetic-difference-query/)|Hard|
-|2069|[第 K 小的子数组和· kth-smallest-subarray-sum](https://leetcode.cn/problems/kth-smallest-subarray-sum)|:lock:|[:memo:](https://leetcode.cn/articles/kth-smallest-subarray-sum/)|Medium|
-|2070|[判断字符串是否可分解为值均等的子串 check-if-string-is-decomposable-into-value-equal-substrings](https://leetcode.cn/problems/check-if-string-is-decomposable-into-value-equal-substrings)|:lock:|[:memo:](https://leetcode.cn/articles/check-if-string-is-decomposable-into-value-equal-substrings/)|Easy|
-|2071|[排序数组之间的最长公共子序列 longest-common-subsequence-between-sorted-arrays](https://leetcode.cn/problems/longest-common-subsequence-between-sorted-arrays)|:lock:|[:memo:](https://leetcode.cn/articles/longest-common-subsequence-between-sorted-arrays/)|Medium|
-|2072|[所有子数组最小值中的最大值 maximum-of-minimum-values-in-all-subarrays](https://leetcode.cn/problems/maximum-of-minimum-values-in-all-subarrays)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-of-minimum-values-in-all-subarrays/)|Medium|
-|2073|[感染 K 种病毒所需的最短时间 minimum-time-for-k-virus-variants-to-spread](https://leetcode.cn/problems/minimum-time-for-k-virus-variants-to-spread)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-time-for-k-virus-variants-to-spread/)|Hard|
-|2074|[安装栅栏 II erect-the-fence-ii](https://leetcode.cn/problems/erect-the-fence-ii)|:lock:|[:memo:](https://leetcode.cn/articles/erect-the-fence-ii/)|Hard|
-|2075|[街上最亮的位置 brightest-position-on-street](https://leetcode.cn/problems/brightest-position-on-street)|:lock:|[:memo:](https://leetcode.cn/articles/brightest-position-on-street/)|Medium|
 |2076|[字符串转化后的各位数字之和 sum-of-digits-of-string-after-convert](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert)||[:memo:](https://leetcode.cn/articles/sum-of-digits-of-string-after-convert/)|Easy|
 |2077|[子字符串突变后可能得到的最大整数 largest-number-after-mutating-substring](https://leetcode.cn/problems/largest-number-after-mutating-substring)||[:memo:](https://leetcode.cn/articles/largest-number-after-mutating-substring/)|Medium|
 |2078|[最大兼容性评分和 maximum-compatibility-score-sum](https://leetcode.cn/problems/maximum-compatibility-score-sum)||[:memo:](https://leetcode.cn/articles/maximum-compatibility-score-sum/)|Medium|
 |2079|[删除系统中的重复文件夹 delete-duplicate-folders-in-system](https://leetcode.cn/problems/delete-duplicate-folders-in-system)||[:memo:](https://leetcode.cn/articles/delete-duplicate-folders-in-system/)|Hard|
 |2080|[检查操作是否合法 check-if-move-is-legal](https://leetcode.cn/problems/check-if-move-is-legal)||[:memo:](https://leetcode.cn/articles/check-if-move-is-legal/)|Medium|
 |2081|[K 次调整数组大小浪费的最小总空间 minimum-total-space-wasted-with-k-resizing-operations](https://leetcode.cn/problems/minimum-total-space-wasted-with-k-resizing-operations)||[:memo:](https://leetcode.cn/articles/minimum-total-space-wasted-with-k-resizing-operations/)|Medium|
-|2082|[将句子分隔成行的最低成本 minimum-cost-to-separate-sentence-into-rows](https://leetcode.cn/problems/minimum-cost-to-separate-sentence-into-rows)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-cost-to-separate-sentence-into-rows/)|Medium|
 |2083|[三除数 three-divisors](https://leetcode.cn/problems/three-divisors)||[:memo:](https://leetcode.cn/articles/three-divisors/)|Easy|
 |2084|[你可以工作的最大周数 maximum-number-of-weeks-for-which-you-can-work](https://leetcode.cn/problems/maximum-number-of-weeks-for-which-you-can-work)||[:memo:](https://leetcode.cn/articles/maximum-number-of-weeks-for-which-you-can-work/)|Medium|
 |2085|[构造元素不等于两相邻元素平均值的数组 array-with-elements-not-equal-to-average-of-neighbors](https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors)||[:memo:](https://leetcode.cn/articles/array-with-elements-not-equal-to-average-of-neighbors/)|Medium|
@@ -1854,7 +1565,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2107|[找出不同的二进制字符串 find-unique-binary-string](https://leetcode.cn/problems/find-unique-binary-string)||[:memo:](https://leetcode.cn/articles/find-unique-binary-string/)|Medium|
 |2108|[最小化目标值与所选元素的差 minimize-the-difference-between-target-and-chosen-elements](https://leetcode.cn/problems/minimize-the-difference-between-target-and-chosen-elements)||[:memo:](https://leetcode.cn/articles/minimize-the-difference-between-target-and-chosen-elements/)|Medium|
 |2109|[从子集的和还原数组 find-array-given-subset-sums](https://leetcode.cn/problems/find-array-given-subset-sums)||[:memo:](https://leetcode.cn/articles/find-array-given-subset-sums/)|Hard|
-|2111|[未排序数组中的可被二分搜索的数 binary-searchable-numbers-in-an-unsorted-array](https://leetcode.cn/problems/binary-searchable-numbers-in-an-unsorted-array)|:lock:|[:memo:](https://leetcode.cn/articles/binary-searchable-numbers-in-an-unsorted-array/)|Medium|
 |2112|[学生分数的最小差值 minimum-difference-between-highest-and-lowest-of-k-scores](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores)||[:memo:](https://leetcode.cn/articles/minimum-difference-between-highest-and-lowest-of-k-scores/)|Easy|
 |2113|[找出数组中的第 K 大整数 find-the-kth-largest-integer-in-the-array](https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array)||[:memo:](https://leetcode.cn/articles/find-the-kth-largest-integer-in-the-array/)|Medium|
 |2114|[完成任务的最少工作时间段 minimum-number-of-work-sessions-to-finish-the-tasks](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks)||[:memo:](https://leetcode.cn/articles/minimum-number-of-work-sessions-to-finish-the-tasks/)|Medium|
@@ -1868,7 +1578,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2123|[游戏中弱角色的数量 the-number-of-weak-characters-in-the-game](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game)||[:memo:](https://leetcode.cn/articles/the-number-of-weak-characters-in-the-game/)|Medium|
 |2124|[访问完所有房间的第一天 first-day-where-you-have-been-in-all-the-rooms](https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms)||[:memo:](https://leetcode.cn/articles/first-day-where-you-have-been-in-all-the-rooms/)|Medium|
 |2125|[数组的最大公因数排序 gcd-sort-of-an-array](https://leetcode.cn/problems/gcd-sort-of-an-array)||[:memo:](https://leetcode.cn/articles/gcd-sort-of-an-array/)|Hard|
-|2126|[值等于子节点值之和的节点数量 count-nodes-equal-to-sum-of-descendants](https://leetcode.cn/problems/count-nodes-equal-to-sum-of-descendants)|:lock:|[:memo:](https://leetcode.cn/articles/count-nodes-equal-to-sum-of-descendants/)|Medium|
 |2128|[反转单词前缀 reverse-prefix-of-word](https://leetcode.cn/problems/reverse-prefix-of-word)||[:memo:](https://leetcode.cn/articles/reverse-prefix-of-word/)|Easy|
 |2129|[可互换矩形的组数 number-of-pairs-of-interchangeable-rectangles](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles)||[:memo:](https://leetcode.cn/articles/number-of-pairs-of-interchangeable-rectangles/)|Medium|
 |2130|[两个回文子序列长度的最大乘积 maximum-product-of-the-length-of-two-palindromic-subsequences](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-subsequences)||[:memo:](https://leetcode.cn/articles/maximum-product-of-the-length-of-two-palindromic-subsequences/)|Medium|
@@ -1881,8 +1590,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2138|[数组美丽值求和 sum-of-beauty-in-the-array](https://leetcode.cn/problems/sum-of-beauty-in-the-array)||[:memo:](https://leetcode.cn/articles/sum-of-beauty-in-the-array/)|Medium|
 |2139|[检测正方形 detect-squares](https://leetcode.cn/problems/detect-squares)||[:memo:](https://leetcode.cn/articles/detect-squares/)|Medium|
 |2140|[重复 K 次的最长子序列 longest-subsequence-repeated-k-times](https://leetcode.cn/problems/longest-subsequence-repeated-k-times)||[:memo:](https://leetcode.cn/articles/longest-subsequence-repeated-k-times/)|Hard|
-|2141|[最小的仅由两个数组成的倍数 smallest-greater-multiple-made-of-two-digits](https://leetcode.cn/problems/smallest-greater-multiple-made-of-two-digits)|:lock:|[:memo:](https://leetcode.cn/articles/smallest-greater-multiple-made-of-two-digits/)|Medium|
-|2142|[每段建筑物的平均高度 average-height-of-buildings-in-each-segment](https://leetcode.cn/problems/average-height-of-buildings-in-each-segment)|:lock:|[:memo:](https://leetcode.cn/articles/average-height-of-buildings-in-each-segment/)|Medium|
 |2144|[增量元素之间的最大差值 maximum-difference-between-increasing-elements](https://leetcode.cn/problems/maximum-difference-between-increasing-elements)||[:memo:](https://leetcode.cn/articles/maximum-difference-between-increasing-elements/)|Easy|
 |2145|[网格游戏 grid-game](https://leetcode.cn/problems/grid-game)||[:memo:](https://leetcode.cn/articles/grid-game/)|Medium|
 |2146|[判断单词是否能放入填字游戏内 check-if-word-can-be-placed-in-crossword](https://leetcode.cn/problems/check-if-word-can-be-placed-in-crossword)||[:memo:](https://leetcode.cn/articles/check-if-word-can-be-placed-in-crossword/)|Medium|
@@ -1891,7 +1598,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2149|[如果相邻两个颜色均相同则删除当前颜色 remove-colored-pieces-if-both-neighbors-are-the-same-color](https://leetcode.cn/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color)||[:memo:](https://leetcode.cn/articles/remove-colored-pieces-if-both-neighbors-are-the-same-color/)|Medium|
 |2150|[两个有序数组的第 K 小乘积 kth-smallest-product-of-two-sorted-arrays](https://leetcode.cn/problems/kth-smallest-product-of-two-sorted-arrays)||[:memo:](https://leetcode.cn/articles/kth-smallest-product-of-two-sorted-arrays/)|Hard|
 |2151|[网络空闲的时刻 the-time-when-the-network-becomes-idle](https://leetcode.cn/problems/the-time-when-the-network-becomes-idle)||[:memo:](https://leetcode.cn/articles/the-time-when-the-network-becomes-idle/)|Medium|
-|2153|[斐波那契树的移除子树游戏 subtree-removal-game-with-fibonacci-tree](https://leetcode.cn/problems/subtree-removal-game-with-fibonacci-tree)|:lock:|[:memo:](https://leetcode.cn/articles/subtree-removal-game-with-fibonacci-tree/)|Hard|
 |2154|[转换字符串的最少操作次数 minimum-moves-to-convert-string](https://leetcode.cn/problems/minimum-moves-to-convert-string)||[:memo:](https://leetcode.cn/articles/minimum-moves-to-convert-string/)|Easy|
 |2155|[找出缺失的观测数据 find-missing-observations](https://leetcode.cn/problems/find-missing-observations)||[:memo:](https://leetcode.cn/articles/find-missing-observations/)|Medium|
 |2156|[石子游戏 IX stone-game-ix](https://leetcode.cn/problems/stone-game-ix)||[:memo:](https://leetcode.cn/articles/stone-game-ix/)|Medium|
@@ -1936,12 +1642,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2200|[用邮票贴满网格图 stamping-the-grid](https://leetcode.cn/problems/stamping-the-grid)||[:memo:](https://leetcode.cn/articles/stamping-the-grid/)|Hard|
 |2201|[合法重新排列数对 valid-arrangement-of-pairs](https://leetcode.cn/problems/valid-arrangement-of-pairs)||[:memo:](https://leetcode.cn/articles/valid-arrangement-of-pairs/)|Hard|
 |2202|[k 镜像数字的和 sum-of-k-mirror-numbers](https://leetcode.cn/problems/sum-of-k-mirror-numbers)||[:memo:](https://leetcode.cn/articles/sum-of-k-mirror-numbers/)|Hard|
-|2203|[扫地机器人清扫过的空间个数 number-of-spaces-cleaning-robot-cleaned](https://leetcode.cn/problems/number-of-spaces-cleaning-robot-cleaned)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-spaces-cleaning-robot-cleaned/)|Medium|
 |2204|[找到和最大的长度为 K 的子序列 find-subsequence-of-length-k-with-the-largest-sum](https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum)||[:memo:](https://leetcode.cn/articles/find-subsequence-of-length-k-with-the-largest-sum/)|Easy|
 |2205|[适合打劫银行的日子 find-good-days-to-rob-the-bank](https://leetcode.cn/problems/find-good-days-to-rob-the-bank)||[:memo:](https://leetcode.cn/articles/find-good-days-to-rob-the-bank/)|Medium|
 |2206|[引爆最多的炸弹 detonate-the-maximum-bombs](https://leetcode.cn/problems/detonate-the-maximum-bombs)||[:memo:](https://leetcode.cn/articles/detonate-the-maximum-bombs/)|Medium|
 |2207|[序列顺序查询 sequentially-ordinal-rank-tracker](https://leetcode.cn/problems/sequentially-ordinal-rank-tracker)||[:memo:](https://leetcode.cn/articles/sequentially-ordinal-rank-tracker/)|Hard|
-|2209|[等计数子串的数量 number-of-equal-count-substrings](https://leetcode.cn/problems/number-of-equal-count-substrings)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-equal-count-substrings/)|Medium|
 |2210|[找出数组排序后的目标下标 find-target-indices-after-sorting-array](https://leetcode.cn/problems/find-target-indices-after-sorting-array)||[:memo:](https://leetcode.cn/articles/find-target-indices-after-sorting-array/)|Easy|
 |2211|[半径为 k 的子数组平均值 k-radius-subarray-averages](https://leetcode.cn/problems/k-radius-subarray-averages)||[:memo:](https://leetcode.cn/articles/k-radius-subarray-averages/)|Medium|
 |2212|[从数组中移除最大值和最小值 removing-minimum-and-maximum-from-array](https://leetcode.cn/problems/removing-minimum-and-maximum-from-array)||[:memo:](https://leetcode.cn/articles/removing-minimum-and-maximum-from-array/)|Medium|
@@ -1949,17 +1653,14 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2215|[找出 3 位偶数 finding-3-digit-even-numbers](https://leetcode.cn/problems/finding-3-digit-even-numbers)||[:memo:](https://leetcode.cn/articles/finding-3-digit-even-numbers/)|Easy|
 |2216|[删除链表的中间节点 delete-the-middle-node-of-a-linked-list](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list)||[:memo:](https://leetcode.cn/articles/delete-the-middle-node-of-a-linked-list/)|Medium|
 |2217|[从二叉树一个节点到另一个节点每一步的方向 step-by-step-directions-from-a-binary-tree-node-to-another](https://leetcode.cn/problems/step-by-step-directions-from-a-binary-tree-node-to-another)||[:memo:](https://leetcode.cn/articles/step-by-step-directions-from-a-binary-tree-node-to-another/)|Medium|
-|2218|[殊途同归 paths-in-maze-that-lead-to-same-room](https://leetcode.cn/problems/paths-in-maze-that-lead-to-same-room)|:lock:|[:memo:](https://leetcode.cn/articles/paths-in-maze-that-lead-to-same-room/)|Medium|
 |2219|[句子中的最多单词数 maximum-number-of-words-found-in-sentences](https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences)||[:memo:](https://leetcode.cn/articles/maximum-number-of-words-found-in-sentences/)|Easy|
 |2220|[从给定原材料中找到所有可以做出的菜 find-all-possible-recipes-from-given-supplies](https://leetcode.cn/problems/find-all-possible-recipes-from-given-supplies)||[:memo:](https://leetcode.cn/articles/find-all-possible-recipes-from-given-supplies/)|Medium|
 |2221|[判断一个括号字符串是否有效 check-if-a-parentheses-string-can-be-valid](https://leetcode.cn/problems/check-if-a-parentheses-string-can-be-valid)||[:memo:](https://leetcode.cn/articles/check-if-a-parentheses-string-can-be-valid/)|Medium|
 |2222|[一个区间内所有数乘积的缩写 abbreviating-the-product-of-a-range](https://leetcode.cn/problems/abbreviating-the-product-of-a-range)||[:memo:](https://leetcode.cn/articles/abbreviating-the-product-of-a-range/)|Hard|
-|2225|[求以相同字母开头和结尾的子串总数 substrings-that-begin-and-end-with-the-same-letter](https://leetcode.cn/problems/substrings-that-begin-and-end-with-the-same-letter)|:lock:|[:memo:](https://leetcode.cn/articles/substrings-that-begin-and-end-with-the-same-letter/)|Medium|
 |2226|[环和杆 rings-and-rods](https://leetcode.cn/problems/rings-and-rods)||[:memo:](https://leetcode.cn/articles/rings-and-rods/)|Easy|
 |2227|[子数组范围和 sum-of-subarray-ranges](https://leetcode.cn/problems/sum-of-subarray-ranges)||[:memo:](https://leetcode.cn/articles/sum-of-subarray-ranges/)|Medium|
 |2228|[给植物浇水 II watering-plants-ii](https://leetcode.cn/problems/watering-plants-ii)||[:memo:](https://leetcode.cn/articles/watering-plants-ii/)|Medium|
 |2229|[摘水果 maximum-fruits-harvested-after-at-most-k-steps](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps)||[:memo:](https://leetcode.cn/articles/maximum-fruits-harvested-after-at-most-k-steps/)|Hard|
-|2230|[前往目标城市的最小费用 minimum-cost-to-reach-city-with-discounts](https://leetcode.cn/problems/minimum-cost-to-reach-city-with-discounts)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-cost-to-reach-city-with-discounts/)|Medium|
 |2231|[找出数组中的第一个回文字符串 find-first-palindromic-string-in-the-array](https://leetcode.cn/problems/find-first-palindromic-string-in-the-array)||[:memo:](https://leetcode.cn/articles/find-first-palindromic-string-in-the-array/)|Easy|
 |2232|[向字符串添加空格 adding-spaces-to-a-string](https://leetcode.cn/problems/adding-spaces-to-a-string)||[:memo:](https://leetcode.cn/articles/adding-spaces-to-a-string/)|Medium|
 |2233|[股票平滑下跌阶段的数目 number-of-smooth-descent-periods-of-a-stock](https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock)||[:memo:](https://leetcode.cn/articles/number-of-smooth-descent-periods-of-a-stock/)|Medium|
@@ -1971,12 +1672,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2239|[执行所有后缀指令 execution-of-all-suffix-instructions-staying-in-a-grid](https://leetcode.cn/problems/execution-of-all-suffix-instructions-staying-in-a-grid)||[:memo:](https://leetcode.cn/articles/execution-of-all-suffix-instructions-staying-in-a-grid/)|Medium|
 |2240|[相同元素的间隔之和 intervals-between-identical-elements](https://leetcode.cn/problems/intervals-between-identical-elements)||[:memo:](https://leetcode.cn/articles/intervals-between-identical-elements/)|Medium|
 |2241|[还原原数组 recover-the-original-array](https://leetcode.cn/problems/recover-the-original-array)||[:memo:](https://leetcode.cn/articles/recover-the-original-array/)|Hard|
-|2242|[长度为 K 的最大偶数和子序列 subsequence-of-size-k-with-the-largest-even-sum](https://leetcode.cn/problems/subsequence-of-size-k-with-the-largest-even-sum)|:lock:|[:memo:](https://leetcode.cn/articles/subsequence-of-size-k-with-the-largest-even-sum/)|Medium|
 |2243|[检查是否所有 A 都在 B 之前 check-if-all-as-appears-before-all-bs](https://leetcode.cn/problems/check-if-all-as-appears-before-all-bs)||[:memo:](https://leetcode.cn/articles/check-if-all-as-appears-before-all-bs/)|Easy|
 |2244|[银行中的激光束数量 number-of-laser-beams-in-a-bank](https://leetcode.cn/problems/number-of-laser-beams-in-a-bank)||[:memo:](https://leetcode.cn/articles/number-of-laser-beams-in-a-bank/)|Medium|
 |2245|[摧毁小行星 destroying-asteroids](https://leetcode.cn/problems/destroying-asteroids)||[:memo:](https://leetcode.cn/articles/destroying-asteroids/)|Medium|
 |2246|[参加会议的最多员工数 maximum-employees-to-be-invited-to-a-meeting](https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting)||[:memo:](https://leetcode.cn/articles/maximum-employees-to-be-invited-to-a-meeting/)|Hard|
-|2247|[分享 K 个糖果后独特口味的数量 number-of-unique-flavors-after-sharing-k-candies](https://leetcode.cn/problems/number-of-unique-flavors-after-sharing-k-candies)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-unique-flavors-after-sharing-k-candies/)|Medium|
 |2248|[打折购买糖果的最小开销 minimum-cost-of-buying-candies-with-discount](https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount)||[:memo:](https://leetcode.cn/articles/minimum-cost-of-buying-candies-with-discount/)|Easy|
 |2249|[统计隐藏数组数目 count-the-hidden-sequences](https://leetcode.cn/problems/count-the-hidden-sequences)||[:memo:](https://leetcode.cn/articles/count-the-hidden-sequences/)|Medium|
 |2250|[价格范围内最高排名的 K 样物品 k-highest-ranked-items-within-a-price-range](https://leetcode.cn/problems/k-highest-ranked-items-within-a-price-range)||[:memo:](https://leetcode.cn/articles/k-highest-ranked-items-within-a-price-range/)|Medium|
@@ -1985,8 +1684,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2255|[最少交换次数来组合所有的 1 II minimum-swaps-to-group-all-1s-together-ii](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii)||[:memo:](https://leetcode.cn/articles/minimum-swaps-to-group-all-1s-together-ii/)|Medium|
 |2256|[统计追加字母可以获得的单词数 count-words-obtained-after-adding-a-letter](https://leetcode.cn/problems/count-words-obtained-after-adding-a-letter)||[:memo:](https://leetcode.cn/articles/count-words-obtained-after-adding-a-letter/)|Medium|
 |2257|[全部开花的最早一天 earliest-possible-day-of-full-bloom](https://leetcode.cn/problems/earliest-possible-day-of-full-bloom)||[:memo:](https://leetcode.cn/articles/earliest-possible-day-of-full-bloom/)|Hard|
-|2258|[查询删除和添加元素后的数组 elements-in-array-after-removing-and-replacing-elements](https://leetcode.cn/problems/elements-in-array-after-removing-and-replacing-elements)|:lock:|[:memo:](https://leetcode.cn/articles/elements-in-array-after-removing-and-replacing-elements/)|Medium|
-|2259|[使矩阵中的 1 互不相邻的最小操作数 minimum-operations-to-remove-adjacent-ones-in-matrix](https://leetcode.cn/problems/minimum-operations-to-remove-adjacent-ones-in-matrix)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-operations-to-remove-adjacent-ones-in-matrix/)|Hard|
 |2260|[将字符串拆分为若干长度为 k 的组 divide-a-string-into-groups-of-size-k](https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k)||[:memo:](https://leetcode.cn/articles/divide-a-string-into-groups-of-size-k/)|Easy|
 |2261|[分组得分最高的所有下标 all-divisions-with-the-highest-score-of-a-binary-array](https://leetcode.cn/problems/all-divisions-with-the-highest-score-of-a-binary-array)||[:memo:](https://leetcode.cn/articles/all-divisions-with-the-highest-score-of-a-binary-array/)|Medium|
 |2262|[解决智力问题 solving-questions-with-brainpower](https://leetcode.cn/problems/solving-questions-with-brainpower)||[:memo:](https://leetcode.cn/articles/solving-questions-with-brainpower/)|Medium|
@@ -1995,12 +1692,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2265|[根据给定数字划分数组 partition-array-according-to-given-pivot](https://leetcode.cn/problems/partition-array-according-to-given-pivot)||[:memo:](https://leetcode.cn/articles/partition-array-according-to-given-pivot/)|Medium|
 |2266|[设置时间的最少代价 minimum-cost-to-set-cooking-time](https://leetcode.cn/problems/minimum-cost-to-set-cooking-time)||[:memo:](https://leetcode.cn/articles/minimum-cost-to-set-cooking-time/)|Medium|
 |2267|[删除元素后和的最小差值 minimum-difference-in-sums-after-removal-of-elements](https://leetcode.cn/problems/minimum-difference-in-sums-after-removal-of-elements)||[:memo:](https://leetcode.cn/articles/minimum-difference-in-sums-after-removal-of-elements/)|Hard|
-|2268|[通过翻转行或列来去除所有的 1 remove-all-ones-with-row-and-column-flips](https://leetcode.cn/problems/remove-all-ones-with-row-and-column-flips)|:lock:|[:memo:](https://leetcode.cn/articles/remove-all-ones-with-row-and-column-flips/)|Medium|
 |2269|[元素计数 count-elements-with-strictly-smaller-and-greater-elements](https://leetcode.cn/problems/count-elements-with-strictly-smaller-and-greater-elements)||[:memo:](https://leetcode.cn/articles/count-elements-with-strictly-smaller-and-greater-elements/)|Easy|
 |2270|[找出数组中的所有孤独数字 find-all-lonely-numbers-in-the-array](https://leetcode.cn/problems/find-all-lonely-numbers-in-the-array)||[:memo:](https://leetcode.cn/articles/find-all-lonely-numbers-in-the-array/)|Medium|
 |2271|[按符号重排数组 rearrange-array-elements-by-sign](https://leetcode.cn/problems/rearrange-array-elements-by-sign)||[:memo:](https://leetcode.cn/articles/rearrange-array-elements-by-sign/)|Medium|
 |2272|[基于陈述统计最多好人数 maximum-good-people-based-on-statements](https://leetcode.cn/problems/maximum-good-people-based-on-statements)||[:memo:](https://leetcode.cn/articles/maximum-good-people-based-on-statements/)|Hard|
-|2273|[通过倒水操作让所有的水桶所含水量相等 pour-water-between-buckets-to-make-water-levels-equal](https://leetcode.cn/problems/pour-water-between-buckets-to-make-water-levels-equal)|:lock:|[:memo:](https://leetcode.cn/articles/pour-water-between-buckets-to-make-water-levels-equal/)|Medium|
 |2274|[将找到的值乘以 2 keep-multiplying-found-values-by-two](https://leetcode.cn/problems/keep-multiplying-found-values-by-two)||[:memo:](https://leetcode.cn/articles/keep-multiplying-found-values-by-two/)|Easy|
 |2275|[查找给定哈希值的子串 find-substring-with-given-hash-value](https://leetcode.cn/problems/find-substring-with-given-hash-value)||[:memo:](https://leetcode.cn/articles/find-substring-with-given-hash-value/)|Hard|
 |2276|[字符串分组 groups-of-strings](https://leetcode.cn/problems/groups-of-strings)||[:memo:](https://leetcode.cn/articles/groups-of-strings/)|Hard|
@@ -2008,12 +1703,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2278|[找到和为给定整数的三个连续整数 find-three-consecutive-integers-that-sum-to-a-given-number](https://leetcode.cn/problems/find-three-consecutive-integers-that-sum-to-a-given-number)||[:memo:](https://leetcode.cn/articles/find-three-consecutive-integers-that-sum-to-a-given-number/)|Medium|
 |2279|[拆分成最多数目的正偶数之和 maximum-split-of-positive-even-integers](https://leetcode.cn/problems/maximum-split-of-positive-even-integers)||[:memo:](https://leetcode.cn/articles/maximum-split-of-positive-even-integers/)|Medium|
 |2280|[统计数组中好三元组数目 count-good-triplets-in-an-array](https://leetcode.cn/problems/count-good-triplets-in-an-array)||[:memo:](https://leetcode.cn/articles/count-good-triplets-in-an-array/)|Hard|
-|2282|[在两个数组的区间中选取数字 choose-numbers-from-two-arrays-in-range](https://leetcode.cn/problems/choose-numbers-from-two-arrays-in-range)|:lock:|[:memo:](https://leetcode.cn/articles/choose-numbers-from-two-arrays-in-range/)|Hard|
 |2283|[对奇偶下标分别排序 sort-even-and-odd-indices-independently](https://leetcode.cn/problems/sort-even-and-odd-indices-independently)||[:memo:](https://leetcode.cn/articles/sort-even-and-odd-indices-independently/)|Easy|
 |2284|[重排数字的最小值 smallest-value-of-the-rearranged-number](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number)||[:memo:](https://leetcode.cn/articles/smallest-value-of-the-rearranged-number/)|Medium|
 |2285|[设计位集 design-bitset](https://leetcode.cn/problems/design-bitset)||[:memo:](https://leetcode.cn/articles/design-bitset/)|Medium|
 |2286|[移除所有载有违禁货物车厢所需的最少时间 minimum-time-to-remove-all-cars-containing-illegal-goods](https://leetcode.cn/problems/minimum-time-to-remove-all-cars-containing-illegal-goods)||[:memo:](https://leetcode.cn/articles/minimum-time-to-remove-all-cars-containing-illegal-goods/)|Hard|
-|2287|[穿过所有点的所需最少直线数量 minimum-number-of-lines-to-cover-points](https://leetcode.cn/problems/minimum-number-of-lines-to-cover-points)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-number-of-lines-to-cover-points/)|Medium|
 |2288|[得到 0 的操作数 count-operations-to-obtain-zero](https://leetcode.cn/problems/count-operations-to-obtain-zero)||[:memo:](https://leetcode.cn/articles/count-operations-to-obtain-zero/)|Easy|
 |2289|[使数组变成交替数组的最少操作数 minimum-operations-to-make-the-array-alternating](https://leetcode.cn/problems/minimum-operations-to-make-the-array-alternating)||[:memo:](https://leetcode.cn/articles/minimum-operations-to-make-the-array-alternating/)|Medium|
 |2290|[拿出最少数目的魔法豆 removing-minimum-number-of-magic-beans](https://leetcode.cn/problems/removing-minimum-number-of-magic-beans)||[:memo:](https://leetcode.cn/articles/removing-minimum-number-of-magic-beans/)|Medium|
@@ -2022,12 +1715,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2293|[使两字符串互为字母异位词的最少步骤数 minimum-number-of-steps-to-make-two-strings-anagram-ii](https://leetcode.cn/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii)||[:memo:](https://leetcode.cn/articles/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|Medium|
 |2294|[完成旅途的最少时间 minimum-time-to-complete-trips](https://leetcode.cn/problems/minimum-time-to-complete-trips)||[:memo:](https://leetcode.cn/articles/minimum-time-to-complete-trips/)|Medium|
 |2295|[完成比赛的最少时间 minimum-time-to-finish-the-race](https://leetcode.cn/problems/minimum-time-to-finish-the-race)||[:memo:](https://leetcode.cn/articles/minimum-time-to-finish-the-race/)|Hard|
-|2297|[每天绘制新区域的数量 amount-of-new-area-painted-each-day](https://leetcode.cn/problems/amount-of-new-area-painted-each-day)|:lock:|[:memo:](https://leetcode.cn/articles/amount-of-new-area-painted-each-day/)|Hard|
 |2298|[统计各位数字之和为偶数的整数个数 count-integers-with-even-digit-sum](https://leetcode.cn/problems/count-integers-with-even-digit-sum)||[:memo:](https://leetcode.cn/articles/count-integers-with-even-digit-sum/)|Easy|
 |2299|[合并零之间的节点 merge-nodes-in-between-zeros](https://leetcode.cn/problems/merge-nodes-in-between-zeros)||[:memo:](https://leetcode.cn/articles/merge-nodes-in-between-zeros/)|Medium|
 |2300|[构造限制重复的字符串 construct-string-with-repeat-limit](https://leetcode.cn/problems/construct-string-with-repeat-limit)||[:memo:](https://leetcode.cn/articles/construct-string-with-repeat-limit/)|Medium|
 |2301|[统计可以被 K 整除的下标对数目 count-array-pairs-divisible-by-k](https://leetcode.cn/problems/count-array-pairs-divisible-by-k)||[:memo:](https://leetcode.cn/articles/count-array-pairs-divisible-by-k/)|Hard|
-|2303|[每个数字的频率都相同的独特子字符串的数量 unique-substrings-with-equal-digit-frequency](https://leetcode.cn/problems/unique-substrings-with-equal-digit-frequency)|:lock:|[:memo:](https://leetcode.cn/articles/unique-substrings-with-equal-digit-frequency/)|Medium|
 |2304|[Excel 表中某个范围内的单元格 cells-in-a-range-on-an-excel-sheet](https://leetcode.cn/problems/cells-in-a-range-on-an-excel-sheet)||[:memo:](https://leetcode.cn/articles/cells-in-a-range-on-an-excel-sheet/)|Easy|
 |2305|[向数组中追加 K 个整数 append-k-integers-with-minimal-sum](https://leetcode.cn/problems/append-k-integers-with-minimal-sum)||[:memo:](https://leetcode.cn/articles/append-k-integers-with-minimal-sum/)|Medium|
 |2306|[根据描述创建二叉树 create-binary-tree-from-descriptions](https://leetcode.cn/problems/create-binary-tree-from-descriptions)||[:memo:](https://leetcode.cn/articles/create-binary-tree-from-descriptions/)|Medium|
@@ -2037,14 +1728,12 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2310|[将数组和减半的最少操作次数 minimum-operations-to-halve-array-sum](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum)||[:memo:](https://leetcode.cn/articles/minimum-operations-to-halve-array-sum/)|Medium|
 |2311|[用地毯覆盖后的最少白色砖块 minimum-white-tiles-after-covering-with-carpets](https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets)||[:memo:](https://leetcode.cn/articles/minimum-white-tiles-after-covering-with-carpets/)|Hard|
 |2312|[数组中紧跟 key 之后出现最频繁的数字 most-frequent-number-following-key-in-an-array](https://leetcode.cn/problems/most-frequent-number-following-key-in-an-array)||[:memo:](https://leetcode.cn/articles/most-frequent-number-following-key-in-an-array/)|Easy|
-|2314|[通过翻转行或列来去除所有的 1 II remove-all-ones-with-row-and-column-flips-ii](https://leetcode.cn/problems/remove-all-ones-with-row-and-column-flips-ii)|:lock:|[:memo:](https://leetcode.cn/articles/remove-all-ones-with-row-and-column-flips-ii/)|Medium|
 |2316|[统计数组中峰和谷的数量 count-hills-and-valleys-in-an-array](https://leetcode.cn/problems/count-hills-and-valleys-in-an-array)||[:memo:](https://leetcode.cn/articles/count-hills-and-valleys-in-an-array/)|Easy|
 |2317|[统计道路上的碰撞次数 count-collisions-on-a-road](https://leetcode.cn/problems/count-collisions-on-a-road)||[:memo:](https://leetcode.cn/articles/count-collisions-on-a-road/)|Medium|
 |2318|[射箭比赛中的最大得分 maximum-points-in-an-archery-competition](https://leetcode.cn/problems/maximum-points-in-an-archery-competition)||[:memo:](https://leetcode.cn/articles/maximum-points-in-an-archery-competition/)|Medium|
 |2319|[由单个字符重复的最长子字符串 longest-substring-of-one-repeating-character](https://leetcode.cn/problems/longest-substring-of-one-repeating-character)||[:memo:](https://leetcode.cn/articles/longest-substring-of-one-repeating-character/)|Hard|
 |2320|[找出数组中的所有 K 近邻下标 find-all-k-distant-indices-in-an-array](https://leetcode.cn/problems/find-all-k-distant-indices-in-an-array)||[:memo:](https://leetcode.cn/articles/find-all-k-distant-indices-in-an-array/)|Easy|
 |2321|[得到要求路径的最小带权子图 minimum-weighted-subgraph-with-the-required-paths](https://leetcode.cn/problems/minimum-weighted-subgraph-with-the-required-paths)||[:memo:](https://leetcode.cn/articles/minimum-weighted-subgraph-with-the-required-paths/)|Hard|
-|2322|[建造坚实的砖墙的方法数 number-of-ways-to-build-sturdy-brick-wall](https://leetcode.cn/problems/number-of-ways-to-build-sturdy-brick-wall)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-ways-to-build-sturdy-brick-wall/)|Medium|
 |2323|[转换数字的最少位翻转次数 minimum-bit-flips-to-convert-number](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number)||[:memo:](https://leetcode.cn/articles/minimum-bit-flips-to-convert-number/)|Easy|
 |2324|[数组的三角和 find-triangular-sum-of-an-array](https://leetcode.cn/problems/find-triangular-sum-of-an-array)||[:memo:](https://leetcode.cn/articles/find-triangular-sum-of-an-array/)|Medium|
 |2325|[选择建筑的方案数 number-of-ways-to-select-buildings](https://leetcode.cn/problems/number-of-ways-to-select-buildings)||[:memo:](https://leetcode.cn/articles/number-of-ways-to-select-buildings/)|Medium|
@@ -2074,7 +1763,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2351|[买钢笔和铅笔的方案数 number-of-ways-to-buy-pens-and-pencils](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils)||[:memo:](https://leetcode.cn/articles/number-of-ways-to-buy-pens-and-pencils/)|Medium|
 |2352|[设计一个 ATM 机器 design-an-atm-machine](https://leetcode.cn/problems/design-an-atm-machine)||[:memo:](https://leetcode.cn/articles/design-an-atm-machine/)|Medium|
 |2353|[节点序列的最大得分 maximum-score-of-a-node-sequence](https://leetcode.cn/problems/maximum-score-of-a-node-sequence)||[:memo:](https://leetcode.cn/articles/maximum-score-of-a-node-sequence/)|Hard|
-|2354|[通关游戏所需的最低生命值 minimum-health-to-beat-game](https://leetcode.cn/problems/minimum-health-to-beat-game)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-health-to-beat-game/)|Medium|
 |2355|[不含特殊楼层的最大连续楼层数 maximum-consecutive-floors-without-special-floors](https://leetcode.cn/problems/maximum-consecutive-floors-without-special-floors)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/2355-maximum-consecutive-floors-without-special-floors/maximum-consecutive-floors-without-special-floors.py)|[:memo:](https://leetcode.cn/articles/maximum-consecutive-floors-without-special-floors/)|Medium|
 |2356|[按位与结果大于零的最长组合 largest-combination-with-bitwise-and-greater-than-zero](https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero)|[Python](https://github.com/ruanimal/leetcode/blob/master/questions/2356-largest-combination-with-bitwise-and-greater-than-zero/largest-combination-with-bitwise-and-greater-than-zero.py)|[:memo:](https://leetcode.cn/articles/largest-combination-with-bitwise-and-greater-than-zero/)|Medium|
 |2357|[统计区间中的整数数目 count-integers-in-intervals](https://leetcode.cn/problems/count-integers-in-intervals)||[:memo:](https://leetcode.cn/articles/count-integers-in-intervals/)|Hard|
@@ -2089,7 +1777,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2366|[装满石头的背包的最大数量 maximum-bags-with-full-capacity-of-rocks](https://leetcode.cn/problems/maximum-bags-with-full-capacity-of-rocks)||[:memo:](https://leetcode.cn/articles/maximum-bags-with-full-capacity-of-rocks/)|Medium|
 |2367|[表示一个折线图的最少线段数 minimum-lines-to-represent-a-line-chart](https://leetcode.cn/problems/minimum-lines-to-represent-a-line-chart)||[:memo:](https://leetcode.cn/articles/minimum-lines-to-represent-a-line-chart/)|Medium|
 |2368|[巫师的总力量和 sum-of-total-strength-of-wizards](https://leetcode.cn/problems/sum-of-total-strength-of-wizards)||[:memo:](https://leetcode.cn/articles/sum-of-total-strength-of-wizards/)|Hard|
-|2369|[数组的最大总分 maximum-sum-score-of-array](https://leetcode.cn/problems/maximum-sum-score-of-array)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-sum-score-of-array/)|Medium|
 |2372|[重排字符形成目标字符串 rearrange-characters-to-make-target-string](https://leetcode.cn/problems/rearrange-characters-to-make-target-string)||[:memo:](https://leetcode.cn/articles/rearrange-characters-to-make-target-string/)|Easy|
 |2373|[价格减免 apply-discount-to-prices](https://leetcode.cn/problems/apply-discount-to-prices)||[:memo:](https://leetcode.cn/articles/apply-discount-to-prices/)|Medium|
 |2374|[使数组按非递减顺序排列 steps-to-make-array-non-decreasing](https://leetcode.cn/problems/steps-to-make-array-non-decreasing)||[:memo:](https://leetcode.cn/articles/steps-to-make-array-non-decreasing/)|Medium|
@@ -2100,7 +1787,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2380|[以组为单位订音乐会的门票 booking-concert-tickets-in-groups](https://leetcode.cn/problems/booking-concert-tickets-in-groups)||[:memo:](https://leetcode.cn/articles/booking-concert-tickets-in-groups/)|Hard|
 |2383|[两整数相加 add-two-integers](https://leetcode.cn/problems/add-two-integers)||[:memo:](https://leetcode.cn/articles/add-two-integers/)|Easy|
 |2384|[判断根结点是否等于子结点之和 root-equals-sum-of-children](https://leetcode.cn/problems/root-equals-sum-of-children)||[:memo:](https://leetcode.cn/articles/root-equals-sum-of-children/)|Easy|
-|2385|[计算街道上满足所需亮度的位置数量 count-positions-on-street-with-required-brightness](https://leetcode.cn/problems/count-positions-on-street-with-required-brightness)|:lock:|[:memo:](https://leetcode.cn/articles/count-positions-on-street-with-required-brightness/)|Medium|
 |2386|[极大极小游戏 min-max-game](https://leetcode.cn/problems/min-max-game)||[:memo:](https://leetcode.cn/articles/min-max-game/)|Easy|
 |2387|[划分数组使最大差为 K partition-array-such-that-maximum-difference-is-k](https://leetcode.cn/problems/partition-array-such-that-maximum-difference-is-k)||[:memo:](https://leetcode.cn/articles/partition-array-such-that-maximum-difference-is-k/)|Medium|
 |2388|[替换数组中的元素 replace-elements-in-an-array](https://leetcode.cn/problems/replace-elements-in-an-array)||[:memo:](https://leetcode.cn/articles/replace-elements-in-an-array/)|Medium|
@@ -2111,16 +1797,13 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2393|[替换字符后匹配 match-substring-after-replacement](https://leetcode.cn/problems/match-substring-after-replacement)||[:memo:](https://leetcode.cn/articles/match-substring-after-replacement/)|Hard|
 |2394|[统计得分小于 K 的子数组数目 count-subarrays-with-score-less-than-k](https://leetcode.cn/problems/count-subarrays-with-score-less-than-k)||[:memo:](https://leetcode.cn/articles/count-subarrays-with-score-less-than-k/)|Hard|
 |2395|[小于等于 K 的最长二进制子序列 longest-binary-subsequence-less-than-or-equal-to-k](https://leetcode.cn/problems/longest-binary-subsequence-less-than-or-equal-to-k)||[:memo:](https://leetcode.cn/articles/longest-binary-subsequence-less-than-or-equal-to-k/)|Medium|
-|2396|[设计视频共享平台 design-video-sharing-platform](https://leetcode.cn/problems/design-video-sharing-platform)|:lock:|[:memo:](https://leetcode.cn/articles/design-video-sharing-platform/)|Hard|
 |2397|[统计放置房子的方式数 count-number-of-ways-to-place-houses](https://leetcode.cn/problems/count-number-of-ways-to-place-houses)||[:memo:](https://leetcode.cn/articles/count-number-of-ways-to-place-houses/)|Medium|
 |2398|[判断矩阵是否是一个 X 矩阵 check-if-matrix-is-x-matrix](https://leetcode.cn/problems/check-if-matrix-is-x-matrix)||[:memo:](https://leetcode.cn/articles/check-if-matrix-is-x-matrix/)|Easy|
-|2399|[二叉树中得到结果所需的最少翻转次数 minimum-flips-in-binary-tree-to-get-result](https://leetcode.cn/problems/minimum-flips-in-binary-tree-to-get-result)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-flips-in-binary-tree-to-get-result/)|Hard|
 |2400|[从树中删除边的最小分数 minimum-score-after-removals-on-a-tree](https://leetcode.cn/problems/minimum-score-after-removals-on-a-tree)||[:memo:](https://leetcode.cn/articles/minimum-score-after-removals-on-a-tree/)|Hard|
 |2401|[统计星号 count-asterisks](https://leetcode.cn/problems/count-asterisks)||[:memo:](https://leetcode.cn/articles/count-asterisks/)|Easy|
 |2402|[操作后的最大异或和 maximum-xor-after-operations](https://leetcode.cn/problems/maximum-xor-after-operations)||[:memo:](https://leetcode.cn/articles/maximum-xor-after-operations/)|Medium|
 |2403|[统计无向图中无法互相到达点对数 count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://leetcode.cn/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph)||[:memo:](https://leetcode.cn/articles/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)|Medium|
 |2404|[不同骰子序列的数目 number-of-distinct-roll-sequences](https://leetcode.cn/problems/number-of-distinct-roll-sequences)||[:memo:](https://leetcode.cn/articles/number-of-distinct-roll-sequences/)|Hard|
-|2405|[最少按键次数 minimum-number-of-keypresses](https://leetcode.cn/problems/minimum-number-of-keypresses)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-number-of-keypresses/)|Medium|
 |2406|[解密消息 decode-the-message](https://leetcode.cn/problems/decode-the-message)||[:memo:](https://leetcode.cn/articles/decode-the-message/)|Easy|
 |2408|[知道秘密的人数 number-of-people-aware-of-a-secret](https://leetcode.cn/problems/number-of-people-aware-of-a-secret)||[:memo:](https://leetcode.cn/articles/number-of-people-aware-of-a-secret/)|Medium|
 |2409|[网格图中递增路径的数目 number-of-increasing-paths-in-a-grid](https://leetcode.cn/problems/number-of-increasing-paths-in-a-grid)||[:memo:](https://leetcode.cn/articles/number-of-increasing-paths-in-a-grid/)|Hard|
@@ -2133,12 +1816,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2417|[坐上公交的最晚时间 the-latest-time-to-catch-a-bus](https://leetcode.cn/problems/the-latest-time-to-catch-a-bus)||[:memo:](https://leetcode.cn/articles/the-latest-time-to-catch-a-bus/)|Medium|
 |2418|[最小差值平方和 minimum-sum-of-squared-difference](https://leetcode.cn/problems/minimum-sum-of-squared-difference)||[:memo:](https://leetcode.cn/articles/minimum-sum-of-squared-difference/)|Medium|
 |2419|[元素值大于变化阈值的子数组 subarray-with-elements-greater-than-varying-threshold](https://leetcode.cn/problems/subarray-with-elements-greater-than-varying-threshold)||[:memo:](https://leetcode.cn/articles/subarray-with-elements-greater-than-varying-threshold/)|Hard|
-|2420|[树中最接近路径的节点 closest-node-to-path-in-tree](https://leetcode.cn/problems/closest-node-to-path-in-tree)|:lock:|[:memo:](https://leetcode.cn/articles/closest-node-to-path-in-tree/)|Hard|
 |2421|[数组能形成多少数对 maximum-number-of-pairs-in-array](https://leetcode.cn/problems/maximum-number-of-pairs-in-array)||[:memo:](https://leetcode.cn/articles/maximum-number-of-pairs-in-array/)|Easy|
 |2422|[裁剪数字后查询第 K 小的数字 query-kth-smallest-trimmed-number](https://leetcode.cn/problems/query-kth-smallest-trimmed-number)||[:memo:](https://leetcode.cn/articles/query-kth-smallest-trimmed-number/)|Medium|
 |2423|[使数组可以被整除的最少删除次数 minimum-deletions-to-make-array-divisible](https://leetcode.cn/problems/minimum-deletions-to-make-array-divisible)||[:memo:](https://leetcode.cn/articles/minimum-deletions-to-make-array-divisible/)|Hard|
-|2425|[在一个网格中可以看到的人数 number-of-people-that-can-be-seen-in-a-grid](https://leetcode.cn/problems/number-of-people-that-can-be-seen-in-a-grid)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-people-that-can-be-seen-in-a-grid/)|Medium|
-|2426|[最大股票收益 maximum-profit-from-trading-stocks](https://leetcode.cn/problems/maximum-profit-from-trading-stocks)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-profit-from-trading-stocks/)|Medium|
 |2427|[第一个出现两次的字母 first-letter-to-appear-twice](https://leetcode.cn/problems/first-letter-to-appear-twice)||[:memo:](https://leetcode.cn/articles/first-letter-to-appear-twice/)|Easy|
 |2428|[相等行列对 equal-row-and-column-pairs](https://leetcode.cn/problems/equal-row-and-column-pairs)||[:memo:](https://leetcode.cn/articles/equal-row-and-column-pairs/)|Medium|
 |2429|[设计食物评分系统 design-a-food-rating-system](https://leetcode.cn/problems/design-a-food-rating-system)||[:memo:](https://leetcode.cn/articles/design-a-food-rating-system/)|Medium|
@@ -2163,7 +1843,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2455|[边积分最高的节点 node-with-highest-edge-score](https://leetcode.cn/problems/node-with-highest-edge-score)||[:memo:](https://leetcode.cn/articles/node-with-highest-edge-score/)|Medium|
 |2456|[根据模式串构造最小数字 construct-smallest-number-from-di-string](https://leetcode.cn/problems/construct-smallest-number-from-di-string)||[:memo:](https://leetcode.cn/articles/construct-smallest-number-from-di-string/)|Medium|
 |2457|[统计特殊整数 count-special-integers](https://leetcode.cn/problems/count-special-integers)||[:memo:](https://leetcode.cn/articles/count-special-integers/)|Hard|
-|2458|[完成所有工作的最短时间 II find-minimum-time-to-finish-all-jobs-ii](https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs-ii)|:lock:|[:memo:](https://leetcode.cn/articles/find-minimum-time-to-finish-all-jobs-ii/)|Medium|
 |2459|[赢得比赛需要的最少训练时长 minimum-hours-of-training-to-win-a-competition](https://leetcode.cn/problems/minimum-hours-of-training-to-win-a-competition)||[:memo:](https://leetcode.cn/articles/minimum-hours-of-training-to-win-a-competition/)|Easy|
 |2461|[感染二叉树需要的总时间 amount-of-time-for-binary-tree-to-be-infected](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected)||[:memo:](https://leetcode.cn/articles/amount-of-time-for-binary-tree-to-be-infected/)|Medium|
 |2462|[找出数组的第 K 大和 find-the-k-sum-of-an-array](https://leetcode.cn/problems/find-the-k-sum-of-an-array)||[:memo:](https://leetcode.cn/articles/find-the-k-sum-of-an-array/)|Hard|
@@ -2171,13 +1850,11 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2464|[二进制字符串重新安排顺序需要的时间 time-needed-to-rearrange-a-binary-string](https://leetcode.cn/problems/time-needed-to-rearrange-a-binary-string)||[:memo:](https://leetcode.cn/articles/time-needed-to-rearrange-a-binary-string/)|Medium|
 |2465|[字母移位 II shifting-letters-ii](https://leetcode.cn/problems/shifting-letters-ii)||[:memo:](https://leetcode.cn/articles/shifting-letters-ii/)|Medium|
 |2466|[删除操作后的最大子段和 maximum-segment-sum-after-removals](https://leetcode.cn/problems/maximum-segment-sum-after-removals)||[:memo:](https://leetcode.cn/articles/maximum-segment-sum-after-removals/)|Hard|
-|2468|[有效的回文 IV valid-palindrome-iv](https://leetcode.cn/problems/valid-palindrome-iv)|:lock:|[:memo:](https://leetcode.cn/articles/valid-palindrome-iv/)|Medium|
 |2469|[和有限的最长子序列 longest-subsequence-with-limited-sum](https://leetcode.cn/problems/longest-subsequence-with-limited-sum)||[:memo:](https://leetcode.cn/articles/longest-subsequence-with-limited-sum/)|Easy|
 |2470|[从字符串中移除星号 removing-stars-from-a-string](https://leetcode.cn/problems/removing-stars-from-a-string)||[:memo:](https://leetcode.cn/articles/removing-stars-from-a-string/)|Medium|
 |2471|[收集垃圾的最少总时间 minimum-amount-of-time-to-collect-garbage](https://leetcode.cn/problems/minimum-amount-of-time-to-collect-garbage)||[:memo:](https://leetcode.cn/articles/minimum-amount-of-time-to-collect-garbage/)|Medium|
 |2472|[给定条件下构造矩阵 build-a-matrix-with-conditions](https://leetcode.cn/problems/build-a-matrix-with-conditions)||[:memo:](https://leetcode.cn/articles/build-a-matrix-with-conditions/)|Hard|
 |2473|[数位和相等数对的最大和 max-sum-of-a-pair-with-equal-sum-of-digits](https://leetcode.cn/problems/max-sum-of-a-pair-with-equal-sum-of-digits)||[:memo:](https://leetcode.cn/articles/max-sum-of-a-pair-with-equal-sum-of-digits/)|Medium|
-|2474|[生成有效数组的最少交换次数 minimum-adjacent-swaps-to-make-a-valid-array](https://leetcode.cn/problems/minimum-adjacent-swaps-to-make-a-valid-array)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-adjacent-swaps-to-make-a-valid-array/)|Medium|
 |2475|[最大回文数字 largest-palindromic-number](https://leetcode.cn/problems/largest-palindromic-number)||[:memo:](https://leetcode.cn/articles/largest-palindromic-number/)|Medium|
 |2476|[检查相同字母间的距离 check-distances-between-same-letters](https://leetcode.cn/problems/check-distances-between-same-letters)||[:memo:](https://leetcode.cn/articles/check-distances-between-same-letters/)|Easy|
 |2477|[恰好移动 k 步到达某一位置的方法数目 number-of-ways-to-reach-a-position-after-exactly-k-steps](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps)||[:memo:](https://leetcode.cn/articles/number-of-ways-to-reach-a-position-after-exactly-k-steps/)|Medium|
@@ -2187,12 +1864,9 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2481|[严格回文的数字 strictly-palindromic-number](https://leetcode.cn/problems/strictly-palindromic-number)||[:memo:](https://leetcode.cn/articles/strictly-palindromic-number/)|Medium|
 |2482|[被列覆盖的最多行数 maximum-rows-covered-by-columns](https://leetcode.cn/problems/maximum-rows-covered-by-columns)||[:memo:](https://leetcode.cn/articles/maximum-rows-covered-by-columns/)|Medium|
 |2483|[任务调度器 II task-scheduler-ii](https://leetcode.cn/problems/task-scheduler-ii)||[:memo:](https://leetcode.cn/articles/task-scheduler-ii/)|Medium|
-|2485|[寻找可见山的数量 finding-the-number-of-visible-mountains](https://leetcode.cn/problems/finding-the-number-of-visible-mountains)|:lock:|[:memo:](https://leetcode.cn/articles/finding-the-number-of-visible-mountains/)|Medium|
 |2486|[出现最频繁的偶数元素 most-frequent-even-element](https://leetcode.cn/problems/most-frequent-even-element)||[:memo:](https://leetcode.cn/articles/most-frequent-even-element/)|Easy|
 |2487|[子字符串的最优划分 optimal-partition-of-string](https://leetcode.cn/problems/optimal-partition-of-string)||[:memo:](https://leetcode.cn/articles/optimal-partition-of-string/)|Medium|
 |2488|[将区间分为最少组数 divide-intervals-into-minimum-number-of-groups](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups)||[:memo:](https://leetcode.cn/articles/divide-intervals-into-minimum-number-of-groups/)|Medium|
-|2489|[通过移动项目到空白区域来排序数组 sort-array-by-moving-items-to-empty-space](https://leetcode.cn/problems/sort-array-by-moving-items-to-empty-space)|:lock:|[:memo:](https://leetcode.cn/articles/sort-array-by-moving-items-to-empty-space/)|Hard|
-|2490|[你能拿走的最大图书数量 maximum-number-of-books-you-can-take](https://leetcode.cn/problems/maximum-number-of-books-you-can-take)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-number-of-books-you-can-take/)|Hard|
 |2491|[最小偶倍数 smallest-even-multiple](https://leetcode.cn/problems/smallest-even-multiple)||[:memo:](https://leetcode.cn/articles/smallest-even-multiple/)|Easy|
 |2492|[最长的字母序连续子字符串的长度 length-of-the-longest-alphabetical-continuous-substring](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)||[:memo:](https://leetcode.cn/articles/length-of-the-longest-alphabetical-continuous-substring/)|Medium|
 |2493|[反转二叉树的奇数层 reverse-odd-levels-of-binary-tree](https://leetcode.cn/problems/reverse-odd-levels-of-binary-tree)||[:memo:](https://leetcode.cn/articles/reverse-odd-levels-of-binary-tree/)|Medium|
@@ -2201,12 +1875,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2497|[运动员和训练师的最大匹配数 maximum-matching-of-players-with-trainers](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers)||[:memo:](https://leetcode.cn/articles/maximum-matching-of-players-with-trainers/)|Medium|
 |2498|[按位或最大的最小子数组长度 smallest-subarrays-with-maximum-bitwise-or](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or)||[:memo:](https://leetcode.cn/articles/smallest-subarrays-with-maximum-bitwise-or/)|Medium|
 |2499|[完成所有交易的初始最少钱数 minimum-money-required-before-transactions](https://leetcode.cn/problems/minimum-money-required-before-transactions)||[:memo:](https://leetcode.cn/articles/minimum-money-required-before-transactions/)|Hard|
-|2500|[乘坐火车路线的最少费用 minimum-costs-using-the-train-line](https://leetcode.cn/problems/minimum-costs-using-the-train-line)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-costs-using-the-train-line/)|Hard|
 |2502|[按身高排序 sort-the-people](https://leetcode.cn/problems/sort-the-people)||[:memo:](https://leetcode.cn/articles/sort-the-people/)|Easy|
 |2503|[按位与最大的最长子数组 longest-subarray-with-maximum-bitwise-and](https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and)||[:memo:](https://leetcode.cn/articles/longest-subarray-with-maximum-bitwise-and/)|Medium|
 |2504|[找到所有好下标 find-all-good-indices](https://leetcode.cn/problems/find-all-good-indices)||[:memo:](https://leetcode.cn/articles/find-all-good-indices/)|Medium|
 |2505|[好路径的数目 number-of-good-paths](https://leetcode.cn/problems/number-of-good-paths)||[:memo:](https://leetcode.cn/articles/number-of-good-paths/)|Hard|
-|2506|[最小化网格中的最大值 minimize-maximum-value-in-a-grid](https://leetcode.cn/problems/minimize-maximum-value-in-a-grid)|:lock:|[:memo:](https://leetcode.cn/articles/minimize-maximum-value-in-a-grid/)|Hard|
 |2507|[公因子的数目 number-of-common-factors](https://leetcode.cn/problems/number-of-common-factors)||[:memo:](https://leetcode.cn/articles/number-of-common-factors/)|Easy|
 |2508|[沙漏的最大总和 maximum-sum-of-an-hourglass](https://leetcode.cn/problems/maximum-sum-of-an-hourglass)||[:memo:](https://leetcode.cn/articles/maximum-sum-of-an-hourglass/)|Medium|
 |2509|[最小 XOR minimize-xor](https://leetcode.cn/problems/minimize-xor)||[:memo:](https://leetcode.cn/articles/minimize-xor/)|Medium|
@@ -2214,12 +1886,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2511|[将字符串分割成值不超过 K 的子字符串 partition-string-into-substrings-with-values-at-most-k](https://leetcode.cn/problems/partition-string-into-substrings-with-values-at-most-k)||[:memo:](https://leetcode.cn/articles/partition-string-into-substrings-with-values-at-most-k/)|Medium|
 |2512|[最长上传前缀 longest-uploaded-prefix](https://leetcode.cn/problems/longest-uploaded-prefix)||[:memo:](https://leetcode.cn/articles/longest-uploaded-prefix/)|Medium|
 |2513|[满足不等式的数对数目 number-of-pairs-satisfying-inequality](https://leetcode.cn/problems/number-of-pairs-satisfying-inequality)||[:memo:](https://leetcode.cn/articles/number-of-pairs-satisfying-inequality/)|Hard|
-|2517|[选择边来最大化树的得分 choose-edges-to-maximize-score-in-a-tree](https://leetcode.cn/problems/choose-edges-to-maximize-score-in-a-tree)|:lock:|[:memo:](https://leetcode.cn/articles/choose-edges-to-maximize-score-in-a-tree/)|Medium|
 |2518|[处理用时最长的那个任务的员工 the-employee-that-worked-on-the-longest-task](https://leetcode.cn/problems/the-employee-that-worked-on-the-longest-task)||[:memo:](https://leetcode.cn/articles/the-employee-that-worked-on-the-longest-task/)|Easy|
 |2519|[找出前缀异或的原始数组 find-the-original-array-of-prefix-xor](https://leetcode.cn/problems/find-the-original-array-of-prefix-xor)||[:memo:](https://leetcode.cn/articles/find-the-original-array-of-prefix-xor/)|Medium|
 |2520|[使用机器人打印字典序最小的字符串 using-a-robot-to-print-the-lexicographically-smallest-string](https://leetcode.cn/problems/using-a-robot-to-print-the-lexicographically-smallest-string)||[:memo:](https://leetcode.cn/articles/using-a-robot-to-print-the-lexicographically-smallest-string/)|Medium|
 |2521|[矩阵中和能被 K 整除的路径 paths-in-matrix-whose-sum-is-divisible-by-k](https://leetcode.cn/problems/paths-in-matrix-whose-sum-is-divisible-by-k)||[:memo:](https://leetcode.cn/articles/paths-in-matrix-whose-sum-is-divisible-by-k/)|Hard|
-|2522|[行排序矩阵的中位数 median-of-a-row-wise-sorted-matrix](https://leetcode.cn/problems/median-of-a-row-wise-sorted-matrix)|:lock:|[:memo:](https://leetcode.cn/articles/median-of-a-row-wise-sorted-matrix/)|Medium|
 |2524|[与对应负数同时存在的最大正整数 largest-positive-integer-that-exists-with-its-negative](https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative)||[:memo:](https://leetcode.cn/articles/largest-positive-integer-that-exists-with-its-negative/)|Easy|
 |2525|[反转之后不同整数的数目 count-number-of-distinct-integers-after-reverse-operations](https://leetcode.cn/problems/count-number-of-distinct-integers-after-reverse-operations)||[:memo:](https://leetcode.cn/articles/count-number-of-distinct-integers-after-reverse-operations/)|Medium|
 |2526|[最长递增子序列 II longest-increasing-subsequence-ii](https://leetcode.cn/problems/longest-increasing-subsequence-ii)||[:memo:](https://leetcode.cn/articles/longest-increasing-subsequence-ii/)|Hard|
@@ -2230,9 +1900,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2531|[创建价值相同的连通块 create-components-with-same-value](https://leetcode.cn/problems/create-components-with-same-value)||[:memo:](https://leetcode.cn/articles/create-components-with-same-value/)|Hard|
 |2532|[删除字符使频率相同 remove-letter-to-equalize-frequency](https://leetcode.cn/problems/remove-letter-to-equalize-frequency)||[:memo:](https://leetcode.cn/articles/remove-letter-to-equalize-frequency/)|Easy|
 |2533|[所有数对的异或和 bitwise-xor-of-all-pairings](https://leetcode.cn/problems/bitwise-xor-of-all-pairings)||[:memo:](https://leetcode.cn/articles/bitwise-xor-of-all-pairings/)|Medium|
-|2535|[严格递增的子数组个数 count-strictly-increasing-subarrays](https://leetcode.cn/problems/count-strictly-increasing-subarrays)|:lock:|[:memo:](https://leetcode.cn/articles/count-strictly-increasing-subarrays/)|Medium|
 |2536|[判断两个事件是否存在冲突 determine-if-two-events-have-conflict](https://leetcode.cn/problems/determine-if-two-events-have-conflict)||[:memo:](https://leetcode.cn/articles/determine-if-two-events-have-conflict/)|Easy|
-|2537|[杀死所有怪物的最短时间 minimum-time-to-kill-all-monsters](https://leetcode.cn/problems/minimum-time-to-kill-all-monsters)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-time-to-kill-all-monsters/)|Hard|
 |2538|[使数组相等的最小开销 minimum-cost-to-make-array-equal](https://leetcode.cn/problems/minimum-cost-to-make-array-equal)||[:memo:](https://leetcode.cn/articles/minimum-cost-to-make-array-equal/)|Hard|
 |2539|[使数组相似的最少操作次数 minimum-number-of-operations-to-make-arrays-similar](https://leetcode.cn/problems/minimum-number-of-operations-to-make-arrays-similar)||[:memo:](https://leetcode.cn/articles/minimum-number-of-operations-to-make-arrays-similar/)|Hard|
 |2541|[反转之后的数字和 sum-of-number-and-its-reverse](https://leetcode.cn/problems/sum-of-number-and-its-reverse)||[:memo:](https://leetcode.cn/articles/sum-of-number-and-its-reverse/)|Medium|
@@ -2249,22 +1917,18 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2552|[长度为 K 子数组中的最大和 maximum-sum-of-distinct-subarrays-with-length-k](https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k)||[:memo:](https://leetcode.cn/articles/maximum-sum-of-distinct-subarrays-with-length-k/)|Medium|
 |2553|[雇佣 K 位工人的总代价 total-cost-to-hire-k-workers](https://leetcode.cn/problems/total-cost-to-hire-k-workers)||[:memo:](https://leetcode.cn/articles/total-cost-to-hire-k-workers/)|Medium|
 |2554|[最小移动总距离 minimum-total-distance-traveled](https://leetcode.cn/problems/minimum-total-distance-traveled)||[:memo:](https://leetcode.cn/articles/minimum-total-distance-traveled/)|Hard|
-|2555|[设计 SQL design-sql](https://leetcode.cn/problems/design-sql)|:lock:|[:memo:](https://leetcode.cn/articles/design-sql/)|Medium|
 |2556|[温度转换 convert-the-temperature](https://leetcode.cn/problems/convert-the-temperature)||[:memo:](https://leetcode.cn/articles/convert-the-temperature/)|Easy|
 |2557|[最小公倍数为 K 的子数组数目 number-of-subarrays-with-lcm-equal-to-k](https://leetcode.cn/problems/number-of-subarrays-with-lcm-equal-to-k)||[:memo:](https://leetcode.cn/articles/number-of-subarrays-with-lcm-equal-to-k/)|Medium|
 |2558|[逐层排序二叉树所需的最少操作数目 minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://leetcode.cn/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level)||[:memo:](https://leetcode.cn/articles/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)|Medium|
 |2559|[不重叠回文子字符串的最大数目 maximum-number-of-non-overlapping-palindrome-substrings](https://leetcode.cn/problems/maximum-number-of-non-overlapping-palindrome-substrings)||[:memo:](https://leetcode.cn/articles/maximum-number-of-non-overlapping-palindrome-substrings/)|Hard|
-|2560|[最近的公平整数 closest-fair-integer](https://leetcode.cn/problems/closest-fair-integer)|:lock:|[:memo:](https://leetcode.cn/articles/closest-fair-integer/)|Medium|
 |2561|[不同的平均值数目 number-of-distinct-averages](https://leetcode.cn/problems/number-of-distinct-averages)||[:memo:](https://leetcode.cn/articles/number-of-distinct-averages/)|Easy|
 |2562|[统计构造好字符串的方案数 count-ways-to-build-good-strings](https://leetcode.cn/problems/count-ways-to-build-good-strings)||[:memo:](https://leetcode.cn/articles/count-ways-to-build-good-strings/)|Medium|
 |2563|[根据限制分割消息 split-message-based-on-limit](https://leetcode.cn/problems/split-message-based-on-limit)||[:memo:](https://leetcode.cn/articles/split-message-based-on-limit/)|Hard|
 |2564|[树上最大得分和路径 most-profitable-path-in-a-tree](https://leetcode.cn/problems/most-profitable-path-in-a-tree)||[:memo:](https://leetcode.cn/articles/most-profitable-path-in-a-tree/)|Medium|
-|2565|[使用合并操作将数组转换为回文序列 merge-operations-to-turn-array-into-a-palindrome](https://leetcode.cn/problems/merge-operations-to-turn-array-into-a-palindrome)|:lock:|[:memo:](https://leetcode.cn/articles/merge-operations-to-turn-array-into-a-palindrome/)|Medium|
 |2566|[数组中不等三元组的数目 number-of-unequal-triplets-in-array](https://leetcode.cn/problems/number-of-unequal-triplets-in-array)||[:memo:](https://leetcode.cn/articles/number-of-unequal-triplets-in-array/)|Easy|
 |2567|[二叉搜索树最近节点查询 closest-nodes-queries-in-a-binary-search-tree](https://leetcode.cn/problems/closest-nodes-queries-in-a-binary-search-tree)||[:memo:](https://leetcode.cn/articles/closest-nodes-queries-in-a-binary-search-tree/)|Medium|
 |2568|[到达首都的最少油耗 minimum-fuel-cost-to-report-to-the-capital](https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital)||[:memo:](https://leetcode.cn/articles/minimum-fuel-cost-to-report-to-the-capital/)|Medium|
 |2569|[完美分割的方案数 number-of-beautiful-partitions](https://leetcode.cn/problems/number-of-beautiful-partitions)||[:memo:](https://leetcode.cn/articles/number-of-beautiful-partitions/)|Hard|
-|2570|[最大限度地提高购买水果的口味 maximize-total-tastiness-of-purchased-fruits](https://leetcode.cn/problems/maximize-total-tastiness-of-purchased-fruits)|:lock:|[:memo:](https://leetcode.cn/articles/maximize-total-tastiness-of-purchased-fruits/)|Medium|
 |2571|[找出中枢整数 find-the-pivot-integer](https://leetcode.cn/problems/find-the-pivot-integer)||[:memo:](https://leetcode.cn/articles/find-the-pivot-integer/)|Easy|
 |2572|[追加字符以获得子序列 append-characters-to-string-to-make-subsequence](https://leetcode.cn/problems/append-characters-to-string-to-make-subsequence)||[:memo:](https://leetcode.cn/articles/append-characters-to-string-to-make-subsequence/)|Medium|
 |2573|[从链表中移除节点 remove-nodes-from-linked-list](https://leetcode.cn/problems/remove-nodes-from-linked-list)||[:memo:](https://leetcode.cn/articles/remove-nodes-from-linked-list/)|Medium|
@@ -2272,12 +1936,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2575|[分割圆的最少切割次数 minimum-cuts-to-divide-a-circle](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle)||[:memo:](https://leetcode.cn/articles/minimum-cuts-to-divide-a-circle/)|Easy|
 |2576|[商店的最少代价 minimum-penalty-for-a-shop](https://leetcode.cn/problems/minimum-penalty-for-a-shop)||[:memo:](https://leetcode.cn/articles/minimum-penalty-for-a-shop/)|Medium|
 |2577|[统计回文子序列数目 count-palindromic-subsequences](https://leetcode.cn/problems/count-palindromic-subsequences)||[:memo:](https://leetcode.cn/articles/count-palindromic-subsequences/)|Hard|
-|2579|[使子数组最大公约数大于一的最小分割数 minimum-split-into-subarrays-with-gcd-greater-than-one](https://leetcode.cn/problems/minimum-split-into-subarrays-with-gcd-greater-than-one)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-split-into-subarrays-with-gcd-greater-than-one/)|Medium|
 |2580|[回环句 circular-sentence](https://leetcode.cn/problems/circular-sentence)||[:memo:](https://leetcode.cn/articles/circular-sentence/)|Easy|
 |2581|[划分技能点相等的团队 divide-players-into-teams-of-equal-skill](https://leetcode.cn/problems/divide-players-into-teams-of-equal-skill)||[:memo:](https://leetcode.cn/articles/divide-players-into-teams-of-equal-skill/)|Medium|
 |2582|[两个城市间路径的最小分数 minimum-score-of-a-path-between-two-cities](https://leetcode.cn/problems/minimum-score-of-a-path-between-two-cities)||[:memo:](https://leetcode.cn/articles/minimum-score-of-a-path-between-two-cities/)|Medium|
 |2583|[将节点分成尽可能多的组 divide-nodes-into-the-maximum-number-of-groups](https://leetcode.cn/problems/divide-nodes-into-the-maximum-number-of-groups)||[:memo:](https://leetcode.cn/articles/divide-nodes-into-the-maximum-number-of-groups/)|Hard|
-|2584|[值为 1 的节点数 number-of-nodes-with-value-one](https://leetcode.cn/problems/number-of-nodes-with-value-one)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-nodes-with-value-one/)|Medium|
 |2585|[删除每行中的最大值 delete-greatest-value-in-each-row](https://leetcode.cn/problems/delete-greatest-value-in-each-row)||[:memo:](https://leetcode.cn/articles/delete-greatest-value-in-each-row/)|Easy|
 |2586|[数组中最长的方波 longest-square-streak-in-an-array](https://leetcode.cn/problems/longest-square-streak-in-an-array)||[:memo:](https://leetcode.cn/articles/longest-square-streak-in-an-array/)|Medium|
 |2587|[设计内存分配器 design-memory-allocator](https://leetcode.cn/problems/design-memory-allocator)||[:memo:](https://leetcode.cn/articles/design-memory-allocator/)|Medium|
@@ -2286,7 +1948,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2590|[图中最大星和 maximum-star-sum-of-a-graph](https://leetcode.cn/problems/maximum-star-sum-of-a-graph)||[:memo:](https://leetcode.cn/articles/maximum-star-sum-of-a-graph/)|Medium|
 |2591|[青蛙过河 II frog-jump-ii](https://leetcode.cn/problems/frog-jump-ii)||[:memo:](https://leetcode.cn/articles/frog-jump-ii/)|Medium|
 |2592|[让数组不相等的最小总代价 minimum-total-cost-to-make-arrays-unequal](https://leetcode.cn/problems/minimum-total-cost-to-make-arrays-unequal)||[:memo:](https://leetcode.cn/articles/minimum-total-cost-to-make-arrays-unequal/)|Hard|
-|2593|[应用操作后不同二进制字符串的数量 number-of-distinct-binary-strings-after-applying-operations](https://leetcode.cn/problems/number-of-distinct-binary-strings-after-applying-operations)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-distinct-binary-strings-after-applying-operations/)|Medium|
 |2594|[统计相似字符串对的数目 count-pairs-of-similar-strings](https://leetcode.cn/problems/count-pairs-of-similar-strings)||[:memo:](https://leetcode.cn/articles/count-pairs-of-similar-strings/)|Easy|
 |2595|[使用质因数之和替换后可以取到的最小值 smallest-value-after-replacing-with-sum-of-prime-factors](https://leetcode.cn/problems/smallest-value-after-replacing-with-sum-of-prime-factors)||[:memo:](https://leetcode.cn/articles/smallest-value-after-replacing-with-sum-of-prime-factors/)|Medium|
 |2596|[添加边使所有节点度数都为偶数 add-edges-to-make-degrees-of-all-nodes-even](https://leetcode.cn/problems/add-edges-to-make-degrees-of-all-nodes-even)||[:memo:](https://leetcode.cn/articles/add-edges-to-make-degrees-of-all-nodes-even/)|Hard|
@@ -2300,26 +1961,21 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2604|[使数组中所有元素相等的最小操作数 II minimum-operations-to-make-array-equal-ii](https://leetcode.cn/problems/minimum-operations-to-make-array-equal-ii)||[:memo:](https://leetcode.cn/articles/minimum-operations-to-make-array-equal-ii/)|Medium|
 |2605|[统计同位异构字符串数目 count-anagrams](https://leetcode.cn/problems/count-anagrams)||[:memo:](https://leetcode.cn/articles/count-anagrams/)|Hard|
 |2606|[行和列中一和零的差值 difference-between-ones-and-zeros-in-row-and-column](https://leetcode.cn/problems/difference-between-ones-and-zeros-in-row-and-column)||[:memo:](https://leetcode.cn/articles/difference-between-ones-and-zeros-in-row-and-column/)|Medium|
-|2607|[有效分割中的最少子数组数目 minimum-subarrays-in-a-valid-split](https://leetcode.cn/problems/minimum-subarrays-in-a-valid-split)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-subarrays-in-a-valid-split/)|Medium|
 |2608|[统计能整除数字的位数 count-the-digits-that-divide-a-number](https://leetcode.cn/problems/count-the-digits-that-divide-a-number)||[:memo:](https://leetcode.cn/articles/count-the-digits-that-divide-a-number/)|Easy|
 |2609|[数组乘积中的不同质因数数目 distinct-prime-factors-of-product-of-array](https://leetcode.cn/problems/distinct-prime-factors-of-product-of-array)||[:memo:](https://leetcode.cn/articles/distinct-prime-factors-of-product-of-array/)|Medium|
 |2610|[范围内最接近的两个质数 closest-prime-numbers-in-range](https://leetcode.cn/problems/closest-prime-numbers-in-range)||[:memo:](https://leetcode.cn/articles/closest-prime-numbers-in-range/)|Medium|
-|2612|[购买苹果的最低成本 minimum-cost-to-buy-apples](https://leetcode.cn/problems/minimum-cost-to-buy-apples)|:lock:|[:memo:](https://leetcode.cn/articles/minimum-cost-to-buy-apples/)|Medium|
 |2614|[正整数和负整数的最大计数 maximum-count-of-positive-integer-and-negative-integer](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer)||[:memo:](https://leetcode.cn/articles/maximum-count-of-positive-integer-and-negative-integer/)|Easy|
 |2615|[使字符串总不同字符的数目相等 make-number-of-distinct-characters-equal](https://leetcode.cn/problems/make-number-of-distinct-characters-equal)||[:memo:](https://leetcode.cn/articles/make-number-of-distinct-characters-equal/)|Medium|
 |2616|[执行 K 次操作后的最大分数 maximal-score-after-applying-k-operations](https://leetcode.cn/problems/maximal-score-after-applying-k-operations)||[:memo:](https://leetcode.cn/articles/maximal-score-after-applying-k-operations/)|Medium|
-|2617|[通过门的时间 time-taken-to-cross-the-door](https://leetcode.cn/problems/time-taken-to-cross-the-door)|:lock:|[:memo:](https://leetcode.cn/articles/time-taken-to-cross-the-door/)|Hard|
 |2618|[最大化城市的最小供电站数目 maximize-the-minimum-powered-city](https://leetcode.cn/problems/maximize-the-minimum-powered-city)||[:memo:](https://leetcode.cn/articles/maximize-the-minimum-powered-city/)|Hard|
 |2619|[根据规则将箱子分类 categorize-box-according-to-criteria](https://leetcode.cn/problems/categorize-box-according-to-criteria)||[:memo:](https://leetcode.cn/articles/categorize-box-according-to-criteria/)|Easy|
 |2620|[找到数据流中的连续整数 find-consecutive-integers-from-a-data-stream](https://leetcode.cn/problems/find-consecutive-integers-from-a-data-stream)||[:memo:](https://leetcode.cn/articles/find-consecutive-integers-from-a-data-stream/)|Medium|
 |2621|[查询数组 Xor 美丽值 find-xor-beauty-of-array](https://leetcode.cn/problems/find-xor-beauty-of-array)||[:memo:](https://leetcode.cn/articles/find-xor-beauty-of-array/)|Medium|
-|2623|[两个不重叠子树的最大异或值 maximum-xor-of-two-non-overlapping-subtrees](https://leetcode.cn/problems/maximum-xor-of-two-non-overlapping-subtrees)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-xor-of-two-non-overlapping-subtrees/)|Hard|
 |2624|[数组元素和与数字和的绝对差 difference-between-element-sum-and-digit-sum-of-an-array](https://leetcode.cn/problems/difference-between-element-sum-and-digit-sum-of-an-array)||[:memo:](https://leetcode.cn/articles/difference-between-element-sum-and-digit-sum-of-an-array/)|Easy|
 |2625|[子矩阵元素加 1 increment-submatrices-by-one](https://leetcode.cn/problems/increment-submatrices-by-one)||[:memo:](https://leetcode.cn/articles/increment-submatrices-by-one/)|Medium|
 |2626|[统计好子数组的数目 count-the-number-of-good-subarrays](https://leetcode.cn/problems/count-the-number-of-good-subarrays)||[:memo:](https://leetcode.cn/articles/count-the-number-of-good-subarrays/)|Medium|
 |2627|[最大价值和与最小价值和的差值 difference-between-maximum-and-minimum-price-sum](https://leetcode.cn/problems/difference-between-maximum-and-minimum-price-sum)||[:memo:](https://leetcode.cn/articles/difference-between-maximum-and-minimum-price-sum/)|Hard|
 |2628|[最小化两个数组中的最大值 minimize-the-maximum-of-two-arrays](https://leetcode.cn/problems/minimize-the-maximum-of-two-arrays)||[:memo:](https://leetcode.cn/articles/minimize-the-maximum-of-two-arrays/)|Medium|
-|2629|[固定比率的子字符串数 number-of-substrings-with-fixed-ratio](https://leetcode.cn/problems/number-of-substrings-with-fixed-ratio)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-substrings-with-fixed-ratio/)|Medium|
 |2630|[交替数字和 alternating-digit-sum](https://leetcode.cn/problems/alternating-digit-sum)||[:memo:](https://leetcode.cn/articles/alternating-digit-sum/)|Easy|
 |2631|[根据第 K 场考试的分数排序 sort-the-students-by-their-kth-score](https://leetcode.cn/problems/sort-the-students-by-their-kth-score)||[:memo:](https://leetcode.cn/articles/sort-the-students-by-their-kth-score/)|Medium|
 |2632|[执行逐位运算使字符串相等 apply-bitwise-operations-to-make-strings-equal](https://leetcode.cn/problems/apply-bitwise-operations-to-make-strings-equal)||[:memo:](https://leetcode.cn/articles/apply-bitwise-operations-to-make-strings-equal/)|Medium|
@@ -2327,25 +1983,16 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |2634|[最小公共值 minimum-common-value](https://leetcode.cn/problems/minimum-common-value)||[:memo:](https://leetcode.cn/articles/minimum-common-value/)|Easy|
 |2635|[判断一个点是否可以到达 check-if-point-is-reachable](https://leetcode.cn/problems/check-if-point-is-reachable)||[:memo:](https://leetcode.cn/articles/check-if-point-is-reachable/)|Hard|
 |2636|[最大子序列的分数 maximum-subsequence-score](https://leetcode.cn/problems/maximum-subsequence-score)||[:memo:](https://leetcode.cn/articles/maximum-subsequence-score/)|Medium|
-|2638|[乘积为偶数的子数组数 number-of-subarrays-having-even-product](https://leetcode.cn/problems/number-of-subarrays-having-even-product)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-subarrays-having-even-product/)|Medium|
 |2639|[分割数组中数字的数位 separate-the-digits-in-an-array](https://leetcode.cn/problems/separate-the-digits-in-an-array)||[:memo:](https://leetcode.cn/articles/separate-the-digits-in-an-array/)|Easy|
 |2640|[从一个范围内选择最多整数 I maximum-number-of-integers-to-choose-from-a-range-i](https://leetcode.cn/problems/maximum-number-of-integers-to-choose-from-a-range-i)||[:memo:](https://leetcode.cn/articles/maximum-number-of-integers-to-choose-from-a-range-i/)|Medium|
 |2641|[二进制矩阵中翻转最多一次使路径不连通 disconnect-path-in-a-binary-matrix-by-at-most-one-flip](https://leetcode.cn/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip)||[:memo:](https://leetcode.cn/articles/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/)|Medium|
 |2642|[过桥的时间 time-to-cross-a-bridge](https://leetcode.cn/problems/time-to-cross-a-bridge)||[:memo:](https://leetcode.cn/articles/time-to-cross-a-bridge/)|Hard|
-|2644|[所有子序列和的按位或 bitwise-or-of-all-subsequence-sums](https://leetcode.cn/problems/bitwise-or-of-all-subsequence-sums)|:lock:|[:memo:](https://leetcode.cn/articles/bitwise-or-of-all-subsequence-sums/)|Medium|
-|2653|[ check-if-there-is-a-path-with-equal-number-of-0s-and-1s](https://leetcode.cn/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s)|:lock:|[:memo:](https://leetcode.cn/articles/check-if-there-is-a-path-with-equal-number-of-0s-and-1s/)|Medium|
-|2658|[ count-the-number-of-k-big-indices](https://leetcode.cn/problems/count-the-number-of-k-big-indices)|:lock:|[:memo:](https://leetcode.cn/articles/count-the-number-of-k-big-indices/)|Hard|
-|2667|[ maximum-frequency-score-of-a-subarray](https://leetcode.cn/problems/maximum-frequency-score-of-a-subarray)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-frequency-score-of-a-subarray/)|Hard|
-|2672|[好二进制字符串的数量 number-of-good-binary-strings](https://leetcode.cn/problems/number-of-good-binary-strings)|:lock:|[:memo:](https://leetcode.cn/articles/number-of-good-binary-strings/)|Medium|
 |2673|[两个线段获得的最多奖品 maximize-win-from-two-segments](https://leetcode.cn/problems/maximize-win-from-two-segments)||[:memo:](https://leetcode.cn/articles/maximize-win-from-two-segments/)|Medium|
 |2679|[统计桌面上的不同数字 count-distinct-numbers-on-board](https://leetcode.cn/problems/count-distinct-numbers-on-board)||[:memo:](https://leetcode.cn/articles/count-distinct-numbers-on-board/)|Easy|
 |2680|[猴子碰撞的方法数 count-collisions-of-monkeys-on-a-polygon](https://leetcode.cn/problems/count-collisions-of-monkeys-on-a-polygon)||[:memo:](https://leetcode.cn/articles/count-collisions-of-monkeys-on-a-polygon/)|Medium|
 |2681|[将珠子放入背包中 put-marbles-in-bags](https://leetcode.cn/problems/put-marbles-in-bags)||[:memo:](https://leetcode.cn/articles/put-marbles-in-bags/)|Hard|
 |2682|[统计上升四元组 count-increasing-quadruplets](https://leetcode.cn/problems/count-increasing-quadruplets)||[:memo:](https://leetcode.cn/articles/count-increasing-quadruplets/)|Hard|
-|2683|[好子序列的个数 count-the-number-of-good-subsequences](https://leetcode.cn/problems/count-the-number-of-good-subsequences)|:lock:|[:memo:](https://leetcode.cn/articles/count-the-number-of-good-subsequences/)|Medium|
 |2689|[重排水果 rearranging-fruits](https://leetcode.cn/problems/rearranging-fruits)||[:memo:](https://leetcode.cn/articles/rearranging-fruits/)|Hard|
 |2690|[打家劫舍 IV house-robber-iv](https://leetcode.cn/problems/house-robber-iv)||[:memo:](https://leetcode.cn/articles/house-robber-iv/)|Medium|
 |2691|[统计范围内的元音字符串数 count-vowel-strings-in-ranges](https://leetcode.cn/problems/count-vowel-strings-in-ranges)||[:memo:](https://leetcode.cn/articles/count-vowel-strings-in-ranges/)|Medium|
 |2692|[从数量最多的堆取走礼物 take-gifts-from-the-richest-pile](https://leetcode.cn/problems/take-gifts-from-the-richest-pile)||[:memo:](https://leetcode.cn/articles/take-gifts-from-the-richest-pile/)|Easy|
-|2693|[ maximum-price-to-fill-a-bag](https://leetcode.cn/problems/maximum-price-to-fill-a-bag)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-price-to-fill-a-bag/)|Medium|
-|2702|[从一个范围内选择最多整数 II maximum-number-of-integers-to-choose-from-a-range-ii](https://leetcode.cn/problems/maximum-number-of-integers-to-choose-from-a-range-ii)|:lock:|[:memo:](https://leetcode.cn/articles/maximum-number-of-integers-to-choose-from-a-range-ii/)|Medium|
