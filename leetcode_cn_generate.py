@@ -487,8 +487,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
                                           num_lock=self.num_lock, repo=CONFIG['repo'])
         md += '\n'
         for item in self.items:
-            if item.lock:
-                continue
             dirname = os.path.join(QUESTIONS, '{id}-{title}'.format(id=str(item.id).zfill(3), title=item.title))
             if not item.pass_language and os.path.exists(dirname):
                 item.pass_language = [i.lang for i in self._get_solution_languages_from_file(dirname)]
@@ -511,6 +509,8 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
                     language = ''
 
             language = language.strip()
+            if not language or item.lock:
+                continue
             md += '|{id}|[{title_cn} {title}]({url})|{language}|{article}|{difficulty}|\n'.format(
                 id=item.id, title=item.title, title_cn=title_trans.get(item.id, ''), url=item.url, language=language,
                 article=article, difficulty=item.difficulty)
